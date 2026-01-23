@@ -23,7 +23,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <img 
-              src="/cropped-Court-Direct-Logo-Black-lines-2.webp.webp" 
+              src="/cropped-Court-Direct-Logo-Black-lines-2.png.webp" 
               alt="CourtDirect Logo" 
               className="h-10 w-auto object-contain bg-white rounded-lg" 
             />

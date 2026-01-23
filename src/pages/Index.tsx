@@ -48,7 +48,7 @@ const Index = () => {
             "@type": "Organization",
             "name": "The Court Direct",
             "url": "https://thecourtdirect.com",
-            "logo": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.webp.webp",
+            "logo": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.png.webp",
             "sameAs": [
               "https://www.facebook.com/thecourtdirect", 
               "https://twitter.com/thecourtdirect"

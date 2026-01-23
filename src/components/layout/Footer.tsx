@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <img 
-                src="/Court-Direct-Logo-White-lines.webp.webp" 
+                src="/Court-Direct-Logo-White-lines.png.webp" 
                 alt="CourtDirect Logo" 
                 className="h-10 w-auto object-contain" 
               />
