@@ -97,11 +97,21 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-cream/10">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-cream/50 text-sm">
-              © {new Date().getFullYear()} The Court Direct. All rights reserved.
-            </p>
+            <div className="text-center md:text-left">
+              <p className="text-cream/50 text-sm">
+                © {new Date().getFullYear()} The Court Direct.
+              </p>
+              <p className="text-cream/30 text-xs mt-1">
+                A <span className="text-cream/50 font-medium">TopWebPartners LLC</span> Company.
+              </p>
+            </div>
             <div className="flex gap-6">
+              <Link to="/about" className="text-cream/50 hover:text-gold transition-colors text-sm">
+                About Us
+              </Link>
+              <Link to="/contact" className="text-cream/50 hover:text-gold transition-colors text-sm">
+                Contact
+              </Link>
               <Link to="/privacy-policy" className="text-cream/50 hover:text-gold transition-colors text-sm">
                 Privacy Policy
               </Link>
@@ -114,7 +124,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
     </footer>
   );
 };

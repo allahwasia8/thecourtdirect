@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import { Scale, Search, BookOpen, Building2, Users, Shield, ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-courthouse.jpg";
+import { teamMembers } from "@/data/team";
 
 const Index = () => {
   const features = [
@@ -191,6 +192,63 @@ const Index = () => {
                 <div className="absolute inset-8 rounded-xl border-2 border-gold/30" />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Our Experts Section */}
+      <section className="py-20 bg-cream/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-2 mb-4">
+               <Users className="w-6 h-6 text-gold" />
+               <span className="text-gold font-medium text-sm uppercase tracking-wider">
+                 Our Experts
+               </span>
+            </div>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4">
+              Authorized Legal Professionals
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Content verified by experienced attorneys and legal consultants.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {teamMembers.map((member, index) => (
+              <div key={index} className="bg-card rounded-xl overflow-hidden shadow-elegant hover:shadow-gold-glow transition-all duration-300 group">
+                <div className="flex items-center p-6 gap-4">
+                  <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gold/20 shrink-0">
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
+                  <div>
+                     <h3 className="font-serif text-xl font-bold text-foreground">
+                      {member.name}
+                    </h3>
+                    <p className="text-gold text-sm font-medium uppercase tracking-wider mb-2">
+                      {member.role}
+                    </p>
+                    <div className="flex flex-wrap gap-1">
+                      {member.badges.slice(0, 1).map((badge, bIdx) => (
+                        <span key={bIdx} className="bg-navy/5 text-navy text-[10px] font-bold px-2 py-0.5 rounded-full border border-navy/10">
+                          {badge}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12">
+             <Button variant="outline" asChild>
+                <Link to="/about">Meet the Full Team</Link>
+             </Button>
           </div>
         </div>
       </section>
