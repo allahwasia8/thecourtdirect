@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, User, ArrowLeft, Share2, Bookmark, Loader2 } from "lucide-react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Calendar, Clock, User, ArrowLeft, Share2, Bookmark, Loader2, Info, History as HistoryIcon, FileText } from "lucide-react";
 import { BlogPost as BlogPostType } from "@/types/blog";
 
 const BlogPost = () => {
@@ -125,6 +126,79 @@ const BlogPost = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Review & History Section */}
+      <section className="bg-background border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto -mt-8 relative z-20 bg-card rounded-xl shadow-elegant p-6 md:p-8">
+            <h3 className="font-serif text-xl font-bold text-foreground mb-4">How we reviewed this article:</h3>
+            
+            <Tabs defaultValue="history" className="w-full">
+              <TabsList className="grid w-full grid-cols-2 mb-6">
+                <TabsTrigger value="sources" className="flex items-center gap-2">
+                  <Info className="w-4 h-4" />
+                  Request Sources
+                </TabsTrigger>
+                <TabsTrigger value="history" className="flex items-center gap-2">
+                  <HistoryIcon className="w-4 h-4" />
+                  History
+                </TabsTrigger>
+              </TabsList>
+              
+              <TabsContent value="sources">
+                <div className="text-center py-8 text-muted-foreground">
+                  <FileText className="w-12 h-12 mx-auto mb-3 opacity-20" />
+                  <p>Our team verifies information from reputable legal databases, court records, and official government statutes.</p>
+                </div>
+              </TabsContent>
+              
+              <TabsContent value="history">
+                <p className="text-muted-foreground mb-6 text-sm">
+                  Our experts continually monitor the legal space, and we update our articles when new information becomes available.
+                </p>
+                
+                <div className="relative border-l-2 border-gold/20 ml-3 space-y-8 py-2">
+                  {post.history?.map((event, index) => (
+                    <div key={index} className="relative pl-6">
+                      <div className={`absolute -left-[9px] top-1.5 w-4 h-4 rounded-full border-2 ${index === 0 ? 'bg-gold border-gold' : 'bg-background border-gold/40'}`} />
+                      
+                      <div className="flex flex-col gap-1">
+                        <span className={`text-sm font-bold ${index === 0 ? 'text-navy' : 'text-muted-foreground'}`}>
+                          {event.action}
+                        </span>
+                        {event.date !== "Unknown" && (
+                          <span className="text-xs text-muted-foreground font-medium">
+                            {event.date}
+                          </span>
+                        )}
+                        
+                        {(event.action === "Reviewed" || event.details.includes("Reviewed by")) && post.reviewedBy && (
+                          <div className="mt-4 bg-muted/30 p-4 rounded-lg flex items-center gap-4">
+                            <img 
+                              src={post.reviewedBy.image} 
+                              alt={post.reviewedBy.name}
+                              className="w-12 h-12 rounded-full object-cover border border-border"
+                            />
+                            <div>
+                              <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-0.5">Medically Reviewed By</p>
+                              <p className="font-serif font-medium text-foreground">{post.reviewedBy.name}</p>
+                              <p className="text-xs text-muted-foreground">{post.reviewedBy.title}</p>
+                            </div>
+                          </div>
+                        )}
+                        
+                        {!event.details.includes("Reviewed by") && event.details !== event.action && (
+                           <p className="text-sm text-muted-foreground mt-1">{event.details}</p>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </TabsContent>
+            </Tabs>
           </div>
         </div>
       </section>
