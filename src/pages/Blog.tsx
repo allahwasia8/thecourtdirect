@@ -232,14 +232,20 @@ const Blog = () => {
                     dangerouslySetInnerHTML={{ __html: post.excerpt }}
                   />
                   <div className="flex items-center justify-between text-xs text-muted-foreground mt-auto pt-4 border-t border-border/50">
-                    <span className="flex items-center gap-1">
-                      <Calendar className="w-3 h-3" />
-                      {post.date}
+                    <span className="flex items-center gap-1 group-hover/author:text-gold transition-colors">
+                      <User className="w-3 h-3" />
+                      {post.author}
                     </span>
-                    <span className="flex items-center gap-1">
-                      <Clock className="w-3 h-3" />
-                      {post.readTime}
-                    </span>
+                    <div className="flex items-center gap-3">
+                      <span className="flex items-center gap-1">
+                        <Calendar className="w-3 h-3" />
+                        {post.date}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Clock className="w-3 h-3" />
+                        {post.readTime}
+                      </span>
+                    </div>
                   </div>
                   <div className="mt-4 flex items-center text-gold text-sm font-medium group-hover:gap-2 transition-all">
                     Read Article
