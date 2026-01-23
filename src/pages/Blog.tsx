@@ -5,6 +5,7 @@ import { Calendar, Clock, ArrowRight, User, Loader2 } from "lucide-react";
 import { BlogPost } from "@/types/blog";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
+import { getLocalImagePath } from "@/utils/imageUtils";
 
 const POSTS_PER_PAGE = 9;
 
@@ -127,7 +128,7 @@ const Blog = () => {
                 <div className="aspect-video md:aspect-auto bg-navy-gradient flex items-center justify-center p-12 relative overflow-hidden">
                   {featuredPost.image ? (
                      <img 
-                       src={featuredPost.image} 
+                       src={getLocalImagePath(featuredPost.image) || featuredPost.image || ''} 
                        alt={featuredPost.title}
                        className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
                      />
@@ -217,7 +218,7 @@ const Blog = () => {
                 <div className="aspect-video bg-navy-gradient flex items-center justify-center relative overflow-hidden">
                   {post.image ? (
                     <img 
-                      src={post.image} 
+                      src={getLocalImagePath(post.image) || post.image || ''} 
                       alt={post.title}
                       className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
                     />

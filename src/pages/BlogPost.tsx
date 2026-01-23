@@ -6,6 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Calendar, Clock, User, ArrowLeft, Share2, Bookmark, Loader2, Info, History as HistoryIcon, FileText } from "lucide-react";
 import { BlogPost as BlogPostType } from "@/types/blog";
 import { Helmet } from "react-helmet-async";
+import { getLocalImagePath } from "@/utils/imageUtils";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -167,7 +168,7 @@ const BlogPost = () => {
             {post.image && (
               <div className="mb-10 rounded-2xl overflow-hidden shadow-elegant">
                 <img 
-                  src={post.image} 
+                  src={getLocalImagePath(post.image) || post.image || ''} 
                   alt={post.title} 
                   className="w-full h-auto object-cover max-h-[500px]"
                   onError={(e) => {
@@ -267,7 +268,7 @@ const BlogPost = () => {
                               className="w-12 h-12 rounded-full object-cover border border-border"
                             />
                             <div>
-                              <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-0.5">Medically Reviewed By</p>
+                              <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-0.5">Legally Reviewed By</p>
                               <p className="font-serif font-medium text-foreground">{post.reviewedBy.name}</p>
                               <p className="text-xs text-muted-foreground">{post.reviewedBy.title}</p>
                             </div>
