@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <img 
-                src="/Court-Direct-Logo-White-lines.png.webp" 
+                src="/Court-Direct-Logo-White-lines.webp.webp" 
                 alt="CourtDirect Logo" 
                 className="h-10 w-auto object-contain" 
               />
@@ -85,7 +85,7 @@ const Footer = () => {
               <li className="flex items-center gap-3 text-cream/70 text-sm">
                 <Mail className="w-4 h-4 text-gold" />
                 <Link to="/contact" className="hover:text-gold transition-colors">
-                  info@thecourtdirect.com
+                  Thecourtdirect@gmail.com
                 </Link>
               </li>
               <li className="flex items-center gap-3 text-cream/70 text-sm">

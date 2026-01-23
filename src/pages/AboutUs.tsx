@@ -179,7 +179,7 @@ const AboutUs = () => {
                   <h3 className="font-semibold text-foreground mb-2">Get in Touch</h3>
                    <p className="text-muted-foreground text-sm">
                     Questions? Suggestions?<br/>
-                    <a href="mailto:info@thecourtdirect.com" className="text-navy hover:text-gold transition-colors font-medium">info@thecourtdirect.com</a>
+                    <a href="mailto:Thecourtdirect@gmail.com" className="text-navy hover:text-gold transition-colors font-medium">Thecourtdirect@gmail.com</a>
                   </p>
                </div>
             </div>

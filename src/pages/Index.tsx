@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import { Scale, Search, BookOpen, Building2, Users, Shield, ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-courthouse.jpg";
+import heroImage from "@/assets/hero-courthouse.webp";
 import { Helmet } from "react-helmet-async";
 import { teamMembers } from "@/data/team";
 
@@ -48,7 +48,7 @@ const Index = () => {
             "@type": "Organization",
             "name": "The Court Direct",
             "url": "https://thecourtdirect.com",
-            "logo": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.png.webp",
+            "logo": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.webp.webp",
             "sameAs": [
               "https://www.facebook.com/thecourtdirect", 
               "https://twitter.com/thecourtdirect"
