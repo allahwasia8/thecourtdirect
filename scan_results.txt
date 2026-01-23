@@ -1,0 +1,2 @@
+Scanning directory: d:\thecourtdirect\public\data\posts
+Scanning master file: d:\thecourtdirect\thecourtdirect_posts.json
