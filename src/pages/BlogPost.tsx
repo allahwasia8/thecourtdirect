@@ -134,8 +134,8 @@ const BlogPost = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            {/* Featured Image (if exists) */}
-            {post.image && (
+            {/* Featured Image - Temporarily Disabled (images don't exist locally) */}
+            {/* {post.image && (
               <div className="mb-10 rounded-2xl overflow-hidden shadow-elegant">
                 <img 
                   src={post.image} 
@@ -143,7 +143,7 @@ const BlogPost = () => {
                   className="w-full h-auto object-cover max-h-[500px]"
                 />
               </div>
-            )}
+            )} */}
 
             {/* Action Bar */}
             <div className="flex items-center justify-between mb-12 pb-6 border-b border-border">
