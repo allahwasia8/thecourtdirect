@@ -1,9 +1,14 @@
 import Layout from "@/components/layout/Layout";
+import { Helmet } from "react-helmet-async";
 import { Scale } from "lucide-react";
 
 const TermsOfService = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Terms of Service | The Court Direct</title>
+        <meta name="description" content="Review our terms of service outlining the rules and regulations for using The Court Direct website and legal information resources." />
+      </Helmet>
       <section className="bg-navy-gradient py-20 text-center relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex justify-center mb-6">

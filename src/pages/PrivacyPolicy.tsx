@@ -1,9 +1,14 @@
 import Layout from "@/components/layout/Layout";
+import { Helmet } from "react-helmet-async";
 import { Shield } from "lucide-react";
 
 const PrivacyPolicy = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Privacy Policy | The Court Direct</title>
+        <meta name="description" content="Read our privacy policy to learn how The Court Direct collects, uses, and protects your personal information when you use our court directory and legal resources." />
+      </Helmet>
       <section className="bg-navy-gradient py-20 text-center relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex justify-center mb-6">

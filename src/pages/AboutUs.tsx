@@ -1,10 +1,16 @@
 import Layout from "@/components/layout/Layout";
 import { teamMembers } from "@/data/team";
 import { Shield, Target, History, Building2, MapPin, Mail, Award, BookOpen } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>About Us | The Court Direct - Legal Experts & Court Resources</title>
+        <meta name="description" content="Learn about The Court Direct's mission to democratize access to justice. Meet our experienced legal team, discover our story, and explore how we help navigate the judicial system." />
+      </Helmet>
+      {/* Hero Section */}
       {/* Hero Section */}
       <section className="bg-navy-gradient py-20">
         <div className="container mx-auto px-4 text-center text-cream">
