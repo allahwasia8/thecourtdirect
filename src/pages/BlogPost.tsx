@@ -127,14 +127,58 @@ const BlogPost = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </section>
 
-      {/* Review & History Section */}
-      <section className="bg-background border-b border-border">
+      {/* Article Content */}
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto -mt-8 relative z-20 bg-card rounded-xl shadow-elegant p-6 md:p-8">
+          <div className="max-w-3xl mx-auto">
+            {/* Featured Image (if exists) */}
+            {post.image && (
+              <div className="mb-10 rounded-2xl overflow-hidden shadow-elegant">
+                <img 
+                  src={post.image} 
+                  alt={post.title} 
+                  className="w-full h-auto object-cover max-h-[500px]"
+                />
+              </div>
+            )}
+
+            {/* Action Bar */}
+            <div className="flex items-center justify-between mb-12 pb-6 border-b border-border">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center shrink-0">
+                  <span className="font-serif text-gold text-lg">
+                    {post.author.charAt(0)}
+                  </span>
+                </div>
+                <div>
+                  <div className="font-medium text-foreground">{post.author}</div>
+                  <div className="text-sm text-muted-foreground">{post.authorRole || 'Contributor'}</div>
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <Button variant="outline" size="icon" onClick={() => {
+                   if (navigator.share) {
+                     navigator.share({ title: post.title, url: window.location.href });
+                   }
+                }}>
+                  <Share2 className="w-4 h-4" />
+                </Button>
+                <Button variant="outline" size="icon">
+                  <Bookmark className="w-4 h-4" />
+                </Button>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      {/* Review & History Section - Moved to end */}
+      <section className="bg-background border-y border-border py-12">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto bg-card rounded-xl shadow-elegant p-6 md:p-8">
             <h3 className="font-serif text-xl font-bold text-foreground mb-4">How we reviewed this article:</h3>
             
             <Tabs defaultValue="history" className="w-full">
@@ -204,56 +248,11 @@ const BlogPost = () => {
         </div>
       </section>
 
-      {/* Article Content */}
+      {/* CTA */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            {/* Featured Image (if exists) */}
-            {post.image && (
-              <div className="mb-10 rounded-2xl overflow-hidden shadow-elegant">
-                <img 
-                  src={post.image} 
-                  alt={post.title} 
-                  className="w-full h-auto object-cover max-h-[500px]"
-                />
-              </div>
-            )}
-
-            {/* Action Bar */}
-            <div className="flex items-center justify-between mb-12 pb-6 border-b border-border">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center shrink-0">
-                  <span className="font-serif text-gold text-lg">
-                    {post.author.charAt(0)}
-                  </span>
-                </div>
-                <div>
-                  <div className="font-medium text-foreground">{post.author}</div>
-                  <div className="text-sm text-muted-foreground">{post.authorRole || 'Contributor'}</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <Button variant="outline" size="icon" onClick={() => {
-                   if (navigator.share) {
-                     navigator.share({ title: post.title, url: window.location.href });
-                   }
-                }}>
-                  <Share2 className="w-4 h-4" />
-                </Button>
-                <Button variant="outline" size="icon">
-                  <Bookmark className="w-4 h-4" />
-                </Button>
-              </div>
-            </div>
-
-            {/* Article Body */}
-            <article
-              className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-a:text-navy hover:prose-a:text-gold prose-a:transition-colors prose-li:text-muted-foreground prose-blockquote:border-gold prose-blockquote:text-xl prose-blockquote:font-serif prose-blockquote:italic prose-img:rounded-2xl prose-img:shadow-md prose-hr:border-border"
-              dangerouslySetInnerHTML={{ __html: post.content || '' }}
-            />
-
-            {/* CTA */}
-            <div className="mt-16 p-8 bg-cream rounded-2xl text-center">
+            <div className="p-8 bg-cream rounded-2xl text-center">
               <h3 className="font-serif text-2xl font-bold text-navy mb-4">
                 Need to Find a Courtroom?
               </h3>
