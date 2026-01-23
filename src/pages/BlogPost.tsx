@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Calendar, Clock, User, ArrowLeft, Share2, Bookmark, Loader2, Info, History as HistoryIcon, FileText } from "lucide-react";
 import { BlogPost as BlogPostType } from "@/types/blog";
+import { Helmet } from "react-helmet-async";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
