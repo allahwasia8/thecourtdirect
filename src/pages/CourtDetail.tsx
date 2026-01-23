@@ -86,10 +86,10 @@ const CourtDetail = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{court.name} | CourtDirect</title>
+        <title>{court.name} - Court Information | The Court Direct</title>
         <meta 
           name="description" 
-          content={`${court.address}, ${court.city}, ${court.state} ${court.zip}. Phone: ${court.phone}${court.hours ? `. Hours: ${court.hours}` : ''}`} 
+          content={`Find information for ${court.name} located at ${court.address}, ${court.city}, ${court.state} ${court.zip}. Phone: ${court.phone}.${court.hours ? ` Hours: ${court.hours}.` : ''} ${court.types.join(', ')}.`} 
         />
       </Helmet>
       {/* Header */}
