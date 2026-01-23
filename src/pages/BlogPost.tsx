@@ -19,14 +19,16 @@ const BlogPost = () => {
       
       try {
         setLoading(true);
-        // Fetch individual post JSON
+        console.log("Fetching post for slug:", slug);
         const response = await fetch(`/data/posts/${slug}.json`);
+        console.log("Response status:", response.status);
         
         if (!response.ok) {
           throw new Error("Post not found");
         }
         
         const data = await response.json();
+        console.log("Fetched post data:", data);
         setPost(data);
         setError(false);
       } catch (err) {
@@ -66,6 +68,32 @@ const BlogPost = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>{post.title} | The Court Direct</title>
+        <meta name="description" content={post.excerpt.slice(0, 160)} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": post.title,
+            "image": post.image ? (post.image.startsWith('http') ? [post.image] : [`https://thecourtdirect.com${post.image}`]) : [],
+            "datePublished": post.date,
+            "author": [{
+                "@type": "Person",
+                "name": post.author,
+                "url": "https://thecourtdirect.com/about"
+            }],
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Court Direct",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.png.webp"
+              }
+            }
+          })}
+        </script>
+      </Helmet>
       {/* Header */}
       <section className="bg-navy-gradient py-20 relative overflow-hidden">
         {/* Subtle decorative background element */}
@@ -127,6 +155,7 @@ const BlogPost = () => {
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </section>
 
@@ -172,6 +201,12 @@ const BlogPost = () => {
               </div>
             </div>
 
+            {/* Article Body */}
+            <article
+              className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-a:text-navy hover:prose-a:text-gold prose-a:transition-colors prose-li:text-muted-foreground prose-blockquote:border-gold prose-blockquote:text-xl prose-blockquote:font-serif prose-blockquote:italic prose-img:rounded-2xl prose-img:shadow-md prose-hr:border-border"
+              dangerouslySetInnerHTML={{ __html: post.content || '' }}
+            />
+          </div>
         </div>
       </section>
 
