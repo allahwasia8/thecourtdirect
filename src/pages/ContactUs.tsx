@@ -78,7 +78,7 @@ const ContactUs = () => {
                 
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium text-foreground">Email</label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input id="email" type="email" placeholder="yourname@email.com" />
                 </div>
 
                 <div className="space-y-2">

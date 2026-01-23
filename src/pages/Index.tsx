@@ -55,7 +55,7 @@ const Index = () => {
             ],
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+1-555-123-4567",
+              "telephone": "+1-202-555-0123",
               "contactType": "Customer Service"
             }
           })}
