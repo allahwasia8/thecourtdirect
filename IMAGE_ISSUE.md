@@ -36,6 +36,10 @@ Since the actual image files don't exist locally and were external WordPress CDN
 - Store in `/public/images/`
 - Large file size increase
 
-## Immediate Action Taken
+## Resolution - Option 3 Executed
 
-Images won't load because files don't exist. **Recommend Option 1 or 2** for now.
+**SUCCESS**: Recovered 167 Hi-Res images from the server using FTP.
+
+- Files are saved in `d:\thecourtdirect\public\images\`
+- The application's `imageUtils.ts` (which maps remote URLs to `/images/filename`) will now automatically pick up these local files.
+- Thumbnails were filtered out to ensure quality.

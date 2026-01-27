@@ -178,7 +178,6 @@ const BlogPost = () => {
                 />
               </div>
             )}
-
             {/* Action Bar */}
             <div className="flex items-center justify-between mb-12 pb-6 border-b border-border">
               <div className="flex items-center gap-4">

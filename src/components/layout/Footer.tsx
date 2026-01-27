@@ -106,9 +106,7 @@ const Footer = () => {
               <p className="text-cream/50 text-sm">
                 © {new Date().getFullYear()} The Court Direct.
               </p>
-              <p className="text-cream/30 text-xs mt-1">
-                A <span className="text-cream/50 font-medium">TopWebPartners LLC</span> Company.
-              </p>
+
             </div>
             <div className="flex gap-6">
               <Link to="/about" className="text-cream/50 hover:text-gold transition-colors text-sm">

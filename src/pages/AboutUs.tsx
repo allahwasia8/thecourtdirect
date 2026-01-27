@@ -160,16 +160,7 @@ const AboutUs = () => {
       <section className="py-16 bg-cream/50 border-t border-border">
          <div className="container mx-auto px-4 text-center">
             <h2 className="font-serif text-2xl font-bold text-navy mb-8">Contact & Corporate Info</h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto text-left">
-               <div className="bg-background p-6 rounded-xl shadow-sm border border-border">
-                  <Building2 className="w-6 h-6 text-gold mb-3" />
-                  <h3 className="font-semibold text-foreground mb-2">Operating Company</h3>
-                  <p className="text-muted-foreground text-sm">
-                    The Court Direct is a subsidiary of<br/>
-                    <strong>TopWebPartners LLC</strong><br/>
-                    Dedicated to digital excellence.
-                  </p>
-               </div>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
                
                <div className="bg-background p-6 rounded-xl shadow-sm border border-border">
                   <MapPin className="w-6 h-6 text-gold mb-3" />
