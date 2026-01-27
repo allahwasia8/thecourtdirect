@@ -69,6 +69,10 @@ const Index = () => {
             src={heroImage}
             alt="Courthouse"
             className="w-full h-full object-cover"
+            fetchPriority="high"
+            loading="eager"
+            width="1920"
+            height="1080"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/80 to-navy/60" />
         </div>
@@ -246,6 +250,9 @@ const Index = () => {
                       src={member.image}
                       alt={member.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      width="80"
+                      height="80"
+                      loading="lazy"
                     />
                   </div>
                   <div>

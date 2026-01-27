@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -47,14 +45,20 @@
     --slate: 215 16% 47%;
 
     /* Typography */
-    --font-serif: 'Playfair Display', Georgia, serif;
-    --font-sans: 'Inter', system-ui, sans-serif;
+    --font-serif: "Playfair Display", Georgia, serif;
+    --font-sans: "Inter", system-ui, sans-serif;
 
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 hsl(222 47% 15% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(222 47% 15% / 0.1), 0 2px 4px -2px hsl(222 47% 15% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(222 47% 15% / 0.1), 0 4px 6px -4px hsl(222 47% 15% / 0.1);
-    --shadow-xl: 0 20px 25px -5px hsl(222 47% 15% / 0.1), 0 8px 10px -6px hsl(222 47% 15% / 0.1);
+    --shadow-md:
+      0 4px 6px -1px hsl(222 47% 15% / 0.1),
+      0 2px 4px -2px hsl(222 47% 15% / 0.1);
+    --shadow-lg:
+      0 10px 15px -3px hsl(222 47% 15% / 0.1),
+      0 4px 6px -4px hsl(222 47% 15% / 0.1);
+    --shadow-xl:
+      0 20px 25px -5px hsl(222 47% 15% / 0.1),
+      0 8px 10px -6px hsl(222 47% 15% / 0.1);
     --shadow-gold: 0 4px 14px 0 hsl(45 93% 58% / 0.3);
 
     --sidebar-background: 0 0% 98%;
@@ -121,7 +125,12 @@
     font-family: var(--font-sans);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-serif);
   }
 }
@@ -132,7 +141,11 @@
   }
 
   .bg-navy-gradient {
-    background: linear-gradient(135deg, hsl(var(--navy)) 0%, hsl(var(--navy-dark)) 100%);
+    background: linear-gradient(
+      135deg,
+      hsl(var(--navy)) 0%,
+      hsl(var(--navy-dark)) 100%
+    );
   }
 
   .bg-cream {
