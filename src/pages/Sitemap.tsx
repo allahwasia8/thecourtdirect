@@ -71,7 +71,7 @@ const Sitemap = () => {
                 {posts.map(post => (
                   <li key={post.id}>
                     <Link 
-                      to={`/blog/${post.id}`} 
+                      to={`/${post.id}`} 
                       className="text-muted-foreground hover:text-gold transition-colors block leading-snug"
                     >
                       {post.title}

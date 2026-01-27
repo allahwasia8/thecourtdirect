@@ -121,7 +121,7 @@ const Blog = () => {
               </span>
             </div>
             <Link
-              to={`/blog/${featuredPost.id}`}
+              to={`/${featuredPost.id}`}
               className="group block bg-card rounded-2xl shadow-elegant overflow-hidden hover:shadow-gold-glow transition-all duration-300"
             >
               <div className="grid md:grid-cols-2">
@@ -212,7 +212,7 @@ const Blog = () => {
             {displayedPosts.map((post) => (
               <Link
                 key={post.id}
-                to={`/blog/${post.id}`}
+                to={`/${post.id}`}
                 className="group bg-card rounded-xl shadow-elegant overflow-hidden hover:shadow-gold-glow transition-all duration-300 flex flex-col"
               >
                 <div className="aspect-video bg-navy-gradient flex items-center justify-center relative overflow-hidden">
