@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -71,10 +72,15 @@ const FindCourt = () => {
   if (loading) {
     return (
       <Layout>
-      <Helmet>
-        <title>Find a Court | The Court Direct - Court Directory & Locator</title>
-        <meta name="description" content="Search our comprehensive directory to find courts across the United States. Access addresses, phone numbers, and details for federal, state, and local courtrooms." />
-      </Helmet>
+      <SEO 
+        title="Find a Court | Court Directory & Locator"
+        description="Search our comprehensive directory to find courts across the United States. Access addresses, phone numbers, and details for federal, state, and local courtrooms."
+        url="/find-court"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Find Court', item: '/find-court' }
+        ])}
+      />
         <div className="min-h-screen flex items-center justify-center bg-background">
           <Loader2 className="w-8 h-8 animate-spin text-gold" />
         </div>

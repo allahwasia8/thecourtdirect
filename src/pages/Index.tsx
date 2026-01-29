@@ -3,8 +3,9 @@ import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import { Scale, Search, BookOpen, Building2, Users, Shield, ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-courthouse.webp";
-import { Helmet } from "react-helmet-async";
 import { teamMembers } from "@/data/team";
+import SEO from "@/components/seo/SEO";
+import { generateOrganizationSchema, generateWebSiteSchema } from "@/utils/schemaGenerator";
 
 const Index = () => {
   const features = [
@@ -39,28 +40,13 @@ const Index = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>The Court Direct | Find Your Courtroom & Legal Resources</title>
-        <meta name="description" content="Navigate the judicial system with confidence. Find courtrooms, access legal resources, and understand procedures—all in one place." />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Court Direct",
-            "url": "https://thecourtdirect.com",
-            "logo": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.png.webp",
-            "sameAs": [
-              "https://www.facebook.com/thecourtdirect", 
-              "https://twitter.com/thecourtdirect"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+1-202-555-0123",
-              "contactType": "Customer Service"
-            }
-          })}
-        </script>
-      </Helmet>
+      <SEO 
+        title="Find Your Courtroom & Legal Resources"
+        description="The Court Direct is your trusted guide to the US judicial system. Find court locations, access free legal resources, and understand court procedures."
+        imageWidth="1200"
+        imageHeight="630"
+        schema={[generateOrganizationSchema(), generateWebSiteSchema()]}
+      />
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center">
         {/* Background Image */}

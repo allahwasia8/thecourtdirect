@@ -1,15 +1,21 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 import { teamMembers } from "@/data/team";
 import { Shield, Target, History, Building2, MapPin, Mail, Award, BookOpen } from "lucide-react";
-import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
   return (
     <Layout>
-      <Helmet>
-        <title>About Us | The Court Direct - Legal Experts & Court Resources</title>
-        <meta name="description" content="Learn about The Court Direct's mission to democratize access to justice. Meet our experienced legal team, discover our story, and explore how we help navigate the judicial system." />
-      </Helmet>
+      <SEO 
+        title="About Us | Legal Experts & Court Resources"
+        description="Learn about The Court Direct's mission to democratize access to justice. Meet our experienced legal team, discover our story, and explore how we help navigate the judicial system."
+        url="/about"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'About Us', item: '/about' }
+        ])}
+      />
       {/* Hero Section */}
       {/* Hero Section */}
       <section className="bg-navy-gradient py-20">

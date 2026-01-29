@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 import Layout from "@/components/layout/Layout";
 import { BlogPost } from "@/types/blog";
 
@@ -26,10 +27,15 @@ const Sitemap = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>Sitemap | The Court Direct - Site Directory</title>
-        <meta name="description" content="Browse our sitemap to easily navigate all pages on The Court Direct website, including court directories, legal resources, and information guides." />
-      </Helmet>
+      <SEO 
+        title="Sitemap | Site Directory"
+        description="Browse our sitemap to easily navigate all pages on The Court Direct website, including court directories, legal resources, and information guides."
+        url="/sitemap"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Sitemap', item: '/sitemap' }
+        ])}
+      />
       <section className="bg-navy-gradient py-12">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-serif text-4xl font-bold text-cream">

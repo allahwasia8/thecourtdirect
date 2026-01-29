@@ -1,15 +1,21 @@
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Mail, Shield, CheckCircle } from "lucide-react";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 
 const WriteForUs = () => {
   return (
     <Layout>
-      <Helmet>
-        <title>Write for Us | The Court Direct - Legal Writing Opportunities</title>
-        <meta name="description" content="Join The Court Direct as a legal contributor. Submit legal articles and share your expertise with our audience. Learn about our guest post guidelines and submission process." />
-      </Helmet>
+      <SEO 
+        title="Write for Us | Legal Writing Opportunities"
+        description="Join The Court Direct as a legal contributor. Submit legal articles and share your expertise with our audience. Learn about our guest post guidelines and submission process."
+        url="/write-for-us-law"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Write for Us', item: '/write-for-us-law' }
+        ])}
+      />
       <section className="bg-navy-gradient py-20">
         <div className="container mx-auto px-4 text-center text-cream">
           <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6">

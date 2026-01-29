@@ -16,7 +16,8 @@ import {
   Loader2,
 } from "lucide-react";
 import { Court } from "@/types/court";
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/seo/SEO";
+import { generateCourthouseSchema, generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 
 const CourtDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -85,13 +86,22 @@ const CourtDetail = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>{court.name} - Court Information | The Court Direct</title>
-        <meta 
-          name="description" 
-          content={`Find information for ${court.name} located at ${court.address}, ${court.city}, ${court.state} ${court.zip}. Phone: ${court.phone}.${court.hours ? ` Hours: ${court.hours}.` : ''} ${court.types.join(', ')}.`} 
+      {court && (
+        <SEO 
+          title={court.metaTitle || `${court.name} - Court Information`}
+          description={court.metaDescription || `Find information for ${court.name} located at ${court.address}, ${court.city}, ${court.state} ${court.zip}. Phone: ${court.phone}.${court.hours ? ` Hours: ${court.hours}.` : ''} ${court.types.join(', ')}.`}
+          image={court.imageToShare || undefined}
+          url={`/court/${id}`}
+          schema={[
+            generateCourthouseSchema(court),
+            generateBreadcrumbSchema([
+              { name: 'Home', item: '/' },
+              { name: 'Find Court', item: '/find-court' },
+              { name: court.name, item: `/court/${id}` }
+            ])
+          ]}
         />
-      </Helmet>
+      )}
       {/* Header */}
       <section className="bg-navy-gradient py-16">
         <div className="container mx-auto px-4">

@@ -1,7 +1,8 @@
 import { useState, useMemo } from "react";
 import Layout from "@/components/layout/Layout";
 import { Input } from "@/components/ui/input";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 import { Search, Book } from "lucide-react";
 import { legalTerms } from "@/data/legalTerms";
 import { toast } from "sonner";
@@ -32,10 +33,15 @@ const LegalTerminology = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>Legal Terminology | The Court Direct - Legal Terms Dictionary</title>
-        <meta name="description" content="Browse our comprehensive legal terminology dictionary. Understand court terms, legal jargon, and judicial language with clear definitions and explanations." />
-      </Helmet>
+      <SEO 
+        title="Legal Terminology | Legal Terms Dictionary"
+        description="Browse our comprehensive legal terminology dictionary. Understand court terms, legal jargon, and judicial language with clear definitions and explanations."
+        url="/legal-terms"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Legal Terms', item: '/legal-terms' }
+        ])}
+      />
       {/* Hero Section */}
       <section className="bg-navy-gradient py-20 text-center relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gold/5 rounded-full -translate-y-1/2 translate-x-1/3 blur-[100px] pointer-events-none" />

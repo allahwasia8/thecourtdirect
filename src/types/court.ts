@@ -13,4 +13,7 @@ export interface Court {
   hours?: string;
   description?: string;
   mapsUrl?: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  imageToShare?: string;
 }

@@ -3,15 +3,21 @@ import { Mail, MessageSquare, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 
 const ContactUs = () => {
   return (
     <Layout>
-      <Helmet>
-        <title>Contact Us | The Court Direct - Get in Touch</title>
-        <meta name="description" content="Contact The Court Direct for questions, feedback, or support with court information and legal resources. Email us at Thecourtdirect@gmail.com or use our contact form." />
-      </Helmet>
+      <SEO 
+        title="Contact Us | Get in Touch"
+        description="Contact The Court Direct for questions, feedback, or support with court information and legal resources. Email us at Thecourtdirect@gmail.com or use our contact form."
+        url="/contact"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Contact Us', item: '/contact' }
+        ])}
+      />
       <section className="bg-navy-gradient py-20 text-center relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex justify-center mb-6">

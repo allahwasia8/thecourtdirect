@@ -4,7 +4,8 @@ import Layout from "@/components/layout/Layout";
 import { Calendar, Clock, ArrowRight, User, Loader2 } from "lucide-react";
 import { BlogPost } from "@/types/blog";
 import { Button } from "@/components/ui/button";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 import { getLocalImagePath } from "@/utils/imageUtils";
 
 const POSTS_PER_PAGE = 9;
@@ -92,10 +93,15 @@ const Blog = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>Legal Blog & Articles | The Court Direct</title>
-        <meta name="description" content="Explore expert legal articles, court guides, and judicial system insights. Stay informed with our comprehensive blog covering legal topics, court procedures, and legal advice." />
-      </Helmet>
+      <SEO 
+        title="Legal Blog & Articles"
+        description="Explore expert legal articles, court guides, and judicial system insights. Stay informed with our comprehensive blog covering legal topics, court procedures, and legal advice."
+        url="/blog"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Blog', item: '/blog' }
+        ])}
+      />
       {/* Hero Section */}
       <section className="bg-navy-gradient py-20">
         <div className="container mx-auto px-4">

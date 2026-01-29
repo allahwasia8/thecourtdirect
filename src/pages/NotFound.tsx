@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import { Scale, Home, Search, ArrowLeft } from "lucide-react";
@@ -14,10 +14,10 @@ const NotFound = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>404 Page Not Found | The Court Direct</title>
-        <meta name="description" content="The page you are looking for could not be found. Return to our homepage or use our court directory to find the information you need." />
-      </Helmet>
+      <SEO 
+        title="404 Page Not Found"
+        description="The page you are looking for could not be found. Return to our homepage or use our court directory to find the information you need."
+      />
       <section className="min-h-[70vh] flex items-center justify-center bg-cream">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">

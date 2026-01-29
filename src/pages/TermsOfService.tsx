@@ -1,14 +1,20 @@
 import Layout from "@/components/layout/Layout";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
+import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 import { Scale } from "lucide-react";
 
 const TermsOfService = () => {
   return (
     <Layout>
-      <Helmet>
-        <title>Terms of Service | The Court Direct</title>
-        <meta name="description" content="Review our terms of service outlining the rules and regulations for using The Court Direct website and legal information resources." />
-      </Helmet>
+      <SEO 
+        title="Terms of Service"
+        description="Review our terms of service outlining the rules and regulations for using The Court Direct website and legal information resources."
+        url="/terms-of-service"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Terms of Service', item: '/terms-of-service' }
+        ])}
+      />
       <section className="bg-navy-gradient py-20 text-center relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex justify-center mb-6">

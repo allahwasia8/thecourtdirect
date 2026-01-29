@@ -21,4 +21,12 @@ export interface BlogPost {
     date: string;
     details: string;
   }[];
+  metaTitle?: string;
+  metaDescription?: string;
+  imageToShare?: string;
+  imageAlt?: string;
+  references?: {
+    name: string;
+    url: string;
+  }[];
 }

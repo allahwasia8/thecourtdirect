@@ -3,10 +3,11 @@ import { useParams, Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Calendar, Clock, User, ArrowLeft, Share2, Bookmark, Loader2, Info, History as HistoryIcon, FileText } from "lucide-react";
+import { Calendar, Clock, User, ArrowLeft, Share2, Bookmark, Loader2, Info, History as HistoryIcon, FileText, ExternalLink } from "lucide-react";
 import { BlogPost as BlogPostType } from "@/types/blog";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/seo/SEO";
 import { getLocalImagePath } from "@/utils/imageUtils";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -69,32 +70,24 @@ const BlogPost = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>{post.title} | The Court Direct</title>
-        <meta name="description" content={post.excerpt.slice(0, 160)} />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": post.title,
-            "image": post.image ? (post.image.startsWith('http') ? [post.image] : [`https://thecourtdirect.com${post.image}`]) : [],
-            "datePublished": post.date,
-            "author": [{
-                "@type": "Person",
-                "name": post.author,
-                "url": "https://thecourtdirect.com/about"
-            }],
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Court Direct",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.png.webp"
-              }
-            }
-          })}
-        </script>
-      </Helmet>
+      {post && (
+        <SEO 
+          title={post.metaTitle || post.title}
+          description={post.metaDescription || post.excerpt}
+          image={post.imageToShare || post.image || undefined}
+          url={`/${slug}`}
+          type="article"
+          imageAlt={post.imageAlt || post.title}
+          schema={[
+            generateArticleSchema(post),
+            generateBreadcrumbSchema([
+              { name: 'Home', item: '/' },
+              { name: 'Blog', item: '/blog' },
+              { name: post.title, item: `/${slug}` }
+            ])
+          ]}
+        />
+      )}
       {/* Header */}
       <section className="bg-navy-gradient py-20 relative overflow-hidden">
         {/* Subtle decorative background element */}
@@ -169,7 +162,7 @@ const BlogPost = () => {
               <div className="mb-10 rounded-2xl overflow-hidden shadow-elegant">
                 <img 
                   src={getLocalImagePath(post.image) || post.image || ''} 
-                  alt={post.title} 
+                  alt={post.imageAlt || post.title} 
                   className="w-full h-auto object-cover max-h-[500px]"
                   onError={(e) => {
                     // Hide image if it fails to load
@@ -210,6 +203,63 @@ const BlogPost = () => {
               className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-a:text-navy hover:prose-a:text-gold prose-a:transition-colors prose-li:text-muted-foreground prose-blockquote:border-gold prose-blockquote:text-xl prose-blockquote:font-serif prose-blockquote:italic prose-img:rounded-2xl prose-img:shadow-md prose-hr:border-border"
               dangerouslySetInnerHTML={{ __html: post.content || '' }}
             />
+
+            {/* Legal References/Resources */}
+            <div className="mt-16 pt-8 border-t border-border">
+              <h3 className="font-serif text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
+                <FileText className="w-6 h-6 text-gold" />
+                Legal Resources & References
+              </h3>
+              <div className="grid sm:grid-cols-1 gap-4">
+                {(post.references && post.references.length > 0) ? (
+                  post.references.map((ref, index) => (
+                    <a 
+                      key={index}
+                      href={ref.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between p-4 bg-navy/5 rounded-xl border border-navy/10 hover:border-gold hover:bg-navy/10 transition-all group"
+                    >
+                      <span className="font-medium text-navy group-hover:text-gold transition-colors">{ref.name}</span>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-gold transition-colors" />
+                    </a>
+                  ))
+                ) : (
+                  <>
+                    <a 
+                      href="https://www.law.cornell.edu/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between p-4 bg-navy/5 rounded-xl border border-navy/10 hover:border-gold hover:bg-navy/10 transition-all group"
+                    >
+                      <span className="font-medium text-navy group-hover:text-gold transition-colors">Legal Information Institute (LII)</span>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-gold transition-colors" />
+                    </a>
+                    <a 
+                      href="https://www.usa.gov/laws-and-legal-issues"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between p-4 bg-navy/5 rounded-xl border border-navy/10 hover:border-gold hover:bg-navy/10 transition-all group"
+                    >
+                      <span className="font-medium text-navy group-hover:text-gold transition-colors">USA.gov - Laws and Legal Issues</span>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-gold transition-colors" />
+                    </a>
+                    <a 
+                      href="https://www.findlaw.com/law.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between p-4 bg-navy/5 rounded-xl border border-navy/10 hover:border-gold hover:bg-navy/10 transition-all group"
+                    >
+                      <span className="font-medium text-navy group-hover:text-gold transition-colors">FindLaw - For the Public</span>
+                      <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-gold transition-colors" />
+                    </a>
+                  </>
+                )}
+              </div>
+              <p className="mt-6 text-sm text-muted-foreground italic">
+                Note: These resources are provided for informational purposes only and do not constitute legal advice.
+              </p>
+            </div>
           </div>
         </div>
       </section>
