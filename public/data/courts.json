@@ -3378,7 +3378,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Edward%20J.%20Schwartz%20United%20States%20Courthouse,%20221%20West%20Broadway,%20San%20Diego,%20CA%2092101,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "California Southern District Court - San Diego, CA."
+    "description": "California Southern District Court - San Diego, CA.",
+    "metaDescription": "California Southern District Court in San Diego, CA, contact info and address."
   },
   {
     "id": "california-northern-district-court-san-jose-ca-south-first-streetsan-jose",
@@ -3415,7 +3416,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Ronald%20Reagan%20Federal%20Building%20and%20United%20States%20Courthouse,%20411%20West%20Fourth%20Street,%20Santa%20Ana,%20CA%2092701,",
     "website": "https://www.cacd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "California Central District Court - Santa Ana, CA."
+    "description": "California Central District Court - Santa Ana, CA.",
+    "metaDescription": "California Central District Court in Santa Ana, CA, a federal district court with address and phone."
   },
   {
     "id": "colorado-district-court-denver-co-stout-streetdenver",
@@ -3509,7 +3511,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Courthouse,%20299%20East%20Broward%20Boulevard,%20Fort%20Lauderdale,%20FL%2033301,",
     "website": "http://www.flsd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Florida Southern District Court - Fort Lauderdale, FL."
+    "description": "Florida Southern District Court - Fort Lauderdale, FL.",
+    "metaDescription": "Find Florida Southern District Court in Fort Lauderdale, FL, with address, phone and court details."
   },
   {
     "id": "florida-middle-district-court-fort-myers-fl-first-streetfort-myers",
@@ -3546,7 +3549,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Alto%20Lee%20Adams,%20Sr.%20United%20States%20Courthouse,%20101%20South%20U.S.%20Highway%201,%20Fort%20Pierce,%20FL%2034950,",
     "website": "http://www.flsd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Florida Southern District Court - Fort Pierce, FL."
+    "description": "Florida Southern District Court - Fort Pierce, FL.",
+    "metaDescription": "Find Florida Southern District Court in Fort Pierce, FL, a federal district court serving the area with contact info and location details."
   },
   {
     "id": "florida-northern-district-court-gainesville-fl-southeast-first-avenuegainesville",
@@ -3564,7 +3568,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federal%20Building,%20401%20Southeast%20First%20Avenue,%20Gainesville,%20FL%2032601,",
     "website": "http://www.flnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Florida Northern District Court - Gainesville, FL."
+    "description": "Florida Northern District Court - Gainesville, FL.",
+    "metaDescription": "Gainesville, FL District Court information and contact details"
   },
   {
     "id": "florida-middle-district-court-jacksonville-fl-north-hogan-streetjacksonville",
@@ -3658,7 +3663,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Golden-Collum%20Federal%20Building%20and%20United%20States%20Courthouse,%20207%20Northwest%20Second%20Street,%20Ocala,%20FL%2034475-6603,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Florida Middle District Court - Ocala, FL."
+    "description": "Florida Middle District Court - Ocala, FL.",
+    "metaDescription": "Find Ocala, FL district court info at Florida Middle District Court, including address and phone number."
   },
   {
     "id": "florida-middle-district-court-orlando-fl-west-washington-streetorlando",
@@ -3714,7 +3720,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Winston%20E.%20Arnow%20Federal%20Building,%20100%20North%20Palafox%20Street,%20Pensacola,%20FL%2032502,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Florida Northern District Court - Pensacola, FL."
+    "description": "Florida Northern District Court - Pensacola, FL.",
+    "metaDescription": "Find Florida Northern District Court in Pensacola, FL, a federal district court at 100 N Palafox St."
   },
   {
     "id": "florida-northern-district-court-tallahassee-fl-north-adams-streettallahassee",
@@ -3808,7 +3815,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Post%20Office%20and%20Courthouse,%20115%20East%20Hancock%20Avenue,%20Athens,%20GA%2030601,",
     "website": "http://www.gamd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Georgia Middle District Court - Athens, GA."
+    "description": "Georgia Middle District Court - Athens, GA.",
+    "metaDescription": "Georgia Middle District Court in Athens, GA, provides court information and services."
   },
   {
     "id": "georgia-southern-district-court-augusta-ga-james-brown-boulevardaugusta",
@@ -3844,7 +3852,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Frank%20M.%20Scarlett%20Federal%20Building,%20801%20Gloucester%20Street,%20Brunswick,%20GA%2031520,",
     "website": "http://www.gasd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Georgia Southern District Court - Brunswick, GA."
+    "description": "Georgia Southern District Court - Brunswick, GA.",
+    "metaDescription": "Georgia Southern District Court in Brunswick, GA, provides court information and services."
   },
   {
     "id": "georgia-middle-district-court-columbus-ga-th-streetcolumbus",
@@ -3956,7 +3965,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Post%20Office%20and%20Courthouse,%20401%20North%20Patterson%20Street,%20Valdosta,%20GA%2031601,",
     "website": "http://www.gamd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Georgia Middle District Court - Valdosta, GA."
+    "description": "Georgia Middle District Court - Valdosta, GA.",
+    "metaDescription": "Find Georgia Middle District Court in Valdosta, GA, a federal district court serving the area."
   },
   {
     "id": "iowa-southern-district-court-council-bluffs-ia-th-avecouncil-bluffs",
@@ -4011,7 +4021,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Courthouse,%20320%20Sixth%20Street,%20Sioux%20City,%20IA%2051101-1210,",
     "website": "http://www.iand.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Iowa Northern District Court - Sioux City, IA."
+    "description": "Iowa Northern District Court - Sioux City, IA.",
+    "metaDescription": "Find Iowa Northern District Court in Sioux City, IA, with address and phone number."
   },
   {
     "id": "idaho-district-court-coeur-dalene-id-alene",
@@ -4161,7 +4172,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Paul%20Findley%20Federal%20Building%20and%20United%20States%20Courthouse,%20600%20East%20Monroe%20Street,%20Springfield,%20IL%2062701,",
     "website": "http://www.ilcd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Illinois Central District Court - Springfield, IL."
+    "description": "Illinois Central District Court - Springfield, IL.",
+    "metaDescription": "Find Illinois Central District Court in Springfield, IL, with address and phone number."
   },
   {
     "id": "indiana-southern-district-court-evansville-in-nw-martin-luther-king-jr-boulevardevansville",
@@ -4198,7 +4210,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=E.%20Ross%20Adair%20Federal%20Building%20and%20United%20States%20Courthouse,%201300%20South%20Harrison%20Street,%20Fort%20Wayne,%20IN%2046802,",
     "website": "http://www.innd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Indiana Northern District Court - Fort Wayne, IN."
+    "description": "Indiana Northern District Court - Fort Wayne, IN.",
+    "metaDescription": "Indiana Northern District Court in Fort Wayne, IN, provides court information and contact details."
   },
   {
     "id": "indiana-southern-district-court-indianapolis-in-east-ohio-streetindianapolis-2",
@@ -4291,7 +4304,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Courthouse,%20921%20Ohio%20Street,%20Terre%20Haute,%20IN%2047807,",
     "website": "http://www.insd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Indiana Southern District Court - Terre Haute, IN."
+    "description": "Indiana Southern District Court - Terre Haute, IN.",
+    "metaDescription": "Indiana Southern District Court in Terre Haute, IN, offers court information and services."
   },
   {
     "id": "kansas-district-court-kansas-city-ks-state-avenuekansas-city",
@@ -4346,7 +4360,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Carl%20D.%20Perkins%20Federal%20Building,%201405%20Greenup%20Avenue,%20Ashland,%20KY%2041101-7542,",
     "website": "http://www.kyed.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Kentucky Eastern District Court - Ashland, KY."
+    "description": "Kentucky Eastern District Court - Ashland, KY.",
+    "metaDescription": "Kentucky Eastern District Court in Ashland, KY, provides court information and services."
   },
   {
     "id": "kentucky-western-district-court-bowling-green-ky-bowling-green",
@@ -4382,7 +4397,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federal%20Building,%20241%20East%20Main%20Street,%20Bowling%20Green,%20KY%2042101-2141,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Kentucky Western District Court - Bowling Green, KY."
+    "description": "Kentucky Western District Court - Bowling Green, KY.",
+    "metaDescription": "Kentucky Western District Court in Bowling Green, KY, provides court information and services."
   },
   {
     "id": "kentucky-eastern-district-court-covington-ky-west-fifth-streetcovington",
@@ -4437,7 +4453,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=London%20Courthouse%20Annex,%20310%20South%20Main%20Street,%20London,%20KY%2040741,",
     "website": "http://www.kyed.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Kentucky Eastern District Court - London, KY."
+    "description": "Kentucky Eastern District Court - London, KY.",
+    "metaDescription": "Kentucky Eastern District Court in London, KY, provides court information and contact details."
   },
   {
     "id": "kentucky-western-district-court-owensboro-ky-frederica-streetowensboro",
@@ -4473,7 +4490,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federal%20Building,%20501%20Broadway%20Street,%20Paducah,%20KY%2042001-6856,",
     "website": "http://www.kywd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Kentucky Western District Court - Paducah, KY."
+    "description": "Kentucky Western District Court - Paducah, KY.",
+    "metaDescription": "Kentucky Western District Court in Paducah, KY, offers court information and services."
   },
   {
     "id": "kentucky-eastern-district-court-pikeville-ky-main-streetpikeville",
@@ -4585,7 +4603,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Tom%20Stagg%20United%20States%20Court%20House,%20300%20Fannin%20Street,%20Shreveport,%20LA%2071101,",
     "website": "http://www.lawd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Louisiana Western District Court - Shreveport, LA."
+    "description": "Louisiana Western District Court - Shreveport, LA.",
+    "metaDescription": "Louisiana Western District Court in Shreveport, LA, provides court information and resources."
   },
   {
     "id": "massachusetts-district-court-springfield-ma-state-streetspringfield",
@@ -4621,7 +4640,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Harold%20D.%20Donohue%20Federal%20Building%20and%20United%20States%20Courthouse,%20595%20Main%20Street,%20Worcester,%20MA%2001608-2025,",
     "website": "http://www.mad.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Massachusetts District Court - Worcester, MA."
+    "description": "Massachusetts District Court - Worcester, MA.",
+    "metaDescription": "Massachusetts District Court in Worcester, MA, provides court information and contact details."
   },
   {
     "id": "maryland-district-court-greenbelt-md-cherrywood-lanegreenbelt",
@@ -4695,7 +4715,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federal%20Building,%20200%20East%20Liberty%20Street,%20Ann%20Arbor,%20MI%2048104,",
     "website": "http://www.mied.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Michigan Eastern District Court - Ann Arbor, MI."
+    "description": "Michigan Eastern District Court - Ann Arbor, MI.",
+    "metaDescription": "Michigan Eastern District Court in Ann Arbor, MI, provides court information and contact details."
   },
   {
     "id": "michigan-eastern-district-court-bay-city-mi-washington-avenuebay-city",
@@ -4731,7 +4752,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federal%20Building,%20600%20Church%20Street,%20Flint,%20MI%2048502,",
     "website": "http://www.mied.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Michigan Eastern District Court - Flint, MI."
+    "description": "Michigan Eastern District Court - Flint, MI.",
+    "metaDescription": "Michigan Eastern District Court in Flint, MI, provides court information and contact details."
   },
   {
     "id": "michigan-western-district-court-kalamazoo-mi-west-michigan-avenuekalamazoo",
@@ -4805,7 +4827,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Gerald%20W.%20Heaney%20Federal%20Building%20and%20United%20States%20Courthouse,%20515%20West%20First%20Street,%20Duluth,%20MN%2055802,",
     "website": "http://www.mnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Minnesota District Court - Duluth, MN."
+    "description": "Minnesota District Court - Duluth, MN.",
+    "metaDescription": "Duluth MN District Court info: address, phone, hours for Gerald W Heaney Federal Building courthouse"
   },
   {
     "id": "minnesota-district-court-fergus-falls-mn-south-mill-streetfergus-falls",
@@ -4860,7 +4883,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Rush%20Hudson%20Limbaugh,%20Sr.%20United%20States%20Courthouse,%20555%20Independence%20Street,%20Cape%20Girardeau,%20MO%2063703-6235,",
     "website": "http://www.moed.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Missouri Eastern District Court - Cape Girardeau, MO."
+    "description": "Missouri Eastern District Court - Cape Girardeau, MO.",
+    "metaDescription": "Missouri Eastern District Court in Cape Girardeau, MO, offers district court information and services."
   },
   {
     "id": "missouri-western-district-court-jefferson-city-mo-lafayette-streetjefferson-city",
@@ -4915,7 +4939,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=T.%20G.%20Abernethy%20Federal%20Building,%20301%20West%20Commerce%20Street,%20Aberdeen,%20MS%2039730,",
     "website": "http://www.msnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Mississippi Northern District Court - Aberdeen, MS."
+    "description": "Mississippi Northern District Court - Aberdeen, MS.",
+    "metaDescription": "Mississippi Northern District Court in Aberdeen, MS, provides court information and services."
   },
   {
     "id": "mississippi-northern-district-court-greenville-ms-main-streetgreenville",
@@ -4951,7 +4976,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Dan%20M.%20Russell,%20Jr.%20United%20States%20Courthouse,%202012%2015th%20Street,%20Gulfport,%20MS%2039501,",
     "website": "http://www.mssd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Mississippi Southern District Court - Gulfport, MS."
+    "description": "Mississippi Southern District Court - Gulfport, MS.",
+    "metaDescription": "Gulfport MS District Court information and contact details"
   },
   {
     "id": "mississippi-southern-district-court-hattiesburg-ms-north-main-streethattiesburg",
@@ -5063,7 +5089,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Post%20Office%20and%20Courthouse,%20323%20East%20Chapel%20Hill%20Street,%20Durham,%20NC%2027701-3351,",
     "website": "http://www.ncmd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "North Carolina Middle District Court - Durham, NC."
+    "description": "North Carolina Middle District Court - Durham, NC.",
+    "metaDescription": "North Carolina Middle District Court in Durham, NC, provides district court information and services."
   },
   {
     "id": "north-carolina-eastern-district-court-elizabeth-city-nc-east-main-streetelizabeth-city",
@@ -5099,7 +5126,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=L.%20Richardson%20Preyer%20Federal%20Building,%20324%20West%20Market%20Street,%20Greensboro,%20NC%2027401-2513,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "North Carolina Middle District Court - Greensboro, NC."
+    "description": "North Carolina Middle District Court - Greensboro, NC.",
+    "metaDescription": "Find North Carolina Middle District Court in Greensboro, NC, a federal district court at 324 West Market Street."
   },
   {
     "id": "north-carolina-eastern-district-court-greenville-nc-south-evans-streetgreenville",
@@ -5154,7 +5182,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Post%20Office,%20200%20West%20Broad%20Street,%20Statesville,%20NC%2028677,",
     "website": "http://www.ncwd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "North Carolina Western District Court - Statesville, NC."
+    "description": "North Carolina Western District Court - Statesville, NC.",
+    "metaDescription": "Find North Carolina Western District Court in Statesville, NC, a district court at 200 West Broad Street."
   },
   {
     "id": "north-carolina-eastern-district-court-wilmington-nc-alton-lennon-federal-buildingtwo-princess-streetwilmington",
@@ -5190,7 +5219,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Hiram%20H.%20Ward%20Federal%20Building%20and%20United%20States%20Courthouse,%20251%20North%20Main%20Street,%20Winston%20Salem,%20NC%2027101,",
     "website": "http://www.ncmd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "North Carolina Middle District Court - Winston Salem, NC."
+    "description": "North Carolina Middle District Court - Winston Salem, NC.",
+    "metaDescription": "North Carolina Middle District Court in Winston Salem, NC, provides district court information and contact details."
   },
   {
     "id": "north-dakota-district-court-fargo-nd-first-avenue-northfargo",
@@ -5302,7 +5332,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Clarkson%20S.%20Fisher%20Federal%20Building%20and%20United%20States%20Courthouse,%20402%20East%20State%20Street,%20Trenton,%20NJ%2008608-1507,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "New Jersey District Court - Trenton, NJ."
+    "description": "New Jersey District Court - Trenton, NJ.",
+    "metaDescription": "Find New Jersey District Court in Trenton, NJ, address, phone and court details."
   },
   {
     "id": "new-mexico-district-court-albuquerque-nm-swalbuquerque",
@@ -5357,7 +5388,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Santiago%20E.%20Campos%20United%20States%20Courthouse,%20106%20South%20Federal%20Place,%20Santa%20Fe,%20NM%2087501-1902,",
     "website": "http://www.nmd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "New Mexico District Court - Santa Fe, NM."
+    "description": "New Mexico District Court - Santa Fe, NM.",
+    "metaDescription": "New Mexico District Court in Santa Fe, NM, provides court information and contact details."
   },
   {
     "id": "nevada-district-court-las-vegas-nv-las-vegas-boulevard-southlas-vegas-2",
@@ -5412,7 +5444,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federal%20Building,%2015%20Henry%20Street,%20Binghamton,%20NY%2013901,",
     "website": "http://www.nynd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "New York Northern District Court - Binghamton, NY."
+    "description": "New York Northern District Court - Binghamton, NY.",
+    "metaDescription": "New York Northern District Court in Binghamton, NY, provides court information and services."
   },
   {
     "id": "new-york-eastern-district-court-brooklyn-ny-cadman-plaza-eastbrooklyn-2",
@@ -5448,7 +5481,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Alfonse%20M.%20D%27Amato%20United%20States%20Courthouse,%20Federal%20Plaza,%20Central%20Islip,%20NY%2011722,",
     "website": "http://www.nyed.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "New York Eastern District Court - Central Islip, NY."
+    "description": "New York Eastern District Court - Central Islip, NY.",
+    "metaDescription": "Find New York Eastern District Court info in Central Islip, NY, including address and phone."
   },
   {
     "id": "new-york-southern-district-court-new-york-ny-centre-streetnew-york",
@@ -5541,7 +5575,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Alexander%20Pirnie%20Federal%20Building,%2010%20Broad%20Street,%20Utica,%20NY%2013501,",
     "website": "http://www.nynd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "New York Northern District Court - Utica, NY."
+    "description": "New York Northern District Court - Utica, NY.",
+    "metaDescription": "New York Northern District Court in Utica, NY, offers court information and services."
   },
   {
     "id": "new-york-southern-district-court-white-plains-ny-quarropas-streetwhite-plains",
@@ -5577,7 +5612,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=John%20F.%20Seiberling%20Federal%20Building%20and%20United%20States%20Courthouse,%20Two%20South%20Main%20Street,%20Akron,%20OH%2044308,",
     "website": "http://www.ohnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Ohio Northern District Court - Akron, OH."
+    "description": "Ohio Northern District Court - Akron, OH.",
+    "metaDescription": "Find Ohio Northern District Court in Akron, OH, a federal district court at 2 S Main St."
   },
   {
     "id": "ohio-southern-district-court-cincinnati-oh-east-fifth-streetcincinnati",
@@ -5613,7 +5649,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Walter%20H.%20Rice%20Federal%20Building%20and%20U.S.%20Courthouse,%20200%20West%20Second%20Street,%20Dayton,%20OH%2045402,",
     "website": "http://www.ohsd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Ohio Southern District Court - Dayton, OH."
+    "description": "Ohio Southern District Court - Dayton, OH.",
+    "metaDescription": "Find Ohio Southern District Court in Dayton, OH, a federal district court at 200 West Second Street."
   },
   {
     "id": "ohio-northern-district-court-toledo-oh-spielbusch-avenuetoledo",
@@ -5649,7 +5686,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Thomas%20D.%20Lambros%20Federal%20Building%20and%20United%20States%20Courthouse,%20125%20Market%20Street,%20Youngstown,%20OH%2044503,",
     "website": "http://www.ohnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Ohio Northern District Court - Youngstown, OH."
+    "description": "Ohio Northern District Court - Youngstown, OH.",
+    "metaDescription": "Find Ohio Northern District Court in Youngstown, OH, a federal district court located at 125 Market St."
   },
   {
     "id": "oklahoma-western-district-court-oklahoma-city-ok-northwest-fourth-streetoklahoma-city-2",
@@ -5761,7 +5799,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=17%20South%20Park%20Row,%20Erie,%20PA%2016501,",
     "website": "http://www.pawd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Pennsylvania Western District Court - Erie, PA."
+    "description": "Pennsylvania Western District Court - Erie, PA.",
+    "metaDescription": "Erie, PA district court information, address, and phone number for Pennsylvania Western District Court."
   },
   {
     "id": "pennsylvania-western-district-court-johnstown-pa-washington-streetjohnstown",
@@ -5797,7 +5836,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=The%20Gateway%20Building,%20201%20Penn%20Street,%20Reading,%20PA%2019601,",
     "website": "http://www.paed.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Pennsylvania Eastern District Court - Reading, PA."
+    "description": "Pennsylvania Eastern District Court - Reading, PA.",
+    "metaDescription": "Pennsylvania Eastern District Court in Reading, PA, provides court information and services."
   },
   {
     "id": "pennsylvania-middle-district-court-scranton-pa-north-washington-avenuescranton",
@@ -5852,7 +5892,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=William%20J.%20Nealon%20Federal%20Building%20and%20United%20States%20Courthouse,%20235%20North%20Washington%20Avenue,%20Scranton,%20PA%2018503,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Pennsylvania Middle District Court - Scranton, PA."
+    "description": "Pennsylvania Middle District Court - Scranton, PA.",
+    "metaDescription": "Pennsylvania Middle District Court in Scranton, PA, contact info and address for federal cases."
   },
   {
     "id": "pennsylvania-middle-district-court-wilkes-barre-pa-south-main-streetwilkes-barre",
@@ -5907,7 +5948,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federico%20Degetau%20Federal%20Building,%20150%20Carlos%20Chardon%20Avenue,%20San%20Juan,%20PR%2000918,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Puerto Rico District Court - San Juan, PR."
+    "description": "Puerto Rico District Court - San Juan, PR.",
+    "metaDescription": "Puerto Rico District Court in San Juan, PR, at Federico Degetau Federal Building."
   },
   {
     "id": "puerto-rico-district-court-san-juan-pr-carlos-chardonsan-juan",
@@ -5943,7 +5985,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Jose%20V.%20Toledo%20Federal%20Building%20and%20United%20States%20Courthouse,%20300%20Calle%20Del%20Recinto%20Sur,%20San%20Juan,%20PR%2000901,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Puerto Rico District Court - San Juan, PR."
+    "description": "Puerto Rico District Court - San Juan, PR.",
+    "metaDescription": "Puerto Rico District Court in San Juan, PR, contact info and address."
   },
   {
     "id": "rhode-island-district-court-providence-ri-john-o-pastore-federal-buildingtwo-exchange-terraceprovidence",
@@ -5979,7 +6022,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Federal%20Building%20and%20United%20States%20Courthouse,%20315%20South%20McDuffie%20Street,%20Anderson,%20SC%2029621,",
     "website": "https://www.scd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "South Carolina District Court - Anderson, SC."
+    "description": "South Carolina District Court - Anderson, SC.",
+    "metaDescription": "Find Anderson, SC District Court info: address, phone, location, and details for South Carolina federal courthouse."
   },
   {
     "id": "south-carolina-district-court-charleston-sc-charleston",
@@ -6015,7 +6059,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Hollings%20Judicial%20Annex,%2085%20Broad%20Street,%20Charleston,%20SC%2029401-2202,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "South Carolina District Court - Charleston, SC."
+    "description": "South Carolina District Court - Charleston, SC.",
+    "metaDescription": "Find Charleston, SC District Court info at 85 Broad Street, phone 843-579-1401."
   },
   {
     "id": "south-carolina-district-court-charleston-sc-meeting-streetcharleston",
@@ -6051,7 +6096,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=John%20L.%20McMillan%20Federal%20Building%20and%20United%20States%20Courthouse,%20401%20West%20Evans%20Street,%20Florence,%20SC%2029501,",
     "website": "https://www.scd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "South Carolina District Court - Florence, SC."
+    "description": "South Carolina District Court - Florence, SC.",
+    "metaDescription": "Find Florence, SC District Court info: address, phone, hours at John L. McMillan Federal Building."
   },
   {
     "id": "south-carolina-district-court-greenville-sc-east-washington-streetgreenville",
@@ -6087,7 +6133,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Carroll%20A.%20Campbell%20Jr.%20U.S.%20Courthouse,%20250%20East%20North%20Street,%20Greenville,%20SC%2029601,",
     "website": "",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "South Carolina District Court - Greenville, SC."
+    "description": "South Carolina District Court - Greenville, SC.",
+    "metaDescription": "Find Greenville SC District Court info at Carroll A Campbell Jr Courthouse, 250 East North Street."
   },
   {
     "id": "south-dakota-district-court-pierre-sd-south-pierre-streetpierre",
@@ -6123,7 +6170,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Andrew%20W.%20Bogue%20Federal%20Building%20and%20U.S.%20Courthouse,%20515%20Ninth%20Street,%20Rapid%20City,%20SD%2057701,",
     "website": "http://www.sdd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "South Dakota District Court - Rapid City, SD."
+    "description": "South Dakota District Court - Rapid City, SD.",
+    "metaDescription": "Rapid City, SD district court information and address."
   },
   {
     "id": "south-dakota-district-court-sioux-falls-sd-south-main-avenuesioux-falls",
@@ -6159,7 +6207,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Joel%20W.%20Solomon%20Federal%20Building%20and%20United%20States%20Courthouse,%20900%20Georgia%20Avenue,%20Chattanooga,%20TN%2037402,",
     "website": "http://www.tned.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Tennessee Eastern District Court - Chattanooga, TN."
+    "description": "Tennessee Eastern District Court - Chattanooga, TN.",
+    "metaDescription": "Tennessee Eastern District Court in Chattanooga, TN, a federal district court located at 900 Georgia Avenue."
   },
   {
     "id": "tennessee-eastern-district-court-greeneville-tn-west-depot-streetgreeneville",
@@ -6195,7 +6244,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=James%20D.%20Todd%20United%20States%20Courthouse,%20111%20South%20Highland%20Avenue,%20Jackson,%20TN%2038301,",
     "website": "http://www.tnwd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Tennessee Western District Court - Jackson, TN."
+    "description": "Tennessee Western District Court - Jackson, TN.",
+    "metaDescription": "Tennessee Western District Court in Jackson, TN, provides court info and contact details."
   },
   {
     "id": "tennessee-middle-district-court-nashville-tn-broadwaynashville",
@@ -6231,7 +6281,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Post%20Office%20and%20Courthouse,%20341%20Pine%20Street,%20Abilene,%20TX%2079601,",
     "website": "http://www.txnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Northern District Court - Abilene, TX."
+    "description": "Texas Northern District Court - Abilene, TX.",
+    "metaDescription": "Texas Northern District Court in Abilene, TX, provides court information and contact details."
   },
   {
     "id": "texas-western-district-court-alpine-tx-alpine",
@@ -6267,7 +6318,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=J.%20Marvin%20Jones%20Federal%20Building,%20205%20Southeast%20Fifth%20Avenue,%20Amarillo,%20TX%2079101,",
     "website": "http://www.txnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Northern District Court - Amarillo, TX."
+    "description": "Texas Northern District Court - Amarillo, TX.",
+    "metaDescription": "Texas Northern District Court in Amarillo, TX, providing district court information and services."
   },
   {
     "id": "texas-western-district-court-austin-tx-th-streetaustin",
@@ -6303,7 +6355,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Jack%20Brooks%20Federal%20Building%20and%20United%20States%20Courthouse,%20300%20Willow%20Street,%20Beaumont,%20TX%2077701,",
     "website": "http://www.txed.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Eastern District Court - Beaumont, TX."
+    "description": "Texas Eastern District Court - Beaumont, TX.",
+    "metaDescription": "Texas Eastern District Court in Beaumont, TX, provides district court information and services."
   },
   {
     "id": "texas-southern-district-court-brownsville-tx-east-harrison-streetbrownsville",
@@ -6339,7 +6392,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Courthouse,%201133%20North%20Shoreline%20Boulevard,%20Corpus%20Christi,%20TX%2078401,",
     "website": "http://www.txs.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Southern District Court - Corpus Christi, TX."
+    "description": "Texas Southern District Court - Corpus Christi, TX.",
+    "metaDescription": "Texas Southern District Court in Corpus Christi, TX, provides court information and contact details."
   },
   {
     "id": "texas-western-district-court-del-rio-tx-east-broadway-streetdel-rio",
@@ -6375,7 +6429,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Richard%20C.%20White%20Federal%20Building,%20700%20East%20San%20Antonio%20Avenue,%20El%20Paso,%20TX%2079901,",
     "website": "http://www.txwd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Western District Court - El Paso, TX."
+    "description": "Texas Western District Court - El Paso, TX.",
+    "metaDescription": "Texas Western District Court in El Paso, TX, provides court information and contact details."
   },
   {
     "id": "texas-western-district-court-el-paso-tx-magoffin-avenueel-paso",
@@ -6411,7 +6466,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Eldon%20B.%20Mahon%20United%20States%20Courthouse,%20501%20West%20Tenth%20Street,%20Fort%20Worth,%20TX%2076102,",
     "website": "http://www.txnd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Northern District Court - Fort Worth, TX."
+    "description": "Texas Northern District Court - Fort Worth, TX.",
+    "metaDescription": "Find Texas Northern District Court in Fort Worth, TX, a federal district court at 501 W 10th St."
   },
   {
     "id": "texas-southern-district-court-galveston-tx-th-streetgalveston",
@@ -6447,7 +6503,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=United%20States%20Courthouse,%201300%20Victoria%20Street,%20Laredo,%20TX%2078040,",
     "website": "http://www.txs.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Southern District Court - Laredo, TX."
+    "description": "Texas Southern District Court - Laredo, TX.",
+    "metaDescription": "Texas Southern District Court in Laredo, TX, provides court information and services."
   },
   {
     "id": "texas-northern-district-court-lubbock-tx-texas-avenuelubbock",
@@ -6483,7 +6540,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Ward%20R.%20Burke%20United%20States%20Courthouse,%20104%20North%20Third%20Street,%20Lufkin,%20TX%2075901,",
     "website": "http://www.txed.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Eastern District Court - Lufkin, TX."
+    "description": "Texas Eastern District Court - Lufkin, TX.",
+    "metaDescription": "Texas Eastern District Court in Lufkin, TX, provides court information and services."
   },
   {
     "id": "texas-eastern-district-court-marshall-tx-east-houston-streetmarshall",
@@ -6519,7 +6577,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Bentsen%20Tower,%201701%20West%20Business%20Highway%2083,%20McAllen,%20TX%2078501,",
     "website": "http://www.txs.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Southern District Court - McAllen, TX."
+    "description": "Texas Southern District Court - McAllen, TX.",
+    "metaDescription": "Texas Southern District Court in McAllen, TX, provides court information and contact details."
   },
   {
     "id": "texas-western-district-court-midland-tx-east-wall-streetmidland",
@@ -6555,7 +6614,8 @@
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Lucius%20D.%20Bunton,%20III%20United%20States%20Courthouse,%20410%20South%20Cedar%20Street,%20Pecos,%20TX%2079772,",
     "website": "http://www.txwd.uscourts.gov/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
-    "description": "Texas Western District Court - Pecos, TX."
+    "description": "Texas Western District Court - Pecos, TX.",
+    "metaDescription": "Texas Western District Court in Pecos, TX, provides court information and contact details."
   },
   {
     "id": "texas-eastern-district-court-plano-tx-preston-roadplano",
