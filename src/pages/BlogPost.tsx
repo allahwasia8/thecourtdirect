@@ -71,7 +71,7 @@ const BlogPost = () => {
   return (
     <Layout>
       {post && (
-        <SEO 
+        <SEO description=""Discover expertly curated blog posts on various topics, with in-depth analysis and insights from reputable sources.""  
           title={post.metaTitle || post.title}
           description={post.metaDescription || post.excerpt}
           image={post.imageToShare || post.image || undefined}
