@@ -26,7 +26,7 @@ def inject_links(dry_run=True):
     for kw in sorted_keywords:
         safe_keyword = re.escape(kw)
         # Store compiled regex with word boundaries
-        keyword_patterns[kw] = re.compile(r'\b' + safe_keyword + r'\b', re.IGNORECASE)
+        keyword_patterns[kw] = re.compile(r'\b(' + safe_keyword + r')\b', re.IGNORECASE)
 
     print("Accessing posts...", flush=True)
     with open(POSTS_PATH, "r", encoding="utf-8") as f:
@@ -54,7 +54,6 @@ def inject_links(dry_run=True):
         if not content:
             continue
 
-        # Optimization: Filter keywords relevant to this post first
         content_lower = content.lower()
         post_relevant_keywords = [kw for kw in sorted_keywords if kw.lower() in content_lower]
         
@@ -64,47 +63,44 @@ def inject_links(dry_run=True):
         original_content = content
         current_injected_count = 0
         
-        # Calculate dynamic max links: Base 12, or 1 per 50 words approx
         word_count = len(content.split())
         MAX_LINKS_PER_POST = max(12, int(word_count / 50))
         MAX_LINKS_PER_POST = min(MAX_LINKS_PER_POST, 25)
         
-        existing_links = set()  # Track URLs we've already linked to in this post
+        existing_links = set()  
         
-        # Pre-scan for existing links in content to avoid duplicates and understand current state
+        # Pre-scan for existing links
         existing_matches = re.finditer(r'href=["\']([^"\']+)["\']', content)
         for m in existing_matches:
             existing_links.add(m.group(1))
 
-        # Split content into tags and text
+        # Split content into tags and text fragments
+        # We split by tags, keeping the tags in the result
         parts = re.split(r'(<[^>]+>)', content)
         
         new_parts = []
-        inside_anchor = False
+        inside_anchor = 0 # Counter for nesting (though we shouldn't have any now)
         
         for part in parts:
             if not part:
                 continue
                 
             if part.startswith('<'):
-                # Check if we are entering or leaving an anchor
-                if part.lower().startswith('<a '):
-                    inside_anchor = True
-                elif part.lower() == '</a>':
-                    inside_anchor = False
-                    
+                if re.match(r'<a\b', part, re.IGNORECASE):
+                    inside_anchor += 1
+                elif re.match(r'</a\b', part, re.IGNORECASE):
+                    inside_anchor = max(0, inside_anchor - 1)
                 new_parts.append(part)
                 continue
             
-            # This is a text node.
-            text_fragment = part
-            
-            # If we are already inside an anchor tag (or hit limits), just append and skip
-            if inside_anchor or current_injected_count >= MAX_LINKS_PER_POST:
-                new_parts.append(text_fragment)
+            # This is a text node
+            if inside_anchor > 0 or current_injected_count >= MAX_LINKS_PER_POST:
+                new_parts.append(part)
                 continue
             
-            # Process text fragment for internal links
+            # Process TEXT node using a segment-based approach to prevent re-processing
+            segments = [part] # List of strings (raw text) or dicts (already linked)
+            
             for keyword in post_relevant_keywords:
                 if current_injected_count >= MAX_LINKS_PER_POST:
                     break
@@ -112,43 +108,62 @@ def inject_links(dry_run=True):
                 target = keyword_map[keyword]
                 target_url = target['url']
                 
-                # 1. Don't link to self
                 if target_url in f"/blog/{post_id}" or target_url in f"/court/{post_id}":
                     continue
-                    
-                # 2. Don't link if already linked in this post (prevents loops)
                 if target_url in existing_links:
                     continue
 
-                if keyword.lower() not in text_fragment.lower():
-                    continue
-
-                pattern = keyword_patterns[keyword]
+                new_segments = []
+                keyword_applied_to_fragment = False
                 
-                if pattern.search(text_fragment):
-                    def replacement(match):
-                        # Preserve original casing
-                        return f'<a href="{target_url}" class="internal-link" title="{match.group(0)}">{match.group(0)}</a>'
+                for seg in segments:
+                    if not isinstance(seg, str) or keyword_applied_to_fragment:
+                        new_segments.append(seg)
+                        continue
                     
-                    # Apply substitution (ONE instance)
-                    new_text, count = pattern.subn(replacement, text_fragment, count=1)
+                    pattern = keyword_patterns[keyword]
+                    match = pattern.search(seg)
                     
-                    if count > 0:
-                        text_fragment = new_text
+                    if match:
+                        start, end = match.span()
+                        # Before match
+                        if start > 0:
+                            new_segments.append(seg[:start])
+                        
+                        # The LINK itself (as a dict to signal "already linked")
+                        link_text = match.group(1)
+                        new_segments.append({
+                            'html': f'<a href="{target_url}" class="internal-link" title="{link_text}">{link_text}</a>'
+                        })
+                        
+                        # After match
+                        if end < len(seg):
+                            new_segments.append(seg[end:])
+                        
                         current_injected_count += 1
                         existing_links.add(target_url)
+                        keyword_applied_to_fragment = True # Max 1 injection per keyword per fragment
+                    else:
+                        new_segments.append(seg)
+                
+                segments = new_segments
 
-            new_parts.append(text_fragment)
+            # Combine segments back into final HTML for this part
+            fragment_html = ""
+            for seg in segments:
+                if isinstance(seg, str):
+                    fragment_html += seg
+                else:
+                    fragment_html += seg['html']
+            
+            new_parts.append(fragment_html)
             
         new_content = "".join(new_parts)
         
         if new_content != original_content:
             modified_files += 1
             total_injected += current_injected_count
-            if dry_run:
-                # print(f"[DRY RUN] {post['title']}: Injected {current_injected_count} links.", flush=True)
-                pass
-            else:
+            if not dry_run:
                 data['content'] = new_content
                 with open(file_path, "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
@@ -156,5 +171,4 @@ def inject_links(dry_run=True):
     print(f"\nProcessing Complete. Modified {modified_files} files. Total Links Injected: {total_injected}", flush=True)
 
 if __name__ == "__main__":
-    # Standard run: dry_run=False
     inject_links(dry_run=False)
