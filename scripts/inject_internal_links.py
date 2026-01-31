@@ -1,0 +1,179 @@
+import json
+import re
+from pathlib import Path
+
+# Paths
+POSTS_PATH = Path("public/data/blog-posts.json")
+INDIVIDUAL_POSTS_PATH = Path("public/data/posts")
+KEYWORD_MAP_PATH = Path("public/data/keyword_map.json")
+
+def inject_links(dry_run=True):
+    print("Loading keyword map...", flush=True)
+    with open(KEYWORD_MAP_PATH, "r", encoding="utf-8") as f:
+        keyword_map = json.load(f)
+        
+    # Sort keywords by length (descending) to match longest phrases first
+    sorted_keywords = sorted(keyword_map.keys(), key=len, reverse=True)
+    
+    # Filter out very short keywords (optional, e.g., < 4 chars) to avoid noise
+    sorted_keywords = [k for k in sorted_keywords if len(k) > 4]
+
+    print(f"Loaded {len(sorted_keywords)} valid keywords.", flush=True)
+
+    print("Pre-compiling regex patterns...", flush=True)
+    keyword_patterns = {}
+    for kw in sorted_keywords:
+        safe_keyword = re.escape(kw)
+        # Store compiled regex
+        keyword_patterns[kw] = re.compile(r'\b' + safe_keyword + r'\b', re.IGNORECASE)
+
+    print("Accessing posts...", flush=True)
+    with open(POSTS_PATH, "r", encoding="utf-8") as f:
+        posts = json.load(f)
+
+    total_injected = 0
+    modified_files = 0
+
+    posts_processed = 0
+    for post in posts:
+        posts_processed += 1
+        if posts_processed % 50 == 0:
+            print(f"Processed {posts_processed}/{len(posts)} posts...", flush=True)
+
+        post_id = post['id']
+        file_path = INDIVIDUAL_POSTS_PATH / f"{post_id}.json"
+        
+        if not file_path.exists():
+            continue
+            
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            
+        content = data.get('content', '')
+        if not content:
+            continue
+
+        # Optimization: Filter keywords relevant to this post first
+        content_lower = content.lower()
+        post_relevant_keywords = [kw for kw in sorted_keywords if kw.lower() in content_lower]
+        
+        if not post_relevant_keywords:
+            continue
+
+        # Strategy:
+        # 1. Identify "safe" text regions (not inside tags)
+        # 2. Find matches
+        # 3. Inject links
+        
+        # Simplified robust approach:
+        # Iterate through keywords. If found in content AND not inside a tag:
+        # replace FIRST occurrence only.
+        
+        original_content = content
+        current_injected_count = 0
+        
+        # Calculate dynamic max links: Base 12, or 1 per 50 words approx
+        word_count = len(content.split())
+        MAX_LINKS_PER_POST = max(12, int(word_count / 50))
+        # Cap it reasonably to avoid spamminess
+        MAX_LINKS_PER_POST = min(MAX_LINKS_PER_POST, 25)
+        
+        existing_links = set()  # Track URLs we've already linked to in this post
+        
+        # Pre-scan for existing links in content to avoid duplicates
+        existing_matches = re.finditer(r'href=["\']([^"\']+)["\']', content)
+        for m in existing_matches:
+            existing_links.add(m.group(1))
+
+        # Helper to split HTML
+        parts = re.split(r'(<[^>]+>)', content)
+        
+        new_parts = []
+        for part in parts:
+            if part.startswith('<'):
+                new_parts.append(part)
+                continue
+            
+            # This is a text node. Process it.
+            # We can't easily iterate all keywords on every text node efficiently.
+            # But for 3000 keywords it might be okay for 1000 posts? It's O(N*M).
+            # Let's try a targeted approach.
+            
+            text_fragment = part
+            
+            if current_injected_count >= MAX_LINKS_PER_POST:
+                new_parts.append(text_fragment)
+                continue
+
+            # Only verify keywords that are arguably present? 
+            # Optimization: check if keyword in lower(text_fragment)
+            
+            # We must be careful not to replace "cat" inside "category".
+            # Use word boundaries \b
+            
+            # We must be careful not to replace "cat" inside "category".
+            # Use word boundaries \b
+            
+            for keyword in post_relevant_keywords:
+                if current_injected_count >= MAX_LINKS_PER_POST:
+                    break
+                    
+                target = keyword_map[keyword]
+                target_url = target['url']
+                
+                # specific rules:
+                # 1. Don't link to self
+                if target_url in f"/blog/{post_id}" or target_url in f"/court/{post_id}":
+                    continue
+                    
+                # 2. Don't link if already linked in this post
+                if target_url in existing_links:
+                    continue
+
+                # Optimization: Check if keyword is in text (case-insensitive) before regex
+                if keyword.lower() not in text_fragment.lower():
+                    continue
+
+                # 3. Check presence (case insensitive, word boundaries)
+                # Use pre-compiled pattern
+                pattern = keyword_patterns[keyword]
+                
+                if pattern.search(text_fragment):
+                    # Found! Replace ONE instance
+                    # We inject a special marker or just the link?
+                    # Just the link.
+                    
+                    def replacement(match):
+                        # Preserve original casing
+                        return f'<a href="{target_url}" class="internal-link" title="{match.group(0)}">{match.group(0)}</a>'
+                    
+                    # Apply substitution
+                    new_text, count = pattern.subn(replacement, text_fragment, count=1)
+                    
+                    if count > 0:
+                        text_fragment = new_text
+                        current_injected_count += 1
+                        existing_links.add(target_url)
+                        # print(f"    Injected: {keyword} -> {target_url}", flush=True)
+
+            new_parts.append(text_fragment)
+            
+        new_content = "".join(new_parts)
+        
+        if new_content != original_content:
+            modified_files += 1
+            total_injected += current_injected_count
+            if dry_run:
+                print(f"[DRY RUN] {post['title']}: Injected {current_injected_count} links.", flush=True)
+            else:
+                data['content'] = new_content
+                with open(file_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2)
+                if modified_files % 50 == 0:
+                    print(f"Saved {modified_files} files...", flush=True)
+
+    print(f"\nProcessing Complete. Modified {modified_files} files. Total Links Injected: {total_injected}", flush=True)
+
+if __name__ == "__main__":
+    # Remove dry_run=True when ready
+    inject_links(dry_run=False)

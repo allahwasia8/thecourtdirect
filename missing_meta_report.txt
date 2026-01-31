@@ -1,0 +1,20 @@
+--- Checking Courts ---
+Total Courts: 1290
+Missing Description: 1
+IDs missing description:
+- arkansas-western-federal-public-defender-fayetteville-ar-w-center-stfayetteville
+
+--- Checking Static Pages ---
+AboutUs.tsx: PASS
+Blog.tsx: PASS
+BlogPost.tsx: FAIL - 'description' prop not found in text
+ContactUs.tsx: PASS
+CourtDetail.tsx: FAIL - 'description' prop not found in text
+FindCourt.tsx: PASS
+Index.tsx: PASS
+LegalTerminology.tsx: PASS
+NotFound.tsx: PASS
+PrivacyPolicy.tsx: PASS
+Sitemap.tsx: PASS
+TermsOfService.tsx: PASS
+WriteForUs.tsx: PASS

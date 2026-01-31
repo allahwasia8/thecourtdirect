@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import SEO from "@/components/seo/SEO";
 import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
@@ -16,12 +16,16 @@ import { Search, MapPin, Building2, Phone, ArrowRight, Loader2 } from "lucide-re
 import { Court } from "@/types/court";
 
 const FindCourt = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [courts, setCourts] = useState<Court[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedType, setSelectedType] = useState("All Types");
-  const [selectedState, setSelectedState] = useState("All States");
+  
+  // Initialize from URL params
+  const [selectedType, setSelectedType] = useState(searchParams.get("type") || "All Types");
+  const [selectedState, setSelectedState] = useState(searchParams.get("state") || "All States");
+  
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 6;
 
@@ -64,10 +68,14 @@ const FindCourt = () => {
     currentPage * ITEMS_PER_PAGE
   );
 
-  // Reset page when filters change
+  // Reset page when filters change and update URL params
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, selectedType, selectedState]);
+    const params = new URLSearchParams();
+    if (selectedType !== "All Types") params.set("type", selectedType);
+    if (selectedState !== "All States") params.set("state", selectedState);
+    setSearchParams(params, { replace: true });
+  }, [searchQuery, selectedType, selectedState, setSearchParams]);
 
   if (loading) {
     return (

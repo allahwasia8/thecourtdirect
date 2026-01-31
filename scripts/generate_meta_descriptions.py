@@ -6,8 +6,19 @@ from pathlib import Path
 
 # Configuration
 GROQ_API_KEYS = [
-    "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"
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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"
 ]
+
 SERVICE_ACCOUNT_FILE = "service_account.json"
 MODEL_GROQ = "llama-3.3-70b-versatile"
 MODEL_GEMINI = "gemini-1.5-flash"
@@ -18,47 +29,87 @@ COURTS_DATA_PATH = Path("d:/thecourtdirect/public/data/courts.json")
 # Dynamic Key Management (Groq)
 CURRENT_KEY_INDEX = 0
 KEY_COOLDOWNS = {key: 0 for key in GROQ_API_KEYS}
+INVALID_KEYS = set()
 
 def get_next_available_key():
     global CURRENT_KEY_INDEX
     now = time.time()
+    # Try looping through all keys at least once to find a valid one
+    min_cooldown = float('inf')
+    has_valid_keys = False
+    
     for _ in range(len(GROQ_API_KEYS)):
         key = GROQ_API_KEYS[CURRENT_KEY_INDEX]
+        CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GROQ_API_KEYS)
+        
+        if key in INVALID_KEYS:
+            continue
+        
+        has_valid_keys = True
         if KEY_COOLDOWNS[key] <= now:
             return key
-        CURRENT_KEY_INDEX = (CURRENT_KEY_INDEX + 1) % len(GROQ_API_KEYS)
+        else:
+            if KEY_COOLDOWNS[key] < min_cooldown:
+                min_cooldown = KEY_COOLDOWNS[key]
+            
+    # If we are here, all valid keys are on cooldown
+    if has_valid_keys and min_cooldown != float('inf'):
+        sleep_time = min_cooldown - time.time() + 1
+        if sleep_time > 0:
+            print(f"  All keys on cooldown. Sleeping {sleep_time:.1f}s...", flush=True)
+            time.sleep(sleep_time)
+            # Recursive call after sleep to get the key
+            return get_next_available_key()
+            
     return None
 
 def generate_with_groq(prompt):
-    global CURRENT_KEY_INDEX
-    
-    api_key = get_next_available_key()
-    if not api_key:
-        return None, "All Groq keys rate-limited"
+    # Try up to 5 times (switching keys) before giving up on Groq
+    for attempt in range(5):
+        api_key = get_next_available_key()
+        if not api_key:
+            return None, "All Groq keys rate-limited or invalid"
 
-    payload = {
-        "model": MODEL_GROQ,
-        "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 100,
-        "temperature": 0.7
-    }
-    
-    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-    
-    try:
-        response = requests.post("https://api.groq.com/openai/v1/chat/completions", json=payload, headers=headers, timeout=10)
+        payload = {
+            "model": MODEL_GROQ,
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 100,
+            "temperature": 0.7
+        }
         
-        if response.status_code == 200:
-            return response.json()['choices'][0]['message']['content'].strip(), None
-        elif response.status_code == 429:
-            retry_after = 2.0
-            KEY_COOLDOWNS[api_key] = time.time() + retry_after
-            return None, "Rate limited"
-        else:
-            return None, f"Groq Error {response.status_code}"
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+        
+        try:
+            response = requests.post("https://api.groq.com/openai/v1/chat/completions", json=payload, headers=headers, timeout=10)
             
-    except Exception as e:
-        return None, f"Groq Exception: {e}"
+            if response.status_code == 200:
+                try:
+                    return response.json()['choices'][0]['message']['content'].strip(), None
+                except Exception as e:
+                    return None, f"Parse Error: {e}"
+                    
+            elif response.status_code == 429:
+                # Rate Limit: Cooldown this SPECIFIC key
+                retry_after = 60 # Assume 1 min cooldown for simplicity
+                KEY_COOLDOWNS[api_key] = time.time() + retry_after
+                # print(f"  Key ...{api_key[-4:]} Rate Limited. Switching...", flush=True)
+                continue # Try next key loop
+                
+            elif response.status_code in [400, 401, 403]:
+                # Invalid Key: Permanently remove
+                # (400 is often "Bad Request" but for Groq keys it can imply key issues too if param is correct)
+                print(f"  Key ...{api_key[-4:]} Invalid ({response.status_code}). removing.", flush=True)
+                INVALID_KEYS.add(api_key)
+                continue # Try next key loop
+                
+            else:
+                return None, f"Groq Error {response.status_code}"
+                
+        except Exception as e:
+            # Network error?
+            return None, f"Groq Exception: {e}"
+            
+    return None, "Groq attempts exhausted"
 
 def get_gemini_token():
     try:
