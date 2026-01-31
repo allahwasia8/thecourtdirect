@@ -11,6 +11,7 @@ interface SEOProps {
   imageWidth?: string;
   imageHeight?: string;
   imageAlt?: string;
+  preloadImage?: string;
 }
 
 const SEO: React.FC<SEOProps> = ({ 
@@ -22,7 +23,8 @@ const SEO: React.FC<SEOProps> = ({
   schema,
   imageWidth,
   imageHeight,
-  imageAlt
+  imageAlt,
+  preloadImage
 }) => {
   const siteName = 'The Court Direct';
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
@@ -33,9 +35,18 @@ const SEO: React.FC<SEOProps> = ({
   const metaDescription = description || defaultDescription;
   const metaImage = image ? (image.startsWith('http') ? image : `${siteUrl}${image.startsWith('/') ? '' : '/'}${image}`) : defaultImage;
   const canonicalUrl = url ? (url.startsWith('http') ? url : `${siteUrl}${url.startsWith('/') ? '' : '/'}${url}`) : siteUrl;
+  const preloadFormattedImage = preloadImage ? (preloadImage.startsWith('http') ? preloadImage : `${siteUrl}${preloadImage.startsWith('/') ? '' : '/'}${preloadImage}`) : null;
 
   return (
     <Helmet>
+      {/* Performance optimizations */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+      {preloadFormattedImage && (
+        <link rel="preload" as="image" href={preloadFormattedImage} fetchPriority="high" />
+      )}
+
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={metaDescription} />

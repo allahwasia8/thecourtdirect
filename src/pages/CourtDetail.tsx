@@ -92,6 +92,7 @@ const CourtDetail = () => {
           title={court.metaTitle || `${court.name} - Court Information`}
           description={court.metaDescription || `Find information for ${court.name} located at ${court.address}, ${court.city}, ${court.state} ${court.zip}. Phone: ${court.phone}.${court.hours ? ` Hours: ${court.hours}.` : ''} ${court.types.join(', ')}.`}
           image={court.imageToShare || undefined}
+          preloadImage={court.imageToShare || undefined}
           url={`/court/${id}`}
           schema={[
             generateCourthouseSchema(court),

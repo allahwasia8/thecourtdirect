@@ -79,6 +79,7 @@ const BlogPost = () => {
           url={`/${slug}`}
           type="article"
           imageAlt={post.imageAlt || post.title}
+          preloadImage={getLocalImagePath(post.image) || post.image || undefined}
           schema={[
             generateArticleSchema(post),
             generateBreadcrumbSchema([
@@ -165,6 +166,8 @@ const BlogPost = () => {
                   src={getLocalImagePath(post.image) || post.image || ''} 
                   alt={post.imageAlt || post.title} 
                   className="w-full h-auto object-cover max-h-[500px]"
+                  loading="eager"
+                  fetchPriority="high"
                   onError={(e) => {
                     // Hide image if it fails to load
                     e.currentTarget.style.display = 'none';
