@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Maryland District Court handles criminal, civil & family cases in MD.",
-  "metaTitle": "District Court of Maryland"
+  "metaTitle": "District Court of Maryland",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

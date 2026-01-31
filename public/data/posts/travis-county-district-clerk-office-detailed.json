@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Travis County District Clerk Office building exterior",
   "metaDescription": "Travis County District Clerk Office: court info and services",
-  "metaTitle": "Travis County District Clerk Office"
+  "metaTitle": "Travis County District Clerk Office",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

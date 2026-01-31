@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Hearsay evidence in a court of law concept",
   "metaDescription": "Learn about hearsay in court and its admissibility rules.",
-  "metaTitle": "what is hearsay in court"
+  "metaTitle": "what is hearsay in court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

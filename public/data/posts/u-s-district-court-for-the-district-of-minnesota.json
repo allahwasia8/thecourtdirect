@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Minnesota: federal court overview, location, divisions, serving entire state.",
-  "metaTitle": "U.S. District Court for the District of Minnesota"
+  "metaTitle": "U.S. District Court for the District of Minnesota",
+  "references": [
+    {
+      "name": "Minnesota Judicial Branch - Official",
+      "url": "https://www.mncourts.gov/"
+    },
+    {
+      "name": "State Bar of Minnesota",
+      "url": "https://www.google.com/search?q=State+Bar+of+Minnesota"
+    }
+  ]
 }

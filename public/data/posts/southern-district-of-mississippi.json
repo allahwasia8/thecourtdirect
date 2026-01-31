@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Southern District of Mississippi, a US federal judicial district with a rich history, notable cases, and jurisdiction over southern Mississippi.",
-  "metaTitle": "Southern District of Mississippi"
+  "metaTitle": "Southern District of Mississippi",
+  "references": [
+    {
+      "name": "Mississippi Judicial Branch - Official",
+      "url": "https://courts.ms.gov/"
+    },
+    {
+      "name": "State Bar of Mississippi",
+      "url": "https://www.google.com/search?q=State+Bar+of+Mississippi"
+    }
+  ]
 }

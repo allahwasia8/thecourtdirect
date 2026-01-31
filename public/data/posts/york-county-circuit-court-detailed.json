@@ -34,5 +34,19 @@
   ],
   "imageAlt": "York County Circuit Court building exterior",
   "metaDescription": "York County Circuit Court in Virginia offers civil, criminal and family law services, with online case access and filing.",
-  "metaTitle": "York County Circuit Court"
+  "metaTitle": "York County Circuit Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

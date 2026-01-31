@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Nevada County Superior Court guide: locations, divisions, services in California.",
-  "metaTitle": "Nevada County Superior Court"
+  "metaTitle": "Nevada County Superior Court",
+  "references": [
+    {
+      "name": "Nevada Judicial Branch - Official",
+      "url": "https://nvcourts.gov/"
+    },
+    {
+      "name": "State Bar of Nevada",
+      "url": "https://www.google.com/search?q=State+Bar+of+Nevada"
+    }
+  ]
 }

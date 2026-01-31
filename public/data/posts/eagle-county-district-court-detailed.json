@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Eagle County District Court building exterior",
   "metaDescription": "Eagle County District Court in Colorado handles civil and criminal cases.",
-  "metaTitle": "Eagle County District Court"
+  "metaTitle": "Eagle County District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

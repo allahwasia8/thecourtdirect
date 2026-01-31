@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Cumberland County Courthouse historic building exterior",
   "metaDescription": "Discover Cumberland County Courthouse, a historic landmark in Carlisle, PA, with neo-classical design and rich history.",
-  "metaTitle": "Cumberland County Courthouse"
+  "metaTitle": "Cumberland County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Indicted person in court with judge and lawyer present",
   "metaDescription": "Learn what it means to be indicted in court and the indictment process in US criminal law.",
-  "metaTitle": "What does indicted mean in court?"
+  "metaTitle": "What does indicted mean in court?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

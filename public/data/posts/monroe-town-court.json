@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Monroe Town Court in Orange County, NY: contact, hours, judges, jurisdiction, and case records info.",
-  "metaTitle": "Monroe Town Court"
+  "metaTitle": "Monroe Town Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

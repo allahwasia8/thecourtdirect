@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Broward County Courthouse building in Fort Lauderdale Florida",
   "metaDescription": "Discover the Broward County Courthouse in Fort Lauderdale, Florida, its history, architecture and daily operations.",
-  "metaTitle": "Broward County Courthouse"
+  "metaTitle": "Broward County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

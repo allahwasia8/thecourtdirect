@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Marion County Traffic Court building in Indianapolis Indiana",
   "metaDescription": "Marion County Traffic Court info and resources for Indianapolis, IN traffic violations and fines.",
-  "metaTitle": "marion county traffic court"
+  "metaTitle": "marion county traffic court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

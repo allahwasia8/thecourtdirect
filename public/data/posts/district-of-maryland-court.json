@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Maryland, one of 13 original federal judicial districts, serving 22 counties.",
-  "metaTitle": "District of Maryland Court"
+  "metaTitle": "District of Maryland Court",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

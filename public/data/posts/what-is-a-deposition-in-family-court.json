@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court deposition legal process illustration",
   "metaDescription": "Learn about depositions in family court, their purpose and process.",
-  "metaTitle": "What is a Deposition in Family Court?"
+  "metaTitle": "What is a Deposition in Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

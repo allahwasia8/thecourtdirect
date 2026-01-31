@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Haywood County Superior Court building exterior",
   "metaDescription": "Haywood County Superior Court info: location, hours, contact & court types.",
-  "metaTitle": "Haywood County Superior Court"
+  "metaTitle": "Haywood County Superior Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

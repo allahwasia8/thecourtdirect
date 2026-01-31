@@ -34,5 +34,19 @@
   ],
   "imageAlt": "US Supreme Court building in Washington DC",
   "metaDescription": "Discover the US Supreme Court, its role, location and powers.",
-  "metaTitle": "What is the Supreme Court"
+  "metaTitle": "What is the Supreme Court",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

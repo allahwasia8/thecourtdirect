@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Learn how US cases reach the Supreme Court, the US court system and the appeal process.",
-  "metaTitle": "How Does a Case Get to the Supreme Court?"
+  "metaTitle": "How Does a Case Get to the Supreme Court?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

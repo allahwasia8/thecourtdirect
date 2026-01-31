@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Spalding County Superior Court in Georgia: overview, history, procedures & notable cases.",
-  "metaTitle": "spalding county superior court"
+  "metaTitle": "spalding county superior court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

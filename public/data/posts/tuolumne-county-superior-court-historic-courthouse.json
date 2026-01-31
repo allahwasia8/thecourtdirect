@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Tuolumne County Historic Courthouse building exterior",
   "metaDescription": "Tuolumne County Superior Court info, location and online resources for civil, family and probate cases.",
-  "metaTitle": "Tuolumne County Superior Court – Historic Courthouse"
+  "metaTitle": "Tuolumne County Superior Court – Historic Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

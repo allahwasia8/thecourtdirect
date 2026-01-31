@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Cullman County Alabama Court system overview, including Circuit, District, and Probate Courts.",
-  "metaTitle": "Cullman County Alabama Court"
+  "metaTitle": "Cullman County Alabama Court",
+  "references": [
+    {
+      "name": "Alabama Judicial Branch - Official",
+      "url": "https://judicial.alabama.gov/"
+    },
+    {
+      "name": "State Bar of Alabama",
+      "url": "https://www.google.com/search?q=State+Bar+of+Alabama"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Bail bond concept in a court of law setting",
   "metaDescription": "Learn about bail bonds in court, understanding bail vs bond and types of bail options.",
-  "metaTitle": "What is Bail Bond in Court"
+  "metaTitle": "What is Bail Bond in Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

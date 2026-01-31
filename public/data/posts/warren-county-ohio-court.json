@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Warren County Ohio Court information and resources",
-  "metaTitle": "Warren County ohio Court"
+  "metaTitle": "Warren County ohio Court",
+  "references": [
+    {
+      "name": "Ohio Judicial Branch - Official",
+      "url": "https://www.supremecourt.ohio.gov/"
+    },
+    {
+      "name": "State Bar of Ohio",
+      "url": "https://www.google.com/search?q=State+Bar+of+Ohio"
+    }
+  ]
 }

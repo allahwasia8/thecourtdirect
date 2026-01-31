@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Brazoria County Texas Court info: court types, jurisdiction, and record access in Pearland, Alvin, Lake Jackson.",
-  "metaTitle": "BRAZORIA COUNTY TEXAS COURT"
+  "metaTitle": "BRAZORIA COUNTY TEXAS COURT",
+  "references": [
+    {
+      "name": "Texas Judicial Branch - Official",
+      "url": "https://www.txcourts.gov/"
+    },
+    {
+      "name": "State Bar of Texas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Texas"
+    }
+  ]
 }

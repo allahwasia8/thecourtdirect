@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Appealing family court judge's decision and rulings concept",
   "metaDescription": "Appeal a family court decision with our guide on grounds, timeline and process in family law cases.",
-  "metaTitle": "How to Appeal a Judge's Decision in Family Court"
+  "metaTitle": "How to Appeal a Judge's Decision in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

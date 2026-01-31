@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Larimer County Court building in Fort Collins Colorado courthouse exterior",
   "metaDescription": "Larimer County Court in Fort Collins, CO, handles civil, misdemeanor & traffic cases.",
-  "metaTitle": "County Court of Larimer County - Fort Collins"
+  "metaTitle": "County Court of Larimer County - Fort Collins",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

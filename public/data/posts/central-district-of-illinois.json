@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Central District of Illinois Federal Court information and history.",
-  "metaTitle": "Central District of Illinois"
+  "metaTitle": "Central District of Illinois",
+  "references": [
+    {
+      "name": "Illinois Judicial Branch - Official",
+      "url": "https://www.illinoiscourts.gov/"
+    },
+    {
+      "name": "State Bar of Illinois",
+      "url": "https://www.google.com/search?q=State+Bar+of+Illinois"
+    }
+  ]
 }

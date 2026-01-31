@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Rancho Cucamonga Superior Court overview, services & navigation for CA residents.",
-  "metaTitle": "Rancho Cucamonga Superior Court"
+  "metaTitle": "Rancho Cucamonga Superior Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

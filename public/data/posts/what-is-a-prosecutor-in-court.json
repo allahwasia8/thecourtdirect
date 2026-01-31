@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Prosecutor in court representing the state or government",
   "metaDescription": "Learn about prosecutors in court, their role and responsibilities in state and federal cases.",
-  "metaTitle": "What is a Prosecutor in Court?"
+  "metaTitle": "What is a Prosecutor in Court?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Proving false allegations in family court with evidence and legal support",
   "metaDescription": "Prove false allegations in family court with evidence gathering and legal prep.",
-  "metaTitle": "How to Prove False Allegations in Family Court"
+  "metaTitle": "How to Prove False Allegations in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

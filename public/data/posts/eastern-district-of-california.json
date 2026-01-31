@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Eastern District of California overview, history, jurisdiction and cases.",
-  "metaTitle": "Eastern District of California"
+  "metaTitle": "Eastern District of California",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

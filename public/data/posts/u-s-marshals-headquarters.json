@@ -34,5 +34,19 @@
   ],
   "imageAlt": "US Marshals Service headquarters building exterior",
   "metaDescription": "US Marshals HQ in Arlington, VA oversees federal judiciary security & fugitive apprehension nationwide.",
-  "metaTitle": "U.S. Marshals Headquarters"
+  "metaTitle": "U.S. Marshals Headquarters",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,23 @@
   ],
   "imageAlt": "Gitlow v New York Supreme Court due process ruling landmark case",
   "metaDescription": "Discover the impact of Gitlow v New York on US Supreme Court due process rulings.",
-  "metaTitle": "why was the supreme court’s ruling important in gitlow v. new york with respect to due process?"
+  "metaTitle": "why was the supreme court’s ruling important in gitlow v. new york with respect to due process?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    },
+    {
+      "name": "New York Judicial Branch - Official",
+      "url": "https://www.nycourts.gov/"
+    }
+  ]
 }

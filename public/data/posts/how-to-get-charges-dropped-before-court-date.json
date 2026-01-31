@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Criminal charges being dropped before court date concept",
   "metaDescription": "Get charges dropped before court date with a criminal defense attorney, review evidence, and negotiate with prosecutors to dismiss criminal charges.",
-  "metaTitle": "How to Get Charges Dropped Before court date"
+  "metaTitle": "How to Get Charges Dropped Before court date",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Marin County Superior Court guide: navigate civil, criminal, family law & more cases in San Rafael, CA.",
-  "metaTitle": "marin county superior court"
+  "metaTitle": "marin county superior court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

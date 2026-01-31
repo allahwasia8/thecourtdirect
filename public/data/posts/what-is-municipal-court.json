@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Municipal court building with judge and lawyers inside courtroom",
   "metaDescription": "Discover municipal courts, their functions, and jurisdiction in local communities.",
-  "metaTitle": "what is municipal court"
+  "metaTitle": "what is municipal court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

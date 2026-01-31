@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "First Circuit Court of Appeals in Boston, MA, guides on history, structure, and jurisdiction.",
-  "metaTitle": "first circuit court of appeals"
+  "metaTitle": "first circuit court of appeals",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

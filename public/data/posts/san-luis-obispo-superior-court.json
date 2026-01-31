@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "San Luis Obispo Superior Court guide: court info and resources",
-  "metaTitle": "san luis obispo superior court"
+  "metaTitle": "san luis obispo superior court",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

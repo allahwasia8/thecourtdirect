@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Bell County Texas Court: Learn about the court system, structure & functions in Bell County, Texas.",
-  "metaTitle": "bell county texas court"
+  "metaTitle": "bell county texas court",
+  "references": [
+    {
+      "name": "Texas Judicial Branch - Official",
+      "url": "https://www.txcourts.gov/"
+    },
+    {
+      "name": "State Bar of Texas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Texas"
+    }
+  ]
 }

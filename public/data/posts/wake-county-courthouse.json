@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Wake County Courthouse building in Raleigh, North Carolina",
   "metaDescription": "Wake County Courthouse in Raleigh, NC: location, hours, contact info & services.",
-  "metaTitle": "Wake County Courthouse"
+  "metaTitle": "Wake County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

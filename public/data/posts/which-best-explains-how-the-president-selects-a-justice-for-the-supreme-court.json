@@ -34,5 +34,19 @@
   ],
   "imageAlt": "President nominating a Supreme Court justice",
   "metaDescription": "Selecting a US Supreme Court Justice: presidential nomination and Senate confirmation process.",
-  "metaTitle": "which best explains how the president selects a justice for the supreme court?"
+  "metaTitle": "which best explains how the president selects a justice for the supreme court?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

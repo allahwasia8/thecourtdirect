@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Crook County Courthouse historic building exterior",
   "metaDescription": "Discover the Crook County Courthouse, a historic symbol of justice in Crookville, serving as the county's legal hub.",
-  "metaTitle": "Crook County Courthouse"
+  "metaTitle": "Crook County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Alameda County Superior Court Fremont Hall of Justice building exterior",
   "metaDescription": "Alameda County Superior Court in Fremont, CA, serving justice in the Bay Area.",
-  "metaTitle": "Superior Court Of Alameda – Fremont Hall Of Justice"
+  "metaTitle": "Superior Court Of Alameda – Fremont Hall Of Justice",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Supreme Court Chief Justice official portrait",
   "metaDescription": "Discover the US Supreme Court Chief Justice, John G Roberts Jr, and his role in shaping US law.",
-  "metaTitle": "who is the chief justice of the supreme court"
+  "metaTitle": "who is the chief justice of the supreme court",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

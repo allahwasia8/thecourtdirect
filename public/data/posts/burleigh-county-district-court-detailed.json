@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Burleigh County District Court building and judge gavel symbolizing justice",
   "metaDescription": "Burleigh County District Court info and resources in North Dakota",
-  "metaTitle": "Burleigh County District Court"
+  "metaTitle": "Burleigh County District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

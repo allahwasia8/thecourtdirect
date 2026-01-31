@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Child guardianship paperwork and family law documents",
   "metaDescription": "Get guardianship of a child without court, learn options like agreements, power of attorney & temporary guardianship.",
-  "metaTitle": "how to get guardianship of a child without going to court"
+  "metaTitle": "how to get guardianship of a child without going to court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

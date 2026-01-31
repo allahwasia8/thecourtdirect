@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Eastern District of New York, a federal trial court serving Brooklyn, Queens, and Long Island.",
-  "metaTitle": "Eastern District of New York"
+  "metaTitle": "Eastern District of New York",
+  "references": [
+    {
+      "name": "New York Judicial Branch - Official",
+      "url": "https://www.nycourts.gov/"
+    },
+    {
+      "name": "State Bar of New York",
+      "url": "https://www.google.com/search?q=State+Bar+of+New York"
+    }
+  ]
 }

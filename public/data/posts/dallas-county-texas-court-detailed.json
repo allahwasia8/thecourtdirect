@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Dallas County Texas Court: Learn about court types, cases & system in Dallas County.",
-  "metaTitle": "DALLAS COUNTY TEXAS COURT"
+  "metaTitle": "DALLAS COUNTY TEXAS COURT",
+  "references": [
+    {
+      "name": "Texas Judicial Branch - Official",
+      "url": "https://www.txcourts.gov/"
+    },
+    {
+      "name": "State Bar of Texas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Texas"
+    }
+  ]
 }

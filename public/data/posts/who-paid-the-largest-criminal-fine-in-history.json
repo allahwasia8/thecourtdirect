@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Largest criminal fine in history paid by corporate offender",
   "metaDescription": "Largest criminal fines in history: BP, Petrobras, Pfizer, and BNP Paribas paid billions for corporate crimes.",
-  "metaTitle": "Who Paid the Largest Criminal Fine in History?"
+  "metaTitle": "Who Paid the Largest Criminal Fine in History?",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Milwaukee Circuit Court: guide to Wisconsin's legal system & court structure",
-  "metaTitle": "milwaukee circuit court"
+  "metaTitle": "milwaukee circuit court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

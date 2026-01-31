@@ -34,5 +34,15 @@
   ],
   "imageAlt": "South Carolina court dockets and calendars schedule information",
   "metaDescription": "Find South Carolina court dockets and calendars for Circuit, Family, Magistrate and Municipal Courts.",
-  "metaTitle": "South Carolina Court Dockets and Calendars"
+  "metaTitle": "South Carolina Court Dockets and Calendars",
+  "references": [
+    {
+      "name": "South Carolina Judicial Branch - Official",
+      "url": "https://www.sccourts.org/"
+    },
+    {
+      "name": "State Bar of South Carolina",
+      "url": "https://www.google.com/search?q=State+Bar+of+South Carolina"
+    }
+  ]
 }

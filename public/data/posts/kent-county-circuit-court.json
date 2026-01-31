@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Kent County Circuit Court guide: Michigan court system info & resources",
-  "metaTitle": "Kent County Circuit Court"
+  "metaTitle": "Kent County Circuit Court",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

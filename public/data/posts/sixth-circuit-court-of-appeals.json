@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Sixth Circuit Court of Appeals in Ohio, Kentucky, Michigan, and Tennessee, explaining its role and jurisdiction.",
-  "metaTitle": "sixth circuit court of appeals"
+  "metaTitle": "sixth circuit court of appeals",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

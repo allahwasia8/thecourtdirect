@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Denton County Probate Court building exterior",
   "metaDescription": "Denton County Probate Court in Texas handles probate cases and estate matters.",
-  "metaTitle": "denton county probate court"
+  "metaTitle": "denton county probate court",
+  "references": [
+    {
+      "name": "ACTEC Foundation",
+      "url": "https://www.actec.org/"
+    },
+    {
+      "name": "Nolo - Wills, Trusts & Probate",
+      "url": "https://www.nolo.com/legal-encyclopedia/wills-trusts-estates"
+    },
+    {
+      "name": "National College of Probate Judges",
+      "url": "https://ncpj.org/"
+    }
+  ]
 }

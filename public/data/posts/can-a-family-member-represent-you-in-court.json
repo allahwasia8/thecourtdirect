@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family member in court representing a loved one legally",
   "metaDescription": "Can a family member represent you in small claims court or other legal proceedings? Learn about court representation options.",
-  "metaTitle": "Can a Family Member Represent You in Court?"
+  "metaTitle": "Can a Family Member Represent You in Court?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

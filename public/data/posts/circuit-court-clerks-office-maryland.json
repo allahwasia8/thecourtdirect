@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Maryland Circuit Court Clerk's Office guide: services, filing, and records.",
-  "metaTitle": "Circuit Court Clerk's Office Maryland"
+  "metaTitle": "Circuit Court Clerk's Office Maryland",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

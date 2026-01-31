@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Santa Cruz Superior Court info: location, hours, services, and jurisdiction for Santa Cruz County, California.",
-  "metaTitle": "Santa Cruz Superior Court"
+  "metaTitle": "Santa Cruz Superior Court",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

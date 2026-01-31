@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Miami-Dade County Traffic Court building exterior",
   "metaDescription": "Miami-Dade County Traffic Court information and services in Florida.",
-  "metaTitle": "Miami-Dade County Traffic Court"
+  "metaTitle": "Miami-Dade County Traffic Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Genesee County Circuit Court in Flint, MI handles civil, criminal and family cases.",
-  "metaTitle": "Genesee county circuit court"
+  "metaTitle": "Genesee county circuit court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

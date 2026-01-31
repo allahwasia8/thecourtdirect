@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Olmsted County Courthouse in Rochester, Minnesota",
   "metaDescription": "Discover Olmsted County Court in Rochester, MN, with court hours, contact info, and online resources for case records.",
-  "metaTitle": "Olmsted County Court"
+  "metaTitle": "Olmsted County Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

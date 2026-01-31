@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the District of New Hampshire, a federal court serving all 10 NH counties.",
-  "metaTitle": "District of New Hampshire"
+  "metaTitle": "District of New Hampshire",
+  "references": [
+    {
+      "name": "New Hampshire Judicial Branch - Official",
+      "url": "https://www.courts.nh.gov/"
+    },
+    {
+      "name": "State Bar of New Hampshire",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Hampshire"
+    }
+  ]
 }

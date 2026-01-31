@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover Maryland's 3rd Circuit Courts, handling criminal, civil, family & juvenile cases in Baltimore & Harford counties.",
-  "metaTitle": "3rd Circuit Courts in Maryland"
+  "metaTitle": "3rd Circuit Courts in Maryland",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

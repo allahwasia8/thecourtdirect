@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover Wasatch County Utah Court information and resources.",
-  "metaTitle": "WASATCH COUNTY UTAH COURT"
+  "metaTitle": "WASATCH COUNTY UTAH COURT",
+  "references": [
+    {
+      "name": "Utah Judicial Branch - Official",
+      "url": "https://www.utcourts.gov/"
+    },
+    {
+      "name": "State Bar of Utah",
+      "url": "https://www.google.com/search?q=State+Bar+of+Utah"
+    }
+  ]
 }

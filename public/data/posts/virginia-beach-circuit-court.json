@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover Virginia Beach Circuit Court's role, history, and operations.",
-  "metaTitle": "virginia beach circuit court"
+  "metaTitle": "virginia beach circuit court",
+  "references": [
+    {
+      "name": "Virginia Judicial Branch - Official",
+      "url": "https://www.vacourts.gov/"
+    },
+    {
+      "name": "State Bar of Virginia",
+      "url": "https://www.google.com/search?q=State+Bar+of+Virginia"
+    }
+  ]
 }

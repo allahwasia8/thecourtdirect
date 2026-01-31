@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Transferring family court case to another state legally",
   "metaDescription": "Transfer family court case to another state: learn steps for divorce, child custody, support cases in different state courts.",
-  "metaTitle": "How to Transfer a Family Court Case to Another State"
+  "metaTitle": "How to Transfer a Family Court Case to Another State",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

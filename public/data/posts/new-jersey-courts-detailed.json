@@ -34,5 +34,15 @@
   ],
   "imageAlt": "New Jersey state court system and judiciary building architecture",
   "metaDescription": "New Jersey court system overview: Superior, Surrogate's, Municipal & Tax Courts explained",
-  "metaTitle": "New Jersey Courts Overview: Understanding the State Court System"
+  "metaTitle": "New Jersey Courts Overview: Understanding the State Court System",
+  "references": [
+    {
+      "name": "New Jersey Judicial Branch - Official",
+      "url": "https://www.njcourts.gov/"
+    },
+    {
+      "name": "State Bar of New Jersey",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Jersey"
+    }
+  ]
 }

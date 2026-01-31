@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Prosecutor in court representing the state in criminal cases",
   "metaDescription": "Learn about the prosecutor's role in criminal cases, their responsibilities and impact on the justice system.",
-  "metaTitle": "Who is the Prosecutor in Court | Role, Responsibilities of Attorney in Criminal Cases"
+  "metaTitle": "Who is the Prosecutor in Court | Role, Responsibilities of Attorney in Criminal Cases",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

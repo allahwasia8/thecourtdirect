@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "San Mateo County Superior Court info: location, phone, hours, and services.",
-  "metaTitle": "San Mateo County Superior Court"
+  "metaTitle": "San Mateo County Superior Court",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

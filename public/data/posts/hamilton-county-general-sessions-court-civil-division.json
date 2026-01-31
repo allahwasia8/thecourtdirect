@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Hamilton County Courthouse Civil Division building exterior",
   "metaDescription": "Hamilton County General Sessions Court Civil Division in Chattanooga, TN handles civil cases and misdemeanors.",
-  "metaTitle": "Hamilton County General Sessions Court - Civil Division"
+  "metaTitle": "Hamilton County General Sessions Court - Civil Division",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

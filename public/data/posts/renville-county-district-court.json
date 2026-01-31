@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Renville County Courthouse exterior in Minnesota",
   "metaDescription": "Renville County District Court info: location, hours, contact, and jurisdiction for MN court cases.",
-  "metaTitle": "Renville County District Court"
+  "metaTitle": "Renville County District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

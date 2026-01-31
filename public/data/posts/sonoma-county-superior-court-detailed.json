@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Sonoma County Superior Court, California, handles criminal, civil, family law, and more in Santa Rosa.",
-  "metaTitle": "Sonoma County Superior Court"
+  "metaTitle": "Sonoma County Superior Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

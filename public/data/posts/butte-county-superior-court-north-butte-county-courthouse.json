@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Butte County Superior Court North Butte County Courthouse building exterior",
   "metaDescription": "Butte County Superior Court in Oroville, CA, serving civil, criminal, and family cases.",
-  "metaTitle": "Butte County Superior Court – North Butte County Courthouse"
+  "metaTitle": "Butte County Superior Court – North Butte County Courthouse",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

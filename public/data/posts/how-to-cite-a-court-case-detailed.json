@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Citing a court case with legal documents and gavel",
   "metaDescription": "Learn to cite Supreme Court cases correctly with our step-by-step guide.",
-  "metaTitle": "How to Cite a Court Case"
+  "metaTitle": "How to Cite a Court Case",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Discover Mingo County Court House in West Virginia, a historic hub of government and law.",
-  "metaTitle": "Mingo County Court House"
+  "metaTitle": "Mingo County Court House",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

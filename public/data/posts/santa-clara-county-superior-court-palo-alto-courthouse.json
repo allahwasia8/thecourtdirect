@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Palo Alto Courthouse in Santa Clara County Superior Court building",
   "metaDescription": "Santa Clara County Superior Court Palo Alto Courthouse info: criminal cases, location, services & resources.",
-  "metaTitle": "Santa Clara County Superior Court - Palo Alto Courthouse"
+  "metaTitle": "Santa Clara County Superior Court - Palo Alto Courthouse",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court disposition concept, final judgment in a legal case",
   "metaDescription": "Learn about court dispositions, including convictions, acquittals, and dismissals in criminal cases.",
-  "metaTitle": "what is a disposition in court"
+  "metaTitle": "what is a disposition in court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

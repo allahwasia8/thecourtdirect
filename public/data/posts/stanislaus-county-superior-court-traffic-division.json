@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Stanislaus County Superior Court Traffic Division building exterior",
   "metaDescription": "Stanislaus County Superior Court Traffic Division information",
-  "metaTitle": "Stanislaus County Superior Court - Traffic Division"
+  "metaTitle": "Stanislaus County Superior Court - Traffic Division",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

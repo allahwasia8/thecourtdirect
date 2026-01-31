@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Idaho court dockets and calendars online search results",
   "metaDescription": "Idaho court dockets and calendars online, access state and district court schedules, track cases in Ada County and more.",
-  "metaTitle": "Idaho Court Dockets and Calendars"
+  "metaTitle": "Idaho Court Dockets and Calendars",
+  "references": [
+    {
+      "name": "Idaho Judicial Branch - Official",
+      "url": "https://isc.idaho.gov/"
+    },
+    {
+      "name": "State Bar of Idaho",
+      "url": "https://www.google.com/search?q=State+Bar+of+Idaho"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Fresno County Family Court Services offers mediation, child support & more in Fresno, CA.",
-  "metaTitle": "County Of Fresno Family Court Services"
+  "metaTitle": "County Of Fresno Family Court Services",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

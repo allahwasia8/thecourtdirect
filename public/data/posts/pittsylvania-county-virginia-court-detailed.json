@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Pittsylvania County Virginia Court information and resources",
-  "metaTitle": "PITTSYLVANIA COUNTY VIRGINIA COURT"
+  "metaTitle": "PITTSYLVANIA COUNTY VIRGINIA COURT",
+  "references": [
+    {
+      "name": "Virginia Judicial Branch - Official",
+      "url": "https://www.vacourts.gov/"
+    },
+    {
+      "name": "State Bar of Virginia",
+      "url": "https://www.google.com/search?q=State+Bar+of+Virginia"
+    }
+  ]
 }

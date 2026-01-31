@@ -34,5 +34,23 @@
   ],
   "imageAlt": "Arizona family court judge gavel and law books",
   "metaDescription": "Arizona Family Court: divorce, child custody, support, and more in AZ Superior Courts.",
-  "metaTitle": "Family Court in Arizona"
+  "metaTitle": "Family Court in Arizona",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    },
+    {
+      "name": "Arizona Judicial Branch - Official",
+      "url": "https://www.azcourts.gov/"
+    }
+  ]
 }

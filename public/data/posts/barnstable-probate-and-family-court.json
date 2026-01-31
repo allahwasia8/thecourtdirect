@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Barnstable Probate and Family Court building exterior",
   "metaDescription": "Barnstable Probate and Family Court guide: location, contact info, and virtual registry.",
-  "metaTitle": "Barnstable Probate and Family Court"
+  "metaTitle": "Barnstable Probate and Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

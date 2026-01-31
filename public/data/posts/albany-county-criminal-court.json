@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Albany County Criminal Court: Judicial building exterior",
   "metaDescription": "Albany County Criminal Court guide: functions, processes & key personnel for felony & misdemeanor cases.",
-  "metaTitle": "Albany County Criminal Court"
+  "metaTitle": "Albany County Criminal Court",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

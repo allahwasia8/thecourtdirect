@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Fall River Probate and Family Court building in Bristol County Massachusetts",
   "metaDescription": "Fall River Probate and Family Court guide: services, hours, parking, and accessibility in Bristol County, MA.",
-  "metaTitle": "Fall River Family Court"
+  "metaTitle": "Fall River Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

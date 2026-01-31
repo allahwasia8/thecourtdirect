@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "District of Kansas federal court info and history, serving all 34 counties.",
-  "metaTitle": "District of Kansas"
+  "metaTitle": "District of Kansas",
+  "references": [
+    {
+      "name": "Kansas Judicial Branch - Official",
+      "url": "https://www.kscourts.org/"
+    },
+    {
+      "name": "State Bar of Kansas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Kansas"
+    }
+  ]
 }

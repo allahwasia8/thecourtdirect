@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "North Carolina court dockets and calendars guide: access NC court records online",
-  "metaTitle": "North Carolina Court Dockets and Calendars"
+  "metaTitle": "North Carolina Court Dockets and Calendars",
+  "references": [
+    {
+      "name": "North Carolina Judicial Branch - Official",
+      "url": "https://www.nccourts.gov/"
+    },
+    {
+      "name": "State Bar of North Carolina",
+      "url": "https://www.google.com/search?q=State+Bar+of+North Carolina"
+    }
+  ]
 }

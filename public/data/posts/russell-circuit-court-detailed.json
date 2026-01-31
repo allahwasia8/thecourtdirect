@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Russell Circuit Court building in Lebanon, Virginia, serving justice",
   "metaDescription": "Russell Circuit Court in Lebanon, VA, serves justice and resolves disputes in Russell County.",
-  "metaTitle": "Russell Circuit Court"
+  "metaTitle": "Russell Circuit Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

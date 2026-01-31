@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Get free court transcripts with our guide, covering court websites, reporters and clerks for various courts.",
-  "metaTitle": "How to Get Court Transcripts for Free"
+  "metaTitle": "How to Get Court Transcripts for Free",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

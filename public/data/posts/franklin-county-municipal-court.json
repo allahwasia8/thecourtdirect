@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Franklin County Municipal Court building in Columbus Ohio",
   "metaDescription": "Franklin County Municipal Court in Columbus, OH, handles traffic, misdemeanor, and civil cases.",
-  "metaTitle": "Franklin County Municipal Court"
+  "metaTitle": "Franklin County Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

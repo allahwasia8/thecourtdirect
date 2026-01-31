@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court timeline and waiting period concept",
   "metaDescription": "Learn how long family court takes, factors affecting duration, and timelines for divorce, child custody, and support cases in family court.",
-  "metaTitle": "How Long Does Family Court Take?"
+  "metaTitle": "How Long Does Family Court Take?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

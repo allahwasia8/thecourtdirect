@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Palm Beach County Florida court directory information and resources",
   "metaDescription": "Palm Beach County Florida court directory, circuit court, county court locations and services.",
-  "metaTitle": "Palm Beach County Florida Court Directory"
+  "metaTitle": "Palm Beach County Florida Court Directory",
+  "references": [
+    {
+      "name": "Florida Judicial Branch - Official",
+      "url": "https://www.flcourts.gov/"
+    },
+    {
+      "name": "State Bar of Florida",
+      "url": "https://www.google.com/search?q=State+Bar+of+Florida"
+    }
+  ]
 }

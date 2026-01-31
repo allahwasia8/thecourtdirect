@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Essex Probate and Family Court building in Salem Massachusetts",
   "metaDescription": "Essex Probate and Family Court in Salem, MA guides on probate, guardianship, adoption and family law cases.",
-  "metaTitle": "Essex Probate and Family Court"
+  "metaTitle": "Essex Probate and Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

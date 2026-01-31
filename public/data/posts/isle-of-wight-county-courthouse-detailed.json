@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Isle of Wight County Courthouse historic building exterior",
   "metaDescription": "Isle of Wight County Courthouse in Virginia, a historic courthouse preserving community pride.",
-  "metaTitle": "Isle Of Wight County Courthouse"
+  "metaTitle": "Isle Of Wight County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

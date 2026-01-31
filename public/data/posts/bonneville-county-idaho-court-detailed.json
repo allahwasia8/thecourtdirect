@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Bonneville County Idaho Court: services, resources, and info on court system, public defender, and jury duty.",
-  "metaTitle": "Bonneville County Idaho Court"
+  "metaTitle": "Bonneville County Idaho Court",
+  "references": [
+    {
+      "name": "Idaho Judicial Branch - Official",
+      "url": "https://isc.idaho.gov/"
+    },
+    {
+      "name": "State Bar of Idaho",
+      "url": "https://www.google.com/search?q=State+Bar+of+Idaho"
+    }
+  ]
 }

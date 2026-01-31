@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Criminal law versus civil law concept illustration",
   "metaDescription": "Learn the difference between criminal and civil law, their purposes and goals, and how they apply to legal matters.",
-  "metaTitle": "What is the Difference Between Criminal Law and Civil Law?"
+  "metaTitle": "What is the Difference Between Criminal Law and Civil Law?",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

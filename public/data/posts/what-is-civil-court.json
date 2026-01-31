@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Civil court concept with judge and legal books in background",
   "metaDescription": "Learn about Civil Court, its role and functions in legal matters, resolving disputes and upholding justice.",
-  "metaTitle": "What is Civil Court"
+  "metaTitle": "What is Civil Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

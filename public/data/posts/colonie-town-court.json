@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Colonie Town Court guide for NY residents and visitors, covering traffic, small claims and criminal cases.",
-  "metaTitle": "Colonie Town Court"
+  "metaTitle": "Colonie Town Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

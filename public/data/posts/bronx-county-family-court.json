@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Bronx County Family Court: divorce, custody, support, and adoption services in Bronx, NY.",
-  "metaTitle": "Bronx County Family Court"
+  "metaTitle": "Bronx County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

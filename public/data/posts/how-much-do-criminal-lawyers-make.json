@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Criminal lawyer salary and compensation information",
   "metaDescription": "Learn how much criminal lawyers make and the factors affecting their salary.",
-  "metaTitle": "How Much Do Criminal Lawyers Make?"
+  "metaTitle": "How Much Do Criminal Lawyers Make?",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the District of New Jersey, a federal judicial district serving the state with 3 divisional courthouses.",
-  "metaTitle": "District of New Jersey"
+  "metaTitle": "District of New Jersey",
+  "references": [
+    {
+      "name": "New Jersey Judicial Branch - Official",
+      "url": "https://www.njcourts.gov/"
+    },
+    {
+      "name": "State Bar of New Jersey",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Jersey"
+    }
+  ]
 }

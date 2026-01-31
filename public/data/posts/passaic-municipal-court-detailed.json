@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Passaic Municipal Court guide: navigate the judicial process in Passaic, NJ",
-  "metaTitle": "passaic municipal court"
+  "metaTitle": "passaic municipal court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

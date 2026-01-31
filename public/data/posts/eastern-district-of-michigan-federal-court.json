@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Eastern District of Michigan Federal Court handles civil and criminal cases.",
-  "metaTitle": "Eastern District Of Michigan Federal Court"
+  "metaTitle": "Eastern District Of Michigan Federal Court",
+  "references": [
+    {
+      "name": "Michigan Judicial Branch - Official",
+      "url": "https://www.courts.michigan.gov/"
+    },
+    {
+      "name": "State Bar of Michigan",
+      "url": "https://www.google.com/search?q=State+Bar+of+Michigan"
+    }
+  ]
 }

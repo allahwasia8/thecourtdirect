@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Paternity test results and court documents for fatherhood confirmation",
   "metaDescription": "Learn how to get a court ordered paternity test without a lawyer, including state laws and court procedures.",
-  "metaTitle": "How to Get a Court Ordered Paternity Test Without a Lawyer"
+  "metaTitle": "How to Get a Court Ordered Paternity Test Without a Lawyer",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

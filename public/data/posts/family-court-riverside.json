@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Riverside Family Court building exterior",
   "metaDescription": "Riverside Family Court: divorce, custody, support & more in Riverside County, CA.",
-  "metaTitle": "family court riverside"
+  "metaTitle": "family court riverside",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

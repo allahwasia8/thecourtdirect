@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Mercer County Pennsylvania Court information and resources.",
-  "metaTitle": "MERCER COUNTY PENNSYLVANIA COURT"
+  "metaTitle": "MERCER COUNTY PENNSYLVANIA COURT",
+  "references": [
+    {
+      "name": "Pennsylvania Judicial Branch - Official",
+      "url": "https://www.pacourts.us/"
+    },
+    {
+      "name": "State Bar of Pennsylvania",
+      "url": "https://www.google.com/search?q=State+Bar+of+Pennsylvania"
+    }
+  ]
 }

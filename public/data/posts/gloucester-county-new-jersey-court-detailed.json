@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Gloucester County New Jersey courthouse building exterior",
   "metaDescription": "Gloucester County New Jersey Court: Learn about court system, services & access to records in Gloucester County NJ.",
-  "metaTitle": "Gloucester county new jersey court"
+  "metaTitle": "Gloucester county new jersey court",
+  "references": [
+    {
+      "name": "New Jersey Judicial Branch - Official",
+      "url": "https://www.njcourts.gov/"
+    },
+    {
+      "name": "State Bar of New Jersey",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Jersey"
+    }
+  ]
 }

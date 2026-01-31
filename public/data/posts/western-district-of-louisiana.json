@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Western District of Louisiana US court info & jurisdiction details",
-  "metaTitle": "Western District of Louisiana"
+  "metaTitle": "Western District of Louisiana",
+  "references": [
+    {
+      "name": "Louisiana Judicial Branch - Official",
+      "url": "https://www.lasc.org/"
+    },
+    {
+      "name": "State Bar of Louisiana",
+      "url": "https://www.google.com/search?q=State+Bar+of+Louisiana"
+    }
+  ]
 }

@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Santa Clara County Superior Court Old Courthouse building",
   "metaDescription": "Santa Clara County Superior Court info, location and hours, San Jose, CA courthouse details",
-  "metaTitle": "Santa Clara County Superior Court - Old Courthouse"
+  "metaTitle": "Santa Clara County Superior Court - Old Courthouse",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

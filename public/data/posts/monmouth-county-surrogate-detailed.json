@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Monmouth County Surrogate court information and services",
-  "metaTitle": "monmouth county surrogate"
+  "metaTitle": "monmouth county surrogate",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

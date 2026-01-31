@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Child custody rights without court order determination",
   "metaDescription": "Discover child custody rights without a court order, including physical & legal custody for married & unmarried parents.",
-  "metaTitle": "Who has custody of a child if there is no court order?"
+  "metaTitle": "Who has custody of a child if there is no court order?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

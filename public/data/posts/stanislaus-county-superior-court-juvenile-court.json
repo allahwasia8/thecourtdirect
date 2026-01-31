@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Stanislaus County Superior Court Juvenile Court building exterior",
   "metaDescription": "Stanislaus County Superior Court's Juvenile Court info & contact details",
-  "metaTitle": "Stanislaus County Superior Court - Juvenile Court"
+  "metaTitle": "Stanislaus County Superior Court - Juvenile Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

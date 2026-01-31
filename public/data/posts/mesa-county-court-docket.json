@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Mesa County Court Docket information and schedule",
   "metaDescription": "Mesa County Court Docket: Access court cases, schedules & decisions in Mesa County, Colorado.",
-  "metaTitle": "Mesa County Court Docket"
+  "metaTitle": "Mesa County Court Docket",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

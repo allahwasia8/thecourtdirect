@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Isanti County Court building exterior in Minnesota",
   "metaDescription": "Isanti County Court: learn about its function, schedule and jurisdiction in Minnesota's 10th Judicial District.",
-  "metaTitle": "Isanti County Court"
+  "metaTitle": "Isanti County Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

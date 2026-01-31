@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Contempt of court concept illustration with judge and gavel symbol",
   "metaDescription": "Learn about contempt of court, its types, and implications in the legal system, including criminal and civil contempt.",
-  "metaTitle": "what does contempt of court mean"
+  "metaTitle": "what does contempt of court mean",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

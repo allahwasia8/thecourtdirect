@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Supreme Court Justice serving a lifelong term",
   "metaDescription": "Supreme Court justice terms: Learn about the US Supreme Court's life tenure and proposed 18-year terms.",
-  "metaTitle": "How Long Is a Supreme Court Justice Term"
+  "metaTitle": "How Long Is a Supreme Court Justice Term",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

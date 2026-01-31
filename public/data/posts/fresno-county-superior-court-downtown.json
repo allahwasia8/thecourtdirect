@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Fresno County Superior Court Downtown building exterior",
   "metaDescription": "Fresno County Superior Court info: downtown location, hours, cases, and services.",
-  "metaTitle": "Fresno County Superior Court - Downtown"
+  "metaTitle": "Fresno County Superior Court - Downtown",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

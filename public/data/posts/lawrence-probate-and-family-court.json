@@ -34,5 +34,23 @@
   ],
   "imageAlt": "Lawrence Massachusetts Probate and Family Court building exterior",
   "metaDescription": "Lawrence Probate and Family Court in MA handles estates, adoptions, divorce and more.",
-  "metaTitle": "Lawrence Probate and Family Court"
+  "metaTitle": "Lawrence Probate and Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    },
+    {
+      "name": "Massachusetts Judicial Branch - Official",
+      "url": "https://www.mass.gov/orgs/massachusetts-court-system"
+    }
+  ]
 }

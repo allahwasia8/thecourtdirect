@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Find court records on a person for tenant screening, employment checks, and personal relationships, including bankruptcy and civil court records.",
-  "metaTitle": "How to Find Court Records on a Person"
+  "metaTitle": "How to Find Court Records on a Person",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Markham Illinois courthouse building exterior",
   "metaDescription": "Markham Courthouse: 6th Municipal District in Markham, IL, handling civil, criminal cases & COVID-19 orders.",
-  "metaTitle": "markham courthouse"
+  "metaTitle": "markham courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

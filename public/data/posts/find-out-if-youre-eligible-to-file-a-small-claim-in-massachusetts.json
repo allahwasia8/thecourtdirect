@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Learn if you're eligible to file a small claim in Massachusetts small claims court for $7,000 or less.",
-  "metaTitle": "Find out if you're eligible to file a small claim in Massachusetts"
+  "metaTitle": "Find out if you're eligible to file a small claim in Massachusetts",
+  "references": [
+    {
+      "name": "Massachusetts Judicial Branch - Official",
+      "url": "https://www.mass.gov/orgs/massachusetts-court-system"
+    },
+    {
+      "name": "State Bar of Massachusetts",
+      "url": "https://www.google.com/search?q=State+Bar+of+Massachusetts"
+    }
+  ]
 }

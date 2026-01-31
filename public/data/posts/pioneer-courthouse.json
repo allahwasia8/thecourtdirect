@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Historic Pioneer Courthouse building exterior",
   "metaDescription": "Discover Portland's historic Pioneer Courthouse, a landmark of Italianate architecture and home to the Ninth Circuit Court of Appeals.",
-  "metaTitle": "Pioneer Courthouse"
+  "metaTitle": "Pioneer Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

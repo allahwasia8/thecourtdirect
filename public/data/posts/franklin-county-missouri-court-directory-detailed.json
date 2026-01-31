@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Franklin County Missouri court directory information and resources",
   "metaDescription": "Franklin County Missouri court directory, circuit, municipal & juvenile courts info",
-  "metaTitle": "Franklin County Missouri Court Directory"
+  "metaTitle": "Franklin County Missouri Court Directory",
+  "references": [
+    {
+      "name": "Missouri Judicial Branch - Official",
+      "url": "https://www.courts.mo.gov/"
+    },
+    {
+      "name": "State Bar of Missouri",
+      "url": "https://www.google.com/search?q=State+Bar+of+Missouri"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Tehama County Superior Court Juvenile Justice Center building exterior",
   "metaDescription": "Tehama County Superior Court Juvenile Justice Center information and resources.",
-  "metaTitle": "Tehama County Superior Court - Juvenile Justice Center"
+  "metaTitle": "Tehama County Superior Court - Juvenile Justice Center",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

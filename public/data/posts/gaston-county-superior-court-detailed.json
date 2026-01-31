@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Gaston County Superior Court building exterior",
   "metaDescription": "Gaston County Superior Court: Learn about North Carolina's court system, roles, and procedures.",
-  "metaTitle": "Gaston County Superior Court"
+  "metaTitle": "Gaston County Superior Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

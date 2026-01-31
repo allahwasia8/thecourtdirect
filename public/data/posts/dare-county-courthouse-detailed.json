@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Dare County Courthouse building in the local community",
   "metaDescription": "Discover the Dare County Courthouse, a historic hub for justice in North Carolina.",
-  "metaTitle": "Dare County Courthouse"
+  "metaTitle": "Dare County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

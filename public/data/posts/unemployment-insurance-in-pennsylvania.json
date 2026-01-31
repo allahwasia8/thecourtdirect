@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Unemployment insurance in Pennsylvania: learn about extensions, eligibility and application process.",
-  "metaTitle": "Unemployment insurance in Pennsylvania"
+  "metaTitle": "Unemployment insurance in Pennsylvania",
+  "references": [
+    {
+      "name": "Pennsylvania Judicial Branch - Official",
+      "url": "https://www.pacourts.us/"
+    },
+    {
+      "name": "State Bar of Pennsylvania",
+      "url": "https://www.google.com/search?q=State+Bar+of+Pennsylvania"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the US District Court for Southern Indiana, covering 52 counties.",
-  "metaTitle": "Southern District of Indiana"
+  "metaTitle": "Southern District of Indiana",
+  "references": [
+    {
+      "name": "Indiana Judicial Branch - Official",
+      "url": "https://www.in.gov/courts/"
+    },
+    {
+      "name": "State Bar of Indiana",
+      "url": "https://www.google.com/search?q=State+Bar+of+Indiana"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Lima Municipal Court building in Allen County Ohio",
   "metaDescription": "Lima Municipal Court serves Allen County, Ohio, handling civil, criminal and traffic cases.",
-  "metaTitle": "Allen County Municipal Court AKA. Lima Municipal Court"
+  "metaTitle": "Allen County Municipal Court AKA. Lima Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

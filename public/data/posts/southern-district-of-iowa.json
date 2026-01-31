@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Southern District of Iowa, a federal court covering 49 counties in southern and central Iowa.",
-  "metaTitle": "Southern District of Iowa"
+  "metaTitle": "Southern District of Iowa",
+  "references": [
+    {
+      "name": "Iowa Judicial Branch - Official",
+      "url": "https://www.iowacourts.gov/"
+    },
+    {
+      "name": "State Bar of Iowa",
+      "url": "https://www.google.com/search?q=State+Bar+of+Iowa"
+    }
+  ]
 }

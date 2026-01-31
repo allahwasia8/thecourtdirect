@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Amador County Superior Court building in California",
   "metaDescription": "Amador County Superior Court serves California residents with criminal, civil & family cases.",
-  "metaTitle": "Amador County Superior Court"
+  "metaTitle": "Amador County Superior Court",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Federal Way Municipal Court guide: resources, services and case information for King County, WA.",
-  "metaTitle": "Federal Way Municipal Court"
+  "metaTitle": "Federal Way Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

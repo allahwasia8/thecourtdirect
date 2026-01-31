@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Federal District of Hawaii, a US federal judicial district covering Hawaii's islands with federal court jurisdiction.",
-  "metaTitle": "The Federal District of Hawaii"
+  "metaTitle": "The Federal District of Hawaii",
+  "references": [
+    {
+      "name": "Hawaii Judicial Branch - Official",
+      "url": "https://www.courts.state.hi.us/"
+    },
+    {
+      "name": "State Bar of Hawaii",
+      "url": "https://www.google.com/search?q=State+Bar+of+Hawaii"
+    }
+  ]
 }

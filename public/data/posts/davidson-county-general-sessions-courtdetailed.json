@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Davidson County General Sessions Court building exterior",
   "metaDescription": "Davidson County General Sessions Court info and guidance in Tennessee.",
-  "metaTitle": "Davidson County General Sessions Court"
+  "metaTitle": "Davidson County General Sessions Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

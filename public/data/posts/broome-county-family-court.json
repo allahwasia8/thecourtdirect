@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Broome County Family Court building in Binghamton, New York",
   "metaDescription": "Broome County Family Court in Binghamton, NY, resolves family legal matters including divorce, custody and domestic violence cases.",
-  "metaTitle": "Broome County Family Court"
+  "metaTitle": "Broome County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

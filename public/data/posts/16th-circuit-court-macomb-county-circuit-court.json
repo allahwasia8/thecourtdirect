@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Discover the 16th Circuit Court in Macomb County, Michigan, and learn about its history and role.",
-  "metaTitle": "16th circuit court (Macomb County Circuit Court)"
+  "metaTitle": "16th circuit court (Macomb County Circuit Court)",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

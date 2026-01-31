@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Federal court decision appeal jurisdiction review process",
   "metaDescription": "Review of federal court decisions: jurisdiction and appeals process in US district, circuit and Supreme Court.",
-  "metaTitle": "Under Which Jurisdiction Would Further Review of a Federal Court Decision Fall Under?"
+  "metaTitle": "Under Which Jurisdiction Would Further Review of a Federal Court Decision Fall Under?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

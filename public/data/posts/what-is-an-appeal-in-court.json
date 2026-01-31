@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court appeal process and law concept illustration",
   "metaDescription": "Learn about appeals in Nevada courts, including justice and district courts, and the appeal process.",
-  "metaTitle": "What is an Appeal in Court"
+  "metaTitle": "What is an Appeal in Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

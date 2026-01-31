@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Oberlin Municipal Court building in Ohio",
   "metaDescription": "Oberlin Municipal Court in Ohio handles traffic, misdemeanor & civil cases, serving the local community with fair justice.",
-  "metaTitle": "Oberlin Municipal Court"
+  "metaTitle": "Oberlin Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

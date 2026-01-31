@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Drug court concept with gavel and scales of justice symbolizing rehabilitation",
   "metaDescription": "Learn about drug court, a rehab approach combining treatment and accountability for substance abuse issues within the criminal justice system.",
-  "metaTitle": "what is drug court"
+  "metaTitle": "what is drug court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

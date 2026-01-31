@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Speaking to a judge in family court proceedings",
   "metaDescription": "Learn to speak confidently to a judge in family court with tips on etiquette, preparation and respect.",
-  "metaTitle": "How to Speak to a Judge in Family Court"
+  "metaTitle": "How to Speak to a Judge in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

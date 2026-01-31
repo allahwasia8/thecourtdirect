@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Utah County Justice Court information and resources.",
-  "metaTitle": "utah county justice court"
+  "metaTitle": "utah county justice court",
+  "references": [
+    {
+      "name": "Utah Judicial Branch - Official",
+      "url": "https://www.utcourts.gov/"
+    },
+    {
+      "name": "State Bar of Utah",
+      "url": "https://www.google.com/search?q=State+Bar+of+Utah"
+    }
+  ]
 }

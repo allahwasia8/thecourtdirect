@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Nevada Superior Court information and resources.",
-  "metaTitle": "Superior Court of Nevada"
+  "metaTitle": "Superior Court of Nevada",
+  "references": [
+    {
+      "name": "Nevada Judicial Branch - Official",
+      "url": "https://nvcourts.gov/"
+    },
+    {
+      "name": "State Bar of Nevada",
+      "url": "https://www.google.com/search?q=State+Bar+of+Nevada"
+    }
+  ]
 }

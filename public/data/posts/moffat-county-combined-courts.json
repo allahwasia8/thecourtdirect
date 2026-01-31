@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Moffat County Combined Courts in Craig, CO: Guide to services, processes, and resources for criminal, civil, and juvenile cases.",
-  "metaTitle": "Moffat County Combined Courts"
+  "metaTitle": "Moffat County Combined Courts",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

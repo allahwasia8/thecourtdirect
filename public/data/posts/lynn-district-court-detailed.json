@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Lynn District Court building exterior in Massachusetts",
   "metaDescription": "Lynn District Court information and resources in Massachusetts.",
-  "metaTitle": "Lynn District Court"
+  "metaTitle": "Lynn District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

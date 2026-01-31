@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Lake County Colorado Court: 5th Judicial District court in Leadville, CO, serving district & county matters.",
-  "metaTitle": "LAKE COUNTY COLORADO COURT"
+  "metaTitle": "LAKE COUNTY COLORADO COURT",
+  "references": [
+    {
+      "name": "Colorado Judicial Branch - Official",
+      "url": "https://www.courts.state.co.us/"
+    },
+    {
+      "name": "State Bar of Colorado",
+      "url": "https://www.google.com/search?q=State+Bar+of+Colorado"
+    }
+  ]
 }

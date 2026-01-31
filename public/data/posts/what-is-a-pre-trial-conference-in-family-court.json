@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court pre-trial conference concept illustration",
   "metaDescription": "Learn about pre-trial conferences in family court, their purpose and benefits in resolving family law cases efficiently.",
-  "metaTitle": "What is a Pre-Trial Conference in Family Court?"
+  "metaTitle": "What is a Pre-Trial Conference in Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

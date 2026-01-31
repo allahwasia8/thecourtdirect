@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "7th Circuit Court of Appeals: US federal court covering Illinois, Indiana, Wisconsin.",
-  "metaTitle": "7th circuit court of appeals"
+  "metaTitle": "7th circuit court of appeals",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

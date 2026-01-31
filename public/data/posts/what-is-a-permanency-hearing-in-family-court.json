@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court permanency hearing concept illustration",
   "metaDescription": "Learn about permanency hearings in family court, their purpose and timing, and how they help find a permanent home for children in foster care.",
-  "metaTitle": "What is a Permanency Hearing in Family Court?"
+  "metaTitle": "What is a Permanency Hearing in Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Civil court lawsuit maximum claim amount concept",
   "metaDescription": "Learn small claims court limits and costs, varying by state, for disputes up to $10,000.",
-  "metaTitle": "what is the maximum amount you can sue for in civil court"
+  "metaTitle": "what is the maximum amount you can sue for in civil court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Proving lies in family court with evidence and documentation",
   "metaDescription": "Prove lies in family court with investigation and evidence, affecting divorce and child custody cases.",
-  "metaTitle": "How to Prove Someone is Lying in Family Court"
+  "metaTitle": "How to Prove Someone is Lying in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

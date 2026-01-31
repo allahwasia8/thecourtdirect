@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Clarke County CourtHouse historic landmark building",
   "metaDescription": "Discover Clarke County Court House, a historic landmark in the heart of the community, serving as a center for judicial proceedings.",
-  "metaTitle": "Clarke County CourtHouse"
+  "metaTitle": "Clarke County CourtHouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

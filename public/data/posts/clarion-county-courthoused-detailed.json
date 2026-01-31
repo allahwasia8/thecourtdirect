@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Clarion County Courthouse historic building exterior",
   "metaDescription": "Discover Clarion County Courthouse, a historic Pennsylvania landmark upholding justice and community pride.",
-  "metaTitle": "Clarion County Courthouse"
+  "metaTitle": "Clarion County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

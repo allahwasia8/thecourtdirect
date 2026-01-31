@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Conservative Supreme Court Justices in session",
   "metaDescription": "Discover top 5 conservative US Supreme Court justices and their impact on the court's political landscape.",
-  "metaTitle": "Which Supreme Court Justices Are Conservative?"
+  "metaTitle": "Which Supreme Court Justices Are Conservative?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

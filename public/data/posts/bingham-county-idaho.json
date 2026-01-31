@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover Bingham County, Idaho: demographics, economy, education, healthcare and more in this comprehensive guide to southeast Idaho.",
-  "metaTitle": "Bingham County, Idaho"
+  "metaTitle": "Bingham County, Idaho",
+  "references": [
+    {
+      "name": "Idaho Judicial Branch - Official",
+      "url": "https://isc.idaho.gov/"
+    },
+    {
+      "name": "State Bar of Idaho",
+      "url": "https://www.google.com/search?q=State+Bar+of+Idaho"
+    }
+  ]
 }

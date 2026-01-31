@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Middlesex Probate and Family Court building in Woburn Massachusetts",
   "metaDescription": "Middlesex Probate and Family Court in MA handles probate, family law and guardianship cases.",
-  "metaTitle": "Middlesex Probate and Family Court"
+  "metaTitle": "Middlesex Probate and Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

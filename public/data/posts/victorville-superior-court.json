@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Victorville Superior Court in California handles civil, criminal, and family law cases, serving Victorville and surrounding areas.",
-  "metaTitle": "Victorville Superior Court"
+  "metaTitle": "Victorville Superior Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

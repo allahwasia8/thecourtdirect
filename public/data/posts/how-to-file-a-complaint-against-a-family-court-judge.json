@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Filing complaint against family court judge concept",
   "metaDescription": "File a complaint against a family court judge for misconduct, bias or abuse of power in divorce, child custody and support cases.",
-  "metaTitle": "How to File a Complaint Against a Family Court Judge"
+  "metaTitle": "How to File a Complaint Against a Family Court Judge",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

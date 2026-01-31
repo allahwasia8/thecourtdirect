@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Bernalillo County New Mexico court directory building exterior",
   "metaDescription": "Bernalillo County New Mexico court directory, find District, Metropolitan & Magistrate Courts info",
-  "metaTitle": "Bernalillo County New Mexico Court Directory"
+  "metaTitle": "Bernalillo County New Mexico Court Directory",
+  "references": [
+    {
+      "name": "New Mexico Judicial Branch - Official",
+      "url": "https://nmcourts.gov/"
+    },
+    {
+      "name": "State Bar of New Mexico",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Mexico"
+    }
+  ]
 }

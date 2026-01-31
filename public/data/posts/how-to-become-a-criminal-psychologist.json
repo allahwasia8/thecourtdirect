@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Learn to become a criminal psychologist, understand the criminal mind, and support law enforcement with a degree in forensic psychology.",
-  "metaTitle": "How to Become a Criminal Psychologist"
+  "metaTitle": "How to Become a Criminal Psychologist",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Eastern District of Kentucky Federal Court serves 68 counties with justice and upholds US laws.",
-  "metaTitle": "Eastern District of Kentucky"
+  "metaTitle": "Eastern District of Kentucky",
+  "references": [
+    {
+      "name": "Kentucky Judicial Branch - Official",
+      "url": "https://kycourts.gov/"
+    },
+    {
+      "name": "State Bar of Kentucky",
+      "url": "https://www.google.com/search?q=State+Bar+of+Kentucky"
+    }
+  ]
 }

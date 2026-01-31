@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Glen Cove City Court building exterior in New York",
   "metaDescription": "Glen Cove City Court info: address, hours, jurisdiction, and contact details for this NY court.",
-  "metaTitle": "Glen Cove City Court"
+  "metaTitle": "Glen Cove City Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Eastern District of Arkansas federal court info & jurisdiction",
-  "metaTitle": "Eastern District of Arkansas"
+  "metaTitle": "Eastern District of Arkansas",
+  "references": [
+    {
+      "name": "Arkansas Judicial Branch - Official",
+      "url": "https://www.arcourts.gov/"
+    },
+    {
+      "name": "State Bar of Arkansas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Arkansas"
+    }
+  ]
 }

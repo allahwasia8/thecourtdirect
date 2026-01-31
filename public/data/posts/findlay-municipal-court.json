@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Findlay Municipal Court building exterior in Ohio",
   "metaDescription": "Findlay Municipal Court in Ohio handles traffic, misdemeanors, and small claims cases.",
-  "metaTitle": "Findlay Municipal Court"
+  "metaTitle": "Findlay Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,15 @@
   ],
   "imageAlt": "King County Washington court building exterior",
   "metaDescription": "King County Washington Court guide: Superior, District, Municipal courts and procedures.",
-  "metaTitle": "king county washington court"
+  "metaTitle": "king county washington court",
+  "references": [
+    {
+      "name": "Washington Judicial Branch - Official",
+      "url": "https://www.courts.wa.gov/"
+    },
+    {
+      "name": "State Bar of Washington",
+      "url": "https://www.google.com/search?q=State+Bar+of+Washington"
+    }
+  ]
 }

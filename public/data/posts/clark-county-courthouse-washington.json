@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Clark County Courthouse in Vancouver Washington",
   "metaDescription": "Clark County Courthouse in Washington state, court information and details.",
-  "metaTitle": "Clark County Courthouse Washington"
+  "metaTitle": "Clark County Courthouse Washington",
+  "references": [
+    {
+      "name": "Washington Judicial Branch - Official",
+      "url": "https://www.courts.wa.gov/"
+    },
+    {
+      "name": "State Bar of Washington",
+      "url": "https://www.google.com/search?q=State+Bar+of+Washington"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court appointed attorney for family law cases and legal representation",
   "metaDescription": "Get a court appointed attorney for family law cases, including divorce and child custody, if you can't afford a lawyer, learn eligibility and process.",
-  "metaTitle": "How to Get a Court Appointed Attorney for Family Law"
+  "metaTitle": "How to Get a Court Appointed Attorney for Family Law",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

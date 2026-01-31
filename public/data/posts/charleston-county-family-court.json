@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Charleston County Family Court building and logo representation",
   "metaDescription": "Charleston County Family Court resolves family legal matters in SC with clarity and compassion.",
-  "metaTitle": "Charleston County Family Court"
+  "metaTitle": "Charleston County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

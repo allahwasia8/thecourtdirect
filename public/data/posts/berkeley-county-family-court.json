@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Berkeley County Family Court building exterior in Moncks Corner South Carolina",
   "metaDescription": "Berkeley County Family Court guide: hours, address, and services in Moncks Corner, SC",
-  "metaTitle": "berkeley county family court"
+  "metaTitle": "berkeley county family court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

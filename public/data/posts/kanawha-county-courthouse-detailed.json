@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Kanawha County Courthouse building in Charleston West Virginia",
   "metaDescription": "Discover Kanawha County Courthouse in Charleston, West Virginia, a historic neoclassical landmark",
-  "metaTitle": "Kanawha County Courthouse"
+  "metaTitle": "Kanawha County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

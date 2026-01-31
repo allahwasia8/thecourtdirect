@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Appellate Court building with judge and lawyers in session",
   "metaDescription": "Learn about appellate courts, their purpose and structure in state and federal court systems.",
-  "metaTitle": "What is Appellate Court?"
+  "metaTitle": "What is Appellate Court?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

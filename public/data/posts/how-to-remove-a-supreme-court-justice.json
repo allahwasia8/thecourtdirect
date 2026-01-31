@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Remove a US Supreme Court Justice: process and history explained",
-  "metaTitle": "How to Remove a Supreme Court Justice"
+  "metaTitle": "How to Remove a Supreme Court Justice",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

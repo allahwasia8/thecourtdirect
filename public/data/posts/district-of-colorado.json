@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Colorado, federal jurisdiction, court locations in Denver, Colorado Springs, Durango, Grand Junction.",
-  "metaTitle": "District of Colorado"
+  "metaTitle": "District of Colorado",
+  "references": [
+    {
+      "name": "Colorado Judicial Branch - Official",
+      "url": "https://www.courts.state.co.us/"
+    },
+    {
+      "name": "State Bar of Colorado",
+      "url": "https://www.google.com/search?q=State+Bar+of+Colorado"
+    }
+  ]
 }

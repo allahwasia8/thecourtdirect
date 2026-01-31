@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Emotional abuse evidence in family court proceedings",
   "metaDescription": "Prove emotional abuse in family court with proper documentation and evidence, gain custody and protect children.",
-  "metaTitle": "How to Prove Emotional Abuse in Family Court"
+  "metaTitle": "How to Prove Emotional Abuse in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

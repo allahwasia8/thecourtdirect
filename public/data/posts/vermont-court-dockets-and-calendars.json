@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Vermont court dockets and calendars information",
   "metaDescription": "Vermont court dockets and calendars guide for tracking cases in VT courts.",
-  "metaTitle": "Vermont Court Dockets and Calendars"
+  "metaTitle": "Vermont Court Dockets and Calendars",
+  "references": [
+    {
+      "name": "Vermont Judicial Branch - Official",
+      "url": "https://www.vermontjudiciary.org/"
+    },
+    {
+      "name": "State Bar of Vermont",
+      "url": "https://www.google.com/search?q=State+Bar+of+Vermont"
+    }
+  ]
 }

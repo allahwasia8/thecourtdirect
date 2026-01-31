@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Mahoning County courthouse and court system information",
   "metaDescription": "Mahoning County Courts in Ohio: Overview of court system, types & roles.",
-  "metaTitle": "mahoning county courts"
+  "metaTitle": "mahoning county courts",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

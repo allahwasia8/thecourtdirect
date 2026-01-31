@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Fort Bend County Courthouse in Richmond Texas",
   "metaDescription": "Discover Fort Bend County Courthouse in Richmond, Texas, a historic hub for judicial & administrative services.",
-  "metaTitle": "Fort Bend County Courthouse"
+  "metaTitle": "Fort Bend County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Campbell Municipal Court in Ohio, serving Mahoning County with civil, traffic, and criminal cases.",
-  "metaTitle": "Campbell Municipal Court"
+  "metaTitle": "Campbell Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

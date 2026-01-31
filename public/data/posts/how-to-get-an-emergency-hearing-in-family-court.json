@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court emergency hearing process and legal guidance",
   "metaDescription": "Learn how to request an emergency hearing in family court for urgent situations like child abduction or abuse.",
-  "metaTitle": "How to Get an Emergency Hearing in Family Court"
+  "metaTitle": "How to Get an Emergency Hearing in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

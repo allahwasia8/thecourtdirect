@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Harris County Family Law Center building in Houston Texas",
   "metaDescription": "Harris County Family Law Center: Family law services in Houston, TX",
-  "metaTitle": "Harris County Family Law Center"
+  "metaTitle": "Harris County Family Law Center",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

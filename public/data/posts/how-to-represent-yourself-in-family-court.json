@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Representing yourself in family court proceedings without legal counsel",
   "metaDescription": "Navigate family court without a lawyer, learn to represent yourself effectively in family court cases.",
-  "metaTitle": "How to Represent Yourself in Family Court"
+  "metaTitle": "How to Represent Yourself in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

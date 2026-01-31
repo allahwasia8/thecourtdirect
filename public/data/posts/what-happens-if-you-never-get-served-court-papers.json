@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court papers being served to a defendant in a legal proceeding",
   "metaDescription": "What happens if you're never served court papers in a civil lawsuit, and how it affects your due process rights.",
-  "metaTitle": "what happens if you never get served court papers"
+  "metaTitle": "what happens if you never get served court papers",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

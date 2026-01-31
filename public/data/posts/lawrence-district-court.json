@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Lawrence District Court building exterior in Massachusetts",
   "metaDescription": "Lawrence District Court in MA handles criminal, civil & family cases serving Andover, Lawrence, Methuen, and North Andover.",
-  "metaTitle": "Lawrence District Court"
+  "metaTitle": "Lawrence District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

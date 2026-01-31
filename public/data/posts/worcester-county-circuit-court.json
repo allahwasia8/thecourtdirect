@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Worcester County Circuit Court in Maryland handles criminal, civil and family law cases.",
-  "metaTitle": "Worcester County Circuit Court"
+  "metaTitle": "Worcester County Circuit Court",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

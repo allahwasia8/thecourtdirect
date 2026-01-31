@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Eviction court date timeline for moving out guidelines",
   "metaDescription": "Learn how long after an eviction court date you must move, and understand the eviction process and timeline.",
-  "metaTitle": "how long after eviction court date do you have to move"
+  "metaTitle": "how long after eviction court date do you have to move",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

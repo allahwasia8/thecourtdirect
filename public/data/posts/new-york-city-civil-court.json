@@ -34,5 +34,15 @@
   ],
   "imageAlt": "New York City Civil Court building exterior",
   "metaDescription": "Kings County Civil Court in Brooklyn, NY handles civil cases up to $25,000.",
-  "metaTitle": "New York City Civil Court"
+  "metaTitle": "New York City Civil Court",
+  "references": [
+    {
+      "name": "New York Judicial Branch - Official",
+      "url": "https://www.nycourts.gov/"
+    },
+    {
+      "name": "State Bar of New York",
+      "url": "https://www.google.com/search?q=State+Bar+of+New York"
+    }
+  ]
 }

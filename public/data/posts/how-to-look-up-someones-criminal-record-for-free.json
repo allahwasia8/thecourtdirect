@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Free criminal record search online background check",
   "metaDescription": "Learn how to look up someone's criminal record for free using state databases and third-party tools online.",
-  "metaTitle": "How to Look Up Someone's Criminal Record for Free"
+  "metaTitle": "How to Look Up Someone's Criminal Record for Free",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

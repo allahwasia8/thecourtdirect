@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Appellate court decision appeal options",
   "metaDescription": "Explore options beyond appellate court decisions, including higher courts and federal courts, for legal recourse and alternative resolutions.",
-  "metaTitle": "what if a person who is not satisfied with an appellate court’s decision"
+  "metaTitle": "what if a person who is not satisfied with an appellate court’s decision",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

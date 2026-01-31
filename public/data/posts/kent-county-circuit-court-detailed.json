@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Kent County Circuit Court: felony, civil, family law cases in Michigan.",
-  "metaTitle": "kent county circuit court"
+  "metaTitle": "kent county circuit court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

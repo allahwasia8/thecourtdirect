@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Ignoring family court orders consequences",
   "metaDescription": "Learn about consequences of not following family court orders, including contempt penalties and remedies in family law cases.",
-  "metaTitle": "What Happens If You Don't Follow A Family Court Order?"
+  "metaTitle": "What Happens If You Don't Follow A Family Court Order?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "10th Circuit Court of Appeals: Role, history & jurisdiction in 6 western states.",
-  "metaTitle": "10th circuit court of appeals"
+  "metaTitle": "10th circuit court of appeals",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

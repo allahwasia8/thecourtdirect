@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Eastern District of Missouri, a federal court with 165+ years of history, covering 45 counties in eastern Missouri.",
-  "metaTitle": "Eastern District of Missouri"
+  "metaTitle": "Eastern District of Missouri",
+  "references": [
+    {
+      "name": "Missouri Judicial Branch - Official",
+      "url": "https://www.courts.mo.gov/"
+    },
+    {
+      "name": "State Bar of Missouri",
+      "url": "https://www.google.com/search?q=State+Bar+of+Missouri"
+    }
+  ]
 }

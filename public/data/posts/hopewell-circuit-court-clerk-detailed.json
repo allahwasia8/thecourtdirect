@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Hopewell Circuit Court Clerk information and services in Hopewell",
-  "metaTitle": "Hopewell Circuit Court Clerk"
+  "metaTitle": "Hopewell Circuit Court Clerk",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

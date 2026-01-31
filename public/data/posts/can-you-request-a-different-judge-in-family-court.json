@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court judge gavel with legal documents in background",
   "metaDescription": "Request a different judge in family court for divorce or custody cases if impartiality is a concern, learn the process and valid reasons.",
-  "metaTitle": "Can You Request a Different Judge in Family Court?"
+  "metaTitle": "Can You Request a Different Judge in Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

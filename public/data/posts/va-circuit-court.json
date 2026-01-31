@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "VA Circuit Court overview, structure & role in Virginia's judicial system.",
-  "metaTitle": "va circuit court"
+  "metaTitle": "va circuit court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Rocky River Municipal Court building exterior",
   "metaDescription": "Rocky River Municipal Court information and resources in Ohio.",
-  "metaTitle": "Rocky River Municipal Court"
+  "metaTitle": "Rocky River Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Thurgood Marshall, first African American Supreme Court Justice",
   "metaDescription": "Discover Thurgood Marshall, 1st African American US Supreme Court Justice, and his impact on civil rights.",
-  "metaTitle": "Who Was the First African American Supreme Court Justice"
+  "metaTitle": "Who Was the First African American Supreme Court Justice",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

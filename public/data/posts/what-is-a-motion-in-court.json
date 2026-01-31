@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Courtroom motion concept illustration",
   "metaDescription": "Learn about court motions, their uses and procedures in legal proceedings, and how they shape case outcomes in court.",
-  "metaTitle": "What is a Motion in Court?"
+  "metaTitle": "What is a Motion in Court?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

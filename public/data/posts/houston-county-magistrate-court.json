@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Houston County Magistrate Court building exterior",
   "metaDescription": "Houston County Magistrate Court info: location, hours, contact, and case types in Warner Robins, GA.",
-  "metaTitle": "Houston County Magistrate Court"
+  "metaTitle": "Houston County Magistrate Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

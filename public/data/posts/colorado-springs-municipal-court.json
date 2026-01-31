@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Colorado Springs Municipal Court building exterior",
   "metaDescription": "Discover Colorado Springs Municipal Court location, contact info, and services for traffic, criminal, and municipal cases in Colorado Springs, CO.",
-  "metaTitle": "Colorado Springs Municipal Court"
+  "metaTitle": "Colorado Springs Municipal Court",
+  "references": [
+    {
+      "name": "Colorado Judicial Branch - Official",
+      "url": "https://www.courts.state.co.us/"
+    },
+    {
+      "name": "State Bar of Colorado",
+      "url": "https://www.google.com/search?q=State+Bar+of+Colorado"
+    }
+  ]
 }

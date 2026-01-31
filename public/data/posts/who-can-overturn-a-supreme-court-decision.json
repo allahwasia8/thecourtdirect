@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Supreme Court decision appeals process and judicial review",
   "metaDescription": "Discover who can overturn a US Supreme Court decision and the balance of power between branches of government.",
-  "metaTitle": "who can overturn a supreme court decision"
+  "metaTitle": "who can overturn a supreme court decision",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

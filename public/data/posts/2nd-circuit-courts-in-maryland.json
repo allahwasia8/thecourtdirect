@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover Maryland's 2nd Circuit Courts, handling criminal and civil cases in Baltimore, Annapolis, and more.",
-  "metaTitle": "2nd Circuit Courts in Maryland"
+  "metaTitle": "2nd Circuit Courts in Maryland",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

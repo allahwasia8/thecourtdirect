@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Southern District of New York, a federal judicial district covering NYC boroughs & surrounding counties.",
-  "metaTitle": "Southern District of New York"
+  "metaTitle": "Southern District of New York",
+  "references": [
+    {
+      "name": "New York Judicial Branch - Official",
+      "url": "https://www.nycourts.gov/"
+    },
+    {
+      "name": "State Bar of New York",
+      "url": "https://www.google.com/search?q=State+Bar+of+New York"
+    }
+  ]
 }

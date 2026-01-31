@@ -34,5 +34,23 @@
   ],
   "imageAlt": "Fresno County Superior Court Criminal Courts building exterior",
   "metaDescription": "Fresno County Superior Court info: criminal cases, court hours, location, and contact details.",
-  "metaTitle": "Fresno County Superior Court - Criminal Courts Departments 95 & 96"
+  "metaTitle": "Fresno County Superior Court - Criminal Courts Departments 95 & 96",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    },
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    }
+  ]
 }

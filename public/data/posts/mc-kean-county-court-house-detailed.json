@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "McKean County Courthouse in Smethport, PA, historic hub of justice & community.",
-  "metaTitle": "Mc Kean County Court House"
+  "metaTitle": "Mc Kean County Court House",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

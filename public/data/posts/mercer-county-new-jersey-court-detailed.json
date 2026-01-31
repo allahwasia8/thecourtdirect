@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Mercer County NJ Court guide: learn about Superior, Municipal & Specialty Courts.",
-  "metaTitle": "MERCER COUNTY NEW JERSEY COURT"
+  "metaTitle": "MERCER COUNTY NEW JERSEY COURT",
+  "references": [
+    {
+      "name": "New Jersey Judicial Branch - Official",
+      "url": "https://www.njcourts.gov/"
+    },
+    {
+      "name": "State Bar of New Jersey",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Jersey"
+    }
+  ]
 }

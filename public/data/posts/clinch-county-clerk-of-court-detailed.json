@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Clinch County Clerk of Court provides court records, legal docs & more in Homerville, GA.",
-  "metaTitle": "Clinch County Clerk of Court"
+  "metaTitle": "Clinch County Clerk of Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

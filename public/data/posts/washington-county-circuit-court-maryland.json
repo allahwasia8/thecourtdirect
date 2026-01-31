@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover Washington County Circuit Court in Maryland, a guide to court procedures and services.",
-  "metaTitle": "Washington County Circuit Court Maryland"
+  "metaTitle": "Washington County Circuit Court Maryland",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Courthouse marriage ceremony in a legal setting",
   "metaDescription": "Discover the simplicity of courthouse marriage, a quick and affordable option at your local courthouse.",
-  "metaTitle": "Courthouse Marriage"
+  "metaTitle": "Courthouse Marriage",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

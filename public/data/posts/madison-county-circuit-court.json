@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Madison County Circuit Court in Edwardsville, IL handles civil, criminal, and traffic cases.",
-  "metaTitle": "madison county circuit court"
+  "metaTitle": "madison county circuit court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Search Maricopa County Superior Court cases online easily",
-  "metaTitle": "maricopa county superior court case search"
+  "metaTitle": "maricopa county superior court case search",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

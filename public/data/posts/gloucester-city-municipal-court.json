@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Gloucester City Municipal Court in NJ handles traffic & criminal cases, find court hours, contact info & payment methods.",
-  "metaTitle": "Gloucester City Municipal Court"
+  "metaTitle": "Gloucester City Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

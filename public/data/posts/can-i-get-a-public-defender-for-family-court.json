@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Get a public defender for family court cases involving custody, child support and more.",
-  "metaTitle": "Can I Get a Public Defender for Family Court?"
+  "metaTitle": "Can I Get a Public Defender for Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Southern District of Illinois, a US federal court serving the southern third of Illinois.",
-  "metaTitle": "Southern District of Illinois"
+  "metaTitle": "Southern District of Illinois",
+  "references": [
+    {
+      "name": "Illinois Judicial Branch - Official",
+      "url": "https://www.illinoiscourts.gov/"
+    },
+    {
+      "name": "State Bar of Illinois",
+      "url": "https://www.google.com/search?q=State+Bar+of+Illinois"
+    }
+  ]
 }

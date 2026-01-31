@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Santa Clara County Family Justice Center courthouse building exterior",
   "metaDescription": "Santa Clara County Superior Court Family Justice Center location and contact info for legal services.",
-  "metaTitle": "Santa Clara County Superior Court - Family Justice Center"
+  "metaTitle": "Santa Clara County Superior Court - Family Justice Center",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

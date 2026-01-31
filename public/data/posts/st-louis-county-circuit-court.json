@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "St Louis County Circuit Court guide: navigate Missouri's judicial system, civil, criminal and family court cases.",
-  "metaTitle": "st louis county circuit court"
+  "metaTitle": "st louis county circuit court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

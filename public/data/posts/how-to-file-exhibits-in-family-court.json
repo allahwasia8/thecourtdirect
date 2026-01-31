@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court exhibits filing process illustration",
   "metaDescription": "File exhibits in family court with ease, learn steps to submit evidence correctly.",
-  "metaTitle": "How to File Exhibits in Family Court"
+  "metaTitle": "How to File Exhibits in Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Learn how the US Supreme Court selects cases to hear, its role and certiorari process.",
-  "metaTitle": "How Does the Supreme Court Decide Which Cases to Hear?"
+  "metaTitle": "How Does the Supreme Court Decide Which Cases to Hear?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

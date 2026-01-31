@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Town of Pamelia Court in Watertown, NY, handles criminal, civil, traffic cases.",
-  "metaTitle": "Town of Pamelia Court"
+  "metaTitle": "Town of Pamelia Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

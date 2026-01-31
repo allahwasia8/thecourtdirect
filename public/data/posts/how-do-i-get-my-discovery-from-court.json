@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court discovery documents and legal files",
   "metaDescription": "Get court discovery process guide, learn how to obtain facts and evidence in a court case prior to trial.",
-  "metaTitle": "How Do I Get My Discovery from Court?"
+  "metaTitle": "How Do I Get My Discovery from Court?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

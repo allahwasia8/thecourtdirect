@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Suing family court judicial system concept",
   "metaDescription": "Sue family court for violations of rights or exceeding authority in divorce, child custody, and support cases.",
-  "metaTitle": "Can You Sue Family Court?"
+  "metaTitle": "Can You Sue Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

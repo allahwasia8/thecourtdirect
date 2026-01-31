@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Baldwin County Alabama scenic landscape view",
   "metaDescription": "Discover Baldwin County, Alabama's history, courthouse & judicial system.",
-  "metaTitle": "Baldwin County, Alabama"
+  "metaTitle": "Baldwin County, Alabama",
+  "references": [
+    {
+      "name": "Alabama Judicial Branch - Official",
+      "url": "https://judicial.alabama.gov/"
+    },
+    {
+      "name": "State Bar of Alabama",
+      "url": "https://www.google.com/search?q=State+Bar+of+Alabama"
+    }
+  ]
 }

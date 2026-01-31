@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Nassau County New York Court information and structure, Supreme and County Courts.",
-  "metaTitle": "NASSAU COUNTY NEW YORK COURT"
+  "metaTitle": "NASSAU COUNTY NEW YORK COURT",
+  "references": [
+    {
+      "name": "New York Judicial Branch - Official",
+      "url": "https://www.nycourts.gov/"
+    },
+    {
+      "name": "State Bar of New York",
+      "url": "https://www.google.com/search?q=State+Bar+of+New York"
+    }
+  ]
 }

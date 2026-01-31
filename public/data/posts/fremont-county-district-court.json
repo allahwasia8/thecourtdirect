@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Fremont County District Court building exterior",
   "metaDescription": "Fremont County District Court info: location, hours, contact, services for felony, civil, family law, probate cases",
-  "metaTitle": "Fremont County District Court"
+  "metaTitle": "Fremont County District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

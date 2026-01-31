@@ -34,5 +34,23 @@
   ],
   "imageAlt": "Hampshire Family Court building exterior",
   "metaDescription": "Hampshire Probate and Family Court in Northampton, MA handles probate, family law, adoptions and name changes.",
-  "metaTitle": "Hampshire Family Court"
+  "metaTitle": "Hampshire Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    },
+    {
+      "name": "Massachusetts Judicial Branch - Official",
+      "url": "https://www.mass.gov/orgs/massachusetts-court-system"
+    }
+  ]
 }

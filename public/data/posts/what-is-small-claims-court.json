@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Small Claims Court concept illustration with gavel and scales",
   "metaDescription": "Learn about small claims court, its purpose, procedures and how it resolves minor financial disputes efficiently.",
-  "metaTitle": "what is small claims court"
+  "metaTitle": "what is small claims court",
+  "references": [
+    {
+      "name": "Nolo - Small Claims Court",
+      "url": "https://www.nolo.com/legal-encyclopedia/small-claims-court"
+    },
+    {
+      "name": "LegalZoom - Small Claims Court",
+      "url": "https://www.legalzoom.com/articles/small-claims-court-faq"
+    }
+  ]
 }

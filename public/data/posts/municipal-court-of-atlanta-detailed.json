@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Municipal Court of Atlanta building exterior",
   "metaDescription": "Atlanta Municipal Court information and resources.",
-  "metaTitle": "Municipal Court of Atlanta"
+  "metaTitle": "Municipal Court of Atlanta",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

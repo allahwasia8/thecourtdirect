@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Reschedule court dates online with a Superior Court lawyer, avoid severe consequences.",
-  "metaTitle": "How to Reschedule a Court Date Online"
+  "metaTitle": "How to Reschedule a Court Date Online",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

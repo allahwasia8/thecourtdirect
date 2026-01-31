@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court case search and lookup online process",
   "metaDescription": "Learn how to look up court cases online, access records and research legal precedents easily.",
-  "metaTitle": "How to Look Up Court Cases"
+  "metaTitle": "How to Look Up Court Cases",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court judge gavel with jail cell background",
   "metaDescription": "Can family court send you to jail? Learn about family court powers and contempt consequences.",
-  "metaTitle": "Can Family Court Send You to Jail?"
+  "metaTitle": "Can Family Court Send You to Jail?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

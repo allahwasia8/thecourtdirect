@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Angelina County Texas Court: Learn about court structure, jurisdiction & services in Angelina County.",
-  "metaTitle": "ANGELINA COUNTY TEXAS COURT"
+  "metaTitle": "ANGELINA COUNTY TEXAS COURT",
+  "references": [
+    {
+      "name": "Texas Judicial Branch - Official",
+      "url": "https://www.txcourts.gov/"
+    },
+    {
+      "name": "State Bar of Texas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Texas"
+    }
+  ]
 }

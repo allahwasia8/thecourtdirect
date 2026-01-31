@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Polk County Courthouse historic building exterior",
   "metaDescription": "Discover Polk County Courthouse history, architecture and judicial system evolution in Florida.",
-  "metaTitle": "polk county courthouse"
+  "metaTitle": "polk county courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Howard County Circuit Court in Maryland, find court information and resources.",
-  "metaTitle": "Howard County Circuit Court maryland"
+  "metaTitle": "Howard County Circuit Court maryland",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

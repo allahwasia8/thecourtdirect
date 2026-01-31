@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court case status update showing disposed verdict result",
   "metaDescription": "Discover what disposed means in court and its various outcomes.",
-  "metaTitle": "what does disposed mean in court"
+  "metaTitle": "what does disposed mean in court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

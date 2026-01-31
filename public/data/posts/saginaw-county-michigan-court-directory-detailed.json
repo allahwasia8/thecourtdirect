@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Saginaw County Michigan court building exterior",
   "metaDescription": "Saginaw County Michigan court directory: district, circuit, probate and juvenile courts info",
-  "metaTitle": "Saginaw County Michigan Court Directory"
+  "metaTitle": "Saginaw County Michigan Court Directory",
+  "references": [
+    {
+      "name": "Michigan Judicial Branch - Official",
+      "url": "https://www.courts.michigan.gov/"
+    },
+    {
+      "name": "State Bar of Michigan",
+      "url": "https://www.google.com/search?q=State+Bar+of+Michigan"
+    }
+  ]
 }

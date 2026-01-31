@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Pinellas County Florida court directory information and resources",
   "metaDescription": "Pinellas County Florida court directory, find judges, court info and more in one place",
-  "metaTitle": "Pinellas County Florida Court Directory"
+  "metaTitle": "Pinellas County Florida Court Directory",
+  "references": [
+    {
+      "name": "Florida Judicial Branch - Official",
+      "url": "https://www.flcourts.gov/"
+    },
+    {
+      "name": "State Bar of Florida",
+      "url": "https://www.google.com/search?q=State+Bar+of+Florida"
+    }
+  ]
 }

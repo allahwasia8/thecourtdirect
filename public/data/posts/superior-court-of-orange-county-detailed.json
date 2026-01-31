@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Orange County Superior Court info: cases, judges, and services in California.",
-  "metaTitle": "superior court of orange county"
+  "metaTitle": "superior court of orange county",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

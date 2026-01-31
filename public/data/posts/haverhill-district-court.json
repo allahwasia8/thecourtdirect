@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Haverhill District Court building exterior in Massachusetts",
   "metaDescription": "Haverhill District Court in MA, location, hours, contact info and services.",
-  "metaTitle": "Haverhill District Court"
+  "metaTitle": "Haverhill District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

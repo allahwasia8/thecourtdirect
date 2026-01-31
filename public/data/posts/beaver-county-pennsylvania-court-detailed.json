@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Beaver County PA Court: guide to history, structure, services & resources.",
-  "metaTitle": "beaver county courthouse"
+  "metaTitle": "beaver county courthouse",
+  "references": [
+    {
+      "name": "Pennsylvania Judicial Branch - Official",
+      "url": "https://www.pacourts.us/"
+    },
+    {
+      "name": "State Bar of Pennsylvania",
+      "url": "https://www.google.com/search?q=State+Bar+of+Pennsylvania"
+    }
+  ]
 }

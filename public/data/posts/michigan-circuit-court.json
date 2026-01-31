@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Michigan Circuit Court: roles, cases & process in MI's highest trial court",
-  "metaTitle": "michigan circuit court"
+  "metaTitle": "michigan circuit court",
+  "references": [
+    {
+      "name": "Michigan Judicial Branch - Official",
+      "url": "https://www.courts.michigan.gov/"
+    },
+    {
+      "name": "State Bar of Michigan",
+      "url": "https://www.google.com/search?q=State+Bar+of+Michigan"
+    }
+  ]
 }

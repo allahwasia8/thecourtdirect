@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Beaufort County Family Court: services, procedures & resources for divorce, custody & more in Beaufort, SC.",
-  "metaTitle": "beaufort county family court"
+  "metaTitle": "beaufort county family court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the 7th Circuit Courts in Maryland, their history, functionality and role in the state's justice system.",
-  "metaTitle": "7th Circuit Courts in Maryland"
+  "metaTitle": "7th Circuit Courts in Maryland",
+  "references": [
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    },
+    {
+      "name": "State Bar of Maryland",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maryland"
+    }
+  ]
 }

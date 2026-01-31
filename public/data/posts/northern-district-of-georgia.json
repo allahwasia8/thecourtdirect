@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Northern District of Georgia info and jurisdiction",
-  "metaTitle": "Northern District of Georgia"
+  "metaTitle": "Northern District of Georgia",
+  "references": [
+    {
+      "name": "Georgia Judicial Branch - Official",
+      "url": "https://georgiacourts.gov/"
+    },
+    {
+      "name": "State Bar of Georgia",
+      "url": "https://www.google.com/search?q=State+Bar+of+Georgia"
+    }
+  ]
 }

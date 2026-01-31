@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "District of New Mexico federal judicial district information, US courthouses & marshal details.",
-  "metaTitle": "District of New Mexico"
+  "metaTitle": "District of New Mexico",
+  "references": [
+    {
+      "name": "New Mexico Judicial Branch - Official",
+      "url": "https://nmcourts.gov/"
+    },
+    {
+      "name": "State Bar of New Mexico",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Mexico"
+    }
+  ]
 }

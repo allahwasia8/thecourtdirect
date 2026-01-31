@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Marriage dissolution through legal annulment process",
   "metaDescription": "Learn about annulment, its grounds, and legal implications in family court, and understand the differences between annulment and divorce proceedings.",
-  "metaTitle": "Annulment: Understanding the Legal Dissolution of Marriage"
+  "metaTitle": "Annulment: Understanding the Legal Dissolution of Marriage",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

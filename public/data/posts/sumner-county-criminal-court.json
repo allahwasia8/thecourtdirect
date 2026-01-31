@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Sumner County Criminal Court building in Tennessee",
   "metaDescription": "Sumner County Criminal Court info: felonies, misdemeanors, & traffic cases in Gallatin, TN.",
-  "metaTitle": "Sumner County Criminal Court"
+  "metaTitle": "Sumner County Criminal Court",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

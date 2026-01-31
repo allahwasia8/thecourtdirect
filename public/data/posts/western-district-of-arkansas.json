@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Western District of Arkansas federal court serves 33 counties with 7 divisions.",
-  "metaTitle": "Western District of Arkansas"
+  "metaTitle": "Western District of Arkansas",
+  "references": [
+    {
+      "name": "Arkansas Judicial Branch - Official",
+      "url": "https://www.arcourts.gov/"
+    },
+    {
+      "name": "State Bar of Arkansas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Arkansas"
+    }
+  ]
 }

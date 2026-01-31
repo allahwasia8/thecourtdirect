@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Nebraska overview, history & operations",
-  "metaTitle": "District of Nebraska"
+  "metaTitle": "District of Nebraska",
+  "references": [
+    {
+      "name": "Nebraska Judicial Branch - Official",
+      "url": "https://supremecourt.nebraska.gov/"
+    },
+    {
+      "name": "State Bar of Nebraska",
+      "url": "https://www.google.com/search?q=State+Bar+of+Nebraska"
+    }
+  ]
 }

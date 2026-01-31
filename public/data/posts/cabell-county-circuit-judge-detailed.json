@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Discover the role and importance of Cabell County Circuit Judge in West Virginia's court system.",
-  "metaTitle": "Cabell County Circuit Judge"
+  "metaTitle": "Cabell County Circuit Judge",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

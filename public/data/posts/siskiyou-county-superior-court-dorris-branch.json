@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Siskiyou County Superior Court Dorris Branch building exterior",
   "metaDescription": "Siskiyou County Superior Court Dorris Branch info and resources",
-  "metaTitle": "Siskiyou County Superior Court – Dorris Branch"
+  "metaTitle": "Siskiyou County Superior Court – Dorris Branch",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

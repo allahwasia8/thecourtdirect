@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Richland County Family Court justice system building exterior",
   "metaDescription": "Richland County Family Court in SC resolves family legal issues.",
-  "metaTitle": "Richland County Family Court"
+  "metaTitle": "Richland County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

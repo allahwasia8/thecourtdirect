@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Kennebec County District Court Augusta courthouse building",
   "metaDescription": "Kennebec County District Court in Augusta, Maine: guide to history, jurisdiction, and procedures.",
-  "metaTitle": "Kennebec County District Court - Augusta"
+  "metaTitle": "Kennebec County District Court - Augusta",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Maricopa County Arizona Superior Court building exterior",
   "metaDescription": "Discover the Superior Court of Arizona in Maricopa County, its functions, history, and role in the Arizona judicial system.",
-  "metaTitle": "superior court of arizona in maricopa county"
+  "metaTitle": "superior court of arizona in maricopa county",
+  "references": [
+    {
+      "name": "Arizona Judicial Branch - Official",
+      "url": "https://www.azcourts.gov/"
+    },
+    {
+      "name": "State Bar of Arizona",
+      "url": "https://www.google.com/search?q=State+Bar+of+Arizona"
+    }
+  ]
 }

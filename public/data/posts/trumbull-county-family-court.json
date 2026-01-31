@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Trumbull County Family Court guide: divorce, child custody, support, and more in Warren, OH.",
-  "metaTitle": "trumbull county family court"
+  "metaTitle": "trumbull county family court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

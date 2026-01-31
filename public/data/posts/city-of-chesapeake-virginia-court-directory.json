@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Chesapeake Virginia court directory and navigation system information",
   "metaDescription": "Chesapeake VA court directory: Circuit, General District & Juvenile courts, history & landmark cases.",
-  "metaTitle": "City of Chesapeake Virginia Court Directory"
+  "metaTitle": "City of Chesapeake Virginia Court Directory",
+  "references": [
+    {
+      "name": "Virginia Judicial Branch - Official",
+      "url": "https://www.vacourts.gov/"
+    },
+    {
+      "name": "State Bar of Virginia",
+      "url": "https://www.google.com/search?q=State+Bar+of+Virginia"
+    }
+  ]
 }

@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Discover Chambers County Courthouse in Texas, a historic landmark serving justice since 1858.",
-  "metaTitle": "Chambers County courthouse"
+  "metaTitle": "Chambers County courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

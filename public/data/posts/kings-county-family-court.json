@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Kings County Family Court building in Brooklyn, New York",
   "metaDescription": "Kings County Family Court in Brooklyn, NY handles divorce, custody & support cases.",
-  "metaTitle": "Kings County Family Court"
+  "metaTitle": "Kings County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

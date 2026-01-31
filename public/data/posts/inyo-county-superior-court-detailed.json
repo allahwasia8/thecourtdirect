@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Inyo County Superior Court building exterior",
   "metaDescription": "Inyo County Superior Court info: location, hours, contact & jurisdiction details for California court cases.",
-  "metaTitle": "inyo county superior court"
+  "metaTitle": "inyo county superior court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

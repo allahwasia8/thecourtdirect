@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Barstow Courthouse building in San Bernardino County",
   "metaDescription": "Barstow Courthouse: San Bernardino County Superior Court info & services",
-  "metaTitle": "Barstow Courthouse"
+  "metaTitle": "Barstow Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

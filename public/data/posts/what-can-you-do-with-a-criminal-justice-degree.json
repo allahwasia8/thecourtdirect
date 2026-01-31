@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Criminal justice degree career opportunities and job paths",
   "metaDescription": "Explore career opportunities with a Criminal Justice Degree in law enforcement, corrections, and private security.",
-  "metaTitle": "What can you do with a Criminal Justice Degree?"
+  "metaTitle": "What can you do with a Criminal Justice Degree?",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

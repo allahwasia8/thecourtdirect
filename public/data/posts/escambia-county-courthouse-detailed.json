@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Discover Escambia County Courthouse in Florida, a historic symbol of justice and community progress.",
-  "metaTitle": "Escambia County Courthouse"
+  "metaTitle": "Escambia County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Idaho District Courts handle federal cases, civil & criminal, across the state.",
-  "metaTitle": "District Courts of Idaho"
+  "metaTitle": "District Courts of Idaho",
+  "references": [
+    {
+      "name": "Idaho Judicial Branch - Official",
+      "url": "https://isc.idaho.gov/"
+    },
+    {
+      "name": "State Bar of Idaho",
+      "url": "https://www.google.com/search?q=State+Bar+of+Idaho"
+    }
+  ]
 }

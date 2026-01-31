@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Vance County District Court building and logo representation",
   "metaDescription": "Vance County District Court: NC court services, records, and procedures in Henderson.",
-  "metaTitle": "Vance County District Court"
+  "metaTitle": "Vance County District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

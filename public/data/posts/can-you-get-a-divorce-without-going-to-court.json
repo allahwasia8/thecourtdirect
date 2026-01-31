@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Divorce without courtroom drama and litigation alternatives concept",
   "metaDescription": "Learn about uncontested divorce, a cost-saving alternative to courtroom drama, allowing spouses to finalize divorce without court hearings.",
-  "metaTitle": "Can You Get a Divorce Without Going to Court?"
+  "metaTitle": "Can You Get a Divorce Without Going to Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    },
+    {
+      "name": "WomensLaw.org - Divorce",
+      "url": "https://www.womenslaw.org/laws/general/divorce"
+    }
+  ]
 }

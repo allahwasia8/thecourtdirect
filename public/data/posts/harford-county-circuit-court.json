@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Harford County Circuit Court guide: info and resources",
-  "metaTitle": "harford county circuit court"
+  "metaTitle": "harford county circuit court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

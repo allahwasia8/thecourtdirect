@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court evidence concept with gavel and scales of justice",
   "metaDescription": "Learn about admissible evidence in family court, including relevance, reliability and burden of proof.",
-  "metaTitle": "What is Admissible Evidence in Family Court?"
+  "metaTitle": "What is Admissible Evidence in Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

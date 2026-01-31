@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Catholic Supreme Court justices representation in the US court system",
   "metaDescription": "Supreme Court composition: 5 Catholic justices on the US high court",
-  "metaTitle": "how many supreme court justices are catholic"
+  "metaTitle": "how many supreme court justices are catholic",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

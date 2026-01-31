@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Custody agreement violation and court intervention concept",
   "metaDescription": "Learn when a court will help with custody agreement violations and how to prove contempt in family court cases.",
-  "metaTitle": "How Severe Does a Custody Agreement Violation Have to Be Before a Court Will Help Me?"
+  "metaTitle": "How Severe Does a Custody Agreement Violation Have to Be Before a Court Will Help Me?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

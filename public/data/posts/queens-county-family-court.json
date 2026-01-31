@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Queens County Family Court building exterior in New York City",
   "metaDescription": "Queens County Family Court: Handling divorce, child custody, adoption & more in Queens, NY.",
-  "metaTitle": "Queens County Family Court"
+  "metaTitle": "Queens County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

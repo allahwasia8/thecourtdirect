@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Alabama State House building in Montgomery, Alabama",
   "metaDescription": "Discover the Alabama State House in Montgomery, its history, structure and future plans.",
-  "metaTitle": "Alabama State House"
+  "metaTitle": "Alabama State House",
+  "references": [
+    {
+      "name": "Alabama Judicial Branch - Official",
+      "url": "https://judicial.alabama.gov/"
+    },
+    {
+      "name": "State Bar of Alabama",
+      "url": "https://www.google.com/search?q=State+Bar+of+Alabama"
+    }
+  ]
 }

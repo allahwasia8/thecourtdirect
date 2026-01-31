@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Somerset County PA Court of Common Pleas info and services",
-  "metaTitle": "SOMERSET COUNTY PENNSYLVANIA COURT"
+  "metaTitle": "SOMERSET COUNTY PENNSYLVANIA COURT",
+  "references": [
+    {
+      "name": "Pennsylvania Judicial Branch - Official",
+      "url": "https://www.pacourts.us/"
+    },
+    {
+      "name": "State Bar of Pennsylvania",
+      "url": "https://www.google.com/search?q=State+Bar+of+Pennsylvania"
+    }
+  ]
 }

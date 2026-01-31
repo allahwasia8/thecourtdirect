@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Greenville County Circuit Court building exterior",
   "metaDescription": "Greenville County Circuit Court: South Carolina's judicial system for civil and criminal cases.",
-  "metaTitle": "Greenville County Circuit Court"
+  "metaTitle": "Greenville County Circuit Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

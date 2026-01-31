@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Northern District of Indiana Federal Court handles civil and criminal cases in 32 counties.",
-  "metaTitle": "Northern District of Indiana Federal Court"
+  "metaTitle": "Northern District of Indiana Federal Court",
+  "references": [
+    {
+      "name": "Indiana Judicial Branch - Official",
+      "url": "https://www.in.gov/courts/"
+    },
+    {
+      "name": "State Bar of Indiana",
+      "url": "https://www.google.com/search?q=State+Bar+of+Indiana"
+    }
+  ]
 }

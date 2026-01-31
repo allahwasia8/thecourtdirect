@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court and outstanding warrant legal issues concept",
   "metaDescription": "Discover how family courts access warrant info in child custody cases and more, and what it means for you.",
-  "metaTitle": "Will Family Court Know I Have A Warrant?"
+  "metaTitle": "Will Family Court Know I Have A Warrant?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

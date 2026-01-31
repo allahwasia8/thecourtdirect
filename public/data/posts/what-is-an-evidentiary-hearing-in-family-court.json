@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court evidentiary hearing concept illustration",
   "metaDescription": "Learn about evidentiary hearings in family court, resolving disputes and weighing evidence.",
-  "metaTitle": "What is an Evidentiary Hearing in Family Court?"
+  "metaTitle": "What is an Evidentiary Hearing in Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

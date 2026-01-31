@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Virginia Beach Courthouse information and guide",
-  "metaTitle": "Virginia Beach Courthouse"
+  "metaTitle": "Virginia Beach Courthouse",
+  "references": [
+    {
+      "name": "Virginia Judicial Branch - Official",
+      "url": "https://www.vacourts.gov/"
+    },
+    {
+      "name": "State Bar of Virginia",
+      "url": "https://www.google.com/search?q=State+Bar+of+Virginia"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Duchesne County Utah Court guide: justice services, court locations & contact info.",
-  "metaTitle": "DUCHESNE COUNTY UTAH COURT"
+  "metaTitle": "DUCHESNE COUNTY UTAH COURT",
+  "references": [
+    {
+      "name": "Utah Judicial Branch - Official",
+      "url": "https://www.utcourts.gov/"
+    },
+    {
+      "name": "State Bar of Utah",
+      "url": "https://www.google.com/search?q=State+Bar+of+Utah"
+    }
+  ]
 }

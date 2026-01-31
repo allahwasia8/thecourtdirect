@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Fall River District Court building exterior",
   "metaDescription": "Fall River District Court in Massachusetts, serving Fall River and nearby towns with justice services.",
-  "metaTitle": "Fall River District Court"
+  "metaTitle": "Fall River District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

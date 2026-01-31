@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Albany County Family Court building exterior",
   "metaDescription": "Albany County Family Court guide: navigate divorce, custody & more in Albany, NY.",
-  "metaTitle": "Albany County Family Court"
+  "metaTitle": "Albany County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

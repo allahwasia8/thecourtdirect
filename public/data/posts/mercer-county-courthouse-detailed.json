@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Mercer County Courthouse historic building exterior",
   "metaDescription": "Discover Mercer County Courthouse, a historic landmark in Mercer County, serving as administrative and judicial center.",
-  "metaTitle": "Mercer County Courthouse"
+  "metaTitle": "Mercer County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Find New Jersey court records online, learn about the NJ court system and access legal information for civil and criminal cases.",
-  "metaTitle": "How to Find New Jersey Court Records"
+  "metaTitle": "How to Find New Jersey Court Records",
+  "references": [
+    {
+      "name": "New Jersey Judicial Branch - Official",
+      "url": "https://www.njcourts.gov/"
+    },
+    {
+      "name": "State Bar of New Jersey",
+      "url": "https://www.google.com/search?q=State+Bar+of+New Jersey"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Cleveland Municipal Court building in Ohio judicial system",
   "metaDescription": "Cleveland Municipal Court: Learn about its functions, jurisdiction and court procedures in Ohio.",
-  "metaTitle": "Cleveland Municipal Court"
+  "metaTitle": "Cleveland Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

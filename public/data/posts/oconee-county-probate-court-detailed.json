@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Oconee County Probate Court building or official seal",
   "metaDescription": "Oconee County Probate Court handles wills, estates, guardianships and marriage licenses.",
-  "metaTitle": "oconee county probate court"
+  "metaTitle": "oconee county probate court",
+  "references": [
+    {
+      "name": "ACTEC Foundation",
+      "url": "https://www.actec.org/"
+    },
+    {
+      "name": "Nolo - Wills, Trusts & Probate",
+      "url": "https://www.nolo.com/legal-encyclopedia/wills-trusts-estates"
+    },
+    {
+      "name": "National College of Probate Judges",
+      "url": "https://ncpj.org/"
+    }
+  ]
 }

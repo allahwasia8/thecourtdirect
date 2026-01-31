@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Franklin Family Court building in Greenfield Massachusetts",
   "metaDescription": "Franklin Probate and Family Court in Greenfield, MA serves Franklin County with guides on services, hours, and accessibility.",
-  "metaTitle": "Franklin Family Court"
+  "metaTitle": "Franklin Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

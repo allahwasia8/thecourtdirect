@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Elmore County District Court building exterior",
   "metaDescription": "Elmore County District Court: Learn about its history, jurisdiction, and procedures in Alabama's local legal system.",
-  "metaTitle": "ELMORE COUNTY DISTRICT COURT"
+  "metaTitle": "ELMORE COUNTY DISTRICT COURT",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

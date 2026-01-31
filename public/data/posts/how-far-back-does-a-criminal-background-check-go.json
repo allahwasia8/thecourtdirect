@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Criminal background check timeline and record search results",
   "metaDescription": "Discover how far back criminal background checks go, including arrest records, court records, and incarceration history, in employment and housing checks.",
-  "metaTitle": "How Far Back Does a Criminal Background Check Go?"
+  "metaTitle": "How Far Back Does a Criminal Background Check Go?",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

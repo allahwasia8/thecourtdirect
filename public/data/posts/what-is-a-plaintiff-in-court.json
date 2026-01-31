@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Plaintiff in court illustration representing legal proceedings",
   "metaDescription": "Learn about plaintiffs in US court, their role and responsibilities in civil lawsuits.",
-  "metaTitle": "What is a Plaintiff in Court"
+  "metaTitle": "What is a Plaintiff in Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Alpine County Superior Court building exterior",
   "metaDescription": "Alpine County Superior Court in California handles felony cases, civil matters and appeals.",
-  "metaTitle": "Alpine County Superior Court"
+  "metaTitle": "Alpine County Superior Court",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

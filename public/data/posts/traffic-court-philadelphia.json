@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Philadelphia Traffic Court building exterior in Spring Garden location",
   "metaDescription": "Traffic Court Philadelphia: Guide to Philly Municipal Court, traffic violations, and ticket process.",
-  "metaTitle": "Traffic Court Philadelphia"
+  "metaTitle": "Traffic Court Philadelphia",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

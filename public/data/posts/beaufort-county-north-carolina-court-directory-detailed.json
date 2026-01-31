@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Beaufort County NC court directory: District, Superior & Family Courts, clerk info & records.",
-  "metaTitle": "Beaufort County North Carolina Court Directory"
+  "metaTitle": "Beaufort County North Carolina Court Directory",
+  "references": [
+    {
+      "name": "North Carolina Judicial Branch - Official",
+      "url": "https://www.nccourts.gov/"
+    },
+    {
+      "name": "State Bar of North Carolina",
+      "url": "https://www.google.com/search?q=State+Bar+of+North Carolina"
+    }
+  ]
 }

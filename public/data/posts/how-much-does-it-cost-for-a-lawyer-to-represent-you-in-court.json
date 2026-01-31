@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Lawyer representing client in court, legal representation costs",
   "metaDescription": "Learn lawyer costs and fees for court representation, including hourly rates and retainer fees.",
-  "metaTitle": "how much does it cost for a lawyer to represent you in court"
+  "metaTitle": "how much does it cost for a lawyer to represent you in court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

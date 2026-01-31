@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Wake County District Court building exterior in North Carolina",
   "metaDescription": "Wake County District Court: Learn about its structure, functions, and jurisdiction in North Carolina.",
-  "metaTitle": "Wake County District Court"
+  "metaTitle": "Wake County District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

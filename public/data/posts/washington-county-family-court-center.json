@@ -33,5 +33,23 @@
     }
   ],
   "metaDescription": "Washington County Family Court Center in PA offers mediation, legal services and counseling for family disputes and legal matters.",
-  "metaTitle": "Washington County Family Court Center"
+  "metaTitle": "Washington County Family Court Center",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    },
+    {
+      "name": "Washington Judicial Branch - Official",
+      "url": "https://www.courts.wa.gov/"
+    }
+  ]
 }

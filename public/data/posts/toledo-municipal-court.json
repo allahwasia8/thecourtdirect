@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Toledo Municipal Court building exterior in Ohio",
   "metaDescription": "Toledo Municipal Court in Ohio, US District Court for Northern District of Ohio, case info & online payments.",
-  "metaTitle": "toledo municipal court"
+  "metaTitle": "toledo municipal court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

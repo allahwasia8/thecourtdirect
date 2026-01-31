@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Massachusetts oversees federal cases in MA, handling civil & criminal trials.",
-  "metaTitle": "District Court For The District Of Massachusetts"
+  "metaTitle": "District Court For The District Of Massachusetts",
+  "references": [
+    {
+      "name": "Massachusetts Judicial Branch - Official",
+      "url": "https://www.mass.gov/orgs/massachusetts-court-system"
+    },
+    {
+      "name": "State Bar of Massachusetts",
+      "url": "https://www.google.com/search?q=State+Bar+of+Massachusetts"
+    }
+  ]
 }

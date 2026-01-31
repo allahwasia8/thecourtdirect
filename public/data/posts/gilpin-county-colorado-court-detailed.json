@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Gilpin County Colorado Court guide: services, records, and legal procedures",
-  "metaTitle": "gilpin county colorado court"
+  "metaTitle": "gilpin county colorado court",
+  "references": [
+    {
+      "name": "Colorado Judicial Branch - Official",
+      "url": "https://www.courts.state.co.us/"
+    },
+    {
+      "name": "State Bar of Colorado",
+      "url": "https://www.google.com/search?q=State+Bar+of+Colorado"
+    }
+  ]
 }

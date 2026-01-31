@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Western District Court of Michigan: Federal court serving 3.2 million residents.",
-  "metaTitle": "Western District Court of Michigan"
+  "metaTitle": "Western District Court of Michigan",
+  "references": [
+    {
+      "name": "Michigan Judicial Branch - Official",
+      "url": "https://www.courts.michigan.gov/"
+    },
+    {
+      "name": "State Bar of Michigan",
+      "url": "https://www.google.com/search?q=State+Bar+of+Michigan"
+    }
+  ]
 }

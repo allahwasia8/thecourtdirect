@@ -34,5 +34,19 @@
   ],
   "imageAlt": "IRS criminal charges and tax evasion penalties concept",
   "metaDescription": "Learn when IRS pursues criminal charges for tax evasion and fraud, and understand the differences between civil and criminal tax violations.",
-  "metaTitle": "When Does the IRS Pursue Criminal Charges?"
+  "metaTitle": "When Does the IRS Pursue Criminal Charges?",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

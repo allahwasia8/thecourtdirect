@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Worcester Family Court building exterior in Massachusetts",
   "metaDescription": "Worcester Family Court: divorce, child custody, support in Worcester, MA.",
-  "metaTitle": "worcester family court"
+  "metaTitle": "worcester family court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

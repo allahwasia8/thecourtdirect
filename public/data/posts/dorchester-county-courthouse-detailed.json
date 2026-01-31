@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Dorchester County Courthouse historic building exterior",
   "metaDescription": "Discover Dorchester County Courthouse in Cambridge, Maryland, a historic site with Georgian architecture and rich legal history.",
-  "metaTitle": "Dorchester County Courthouse"
+  "metaTitle": "Dorchester County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

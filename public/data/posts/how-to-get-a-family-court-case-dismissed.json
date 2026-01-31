@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court case dismissal concept with gavel and legal documents",
   "metaDescription": "Learn how to get a family court case dismissed due to lack of jurisdiction or failure to state a claim.",
-  "metaTitle": "How to Get a Family Court Case Dismissed"
+  "metaTitle": "How to Get a Family Court Case Dismissed",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

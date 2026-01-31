@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Bailing someone out of jail with missed court consequences concept",
   "metaDescription": "Bailing someone out of jail: what happens if they miss court, bail bond forfeiture and consequences.",
-  "metaTitle": "What Happens If You bail Someone Out of Jail and They miss Court?"
+  "metaTitle": "What Happens If You bail Someone Out of Jail and They miss Court?",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

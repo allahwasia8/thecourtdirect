@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Northern District of Mississippi, a federal judicial district covering 33 counties, handling civil rights & crime cases.",
-  "metaTitle": "Northern District of Mississippi"
+  "metaTitle": "Northern District of Mississippi",
+  "references": [
+    {
+      "name": "Mississippi Judicial Branch - Official",
+      "url": "https://courts.ms.gov/"
+    },
+    {
+      "name": "State Bar of Mississippi",
+      "url": "https://www.google.com/search?q=State+Bar+of+Mississippi"
+    }
+  ]
 }

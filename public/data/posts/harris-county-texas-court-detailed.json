@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Harris County Texas court system guide: civil, criminal, family and juvenile courts.",
-  "metaTitle": "HARRIS COUNTY TEXAS COURT"
+  "metaTitle": "HARRIS COUNTY TEXAS COURT",
+  "references": [
+    {
+      "name": "Texas Judicial Branch - Official",
+      "url": "https://www.txcourts.gov/"
+    },
+    {
+      "name": "State Bar of Texas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Texas"
+    }
+  ]
 }

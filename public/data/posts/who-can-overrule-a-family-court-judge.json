@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court judge authority and appeals process explained",
   "metaDescription": "Learn who can overrule a family court judge and the appeals process in family law cases.",
-  "metaTitle": "Who Can Overrule A Family Court Judge?"
+  "metaTitle": "Who Can Overrule A Family Court Judge?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

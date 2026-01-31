@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Southern District of California: US District Court info & history",
-  "metaTitle": "Southern District of California"
+  "metaTitle": "Southern District of California",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

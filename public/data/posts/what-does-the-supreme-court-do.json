@@ -34,5 +34,19 @@
   ],
   "imageAlt": "US Supreme Court building symbolizing judicial power",
   "metaDescription": "Discover the US Supreme Court's role and responsibilities in the American system.",
-  "metaTitle": "what does the supreme court do"
+  "metaTitle": "what does the supreme court do",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the Middle District of Florida, a federal judicial district covering 35 central & northern counties.",
-  "metaTitle": "Middle District of Florida"
+  "metaTitle": "Middle District of Florida",
+  "references": [
+    {
+      "name": "Florida Judicial Branch - Official",
+      "url": "https://www.flcourts.gov/"
+    },
+    {
+      "name": "State Bar of Florida",
+      "url": "https://www.google.com/search?q=State+Bar+of+Florida"
+    }
+  ]
 }

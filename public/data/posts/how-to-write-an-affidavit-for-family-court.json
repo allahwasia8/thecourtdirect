@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court affidavit document with pen and gavel",
   "metaDescription": "Learn to write a family court affidavit with our step-by-step guide, including requirements and tips for family law cases.",
-  "metaTitle": "How to Write an Affidavit for Family Court"
+  "metaTitle": "How to Write an Affidavit for Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

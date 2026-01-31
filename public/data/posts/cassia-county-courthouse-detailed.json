@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Discover Cassia County Courthouse, a landmark of local and national history in Idaho.",
-  "metaTitle": "Cassia County Courthouse"
+  "metaTitle": "Cassia County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

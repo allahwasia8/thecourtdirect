@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Redwood County Courthouse exterior building image",
   "metaDescription": "Redwood County District Court info: location, hours, contact, and case types in MN.",
-  "metaTitle": "Redwood County District Court"
+  "metaTitle": "Redwood County District Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Hearing in court proceedings and legal matters concept",
   "metaDescription": "Learn about court hearings, participant roles and your rights in a court of law proceedings.",
-  "metaTitle": "what is hearing in court"
+  "metaTitle": "what is hearing in court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Kangaroo court concept representing unfair justice system",
   "metaDescription": "Explore kangaroo courts and municipal courts in the US, understanding their impact on justice and due process.",
-  "metaTitle": "what is a kangaroo court"
+  "metaTitle": "what is a kangaroo court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

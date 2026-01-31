@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Jury duty process and courtroom procedures",
   "metaDescription": "Learn what to expect when reporting for jury duty, including orientation, courtroom service, and employer verification, at your local court.",
-  "metaTitle": "What Happens When I Report for Jury Duty?"
+  "metaTitle": "What Happens When I Report for Jury Duty?",
+  "references": [
+    {
+      "name": "NCSC - Jury Management",
+      "url": "https://www.ncsc.org/consulting-and-research/areas-of-expertise/jury-management"
+    },
+    {
+      "name": "USA.gov - Jury Service",
+      "url": "https://www.usa.gov/jury-service"
+    }
+  ]
 }

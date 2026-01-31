@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Discover the US District Court for the District of Delaware, a federal trial court with jurisdiction over Delaware.",
-  "metaTitle": "District of Delaware"
+  "metaTitle": "District of Delaware",
+  "references": [
+    {
+      "name": "Delaware Judicial Branch - Official",
+      "url": "https://courts.delaware.gov/"
+    },
+    {
+      "name": "State Bar of Delaware",
+      "url": "https://www.google.com/search?q=State+Bar+of+Delaware"
+    }
+  ]
 }

@@ -34,5 +34,23 @@
   ],
   "imageAlt": "US Supreme Court rules against Tennessee in Baker v Carr landmark case",
   "metaDescription": "US Supreme Court rules against Tennessee in Baker v Carr, impacting legislative apportionment and voting rights.",
-  "metaTitle": "why did the us supreme court rule against the state of tennessee in baker v. carr?"
+  "metaTitle": "why did the us supreme court rule against the state of tennessee in baker v. carr?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    },
+    {
+      "name": "Tennessee Judicial Branch - Official",
+      "url": "https://www.tncourts.gov/"
+    }
+  ]
 }

@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "US District Court for Maine: history, operations & key cases in federal justice.",
-  "metaTitle": "U.S. District Court for the District of Maine"
+  "metaTitle": "U.S. District Court for the District of Maine",
+  "references": [
+    {
+      "name": "Maine Judicial Branch - Official",
+      "url": "https://www.courts.maine.gov/"
+    },
+    {
+      "name": "State Bar of Maine",
+      "url": "https://www.google.com/search?q=State+Bar+of+Maine"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court clerk working in a courtroom setting with legal documents",
   "metaDescription": "Discover the role of a court clerk in the US judicial system, their responsibilities & importance in court administration.",
-  "metaTitle": "what does a court clerk do"
+  "metaTitle": "what does a court clerk do",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

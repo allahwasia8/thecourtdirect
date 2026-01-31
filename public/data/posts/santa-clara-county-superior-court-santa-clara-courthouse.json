@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Santa Clara Courthouse exterior building image",
   "metaDescription": "Santa Clara County Superior Court info, hours, and services at Santa Clara Courthouse.",
-  "metaTitle": "Santa Clara County Superior Court - Santa Clara Courthouse"
+  "metaTitle": "Santa Clara County Superior Court - Santa Clara Courthouse",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

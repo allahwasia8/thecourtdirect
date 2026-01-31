@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Calaveras County Courthouse historic building exterior",
   "metaDescription": "Calaveras County Superior Court info, history, and jurisdiction details.",
-  "metaTitle": "Calaveras County Courthouse"
+  "metaTitle": "Calaveras County Courthouse",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

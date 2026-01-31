@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Worcester Probate Court information and resources in Massachusetts.",
-  "metaTitle": "Worcester Probate Court"
+  "metaTitle": "Worcester Probate Court",
+  "references": [
+    {
+      "name": "ACTEC Foundation",
+      "url": "https://www.actec.org/"
+    },
+    {
+      "name": "Nolo - Wills, Trusts & Probate",
+      "url": "https://www.nolo.com/legal-encyclopedia/wills-trusts-estates"
+    },
+    {
+      "name": "National College of Probate Judges",
+      "url": "https://ncpj.org/"
+    }
+  ]
 }

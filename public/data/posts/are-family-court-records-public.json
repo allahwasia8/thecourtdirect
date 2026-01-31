@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court records and public access concept",
   "metaDescription": "Discover if family court records are public, what they contain and when they're accessible in family law cases.",
-  "metaTitle": "Are Family Court Records Public?"
+  "metaTitle": "Are Family Court Records Public?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

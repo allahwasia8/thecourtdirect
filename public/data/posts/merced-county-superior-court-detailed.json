@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Merced County Superior Court info: hours, locations, services & more in CA.",
-  "metaTitle": "Merced County Superior Court"
+  "metaTitle": "Merced County Superior Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

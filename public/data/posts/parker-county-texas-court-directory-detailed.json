@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Parker County Texas court directory information and resources",
   "metaDescription": "Parker County Texas court directory: find district, county, and justice of peace courts information online.",
-  "metaTitle": "Parker County Texas Court Directory"
+  "metaTitle": "Parker County Texas Court Directory",
+  "references": [
+    {
+      "name": "Texas Judicial Branch - Official",
+      "url": "https://www.txcourts.gov/"
+    },
+    {
+      "name": "State Bar of Texas",
+      "url": "https://www.google.com/search?q=State+Bar+of+Texas"
+    }
+  ]
 }

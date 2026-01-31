@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Dale County Alabama Court information and resources",
-  "metaTitle": "DALE COUNTY ALABAMA COURT"
+  "metaTitle": "DALE COUNTY ALABAMA COURT",
+  "references": [
+    {
+      "name": "Alabama Judicial Branch - Official",
+      "url": "https://judicial.alabama.gov/"
+    },
+    {
+      "name": "State Bar of Alabama",
+      "url": "https://www.google.com/search?q=State+Bar+of+Alabama"
+    }
+  ]
 }

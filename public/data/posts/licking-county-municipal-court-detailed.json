@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Licking County Municipal Court building in Newark Ohio",
   "metaDescription": "Licking County Municipal Court in Ohio provides judicial services for traffic, misdemeanors, and civil disputes.",
-  "metaTitle": "Licking County Municipal Court"
+  "metaTitle": "Licking County Municipal Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

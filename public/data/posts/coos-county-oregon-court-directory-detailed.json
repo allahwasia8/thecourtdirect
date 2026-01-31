@@ -34,5 +34,15 @@
   ],
   "imageAlt": "Coos County Oregon court directory building exterior",
   "metaDescription": "Coos County Oregon court directory provides access to local court information and services.",
-  "metaTitle": "Coos County Oregon Court Directory"
+  "metaTitle": "Coos County Oregon Court Directory",
+  "references": [
+    {
+      "name": "Oregon Judicial Branch - Official",
+      "url": "https://www.courts.oregon.gov/"
+    },
+    {
+      "name": "State Bar of Oregon",
+      "url": "https://www.google.com/search?q=State+Bar+of+Oregon"
+    }
+  ]
 }

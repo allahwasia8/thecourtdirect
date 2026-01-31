@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Ritchie County Courthouse in West Virginia",
   "metaDescription": "Ritchie County Courthouse info and details in West Virginia",
-  "metaTitle": "Ritchie County Courthouse"
+  "metaTitle": "Ritchie County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

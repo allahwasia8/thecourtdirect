@@ -33,5 +33,23 @@
     }
   ],
   "metaDescription": "Maryland's highest court: Supreme Court of Maryland overview, history & roles.",
-  "metaTitle": "Supreme Court of Maryland"
+  "metaTitle": "Supreme Court of Maryland",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    },
+    {
+      "name": "Maryland Judicial Branch - Official",
+      "url": "https://www.mdcourts.gov/"
+    }
+  ]
 }

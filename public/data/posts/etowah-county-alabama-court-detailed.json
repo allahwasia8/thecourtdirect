@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Etowah County Alabama Court info: Circuit, District, Probate, and more.",
-  "metaTitle": "ETOWAH COUNTY ALABAMA COURT"
+  "metaTitle": "ETOWAH COUNTY ALABAMA COURT",
+  "references": [
+    {
+      "name": "Alabama Judicial Branch - Official",
+      "url": "https://judicial.alabama.gov/"
+    },
+    {
+      "name": "State Bar of Alabama",
+      "url": "https://www.google.com/search?q=State+Bar+of+Alabama"
+    }
+  ]
 }

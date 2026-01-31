@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Stanislaus County Superior Court City Towers building exterior",
   "metaDescription": "Stanislaus County Superior Court info: location, services, cases, and contact details for City Towers courthouse in Modesto, CA.",
-  "metaTitle": "Stanislaus County Superior Court – City Towers"
+  "metaTitle": "Stanislaus County Superior Court – City Towers",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Women justices of the United States Supreme Court",
   "metaDescription": "Discover the number of women on the US Supreme Court and learn about female justices.",
-  "metaTitle": "how many women are In the supreme court"
+  "metaTitle": "how many women are In the supreme court",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Rockland County Supreme Court building exterior",
   "metaDescription": "Rockland County Supreme Court info, services & directions in New City, NY",
-  "metaTitle": "Rockland County Supreme Court"
+  "metaTitle": "Rockland County Supreme Court",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

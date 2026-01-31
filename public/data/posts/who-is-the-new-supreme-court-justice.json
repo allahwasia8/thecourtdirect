@@ -34,5 +34,19 @@
   ],
   "imageAlt": "New Supreme Court Justice Ketanji Brown Jackson swearing in ceremony",
   "metaDescription": "Meet Justice Ketanji Brown Jackson, the new US Supreme Court Justice appointed by President Joe Biden.",
-  "metaTitle": "Who Is the New Supreme Court Justice?"
+  "metaTitle": "Who Is the New Supreme Court Justice?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

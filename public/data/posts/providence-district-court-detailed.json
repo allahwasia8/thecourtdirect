@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Providence District Court building exterior justice system",
   "metaDescription": "Providence District Court: Justice & law in Rhode Island",
-  "metaTitle": "providence district court"
+  "metaTitle": "providence district court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

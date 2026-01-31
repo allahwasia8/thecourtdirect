@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Discover Collin County Courthouse in McKinney, TX, with info on government, courts, and community services.",
-  "metaTitle": "collin county courthouse mckinney tx"
+  "metaTitle": "collin county courthouse mckinney tx",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

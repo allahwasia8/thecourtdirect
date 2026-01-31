@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Courtroom proceedings and trial duration concept",
   "metaDescription": "Learn how long court cases last, factors affecting duration, and what to expect in small claims, civil, or criminal court proceedings.",
-  "metaTitle": "how long does court last"
+  "metaTitle": "how long does court last",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

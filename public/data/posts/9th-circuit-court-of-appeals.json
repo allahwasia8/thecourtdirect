@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "9th Circuit Court of Appeals overview, history, structure, and jurisdiction covering 9 states and 2 territories.",
-  "metaTitle": "9th circuit court of appeals"
+  "metaTitle": "9th circuit court of appeals",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

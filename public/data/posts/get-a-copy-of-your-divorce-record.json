@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Divorce record document with official court stamp and files",
   "metaDescription": "Get a copy of your divorce record with our step-by-step guide, covering probate & family court process.",
-  "metaTitle": "Get a Copy of Your Divorce Record"
+  "metaTitle": "Get a Copy of Your Divorce Record",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

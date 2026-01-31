@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Catoosa County Probate Court: estate management, guardianships & marriage licenses in Georgia.",
-  "metaTitle": "catoosa county probate court"
+  "metaTitle": "catoosa county probate court",
+  "references": [
+    {
+      "name": "ACTEC Foundation",
+      "url": "https://www.actec.org/"
+    },
+    {
+      "name": "Nolo - Wills, Trusts & Probate",
+      "url": "https://www.nolo.com/legal-encyclopedia/wills-trusts-estates"
+    },
+    {
+      "name": "National College of Probate Judges",
+      "url": "https://ncpj.org/"
+    }
+  ]
 }

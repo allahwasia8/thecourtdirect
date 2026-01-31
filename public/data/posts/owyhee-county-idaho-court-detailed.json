@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Owyhee County Idaho Court information and resources",
-  "metaTitle": "OWYHEE COUNTY IDAHO COURT"
+  "metaTitle": "OWYHEE COUNTY IDAHO COURT",
+  "references": [
+    {
+      "name": "Idaho Judicial Branch - Official",
+      "url": "https://isc.idaho.gov/"
+    },
+    {
+      "name": "State Bar of Idaho",
+      "url": "https://www.google.com/search?q=State+Bar+of+Idaho"
+    }
+  ]
 }

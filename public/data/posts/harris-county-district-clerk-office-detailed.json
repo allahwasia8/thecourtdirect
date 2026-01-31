@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Harris County District Clerk Office building exterior",
   "metaDescription": "Harris County District Clerk Office: court records & services for Texas courts.",
-  "metaTitle": "Harris County District Clerk Office"
+  "metaTitle": "Harris County District Clerk Office",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

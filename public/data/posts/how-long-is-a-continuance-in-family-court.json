@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Family court continuance timeline and process information",
   "metaDescription": "Learn about family court continuances, lengths, and reasons in family law cases.",
-  "metaTitle": "How Long is a Continuance in Family Court?"
+  "metaTitle": "How Long is a Continuance in Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

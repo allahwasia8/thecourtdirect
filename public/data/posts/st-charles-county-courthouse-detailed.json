@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Saint Charles County Courthouse historic building in Missouri",
   "metaDescription": "Discover Saint Charles County Courthouse in Missouri, a historic landmark",
-  "metaTitle": "st charles county courthouse"
+  "metaTitle": "st charles county courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

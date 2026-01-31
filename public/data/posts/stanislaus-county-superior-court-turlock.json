@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Stanislaus County Superior Court Turlock courthouse building exterior",
   "metaDescription": "Stanislaus County Superior Court in Turlock, CA, court information and details.",
-  "metaTitle": "Stanislaus County Superior Court - Turlock"
+  "metaTitle": "Stanislaus County Superior Court - Turlock",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

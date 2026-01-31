@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Tulare County Superior Court information and resources.",
-  "metaTitle": "TULARE COUNTY SUPERIOR COURT"
+  "metaTitle": "TULARE COUNTY SUPERIOR COURT",
+  "references": [
+    {
+      "name": "California Judicial Branch - Official",
+      "url": "https://www.courts.ca.gov/"
+    },
+    {
+      "name": "State Bar of California",
+      "url": "https://www.google.com/search?q=State+Bar+of+California"
+    }
+  ]
 }

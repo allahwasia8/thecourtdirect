@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Arizona Superior Court: state-level trial court handling civil and criminal cases.",
-  "metaTitle": "Arizona superior court"
+  "metaTitle": "Arizona superior court",
+  "references": [
+    {
+      "name": "Arizona Judicial Branch - Official",
+      "url": "https://www.azcourts.gov/"
+    },
+    {
+      "name": "State Bar of Arizona",
+      "url": "https://www.google.com/search?q=State+Bar+of+Arizona"
+    }
+  ]
 }

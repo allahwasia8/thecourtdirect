@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "District of Nevada federal court info, covering entire state, with Las Vegas and Reno courthouses.",
-  "metaTitle": "District of Nevada"
+  "metaTitle": "District of Nevada",
+  "references": [
+    {
+      "name": "Nevada Judicial Branch - Official",
+      "url": "https://nvcourts.gov/"
+    },
+    {
+      "name": "State Bar of Nevada",
+      "url": "https://www.google.com/search?q=State+Bar+of+Nevada"
+    }
+  ]
 }

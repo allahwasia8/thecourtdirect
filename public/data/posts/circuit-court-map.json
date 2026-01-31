@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Explore the US circuit court map, understanding 13 judicial circuits and their role in fair law application nationwide.",
-  "metaTitle": "circuit court map"
+  "metaTitle": "circuit court map",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

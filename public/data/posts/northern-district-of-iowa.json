@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Northern District of Iowa federal court information and details.",
-  "metaTitle": "Northern District of Iowa"
+  "metaTitle": "Northern District of Iowa",
+  "references": [
+    {
+      "name": "Iowa Judicial Branch - Official",
+      "url": "https://www.iowacourts.gov/"
+    },
+    {
+      "name": "State Bar of Iowa",
+      "url": "https://www.google.com/search?q=State+Bar+of+Iowa"
+    }
+  ]
 }

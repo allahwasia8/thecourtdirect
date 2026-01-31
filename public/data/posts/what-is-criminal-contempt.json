@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Criminal contempt of court concept illustration",
   "metaDescription": "Learn about criminal contempt, its elements, types and punishment in court cases.",
-  "metaTitle": "What is Criminal Contempt?"
+  "metaTitle": "What is Criminal Contempt?",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

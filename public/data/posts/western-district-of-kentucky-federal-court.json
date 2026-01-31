@@ -33,5 +33,15 @@
     }
   ],
   "metaDescription": "Western District of Kentucky Federal Court handles federal cases in 48 counties.",
-  "metaTitle": "Western District of Kentucky Federal Court"
+  "metaTitle": "Western District of Kentucky Federal Court",
+  "references": [
+    {
+      "name": "Kentucky Judicial Branch - Official",
+      "url": "https://kycourts.gov/"
+    },
+    {
+      "name": "State Bar of Kentucky",
+      "url": "https://www.google.com/search?q=State+Bar+of+Kentucky"
+    }
+  ]
 }

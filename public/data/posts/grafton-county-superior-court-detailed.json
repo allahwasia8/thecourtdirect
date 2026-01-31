@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Grafton County Superior Court building in New Hampshire",
   "metaDescription": "Grafton County Superior Court in NH handles civil, criminal & family cases.",
-  "metaTitle": "Grafton County Superior Court"
+  "metaTitle": "Grafton County Superior Court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

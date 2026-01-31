@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Johnson County Courthouse historic building exterior",
   "metaDescription": "Johnson County Courthouse: Explore history, architecture & community impact of this landmark courthouse in Johnson County.",
-  "metaTitle": "Johnson County Courthouse"
+  "metaTitle": "Johnson County Courthouse",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

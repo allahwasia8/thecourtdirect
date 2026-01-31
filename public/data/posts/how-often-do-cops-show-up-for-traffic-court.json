@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Traffic court appearance with police officer in attendance",
   "metaDescription": "Learn how often cops show up for traffic court and factors influencing officer attendance in various jurisdictions.",
-  "metaTitle": "how often do cops show up for traffic court"
+  "metaTitle": "how often do cops show up for traffic court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

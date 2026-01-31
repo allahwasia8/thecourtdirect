@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Public defender in family court proceedings",
   "metaDescription": "Get a public defender for family court, learn income requirements and eligibility.",
-  "metaTitle": "Can You Get a Public Defender for Family Court?"
+  "metaTitle": "Can You Get a Public Defender for Family Court?",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

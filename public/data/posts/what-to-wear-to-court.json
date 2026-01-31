@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Court attire for men and women making a positive impression",
   "metaDescription": "Dress for court success with our guide on what to wear to make a positive impression in a courtroom.",
-  "metaTitle": "what to wear to court"
+  "metaTitle": "what to wear to court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

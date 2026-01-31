@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Schoharie County Family Court building exterior",
   "metaDescription": "Schoharie County Family Court guide: divorce, custody, support, and more in Schoharie, NY.",
-  "metaTitle": "Schoharie County Family Court"
+  "metaTitle": "Schoharie County Family Court",
+  "references": [
+    {
+      "name": "ABA Section of Family Law",
+      "url": "https://www.americanbar.org/groups/family_law/"
+    },
+    {
+      "name": "Office of Child Support Services (OCSS)",
+      "url": "https://www.acf.hhs.gov/css"
+    },
+    {
+      "name": "DivorceNet by Nolo",
+      "url": "https://www.divorcenet.com/"
+    }
+  ]
 }

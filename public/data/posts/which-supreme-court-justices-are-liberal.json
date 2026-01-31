@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Liberal Supreme Court Justices in session",
   "metaDescription": "Discover liberal US Supreme Court justices, their backgrounds and key decisions shaping the nation's legal framework.",
-  "metaTitle": "Which Supreme Court Justices Are Liberal?"
+  "metaTitle": "Which Supreme Court Justices Are Liberal?",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

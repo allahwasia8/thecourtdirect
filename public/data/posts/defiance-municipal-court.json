@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Defiance Municipal Court building and logo in Ohio",
   "metaDescription": "Defiance Municipal Court in Ohio handles traffic, misdemeanors, and civil cases, serving Defiance city.",
-  "metaTitle": "defiance municipal court"
+  "metaTitle": "defiance municipal court",
+  "references": [
+    {
+      "name": "Legal Information Institute (LII)",
+      "url": "https://www.law.cornell.edu/"
+    },
+    {
+      "name": "USA.gov - Laws and Legal Issues",
+      "url": "https://www.usa.gov/laws-and-legal-issues"
+    },
+    {
+      "name": "FindLaw - For the Public",
+      "url": "https://www.findlaw.com/law.html"
+    }
+  ]
 }

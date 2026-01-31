@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Become a US Supreme Court Justice with our guide on education, career path and qualifications.",
-  "metaTitle": "How to Become a Supreme Court Justice"
+  "metaTitle": "How to Become a Supreme Court Justice",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }

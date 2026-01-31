@@ -34,5 +34,19 @@
   ],
   "imageAlt": "Criminal case disposition concept illustration",
   "metaDescription": "Learn about criminal case dispositions, outcomes and penalties.",
-  "metaTitle": "What Does Disposition Mean in a Criminal Case"
+  "metaTitle": "What Does Disposition Mean in a Criminal Case",
+  "references": [
+    {
+      "name": "National Association of Criminal Defense Lawyers",
+      "url": "https://www.nacdl.org/"
+    },
+    {
+      "name": "FBI - Uniform Crime Reporting",
+      "url": "https://ucr.fbi.gov/"
+    },
+    {
+      "name": "DOJ - Criminal Division",
+      "url": "https://www.justice.gov/criminal"
+    }
+  ]
 }

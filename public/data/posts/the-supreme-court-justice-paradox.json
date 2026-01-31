@@ -33,5 +33,19 @@
     }
   ],
   "metaDescription": "Explore the complex role of US Supreme Court justices and their impact on American law and society.",
-  "metaTitle": "The Supreme Court Justice Paradox"
+  "metaTitle": "The Supreme Court Justice Paradox",
+  "references": [
+    {
+      "name": "Official SCOTUS Website",
+      "url": "https://www.supremecourt.gov/"
+    },
+    {
+      "name": "SCOTUSblog",
+      "url": "https://www.scotusblog.com/"
+    },
+    {
+      "name": "Oyez - Multimedia Archive",
+      "url": "https://www.oyez.org/"
+    }
+  ]
 }
