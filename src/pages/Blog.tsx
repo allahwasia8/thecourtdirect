@@ -227,6 +227,7 @@ const Blog = () => {
                       src={getLocalImagePath(post.image) || post.image || ''} 
                       alt={post.title}
                       className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                      loading="lazy"
                     />
                   ) : (
                     <span className="font-serif text-gold/30 text-6xl relative z-10">§</span>

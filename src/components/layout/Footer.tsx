@@ -13,6 +13,7 @@ const Footer = () => {
                 src="/Court-Direct-Logo-White-lines.png.webp" 
                 alt="CourtDirect Logo" 
                 className="h-10 w-auto object-contain" 
+                loading="lazy"
               />
               <span className="font-serif text-xl font-bold">
                 The Court<span className="text-gold">Direct</span>
