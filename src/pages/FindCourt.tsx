@@ -98,6 +98,15 @@ const FindCourt = () => {
 
   return (
     <Layout>
+      <SEO 
+        title="Find a Court | Court Directory & Locator"
+        description="Search our comprehensive directory to find courts across the United States. Access addresses, phone numbers, and details for federal, state, and local courtrooms."
+        url="/find-court"
+        schema={generateBreadcrumbSchema([
+          { name: 'Home', item: '/' },
+          { name: 'Find Court', item: '/find-court' }
+        ])}
+      />
       {/* Hero Section */}
       <section className="bg-navy-gradient py-20">
         <div className="container mx-auto px-4">
