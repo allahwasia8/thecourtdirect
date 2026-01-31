@@ -25,7 +25,21 @@ except ImportError:
 
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 SERVICE_ACCOUNT_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "service_account.json")
-SITEMAP_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public", "sitemap.xml")
+PROGRESS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "indexing_progress.json")
+DAILY_LIMIT = 200
+
+def load_progress():
+    if os.path.exists(PROGRESS_FILE):
+        try:
+            with open(PROGRESS_FILE, 'r') as f:
+                return json.load(f)
+        except:
+            return {"submitted": []}
+    return {"submitted": []}
+
+def save_progress(progress):
+    with open(PROGRESS_FILE, 'w') as f:
+        json.dump(progress, f, indent=2)
 
 def get_service():
     if not os.path.exists(SERVICE_ACCOUNT_FILE):
@@ -86,15 +100,47 @@ def get_blog_urls():
         print(f"Error reading blog posts: {e}")
         return []
 
+def get_court_urls():
+    courts_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public", "data", "courts.json")
+    if not os.path.exists(courts_path):
+        print(f"Error: Courts file not found at {courts_path}")
+        return []
+    
+    try:
+        with open(courts_path, "r", encoding="utf-8") as f:
+            courts = json.load(f)
+            # Construct URLs: https://thecourtdirect.com/court/id
+            return [f"https://thecourtdirect.com/court/{court['id']}" for court in courts if court.get('id')]
+    except Exception as e:
+        print(f"Error reading courts: {e}")
+        return []
+
 def batch_submit_urls(service, urls):
-    # The Indexing API has a quota (usually 200/day for publishing without special approval).
-    print(f"Found {len(urls)} URLs to submit.")
+    progress = load_progress()
+    submitted_set = set(progress["submitted"])
+    
+    # Filter out already submitted
+    to_submit = [url for url in urls if url not in submitted_set]
+    
+    print(f"Total URLs: {len(urls)}")
+    print(f"Already submitted: {len(submitted_set)}")
+    print(f"Remaining to submit: {len(to_submit)}")
+    
+    if not to_submit:
+        print("All URLs have already been submitted.")
+        return
+
+    # User mentioned 200 are already done, we should respect daily quota
+    # We will submit up to DAILY_LIMIT from the remaining list
+    batch = to_submit[:DAILY_LIMIT]
+    
+    print(f"Submitting batch of {len(batch)} URLs (Daily Limit: {DAILY_LIMIT})...")
     print("Starting submission...")
 
     success_count = 0
     fail_count = 0
 
-    for i, url in enumerate(urls):
+    for i, url in enumerate(batch):
         try:
             # Create the notification body
             body = {
@@ -103,17 +149,20 @@ def batch_submit_urls(service, urls):
             }
             
             request = service.urlNotifications().publish(body=body)
-            response = request.execute()
+            request.execute()
             
-            print(f"[{i+1}/{len(urls)}] ✅ Submitted: {url}")
-            # print(f"  Response: {response}") # verbose
+            print(f"[{i+1}/{len(batch)}] ✅ Submitted: {url}")
             success_count += 1
+            
+            # Update progress immediately (so if it crashes we save state)
+            progress["submitted"].append(url)
+            save_progress(progress)
             
             # Simple rate limiting
             time.sleep(0.5) 
             
         except HttpError as e:
-            print(f"[{i+1}/{len(urls)}] ❌ FAILED: {url}")
+            print(f"[{i+1}/{len(batch)}] ❌ FAILED: {url}")
             error_content = e.content.decode('utf-8') if hasattr(e, 'content') else str(e)
             print(f"  Error: {e.resp.status} - {error_content[:200]}")
             fail_count += 1
@@ -124,24 +173,37 @@ def batch_submit_urls(service, urls):
                 break
             if e.resp.status == 403: # Permission denied or quota
                 print("Permission denied (403). Check Service Account permissions in Search Console.")
-                break
+                # Don't break on 403 for individual URLs unless it's widespread, but typically 403 on publish means quota or perm.
+                # If it's quota related, we stop.
+                if "quota" in error_content.lower():
+                     break
                 
         except Exception as e:
             print(f"Error: {e}")
             fail_count += 1
             
-    print(f"\nSubmission Complete. Success: {success_count}, Failed: {fail_count}")
+    print(f"\nBatch Complete. Success: {success_count}, Failed: {fail_count}")
+    print(f"Progress saved to {PROGRESS_FILE}")
 
 if __name__ == "__main__":
     print("--- Google Indexing API Submitter ---")
     service = get_service()
     
     if service:
-        # User requested: "ping blogs first"
-        print("\n--- Phase 1: Submitting Blog Posts ---")
+        all_urls = []
+        
+        print("\n--- Phase 1: Gathering URLs ---")
         blog_urls = get_blog_urls()
-        if blog_urls:
-            batch_submit_urls(service, blog_urls)
+        print(f"Found {len(blog_urls)} Blog URLs")
+        all_urls.extend(blog_urls)
+        
+        court_urls = get_court_urls()
+        print(f"Found {len(court_urls)} Court URLs")
+        all_urls.extend(court_urls)
+        
+        if all_urls:
+            print(f"\nTotal URLs to submit: {len(all_urls)}")
+            batch_submit_urls(service, all_urls)
         else:
-            print("No blog posts found.")
+            print("No URLs found to submit.")
 

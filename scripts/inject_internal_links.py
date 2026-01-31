@@ -1,3 +1,4 @@
+
 import json
 import re
 from pathlib import Path
@@ -24,7 +25,7 @@ def inject_links(dry_run=True):
     keyword_patterns = {}
     for kw in sorted_keywords:
         safe_keyword = re.escape(kw)
-        # Store compiled regex
+        # Store compiled regex with word boundaries
         keyword_patterns[kw] = re.compile(r'\b' + safe_keyword + r'\b', re.IGNORECASE)
 
     print("Accessing posts...", flush=True)
@@ -60,60 +61,50 @@ def inject_links(dry_run=True):
         if not post_relevant_keywords:
             continue
 
-        # Strategy:
-        # 1. Identify "safe" text regions (not inside tags)
-        # 2. Find matches
-        # 3. Inject links
-        
-        # Simplified robust approach:
-        # Iterate through keywords. If found in content AND not inside a tag:
-        # replace FIRST occurrence only.
-        
         original_content = content
         current_injected_count = 0
         
         # Calculate dynamic max links: Base 12, or 1 per 50 words approx
         word_count = len(content.split())
         MAX_LINKS_PER_POST = max(12, int(word_count / 50))
-        # Cap it reasonably to avoid spamminess
         MAX_LINKS_PER_POST = min(MAX_LINKS_PER_POST, 25)
         
         existing_links = set()  # Track URLs we've already linked to in this post
         
-        # Pre-scan for existing links in content to avoid duplicates
+        # Pre-scan for existing links in content to avoid duplicates and understand current state
         existing_matches = re.finditer(r'href=["\']([^"\']+)["\']', content)
         for m in existing_matches:
             existing_links.add(m.group(1))
 
-        # Helper to split HTML
+        # Split content into tags and text
         parts = re.split(r'(<[^>]+>)', content)
         
         new_parts = []
+        inside_anchor = False
+        
         for part in parts:
+            if not part:
+                continue
+                
             if part.startswith('<'):
+                # Check if we are entering or leaving an anchor
+                if part.lower().startswith('<a '):
+                    inside_anchor = True
+                elif part.lower() == '</a>':
+                    inside_anchor = False
+                    
                 new_parts.append(part)
                 continue
             
-            # This is a text node. Process it.
-            # We can't easily iterate all keywords on every text node efficiently.
-            # But for 3000 keywords it might be okay for 1000 posts? It's O(N*M).
-            # Let's try a targeted approach.
-            
+            # This is a text node.
             text_fragment = part
             
-            if current_injected_count >= MAX_LINKS_PER_POST:
+            # If we are already inside an anchor tag (or hit limits), just append and skip
+            if inside_anchor or current_injected_count >= MAX_LINKS_PER_POST:
                 new_parts.append(text_fragment)
                 continue
-
-            # Only verify keywords that are arguably present? 
-            # Optimization: check if keyword in lower(text_fragment)
             
-            # We must be careful not to replace "cat" inside "category".
-            # Use word boundaries \b
-            
-            # We must be careful not to replace "cat" inside "category".
-            # Use word boundaries \b
-            
+            # Process text fragment for internal links
             for keyword in post_relevant_keywords:
                 if current_injected_count >= MAX_LINKS_PER_POST:
                     break
@@ -121,40 +112,31 @@ def inject_links(dry_run=True):
                 target = keyword_map[keyword]
                 target_url = target['url']
                 
-                # specific rules:
                 # 1. Don't link to self
                 if target_url in f"/blog/{post_id}" or target_url in f"/court/{post_id}":
                     continue
                     
-                # 2. Don't link if already linked in this post
+                # 2. Don't link if already linked in this post (prevents loops)
                 if target_url in existing_links:
                     continue
 
-                # Optimization: Check if keyword is in text (case-insensitive) before regex
                 if keyword.lower() not in text_fragment.lower():
                     continue
 
-                # 3. Check presence (case insensitive, word boundaries)
-                # Use pre-compiled pattern
                 pattern = keyword_patterns[keyword]
                 
                 if pattern.search(text_fragment):
-                    # Found! Replace ONE instance
-                    # We inject a special marker or just the link?
-                    # Just the link.
-                    
                     def replacement(match):
                         # Preserve original casing
                         return f'<a href="{target_url}" class="internal-link" title="{match.group(0)}">{match.group(0)}</a>'
                     
-                    # Apply substitution
+                    # Apply substitution (ONE instance)
                     new_text, count = pattern.subn(replacement, text_fragment, count=1)
                     
                     if count > 0:
                         text_fragment = new_text
                         current_injected_count += 1
                         existing_links.add(target_url)
-                        # print(f"    Injected: {keyword} -> {target_url}", flush=True)
 
             new_parts.append(text_fragment)
             
@@ -164,16 +146,15 @@ def inject_links(dry_run=True):
             modified_files += 1
             total_injected += current_injected_count
             if dry_run:
-                print(f"[DRY RUN] {post['title']}: Injected {current_injected_count} links.", flush=True)
+                # print(f"[DRY RUN] {post['title']}: Injected {current_injected_count} links.", flush=True)
+                pass
             else:
                 data['content'] = new_content
                 with open(file_path, "w", encoding="utf-8") as f:
-                    json.dump(data, f, indent=2)
-                if modified_files % 50 == 0:
-                    print(f"Saved {modified_files} files...", flush=True)
+                    json.dump(data, f, indent=2, ensure_ascii=False)
 
     print(f"\nProcessing Complete. Modified {modified_files} files. Total Links Injected: {total_injected}", flush=True)
 
 if __name__ == "__main__":
-    # Remove dry_run=True when ready
+    # Standard run: dry_run=False
     inject_links(dry_run=False)

@@ -60,7 +60,7 @@ def generate_sitemap():
         for post_file in post_files:
             slug = post_file.replace('.json', '')
             xml_lines.append('  <url>')
-            xml_lines.append(f'    <loc>{base_url}/blog/{slug}</loc>')
+            xml_lines.append(f'    <loc>{base_url}/{slug}</loc>')
             xml_lines.append('    <changefreq>monthly</changefreq>')
             xml_lines.append('    <priority>0.6</priority>')
             xml_lines.append('  </url>')
