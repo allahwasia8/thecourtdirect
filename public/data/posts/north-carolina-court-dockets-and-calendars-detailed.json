@@ -7,7 +7,7 @@
   "readTime": "6 min read",
   "category": "Court",
   "featured": false,
-  "image": null,
+  "image": "/images/blog/north-carolina-court-dockets-and-calendars-detailed.webp",
   "content": "<h1><strong>North Carolina <a href=\"/blog/what-is-court\" class=\"internal-link\" title=\"Court\">Court</a> Dockets and Calendars</strong></h1>\n\n<p>Court dockets and calendars are integral parts of the legal system. But what exactly are they? In simple terms, a court docket is a detailed summary of a court case or proceeding, including information on the parties involved, the charges, the judge and attorneys, and the status of the case. On the other hand, a court calendar outlines the schedule of the court, detailing when particular cases will be heard.</p>\n\n<h2><strong>The Importance of Court Dockets and Calendars</strong></h2>\n\n<p>Court dockets and calendars play two main roles in our justice system.</p>\n\n<h3><strong>Role in Case Management</strong></h3>\n\n<p>Firstly, they are critical in the management of court cases. They allow court officials, lawyers, and litigants to keep track of the proceedings, including upcoming dates for hearings, trials, and other events related to a case.</p>\n\n<h3><strong>Role in Public Transparency</strong></h3>\n\n<p>Secondly, they promote transparency. By making these documents publicly available, the justice system provides citizens with an insight into its operations, ensuring accountability and openness.</p>",
   "authorRole": "Contributor",
   "reviewedBy": {
@@ -43,5 +43,6 @@
       "name": "State Bar of North Carolina",
       "url": "https://www.google.com/search?q=State+Bar+of+North Carolina"
     }
-  ]
+  ],
+  "imageAlt": "North Carolina court dockets and calendars schedule information"
 }

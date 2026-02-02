@@ -20,5 +20,1992 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/indiana-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/robertson-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/allen-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/martin-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hardy-county-magistrate-clerk-detailed/blank",
+      "destination": "/hardy-county-magistrate-clerk-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/essex-county-virginia-court/",
+      "destination": "/essex-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/van-zandt-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/amherst-town-court/blank",
+      "destination": "/amherst-town-court/",
+      "permanent": true
+    },
+    {
+      "source": "/isle-of-wight-county-virginia-court/",
+      "destination": "/moffat-county-combined-courts/",
+      "permanent": true
+    },
+    {
+      "source": "/universal-city-municipal-court/blank",
+      "destination": "/universal-city-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/tehama-county-superior-court-detailed/blank",
+      "destination": "/tehama-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/marshall-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-humboldt/",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lycoming-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/newton-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/old-bridge-municipal-court/blank",
+      "destination": "/old-bridge-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/sandusky-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-sky-4",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-virginia-court/",
+      "destination": "/superior-court-of-orange-county-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/adams-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/clay-county-alabama-court/",
+      "destination": "/clay-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/cape-may-county-new-jersey/",
+      "destination": "/mercer-county-new-jersey-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/grand-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/17th-circuit-court/blank",
+      "destination": "/17th-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/wise-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/san-miguel-county-colorado-court/",
+      "destination": "/san-diego-county-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/linn-county-oregon-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/virginia-beach-courthouse-detailed/blank",
+      "destination": "/virginia-beach-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/mclennan-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/wadsworth-municipal-court-detailed/blank",
+      "destination": "/wadsworth-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/knox-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lake-county-ohio-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/salem-county-new-jersey-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/san-augustine-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/walker-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lee-county-virginia-court/",
+      "destination": "/lee-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/southampton-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/dickenson-county-virginia-court/",
+      "destination": "/dickenson-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/stephens-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/san-patricio-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/terrell-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/loudoun-county-virginia-court/",
+      "destination": "/loudoun-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/smyth-county-virginia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bath-county-virginia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/russell-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/chickasaw-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/tallahatchie-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/walthall-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/tishomingo-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/camp-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/holmes-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/claiborne-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/montgomery-county-mississippi-court/",
+      "destination": "/montgomery-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/clarke-county-mississippi-court/",
+      "destination": "/clarke-county-court-house-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hinds-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/webster-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jessamine-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cumberland-county-maine-court/",
+      "destination": "/cumberland-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/logan-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/trumbull-county-ohio-court/",
+      "destination": "/trumbull-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/liberty-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/pecos-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lucas-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/king-george-county-virginia-court/",
+      "destination": "/kings-county-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/carroll-county-virginia-court/",
+      "destination": "/carroll-county-circuit-court-maryland/",
+      "permanent": true
+    },
+    {
+      "source": "/botetourt-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jefferson-county-oregon-court/",
+      "destination": "/jefferson-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/union-county-oregon-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/elizabeth-municipal-court/blank",
+      "destination": "/elizabeth-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/schuylkill-county-courthouse-detailed/blank",
+      "destination": "/schuylkill-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/josephine-county-oregon-court/",
+      "destination": "/coos-county-oregon-court-directory-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/shreveport-city-court-detailed/blank",
+      "destination": "/shreveport-city-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/malheur-county-oregon-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-small-square-2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/calhoun-county-georgia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/kettering-municipal-court-detailed/blank",
+      "destination": "/kettering-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-find-my-court-date-online",
+      "destination": "/how-to-find-my-court-date-online/",
+      "permanent": true
+    },
+    {
+      "source": "/berea-municipal-court-detailed/blank",
+      "destination": "/berea-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/saratoga-county-family-court/blank",
+      "destination": "/saratoga-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/murrieta-courthouse-detailed/blank",
+      "destination": "/murrieta-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/clay-county-texas-court/",
+      "destination": "/clay-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/atlanta-municipal-court/blank",
+      "destination": "/atlanta-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/perry-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/laurel-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/routt-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/barry-county-circuit-court-detailed/blank",
+      "destination": "/barry-county-circuit-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/aurora-municipal-court-detailed/blank",
+      "destination": "/aurora-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/carteret-county-superior-court-detailed/blank",
+      "destination": "/carteret-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/monmouth-county-surrogate-detailed/blank",
+      "destination": "/monmouth-county-surrogate-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-el-dorado-detailed/blank",
+      "destination": "/superior-court-of-el-dorado-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/anoka-county-minnesota-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/caldwell-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/carlisle-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wythe-county-virginia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wheeler-county-oregon-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bedford-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/rutherford-county-general-sessions-court-detailed/blank",
+      "destination": "/rutherford-county-general-sessions-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/arlington-municipal-court-detailed/blank",
+      "destination": "/arlington-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/clarkston-justice-court/blank",
+      "destination": "/clarkston-justice-court/",
+      "permanent": true
+    },
+    {
+      "source": "/hopewell-circuit-court-clerk-detailed/blank",
+      "destination": "/hopewell-circuit-court-clerk-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/city-of-virginia-beach-virginia-court/",
+      "destination": "/virginia-beach-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/kemper-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/gregg-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/donley-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/harrison-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/wayne-county-mississippi-court/",
+      "destination": "/wayne-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/saline-county-courthouse-detailed/blank",
+      "destination": "/saline-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/panola-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-plumas/",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/akron-municipal-court/blank",
+      "destination": "/akron-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-springs-municipal-court/blank",
+      "destination": "/sandy-springs-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/parma-municipal-court/blank",
+      "destination": "/parma-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/elizabeth-davis-frizell/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/iredell-county-district-court-detailed/blank",
+      "destination": "/iredell-county-district-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/delaware-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/snyder-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/highland-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/new-kent-county-virginia-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/buchanan-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/monmouth-county-superior-court/blank",
+      "destination": "/monmouth-county-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/andrews-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/el-paso-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-narrow-sky-1",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/kiowa-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/woodbridge-municipal-court/blank",
+      "destination": "/woodbridge-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/dukes-county-massachusetts-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/lindley-town-court-2/",
+      "destination": "/lindley-town-court/",
+      "permanent": true
+    },
+    {
+      "source": "/san-luis-obispo-superior-court/blank",
+      "destination": "/san-luis-obispo-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-a-status-conference-in-family-court",
+      "destination": "/what-is-a-status-conference-in-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/coshocton-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/muskingum-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/suffolk-probate-and-family-court//",
+      "destination": "/suffolk-probate-and-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/fontana-court-detailed//",
+      "destination": "/fontana-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lindley-town-court",
+      "destination": "/lindley-town-court/",
+      "permanent": true
+    },
+    {
+      "source": "/hudson-county-superior-court-detailed/blank",
+      "destination": "/hudson-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/pasadena-municipal-court/blank",
+      "destination": "/pasadena-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/frankfort-town-court/blank",
+      "destination": "/frankfort-town-court/",
+      "permanent": true
+    },
+    {
+      "source": "/craven-county-superior-court-detailed/blank",
+      "destination": "/craven-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/warren-county-ohio-court/blank",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/thurston-county-superior-court/blank",
+      "destination": "/thurston-county-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/plattekill-town-court/blank",
+      "destination": "/plattekill-town-court/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-madera-detailed/blank",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/athens-county-municipal-court-detailed//",
+      "destination": "/athens-county-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/riverside-superior-court-detailed/blank",
+      "destination": "/riverside-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/union-city-municipal-court//1000",
+      "destination": "/union-city-municipal-court/1000",
+      "permanent": true
+    },
+    {
+      "source": "/union-city-municipal-court/1000",
+      "destination": "/union-city-municipal-court/",
+      "permanent": true
+    },
+    {
+      "source": "/worcester-probate-court//",
+      "destination": "/worcester-probate-court/",
+      "permanent": true
+    },
+    {
+      "source": "/what-does-vacated-mean-in-court",
+      "destination": "/what-does-vacated-mean-in-court/",
+      "permanent": true
+    },
+    {
+      "source": "/sharkey-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/guadalupe-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/eastland-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/first-class-legal-minds/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-tehama/",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/marshall-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/york-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/stafford-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/edwards-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/victoria-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/middlesex-county-massachusetts-court/",
+      "destination": "/middlesex-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/worcester-county-massachusetts-court/",
+      "destination": "/worcester-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/yazoo-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jefferson-county-kentucky-court/",
+      "destination": "/jefferson-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/cumberland-county-kentucky-court/",
+      "destination": "/cumberland-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/sussex-county-virginia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/louisa-county-virginia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/knott-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/douglas-county-oregon-court/",
+      "destination": "/douglas-county-magistrate-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/wyoming-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/kinney-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/dallas-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hamilton-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lunenburg-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/franklin-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/goocland-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/northampton-county-virginia-court/",
+      "destination": "/northampton-county-court/",
+      "permanent": true
+    },
+    {
+      "source": "/madison-county-virginia-court/",
+      "destination": "/madison-county-courthouse/",
+      "permanent": true
+    },
+    {
+      "source": "/tuscaloosa-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/harney-county-oregon-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/rockcastle-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/lincoln-county-georgia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/barren-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/mclean-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/jackson-county-kentucky-court/",
+      "destination": "/jackson-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/adair-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pendleton-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/boone-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/montgomery-county-kentucky-court/",
+      "destination": "/montgomery-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/daviess-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/atlantic-county-new-jersey-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/ripley-county-indiana-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/new-hampshire-us-state/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/south-dakota-us-state/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/monroe-county-mississippi-court/",
+      "destination": "/monroe-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/curry-county-oregon-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hood-river-county-oregon-court/",
+      "destination": "/coos-county-oregon-court-directory-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/rains-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/travis-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/suffolk-county-massachusetts-court/",
+      "destination": "/suffolk-county-courts/",
+      "permanent": true
+    },
+    {
+      "source": "/washington-county-oregon-court/",
+      "destination": "/coos-county-oregon-court-directory-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/presidio-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/throckmorton-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/prentiss-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hood-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/bullitt-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/magoffin-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fulton-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jackson-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/wilkinson-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/mecklenburg-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/middlesex-county-virginia-court/",
+      "destination": "/middlesex-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/frederick-county-virginia-court/",
+      "destination": "/frederick-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/amherst-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/union-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-imperial/",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/king-william-county-virginia-court/",
+      "destination": "/kings-county-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/monroe-county-kentucky-court/",
+      "destination": "/monroe-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/seneca-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/la-salle-county-texas-court/",
+      "destination": "/clay-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/james-city-county-virginia-court/",
+      "destination": "/city-of-chesapeake-virginia-court-directory/",
+      "permanent": true
+    },
+    {
+      "source": "/union-county-new-jersey-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/randolph-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/rockwall-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/robertson-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/washington-county-ohio-court/",
+      "destination": "/washington-county-circuit-court-maryland/",
+      "permanent": true
+    },
+    {
+      "source": "/perry-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/tuscarawas-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cooper-county-missouri-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-san-mateo/",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jasper-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jones-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/benton-county-mississippi-court/",
+      "destination": "/benton-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/pike-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/washington-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/neshoba-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/houston-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-glenn/",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/alabama-us-state/",
+      "destination": "/alabama-state-house/",
+      "permanent": true
+    },
+    {
+      "source": "/polk-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-large-leaderboard-2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/miami-county-ohio-court/",
+      "destination": "/miami-dade-county-traffic-court/",
+      "permanent": true
+    },
+    {
+      "source": "/shelby-county-ohio-court/",
+      "destination": "/shelby-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/leflore-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/melanie-darrigo/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/goliad-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/van-wert-county-ohio-court/",
+      "destination": "/vance-county-district-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/guernsey-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/noble-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/holmes-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/greene-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/sussex-county-new-jersey-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hudson-county-new-jersey-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/kent-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/linn-county-missouri-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/merrick-county-nebraska-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/logan-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/harrison-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/breckinridge-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hinsdale-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/phillips-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/chaffee-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/james-wiley/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/adams-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/el-paso-county-colorado-court/",
+      "destination": "/fairfield-county-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/alamosa-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/broomfield-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/bell-county-kentucky-court/",
+      "destination": "/bell-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/elbert-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/new-london-county-connecticut-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/bent-county-colorado-court/",
+      "destination": "/benton-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/shelby-county-kentucky-court/",
+      "destination": "/shelby-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/campbell-county-virginia-court/",
+      "destination": "/campbell-county-circuit-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jim-hogg-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/floyd-county-virginia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/monongalia-county-west-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/santa-cruz-county-arizona-court/",
+      "destination": "/superior-court-of-arizona-in-maricopa-county/",
+      "permanent": true
+    },
+    {
+      "source": "/tooele-county-utah-court/",
+      "destination": "/tooele-county-justice-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/clackamas-county-oregon-court/",
+      "destination": "/clackamas-county-circuit-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/fulton-county-kentucky-court/",
+      "destination": "/fulton-county-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/franklin-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/cleburne-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/boyle-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-mono/",
+      "destination": "/superior-court-of-madera-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/athens-county-ohio-court/",
+      "destination": "/athens-county-municipal-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/newport-county-rhode-island-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/calhoun-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/franklin-county-virginia-court/",
+      "destination": "/franklin-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/franklin-county-mississippi-court/",
+      "destination": "/franklin-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/nobles-county-minnesota-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/westmoreland-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/gloucester-county-virginia-court/",
+      "destination": "/gloucester-county-new-jersey-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/henderson-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ezoic/anchorfix.js?cb=22",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-large-mobile-banner-1",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/montana-us-state/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/boyd-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/monroe-county-indiana-court/",
+      "destination": "/monroe-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/terrell-county-georgia-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/skamania-county-washington-court/",
+      "destination": "/washington-county-circuit-court-maryland/",
+      "permanent": true
+    },
+    {
+      "source": "/canyon-county-idaho-court/",
+      "destination": "/bonneville-county-idaho-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/marshall-county-minnesota-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/maine-us-state/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/missouri-us-state/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-medrectangle-2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/berkeley-county-south-carolina-court/",
+      "destination": "/south-carolina-court-dockets-and-calendars/",
+      "permanent": true
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-leader-3",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/castro-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/zapata-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lincoln-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/clay-county-kentucky-court/",
+      "destination": "/clay-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/berks-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/pike-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lewis-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/delaware-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/grant-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/grayson-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hopkins-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bath-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/lawrence-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fayette-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wolfe-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/huntingdon-county-pennsylvania-court/",
+      "destination": "/somerset-county-pennsylvania-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/navigating-insurance-claims-after-a-company-car-accident-in-georgia/",
+      "destination": "/beaufort-county-north-carolina-court-directory-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/geauga-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/butler-county-ohio-court/",
+      "destination": "/butler-county-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/brunswick-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/bland-county-virginia-court/",
+      "destination": "/bland-county-circuit-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/fauquier-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hanover-county-virginia-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/fairfax-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/fisher-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/halifax-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/brown-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hidalgo-county-texas-court/",
+      "destination": "/hidalgo-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/comanche-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/chambers-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/runnels-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/cherokee-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/ector-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/briscoe-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/freestone-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lamoure-county-north-dakota-court/",
+      "destination": "/northampton-county-court/",
+      "permanent": true
+    },
+    {
+      "source": "/taylor-county-kentucky-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/highland-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/clear-creek-county-colorado-court/",
+      "destination": "/lake-county-colorado-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lancaster-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/humphreys-county-tennessee-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/avoyelles-parish-louisiana-court/",
+      "destination": "/ouachita-parish-louisiana-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/erie-county-ohio-court/",
+      "destination": "/erie-county-family-court/",
+      "permanent": true
+    },
+    {
+      "source": "/ontonagon-county-michigan-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/lea-county-new-mexico-court/",
+      "destination": "/newton-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/bergen-county-new-jersey-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/union-county-new-mexico-court/",
+      "destination": "/new-hanover-county-superior-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/richland-county-montana-court/",
+      "destination": "/richland-county-family-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/marion-county-oregon-court/",
+      "destination": "/marion-county-circuit-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/johnson-county-kansas-court/",
+      "destination": "/johnson-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/jim-lamon/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wood-county-wisconsin-court/",
+      "destination": "/woodbury-county-courthouse/",
+      "permanent": true
+    },
+    {
+      "source": "/kenedy-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/rhode-island-us-state/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/king-and-queen-county-virginia-court/",
+      "destination": "/kings-county-superior-court/",
+      "permanent": true
+    },
+    {
+      "source": "/winnebago-county-wisconsin-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pickaway-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/henry-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/colorado-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hale-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/nevada-us-state/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/patrick-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/bibb-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/holt-county-nebraska-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/appomattox-county-virginia-court/",
+      "destination": "/pittsylvania-county-virginia-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lee-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/morgan-county-ohio-court/",
+      "destination": "/warren-county-ohio-court/",
+      "permanent": true
+    },
+    {
+      "source": "/logan-county-kansas-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/jasper-county-iowa-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/scott-county-missouri-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bossier-parish-louisiana-court/",
+      "destination": "/ouachita-parish-louisiana-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/allendale-county-south-carolina-court/",
+      "destination": "/south-carolina-court-dockets-and-calendars/",
+      "permanent": true
+    },
+    {
+      "source": "/columbia-county-wisconsin-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/rock-county-minnesota-court/",
+      "destination": "/rockland-county-supreme-court/",
+      "permanent": true
+    },
+    {
+      "source": "/lamar-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/hardeman-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/johnson-county-indiana-court/",
+      "destination": "/johnson-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/rusk-county-texas-court/",
+      "destination": "/harris-county-texas-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/yalobusha-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/amite-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/le-sueur-county-minnesota-court/",
+      "destination": "/morrow-county-courthouse-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/harrison-county-mississippi-court/",
+      "destination": "/itawamba-county-mississippi-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/st-marys-county-maryland-court/",
+      "destination": "/windsor-county-district-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/lamar-county-alabama-court/",
+      "destination": "/conecuh-county-alabama-court-detailed/",
+      "permanent": true
+    },
+    {
+      "source": "/wayne-county-indiana-court/",
+      "destination": "/wayne-county-circuit-court/",
+      "permanent": true
+    },
+    {
+      "source": "/oneida-county-wisconsin-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/starke-county-indiana-court/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/washington-county-georgia-court/",
+      "destination": "/washington-county-circuit-court-maryland/",
+      "permanent": true
+    }
   ]
 }

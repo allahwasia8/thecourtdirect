@@ -9,7 +9,7 @@ from pathlib import Path
 from PIL import Image
 
 # Configuration
-API_KEY = "tgp_v1_644yoUtdPAzSk8c_jVarHs4i1uUkMMBxgJ8OD7aCLf8"
+API_KEY = "YOUR_TOGETHER_API_KEY"
 MODEL = "black-forest-labs/FLUX.1-schnell"
 MODEL_ALT_TEXT = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 POSTS_DATA_PATH = Path("d:/thecourtdirect/public/data/blog-posts.json")
@@ -180,4 +180,4 @@ if __name__ == "__main__":
     # Force regenerate specific IDs as requested
     # Leave empty to process missing items only
     force_ids = []
-    process_posts(limit=2000, force_ids=force_ids)
+    process_posts(limit=500, force_ids=force_ids)
