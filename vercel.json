@@ -6,6 +6,2222 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/amendment-e-colorado-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marshall-county-tennessee-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/calhoun-county-iowa-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bucks-county-prothonotary-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/palmer-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/tampa.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pawnee-county-kansas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-township-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/robin-ransom/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/imperial-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clark-county-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/davis-county-justice-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/cheshire-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-large-mobile-banner-2",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clay-county-florida-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/moraine-mayors-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/multnomah-county-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bellmawr-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dale-county-alabama-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ritchie-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-you-dont-follow-a-family-court-order/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/birmingham-civil-family-justice-centre/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stanislaus-county-superior-court-traffic-division/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/terms-and-condition/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bolivar-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/perth-amboy-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wisconsin-attorney-general-election-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/olive-branch-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/charles-county-circuit-court-maryland/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/smyth-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-are-petitions-and-how-do-they-work/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/municipal-court-of-atlanta-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fulton-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/chardon-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/huron-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monroe-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-win-an-appeal-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/columbiana-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/east-orange-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lynn-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-kent-county-circuit-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-san-bernardino-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/universal-city-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/worcester-probate-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kern-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lycoming-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mayoral-election-in-washington-d-c-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rocky-river-municipal-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/brad-allen-california/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/attala-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lamoreaux-justice-center-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/custer-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/will-boyd-alabama/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/grand-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/waukesha-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/cumberland-county-maine-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/california-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rebecca-rhynhart/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/douglas-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fayette-county-alabama-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fontana-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clackamas-county-circuit-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/rochester.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/campbell-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/perry-county-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/archuleta-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bourbon-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kansas-attorney-general-election-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/norfolk-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/calcasieu-parish-louisiana-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/king-george-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kettering-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monroe-town-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/brick-and-mortar-education/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/maine-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/alabama-us-state",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-siskiyou-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rich-county-clerks-office-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/texas-us-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-bedford-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/klamath-county-oregon-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/riverside-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rome-city-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/story-county-iowa-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-to-wear-to-traffic-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mercer-county-pennsylvania-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lehigh-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-sutter-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kristina-hellman/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-long-does-probate-court-take/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/flathead-county-montana-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sapp-wp-signon.php",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lake-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/johnson-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wasatch-county-utah-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/anderson-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-hampshire-us-state-",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/brian-telander/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/virginia-beach-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/app-ads.txt",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/melissa-black/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jeffrey-zink/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/howard-county-circuit-court-maryland/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ian-prior/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/north-carolina-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/homewood-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/nevada-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sheridan-county-wyoming-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/putnam-county-tennessee-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-clara-county-family-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/west-virginia-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/decatur-county-iowa-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tehama-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/nancy-mace/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/missouri-constitutional-convention-question-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/essex-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tehama-county-superior-court-juvenile-justice-center/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/essex-county-new-jersey-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/vista.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/the-benefits-of-hiring-a-local-kansas-city-car-accident-lawyer/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/suspect-charged-with-attack-on-turkish-house-in-new-york-city-ordered-supervised-release/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/autauga-county-alabama-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/city-of-franklin-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/coffee-county-general-sessions-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/louisiana-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/itasca-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/harford-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/woodbury-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/alexis-krot/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hampton-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pasadena-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/y-marie-manvel/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicag0/tampa.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-antonio-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/goodsprings-justice-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clark-county-courthouse-washington/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/central-district-of-california/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lauderdale-county-alabama-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/costilla-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fairburn-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/andrew-bain/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/northampton-county-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/frankfort-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tina-forte/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/alexis-martinez-johnson/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mamaroneck-village-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/banking-courts-in-usa/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/neil-makhija/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stow-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rancho-cucamonga-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/oklahoma-district-court-records/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/vandalia-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fairfield-county-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-find-my-court-date-online/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tricia-flanagan/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/oklahoma-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/woodbridge-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/berkeley-county-south-carolina-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hocking-county-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ryan-dibble/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/louise-lucas/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/passaic-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/spokane-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marshall-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lassen-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/massachusetts-attorney-general-election-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/garfield-county-oklahoma-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/edmonton.webp",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/old-bridge-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/brevard-county-circuit-court-viera-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/utilcave_com/auth.php",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/chickasaw-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/waukesha-county-courthouse/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/protecting-your-future-the-importance-of-a-clean-record-and-how-a-minden-attorney-can-help/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-santa-clara-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/craven-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/coal-county-oklahoma-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-box-2",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/florida-house-of-representatives-district-34/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monmouth-county-surrogate-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/platte-county-circuit-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/suffolk-superior-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tunica-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sagadahoc-county-district-court-west-bath-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-madera-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/porpoiseant/et.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/common-mistakes-people-make-after-a-criminal-charge/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hillsborough-county-superior-court-south-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/washtenaw-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/town-of-salina-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/alex-costa/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/joey-saladino/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carroll-county-circuit-court-maryland/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/catahoula-parish-clerk-of-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/anderson-county-general-sessions-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stuart-mackie/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-placer-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bexar-county-district-courts-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-is-a-status-conference-in-family-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/barrington-martin-ii/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/schuylkill-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sioux-county-north-dakota-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/porpoiseant/lemon.gif",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/saline-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/chatsworth-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/berea-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kentucky-elections-2023/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ezais/analytics",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/owyhee-county-idaho-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/barberton-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/montana-elections-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/worcester-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/garza-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/kenai.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/warren-county-ohio-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/joshua-prince/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/illinois-secretary-of-state-election-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/allegany-county-new-york-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/brevard-county-circuit-court-viera-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/chambers-county-alabama-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mecklenburg-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/newport-news-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/columbia-county-georgia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/newark-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/barnstable-county-massachusetts-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/greene-county-tennessee-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/colusa-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/girard-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lyndhurst-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/richmond-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/patrick-f-dugan/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tucson-city-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/leominster-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/immigration-lawyers-in-toronto/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jessica-piper/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dubois-county-indiana-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/east-fishkill-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/parker-county-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/arlington-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/baker-county-florida-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/elizabeth-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/st-charles-county-missouri-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/florida-house-of-representatives-district-56/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/gary-rabine/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/vestavia-hills-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marysville-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/daniel-mccaffery-vs-debbie-kunselman-2/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-many-justices-are-on-the-supreme-court-in-2024/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tallahatchie-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/matt-wolf/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/melanie-darrigo/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/porpoiseant/army.gif",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/plano-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wadsworth-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/shawnee-county-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-miguel-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/akron-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/beardeddragon/drake.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-kings-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/terrell-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-become-a-court-reporter-2/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-nevada-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/salem-county-new-jersey-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardy-county-magistrate-clerk-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/snohomish-county-superior-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/thurston-county-superior-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/colorado-prop-125/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lloyd-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tardisrocinante/screx.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/el-cajon-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/halfmoon-town-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wayne-w-williams-colorado/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/colorado-prop-124/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/meghann-adams/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/nebraska-gubernatorial-and-lieutenant-gubernatorial-election-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/avoyelles-parish-louisiana-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-does-vacated-mean-in-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/prince-georges-county-circuit-court-maryland/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/weld-county-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/the-legal-process-explained-by-a-sacramento-personal-injury-lawyer/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/filing-deadlines-for-independent-presidential-candidates-2024/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/suffolk-probate-and-family-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clayton-county-superior-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sandusky-bellevue-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/solano-county-superior-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mayoral-election-in-chula-vista-california-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-is-a-trial-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bessemer-courthouse/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mayoral-election-in-houston-texas-2023/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/the-colbert-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/washington-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/aiken-county-probate-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tuolumne-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/shelby-county-missouri-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/christopher-duff-california/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/houston.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/truc-do/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/orchard-park-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/denver-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-win-an-appeal-in-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/declaration-of-independence-of-usa/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/guilford-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/steuben-county-family-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/live-oak-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/massachusetts-us-state",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/justin-wilmeth/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-charges-are-dropped-before-court-2/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/weld-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carmen-goodman/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/east-cleveland-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pulaski-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/demensio-barton/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicag0/vista.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pennsylvania-elections-2023/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sofia-aragon/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/shelby-county-iowa-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jim-lamon/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/oklahoma-county-oklahoma-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/birmingham-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/macon-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/anne-arundel-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lawrence-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jersey-city-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-napa-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/caldwell-county-missouri-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/john-mccollister/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/minnesota-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/compton-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/porpoiseant/jellyfish.webp",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hamilton-alabama-courthouse/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/frederick-circuit-court-clerk-maryland/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/corey-reid/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rapper-slowthai-appears-in-court-after-rape-charge/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/maryland-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/idaho-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/linn-county-oregon-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/court-listing/page/4/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/michele-fiore/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marshall-county-alabama-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/randolph-county-indiana-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/regina-chu/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/college-park-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/saratoga-county-family-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hancock-county-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wyoming-county-new-york-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-barbara-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stephanie-keels/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/robert-nardolillo/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/florida-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jennifer-mascott/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/westmoreland-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pittsylvania-county-virginia-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mindy-s-glazer/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jones-county-south-dakota-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hockley-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/illinois-16th-congressional-district-election-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/barry-county-circuit-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/parsonsmaize/mulvane.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-jerseys-2nd-congressional-district",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/adams-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/david-b-gelfound/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ouachita-parish-louisiana-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dillon-county-south-carolina-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mountain-brook-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/iowa-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mayoral-election-in-denver-colorado-2023/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/shreveport-city-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/united-states-senate-election-in-oklahoma-2022-june-28-republican-primary/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/raleigh.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/porpoiseant/banger.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sandy-springs-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carteret-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/memphis.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sherman-county-kansas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/colorado-proposition-121-state-income-tax-rate-reduction-initiative-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/armstrong-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/botetourt-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ioana-petrou/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tulsa-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/craig-villanti/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/maumee-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-medrectangle-2",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/webster-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-augustine-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clarkston-justice-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hillsboro-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-mexico-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hudson-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/south-dakota-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pomona-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/denver-county-court-criminal-division-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardin-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-charges-are-dropped-before-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wise-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-los-angeles-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/painesville-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wheeler-county-oregon-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/colorado-amendment-f-charitable-gaming-measure-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rahway-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/calvert-county-circuit-court-clerk-maryland/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardin-county-detention-center/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/iron-county-wisconsin-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/milan-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/colbert-county-alabama-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/orange-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/athens-county-municipal-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/williamson-county-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/aiken-county-clerk-of-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-el-dorado-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clay-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/court-listing/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/*",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/yonkers-city-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dayton-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/downey-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/walthall-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-a-defendant-does-not-appear-in-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dewitt-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rhode-island-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/17th-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kane-county-utah-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/michigan-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/steve-simon/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-ventura-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ezoicUserDataProtection/consent",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/norwalk-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tulare-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-is-contempt-of-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/butler-county-probate-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pam-anderson-colorado/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/trenton-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/west-jordan-city-justice-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dual-federalism/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/recount-laws-in-new-jersey/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/klamath-county-circuit-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/patrick-little/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/junius-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jake-evans/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ian-smith/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pennsylvania-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/butts-county-probate-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ezoic/anchorfix.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carol-d-codrington/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jeff-bartos/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/floridas-new-desantis-backed-laws-address-immigration-guns-and-more/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/montgomery-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mamakating-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T/8JWPfcAAAACXBIWXMAAABIAAAASABGyWs",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/boise.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/arizona-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/virginia-beach-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/knox-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/crawford-county-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bay-county-michigan-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ulster-town-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/florida-amendment-3/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/common-causes-of-car-accidents-in-california/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hawaii-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/tulsa.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tardisrocinante/vitals.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/grapefruit.gif",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/john-featherman/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jarrin-jackson/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/massachusetts-question-1-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/united-states-senate-election-in-texas-2024/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/davidson-county-general-sessions-courtdetailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/cleburne-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/comal-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/elyria-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/nebraska-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/washington-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-paltz-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lycoming-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/grays-harbor-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jessamine-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/loudoun-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sarah-mcgervey/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/feed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lucas-kunce/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/donley-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-city-municipal-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/brant-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/leake-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/brown-county-circuit-clerk-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/supreme-court-rule-34/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/road-safety-regulations/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/plymouth-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/warren-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dallas-county-municipal-courts-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rensselaer-county-family-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/spartanburg-county-probate-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/humboldt-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/porpoiseant/fads.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/minneapolis.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/judith-mcconnell-california/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/shelby-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mecklenburg-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-luis-obispo-superior-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/amy-degise/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/perry-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/burlington-county-new-jersey-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/summit-county-justice-center-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carmen-goodman",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/warren-township-small-claims-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-are-drug-courts/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/long-island-lawyers-explain-the-complex-nature-of-brain-injury-litigation/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/douglas-county-magistrate-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/illinois-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/atlanta-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ainye-long/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/detroitchicago/cmbv2.js",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rhode-island-gubernatorial-election-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clifton-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-it-means-to-be-proud-to-be-an-american/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pickens-county-probate-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/allegany-county-orphans-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-large-mobile-banner-1",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carlos-garin/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/garfield-county-colorado-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/missaukee-county-michigan-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/us-district-courts",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/middlesex-superior-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/duval-county-florida-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bloomfield-municipal-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/robertson-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/parma-municipal-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/16th-circuit-court-macomb-county-circuit-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fullerton-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/onslow-county-district-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/montgomery-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mayoral-election-in-jacksonville-florida-2023/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kristin-guiney/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wallkill-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/arkansas-us-estate/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/allen-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dauphin-county-courthouse-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/georgetown-county-south-carolina-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jeffrey-boone/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/los-angeles-california-proposition-ula-tax-on-5-million-house-sales-initiative-november-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/quick-links/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/suzanne-bass/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/al-hernandez-florida/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-yuba-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/porpoiseant/tangerine.gif",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/scott-janowitz/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/missouri-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monterey-county-superior-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/thanksgiving-holidays-in-courts/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/amherst-town-court/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bellefontaine-municipal-court-detailed/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/parsonsmaize/chanute.js",
+      "destination": "/api/gone"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
