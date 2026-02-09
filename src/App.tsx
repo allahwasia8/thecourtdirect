@@ -14,6 +14,8 @@ import TermsOfService from "./pages/TermsOfService";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
 import WriteForUs from "./pages/WriteForUs";
+import Directory from "./pages/Directory";
+import StateDirectory from "./pages/StateDirectory";
 import Sitemap from "./pages/Sitemap";
 import NotFound from "./pages/NotFound";
 
@@ -37,6 +39,8 @@ const App = () => (
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/write-for-us-law" element={<WriteForUs />} />
+          <Route path="/directory" element={<Directory />} />
+          <Route path="/courts/:state" element={<StateDirectory />} />
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/:slug" element={<BlogPost />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

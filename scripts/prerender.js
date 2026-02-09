@@ -34,19 +34,37 @@ async function prerender() {
 
   // 2. Start Local Server
   console.log('Starting local server...');
-  const server = spawn('npx', ['serve', '-s', 'dist', '-p', '3000'], {
-    stdio: 'inherit',
+  const server = spawn('cmd.exe', ['/c', 'npx serve -s dist -p 3000'], {
+    stdio: 'pipe', // Change to pipe to capture errors
     shell: true
   });
 
+  server.stderr.on('data', (data) => {
+    console.error(`Status Server Error: ${data}`);
+  });
+
+  server.stdout.on('data', (data) => {
+    if (data.toString().includes('http://localhost:3000')) {
+      console.log('Server is running at http://localhost:3000');
+    }
+  });
+
   // Wait for server to be ready
-  await new Promise(resolve => setTimeout(resolve, 3000));
+  await new Promise(resolve => setTimeout(resolve, 5000));
 
   // 3. Launch Puppeteer
   console.log('Launching browser...');
-  const browser = await puppeteer.launch({
-    headless: "new"
-  });
+  let browser;
+  try {
+    browser = await puppeteer.launch({
+      headless: "new",
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
+  } catch (err) {
+    console.error('Failed to launch browser:', err);
+    server.kill();
+    process.exit(1);
+  }
 
   // 4. Prerender Function
   const prerenderPage = async (url, outputPath) => {
@@ -71,20 +89,38 @@ async function prerender() {
     }
   };
 
-  // 5. Process Courts
+  // 5. Process Directories
+  console.log('Prerendering Directories...');
+  await prerenderPage('http://localhost:3000/directory', path.join(distPath, 'directory'));
+  
+  const states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"];
+  for (const state of states) {
+    await prerenderPage(`http://localhost:3000/courts/${state}`, path.join(distPath, 'courts', state));
+  }
+
+  // 6. Process Courts
   console.log('Prerendering Courts...');
   const BATCH_SIZE = 5;
+  let successCount = 0;
+  let failCount = 0;
+
   for (let i = 0; i < courts.length; i += BATCH_SIZE) {
     const batch = courts.slice(i, i + BATCH_SIZE);
-    await Promise.all(batch.map(court => {
+    const results = await Promise.all(batch.map(court => {
       const url = `http://localhost:3000/court/${court.id}`;
       const outputDir = path.join(distPath, 'court', court.id);
       return prerenderPage(url, outputDir);
     }));
-    if ((i + BATCH_SIZE) % 100 === 0) console.log(`Processed ${i + BATCH_SIZE} courts...`);
+    
+    successCount += results.filter(r => r).length;
+    failCount += results.filter(r => !r).length;
+
+    if ((i + BATCH_SIZE) % 50 === 0) {
+      console.log(`Progress: ${i + BATCH_SIZE}/${courts.length} courts. Success: ${successCount}, Failed: ${failCount}`);
+    }
   }
 
-  // 6. Process Blog Posts
+  // 7. Process Blog Posts
   console.log('Prerendering Blog Posts...');
   for (let i = 0; i < posts.length; i += BATCH_SIZE) {
     const batch = posts.slice(i, i + BATCH_SIZE);
@@ -93,13 +129,12 @@ async function prerender() {
       const outputDir = path.join(distPath, post.id);
       return prerenderPage(url, outputDir);
     }));
-    if ((i + BATCH_SIZE) % 100 === 0) console.log(`Processed ${i + BATCH_SIZE} posts...`);
   }
 
-  // 7. Cleanup
+  // 8. Cleanup
   await browser.close();
   server.kill();
-  console.log('Prerendering complete.');
+  console.log(`Prerendering complete. Final Stats - Courts: ${successCount} Succeeded, ${failCount} Failed.`);
   process.exit(0);
 }
 

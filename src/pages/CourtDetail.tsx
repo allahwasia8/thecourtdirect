@@ -253,6 +253,47 @@ const CourtDetail = () => {
                   )}
                 </div>
               </div>
+
+              {/* Court Preparation Guide - Word Count Boost */}
+              <div className="bg-card rounded-xl shadow-elegant p-8">
+                <h2 className="font-serif text-2xl font-bold text-foreground mb-6">
+                  Preparing for Your Visit to {court.name}
+                </h2>
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-2">What should I bring?</h4>
+                    <p className="text-sm text-muted-foreground">
+                      When visiting {court.name}, ensure you have a valid government-issued photo ID. 
+                      Bring all relevant legal documents, case numbers, and copies of any filings. 
+                      If you are representing yourself, bring a notebook and pen to record important instructions.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-2">What is the dress code?</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Professional or business casual attire is typically expected in {court.city} courtrooms. 
+                      Avoid wearing hats, shorts, or flip-flops. Maintaining a respectful appearance is 
+                      important during judicial proceedings.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-2">Are electronics allowed?</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Policies on cell phones and electronics vary by jurisdiction in {court.state}. 
+                      Generally, devices must be silenced or turned off inside the courtroom. 
+                      Photography and recording are strictly prohibited without prior court authorization.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-2">Arrival and Security</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Plan to arrive at least 30 minutes before your scheduled hearing at {court.building}. 
+                      All visitors must pass through security screening, similar to airport procedures. 
+                      Items such as pocket knives, pepper spray, or other potential weapons are strictly forbidden.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Sidebar */}
