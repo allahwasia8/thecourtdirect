@@ -217,19 +217,40 @@ const CourtDetail = () => {
                       </div>
                     </div>
                   </a>
-                  <div className="flex items-center gap-4 p-4 rounded-lg border border-border">
-                    <div className="w-10 h-10 rounded-lg bg-navy flex items-center justify-center">
-                      <Users className="w-5 h-5 text-gold" />
-                    </div>
-                    <div>
-                      <div className="font-medium text-foreground">
-                        Information for Litigants
+                  {court.litigantsInfoUrl ? (
+                    <a
+                      href={court.litigantsInfoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-gold hover:bg-gold/5 transition-all group"
+                    >
+                      <div className="w-10 h-10 rounded-lg bg-navy flex items-center justify-center group-hover:bg-gold transition-colors">
+                        <Users className="w-5 h-5 text-gold group-hover:text-navy transition-colors" />
                       </div>
-                      <div className="text-sm text-muted-foreground">
-                        Attorneys and self-represented
+                      <div>
+                        <div className="font-medium text-foreground group-hover:text-gold transition-colors">
+                          Information for Litigants
+                        </div>
+                        <div className="text-sm text-muted-foreground">
+                          Attorneys and self-represented
+                        </div>
+                      </div>
+                    </a>
+                  ) : (
+                    <div className="flex items-center gap-4 p-4 rounded-lg border border-border opacity-50 cursor-not-allowed">
+                      <div className="w-10 h-10 rounded-lg bg-navy flex items-center justify-center">
+                        <Users className="w-5 h-5 text-gold" />
+                      </div>
+                      <div>
+                        <div className="font-medium text-foreground">
+                          Information for Litigants
+                        </div>
+                        <div className="text-sm text-muted-foreground">
+                          Not available
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>

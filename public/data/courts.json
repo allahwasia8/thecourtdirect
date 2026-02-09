@@ -14,6 +14,7 @@
     "headquarters": true,
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Richard%20H.%20Chambers%20Court%20of%20Appeals%20Building,%20125%20South%20Grand%20Avenue,%20Pasadena,%20CA%2091105-1621,",
     "website": "http://www.ca9.uscourts.gov/bap",
+    "litigantsInfoUrl": "https://www.ca9.uscourts.gov/forms/pro-se-litigants/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
     "description": "Ninth Circuit Bankruptcy Appellate Panel - Pasadena, CA.",
     "metaDescription": "Ninth Circuit Bankruptcy Appellate Panel in Pasadena, CA, an appeals court with address and phone."
@@ -32,7 +33,8 @@
     "building": "Ninth Circuit Library - San Francisco, CA",
     "headquarters": true,
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=James%20R.%20Browning%20United%20States%20Courthouse,%2095%20Seventh%20Street,%20San%20Francisco,%20CA%2094103-1518,",
-    "website": "http://www.lb9.uscourts.gov/",
+    "website": "http://www.ca9.uscourts.gov/library/",
+    "litigantsInfoUrl": "https://www.ca9.uscourts.gov/library/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
     "description": "Ninth Circuit Library - San Francisco, CA.",
     "metaDescription": "Ninth Circuit Library in San Francisco, CA, an Appeals Court with address and phone."
@@ -52,6 +54,7 @@
     "headquarters": true,
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=James%20R.%20Browning%20United%20States%20Courthouse,%2095%20Seventh%20Street,%20San%20Francisco,%20CA%2094103-1518,",
     "website": "http://www.ca9.uscourts.gov/",
+    "litigantsInfoUrl": "https://www.ca9.uscourts.gov/forms/pro-se-litigants/",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
     "description": "Ninth Circuit Court of Appeals - San Francisco, CA.",
     "metaDescription": "Ninth Circuit Court of Appeals in San Francisco, CA, provides appeals court information and contact details."
@@ -71,6 +74,7 @@
     "headquarters": true,
     "mapsUrl": "https://www.google.com/maps?saddr=Current+Location&daddr=Byron%20G.%20Rogers%20United%20States%20Courthouse%20and%20Federal%20Building,%201929%20Stout%20Street,%20Denver,%20CO%2080294,",
     "website": "http://www.ca10.uscourts.gov/library",
+    "litigantsInfoUrl": "https://www.ca10.uscourts.gov/library",
     "hours": "Monday - Friday: 9:00 AM - 4:00 PM",
     "description": "Tenth Circuit Library - Denver, CO.",
     "metaDescription": "Tenth Circuit Library in Denver, CO, provides appeals court information and resources."

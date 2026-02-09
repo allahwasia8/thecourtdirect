@@ -16,4 +16,5 @@ export interface Court {
   metaTitle?: string;
   metaDescription?: string;
   imageToShare?: string;
+  litigantsInfoUrl?: string;
 }
