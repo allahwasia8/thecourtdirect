@@ -35,8 +35,8 @@ async function prerender() {
 
   // 2. Start Local Server
   console.log('Starting local server...');
-  const server = spawn('cmd.exe', ['/c', 'npx serve -s dist -p 3000'], {
-    stdio: 'pipe', // Change to pipe to capture errors
+  const server = spawn('npx', ['serve', '-s', 'dist', '-p', '3000'], {
+    stdio: 'pipe',
     shell: true
   });
 
