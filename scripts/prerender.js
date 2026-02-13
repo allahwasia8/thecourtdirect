@@ -20,8 +20,9 @@ try {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const BATCH_SIZE = process.env.VERCEL ? 10 : 8; // Concurrency limit
-const LIMIT = process.env.PRERENDER_LIMIT ? parseInt(process.env.PRERENDER_LIMIT) : 2500; // Allow full site
+// CONFIGURATION
+const CONCURRENCY = process.env.VERCEL ? 10 : 8; 
+const LIMIT = process.env.PRERENDER_LIMIT ? parseInt(process.env.PRERENDER_LIMIT) : 3000;
 
 async function waitForServer(url, timeout = 30000) {
   const start = Date.now();
@@ -54,11 +55,11 @@ async function prerender() {
   console.log('Loading data...');
   const courts = fs.existsSync(courtsPath) ? JSON.parse(fs.readFileSync(courtsPath, 'utf8')) : [];
   const posts = fs.existsSync(postsPath) ? JSON.parse(fs.readFileSync(postsPath, 'utf8')) : [];
-  console.log(`Found ${courts.length} courts and ${posts.length} blog posts. Total to process: ${Math.min(LIMIT, courts.length + posts.length + 50)}`);
+  console.log(`Found ${courts.length} courts and ${posts.length} blog posts.`);
 
   // 2. Start Local Server
   const server = spawn('npx', ['serve', '-s', 'dist', '-p', '3000'], {
-    stdio: 'ignore', // Suppress noisy serve logs
+    stdio: 'ignore', 
     shell: true
   });
 
@@ -76,7 +77,7 @@ async function prerender() {
   try {
     if (process.env.VERCEL && chromium) {
       browser = await puppeteerCore.launch({
-        args: [...chromium.args, '--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+        args: [...chromium.args, '--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu'],
         defaultViewport: chromium.defaultViewport,
         executablePath: await chromium.executablePath(),
         headless: chromium.headless,
@@ -84,7 +85,7 @@ async function prerender() {
     } else {
       browser = await puppeteer.launch({
         headless: "new",
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
       });
     }
   } catch (err) {
@@ -93,43 +94,14 @@ async function prerender() {
     process.exit(1);
   }
 
-  // 4. Prerender Worker
-  const prerenderPage = async (url, outputPath) => {
-    let page;
-    try {
-      page = await browser.newPage();
-      // Block unnecessary resources to speed up loading
-      await page.setRequestInterception(true);
-      page.on('request', (req) => {
-        const type = req.resourceType();
-        if (['image', 'font', 'media'].includes(type)) req.abort();
-        else req.continue();
-      });
-
-      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      // Short wait for React to hydrate and SEO tags to appear
-      await new Promise(r => setTimeout(r, 1500));
-      
-      const html = await page.content();
-      if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
-      fs.writeFileSync(path.join(outputPath, 'index.html'), html);
-      return true;
-    } catch (err) {
-      // Silently retry once or just fail
-      return false;
-    } finally {
-      if (page) await page.close();
-    }
-  };
-
-  // 5. Build Queue
+  // 4. Setup Worker Pool
   const queue = [
     { url: 'http://localhost:3000/directory', path: path.join(distPath, 'directory') },
     ...["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"].map(s => ({
       url: `http://localhost:3000/courts/${s}`,
       path: path.join(distPath, 'courts', s)
     })),
-    ...courts.slice(0, LIMIT).map(c => ({
+    ...courts.map(c => ({
       url: `http://localhost:3000/court/${c.id}`,
       path: path.join(distPath, 'court', c.id)
     })),
@@ -137,31 +109,72 @@ async function prerender() {
       url: `http://localhost:3000/${p.id}`,
       path: path.join(distPath, p.id)
     }))
-  ];
+  ].slice(0, LIMIT);
 
-  console.log(`Prerendering ${queue.length} pages with concurrency ${BATCH_SIZE}...`);
-  
-  let success = 0;
-  let fail = 0;
+  console.log(`Starting Worker Pool processing for ${queue.length} pages with ${CONCURRENCY} workers...`);
+
+  let queueIndex = 0;
+  let successCount = 0;
+  let failCount = 0;
   const startTime = Date.now();
 
-  for (let i = 0; i < queue.length; i += BATCH_SIZE) {
-    const batch = queue.slice(i, i + BATCH_SIZE);
-    const results = await Promise.all(batch.map(item => prerenderPage(item.url, item.path)));
-    
-    success += results.filter(r => r).length;
-    fail += results.filter(r => !r).length;
-
-    if ((i + BATCH_SIZE) % 100 === 0 || i + BATCH_SIZE >= queue.length) {
-      const elapsed = Math.round((Date.now() - startTime) / 1000);
-      console.log(`Progress: ${Math.min(i + BATCH_SIZE, queue.length)}/${queue.length} | Success: ${success} | Failed: ${fail} | Time: ${elapsed}s`);
+  const worker = async (id) => {
+    let page;
+    try {
+      page = await browser.newPage();
+      // Block resources globally for this page instance
+      await page.setRequestInterception(true);
+      page.on('request', (req) => {
+        const type = req.resourceType();
+        if (['image', 'font', 'media', 'stylesheet'].includes(type)) req.abort();
+        else req.continue();
+      });
+    } catch (e) {
+      console.error(`Worker ${id} failed to create page:`, e);
+      return;
     }
+
+    while (queueIndex < queue.length) {
+      const jobIndex = queueIndex++;
+      const { url, path: outputPath } = queue[jobIndex];
+      
+      try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 });
+        // Minimal wait for hydration
+        await new Promise(r => setTimeout(r, 500));
+        
+        const html = await page.content();
+        if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
+        fs.writeFileSync(path.join(outputPath, 'index.html'), html);
+        successCount++;
+      } catch (err) {
+        // console.error(`Failed: ${url}`, err.message);
+        failCount++;
+      }
+
+      if ((successCount + failCount) % 100 === 0) {
+         const elapsed = Math.round((Date.now() - startTime) / 1000);
+         const rate = Math.round(((successCount + failCount) / elapsed) * 100) / 100;
+         console.log(`Progress: ${successCount + failCount}/${queue.length} | Rate: ${rate} p/s | Time: ${elapsed}s`);
+      }
+    }
+    
+    await page.close();
+  };
+
+  const workers = [];
+  for (let i = 0; i < CONCURRENCY; i++) {
+    workers.push(worker(i));
   }
+
+  await Promise.all(workers);
 
   // 6. Cleanup
   await browser.close();
   server.kill();
-  console.log(`Prerendering complete in ${Math.round((Date.now() - startTime) / 1000)}s.`);
+  const totalTime = Math.round((Date.now() - startTime) / 1000);
+  console.log(`Prerendering complete! processed ${successCount} pages in ${totalTime}s.`);
+  console.log(`Final Rate: ${Math.round((successCount / totalTime) * 100) / 100} pages/second.`);
   process.exit(0);
 }
 
