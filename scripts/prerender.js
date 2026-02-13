@@ -97,6 +97,8 @@ async function prerender() {
   // 4. Setup Worker Pool
   const queue = [
     { url: 'http://localhost:3000/directory', path: path.join(distPath, 'directory') },
+    { url: 'http://localhost:3000/sitemap', path: path.join(distPath, 'sitemap') },
+    { url: 'http://localhost:3000/blog', path: path.join(distPath, 'blog') },
     ...["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"].map(s => ({
       url: `http://localhost:3000/courts/${s}`,
       path: path.join(distPath, 'courts', s)
@@ -140,8 +142,23 @@ async function prerender() {
       
       try {
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 });
-        // Minimal wait for hydration
-        await new Promise(r => setTimeout(r, 500));
+        
+        // Smart Wait: Wait for key content to appear
+        // - State Directory / Blog: Wait for grid items
+        // - Court Detail: Wait for specific court content
+        // - General: Fallback to short timeout
+        try {
+          if (url.includes('/courts/') || url.includes('/blog')) {
+            await page.waitForSelector('.grid, .group', { timeout: 5000 });
+          } else if (url.includes('/court/')) {
+            await page.waitForSelector('h1', { timeout: 5000 });
+          }
+        } catch (e) {
+          // Ignore timeout if selector doesn't appear (e.g. empty state), just proceed
+        }
+
+        // Minimal extra wait for hydration safety
+        await new Promise(r => setTimeout(r, 200));
         
         const html = await page.content();
         if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
