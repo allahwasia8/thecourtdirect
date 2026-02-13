@@ -3704,7 +3704,7 @@
       "permanent": true
     },
     {
-      "source": "/ezoic/anchorfix.js?cb=22",
+      "source": "/ezoic/anchorfix.js",
       "destination": "/",
       "permanent": true
     },
