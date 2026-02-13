@@ -5,6 +5,18 @@ import puppeteer from 'puppeteer';
 import { spawn } from 'child_process';
 import { fileURLToPath } from 'url';
 
+// Conditional imports for Vercel
+let chromium;
+let puppeteerCore;
+try {
+  if (process.env.VERCEL) {
+    chromium = (await import('@sparticuz/chromium')).default;
+    puppeteerCore = (await import('puppeteer-core')).default;
+  }
+} catch (e) {
+  console.log('Sparticuz chromium not available, falling back to standard puppeteer');
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -57,10 +69,21 @@ async function prerender() {
   console.log('Launching browser...');
   let browser;
   try {
-    browser = await puppeteer.launch({
-      headless: "new",
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
+    if (process.env.VERCEL && chromium) {
+      console.log('Running on Vercel, using @sparticuz/chromium');
+      browser = await puppeteerCore.launch({
+        args: chromium.args,
+        defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(),
+        headless: chromium.headless,
+      });
+    } else {
+      console.log('Running in local environment');
+      browser = await puppeteer.launch({
+        headless: "new",
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+      });
+    }
   } catch (err) {
     console.error('Failed to launch browser:', err);
     server.kill();
