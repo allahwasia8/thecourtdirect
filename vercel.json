@@ -1658,10 +1658,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/*",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/yonkers-city-court-detailed/blank",
       "destination": "/api/gone"
     },
