@@ -2329,7 +2329,7 @@
       "permanent": true
     },
     {
-      "source": "/wp-content/uploads/*",
+      "source": "/wp-content/uploads/:path*",
       "destination": "/",
       "permanent": true
     },
