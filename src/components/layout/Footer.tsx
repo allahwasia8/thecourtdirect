@@ -21,7 +21,7 @@ const Footer = () => {
             </Link>
             <p className="text-cream/70 text-sm leading-relaxed">
               Making legal affairs accessible and courtroom navigation easy for everyone. 
-              Your trusted guide to the judicial system.
+              Browse our [National Court Directory](/directory) to find information by state.
             </p>
           </div>
 

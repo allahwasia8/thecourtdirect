@@ -9,16 +9,26 @@ import sys
 
 # Configuration
 COURTS_FILE = 'public/data/courts.json'
-OUTPUT_FILE = 'public/data/courts_updated.json' # Save to new file first for safety
+OUTPUT_FILE = 'public/data/courts.json' # Update in place
 LOG_FILE = 'scripts/batch_update_log.txt'
-BATCH_SIZE = 5  # Save every 5 records
-DELAY_MIN = 30  # Minimum delay in seconds (to be exceedingly polite)
-DELAY_MAX = 60  # Maximum delay
+BATCH_SIZE = 5
+DELAY_MIN = 5  # Reduced for testing speed, but still polite
+DELAY_MAX = 15
 
 def log(message):
     print(message)
     with open(LOG_FILE, 'a', encoding='utf-8') as f:
         f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
+
+def get_random_user_agent():
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0"
+    ]
+    return random.choice(user_agents)
 
 def ddg_search(query):
     """
@@ -26,7 +36,7 @@ def ddg_search(query):
     """
     base_url = "https://html.duckduckgo.com/html/"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "User-Agent": get_random_user_agent(),
         "Referer": "https://duckduckgo.com/"
     }
     payload = urllib.parse.urlencode({'q': query, 'kl': 'us-en'})
@@ -74,28 +84,32 @@ def generate_metadata(court, results):
     base_desc = f"Find contact information, address, and details for {court['name']} in {court['city']}, {court['state']}."
     
     if not results:
+        # Safety: Don't overwrite with fallback if search failed.
+        # Check if current metadata exists, if so return None to signal "no change"
+        if court.get('metaDescription') and len(court['metaDescription']) > 10:
+             return None, None
         return base_title, base_desc
 
     top_result = results[0]
-    
-    # Strategy: 
-    # Title: Use {Court Name} - {Official/Common Name from SERP} if appropriate, else keep standard format.
-    # Actually, a standard, clean title is often better for directory sites.
-    # Let's stick to a robust standard: "{Court Name} | Address & Phone | The Court Direct"
-    # But user asked to "Add accordingly" from SERP. 
-    # Let's use SERP to find the "Official" description if possible.
     
     new_title = f"{court['name']} - {court.get('types', ['Court'])[0]} | Address & Phone"
     
     # Try to find a .gov snippet for description
     best_desc = base_desc
+    found_gov = False
+    
     for res in results:
         if '.gov' in res['link'] or '.org' in res['link']:
             # Use snippet if it looks like a description
             if len(res['snippet']) > 50:
                 best_desc = res['snippet']
+                found_gov = True
                 break
     
+    # If no .gov found, use the first result snippet if it's decent
+    if not found_gov and len(top_result['snippet']) > 50:
+         best_desc = top_result['snippet']
+
     # Clean up snippet
     if "..." in best_desc:
         best_desc = best_desc.split("...")[0] + "."
@@ -118,24 +132,34 @@ def main():
     
     # Limit for testing/batching
     limit_arg = next((arg for arg in sys.argv if arg.startswith('--limit=')), None)
-    limit = int(limit_arg.split('=')[1]) if limit_arg else len(courts)
+    limit = int(limit_arg.split('=')[1]) if limit_arg else 50 # Default to 50 for safety
     
     updated_count = 0
+    skipped_count = 0
     
-    for i, court in enumerate(courts[:limit]):
-        # Skip if already has custom metadata (optional check, currently overwriting as requested)
-        # if court.get('metaTitle') and court.get('metaDescription'):
-        #     continue
+    for i, court in enumerate(courts):
+        if updated_count >= limit:
+            break
+            
+        # Process ALL records request to "Update more pages"
+        # The previous targeting was too strict. We want to improve ALL templated metadata.
 
-        query = f"{court['name']} {court['city']} {court['state']} official site"
-        log(f"[{i+1}/{limit}] Searching: {query}")
+        # Query without city because city field often contains junk (e.g., "StreetCity")
+        query = f"{court['name']} {court['state']} official site"
+        log(f"[{updated_count+1}/{limit}] Searching (Index {i}): {query}")
         
         results = ddg_search(query)
         
         new_title, new_desc = generate_metadata(court, results)
         
-        court['metaTitle'] = new_title
-        court['metaDescription'] = new_desc
+        # Only update if we actually got something different/better AND valid results
+        if new_desc and new_desc != current_desc:
+            court['metaTitle'] = new_title
+            court['metaDescription'] = new_desc
+            log(f"  -> Updated Description: {new_desc[:50]}...")
+            updated_count += 1
+        else:
+            log(f"  -> No better metadata found (or search failed).")
         
         # Also update website if missing and a .gov link is found
         if not court.get('website') and results:

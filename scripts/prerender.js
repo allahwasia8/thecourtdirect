@@ -12,6 +12,7 @@ async function prerender() {
   const distPath = path.resolve(__dirname, '../dist');
   const courtsPath = path.resolve(__dirname, '../public/data/courts.json');
   const postsPath = path.resolve(__dirname, '../public/data/blog-posts.json');
+  const LIMIT = 500; // Limit for this run to avoid crash
   
   // 1. Load Data
   console.log('Loading data...');
@@ -50,7 +51,7 @@ async function prerender() {
   });
 
   // Wait for server to be ready
-  await new Promise(resolve => setTimeout(resolve, 5000));
+  await new Promise(resolve => setTimeout(resolve, 10000));
 
   // 3. Launch Puppeteer
   console.log('Launching browser...');
@@ -69,10 +70,34 @@ async function prerender() {
   // 4. Prerender Function
   const prerenderPage = async (url, outputPath) => {
     const page = await browser.newPage();
+    
+    // Log console messages from the browser
+    page.on('console', msg => {
+      if (msg.type() === 'error' || msg.text().includes('Debug')) {
+        console.log(`PAGE [${msg.type()}]: ${msg.text()}`);
+      }
+    });
+    page.on('pageerror', err => {
+      console.error(`PAGE ERROR: ${err.toString()}`);
+    });
+
     try {
       await page.goto(url, { waitUntil: 'networkidle0', timeout: 60000 });
-      // Wait for h1 to ensure content loaded
-      await page.waitForSelector('h1', { timeout: 10000 });
+      // Wait for h1 or our specific ID, but don't crash if it fails
+      try {
+          await page.waitForSelector('h1, #main-h1', { timeout: 15000 });
+          // Debugging SEO tags
+          const debugInfo = await page.evaluate(() => {
+            return {
+              title: document.title,
+              metaDesc: document.querySelector('meta[name="description"]')?.getAttribute('content'),
+              h1: document.querySelector('h1')?.textContent
+            };
+          });
+          console.log(`Debug [${url}]: Title: ${debugInfo.title}, H1: ${debugInfo.h1?.substring(0,20)}`);
+      } catch (e) {
+          console.warn(`Warning: H1 selector not found for ${url}, capturing anyway.`);
+      }
       
       const html = await page.content();
       
@@ -104,8 +129,9 @@ async function prerender() {
   let successCount = 0;
   let failCount = 0;
 
-  for (let i = 0; i < courts.length; i += BATCH_SIZE) {
-    const batch = courts.slice(i, i + BATCH_SIZE);
+  const courtsToProcess = courts.slice(0, LIMIT);
+  for (let i = 0; i < courtsToProcess.length; i += BATCH_SIZE) {
+    const batch = courtsToProcess.slice(i, i + BATCH_SIZE);
     const results = await Promise.all(batch.map(court => {
       const url = `http://localhost:3000/court/${court.id}`;
       const outputDir = path.join(distPath, 'court', court.id);
@@ -116,7 +142,9 @@ async function prerender() {
     failCount += results.filter(r => !r).length;
 
     if ((i + BATCH_SIZE) % 50 === 0) {
-      console.log(`Progress: ${i + BATCH_SIZE}/${courts.length} courts. Success: ${successCount}, Failed: ${failCount}`);
+      console.log(`Progress: ${i + BATCH_SIZE}/${courtsToProcess.length} courts. Success: ${successCount}, Failed: ${failCount}`);
+      // Give the system a breather
+      await new Promise(resolve => setTimeout(resolve, 2000));
     }
   }
 

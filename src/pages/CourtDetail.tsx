@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import {
   ArrowLeft,
+  ArrowRight,
   MapPin,
   Phone,
   Building2,
@@ -130,7 +131,7 @@ const CourtDetail = () => {
                   </span>
                 )}
               </div>
-              <h1 className="font-serif text-3xl md:text-4xl font-bold text-cream leading-tight mb-4">
+              <h1 id="main-h1" className="font-serif text-3xl md:text-4xl font-bold text-cream leading-tight mb-4">
                 {court.name}
               </h1>
               <p className="text-cream/80 text-lg">
@@ -373,6 +374,24 @@ const CourtDetail = () => {
                       </a>
                     </Button>
                   )}
+                </div>
+              </div>
+
+              {/* Related Courts in State - Internal Linking Improvement */}
+              <div className="bg-card rounded-xl shadow-elegant p-6 border border-border">
+                <h3 className="font-serif text-lg font-semibold text-foreground mb-4">
+                  Other Courts in {court.state || 'this State'}
+                </h3>
+                <div className="space-y-4">
+                  <p className="text-xs text-muted-foreground mb-4">
+                    Find more judicial resources and court locations in your area.
+                  </p>
+                  <Button variant="outline" className="w-full justify-between group" asChild>
+                    <Link to={`/courts/${court.state}`}>
+                      View All {court.state} Courts
+                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  </Button>
                 </div>
               </div>
             </div>

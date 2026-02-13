@@ -7,6 +7,18 @@ import json
 import sys
 import urllib.parse
 
+import random
+
+def get_random_user_agent():
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0"
+    ]
+    return random.choice(user_agents)
+
 def ddg_search(query):
     """
     Scrapes DuckDuckGo search results for a given query.
@@ -15,7 +27,7 @@ def ddg_search(query):
     """
     base_url = "https://html.duckduckgo.com/html/"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "User-Agent": get_random_user_agent(),
         "Content-Type": "application/x-www-form-urlencoded",
         "Referer": "https://duckduckgo.com/"
     }
@@ -64,7 +76,7 @@ def fetch_external_meta(url):
     Fetches Meta Title and Meta Description from a specific URL.
     """
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+        "User-Agent": get_random_user_agent()
     }
     try:
         response = requests.get(url, headers=headers, timeout=10)
@@ -128,7 +140,8 @@ def main():
             output_file = sys.argv[out_idx + 1]
             # Remove --output and filename from args to get query
             args = sys.argv[1:]
-            del args[out_idx:out_idx+2]
+            # Adjust index because args is shifted by 1 from sys.argv
+            del args[out_idx-1:out_idx+1]
             query = " ".join(args)
         else:
             output_file = None

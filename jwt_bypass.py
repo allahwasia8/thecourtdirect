@@ -1,3 +1,4 @@
+import os
 import json
 import base64
 import hmac
@@ -7,7 +8,7 @@ import urllib.request
 import urllib.error
 
 # Config provided by user
-SECRET_KEY = '[^F[v0W6<:SIRyfFbc4Pj&#}XUze0K@WrCO);0uuyc((iRc,fM[nrQ]7pKLHIW7b'
+SECRET_KEY = os.environ.get('JWT_SECRET_KEY', 'YOUR_JWT_SECRET_KEY')
 WORDPRESS_URL = "https://thecourtdirect.com"
 
 def base64url_encode(data):

@@ -115,7 +115,7 @@ const BlogPost = () => {
                 </span>
               </div>
               
-              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-cream leading-[1.1] mb-8 tracking-tight">
+              <h1 id="main-h1" className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-cream leading-[1.1] mb-8 tracking-tight">
                 {post.title}
               </h1>
               
@@ -350,10 +350,10 @@ const BlogPost = () => {
                 Need to Find a Courtroom?
               </h3>
               <p className="text-muted-foreground mb-6">
-                Use our comprehensive court finder to locate the right court for your needs.
+                Use our comprehensive [court directory](/directory) to locate the right court for your needs.
               </p>
               <Button variant="navy" size="lg" asChild>
-                <Link to="/find-court">Find a Court</Link>
+                <Link to="/directory">Browse Court Directory</Link>
               </Button>
             </div>
           </div>

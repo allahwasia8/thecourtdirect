@@ -45,7 +45,7 @@ def get_service():
     if not os.path.exists(SERVICE_ACCOUNT_FILE):
         print(f"⚠️ Service account file not found at {SERVICE_ACCOUNT_FILE}")
         # Validating if we can use the API key (unlikely to work for 'publish' but we will try if user insists)
-        api_key = "AIzaSyC2H-kaztvor6E_raEhsBWe3_K5bllJi4c" 
+        api_key = os.environ.get("GOOGLE_API_KEY", "YOUR_GOOGLE_API_KEY")
         print(f"⚠️ Attempting to use provided API Key: {api_key[:10]}...")
         
         try:
@@ -114,6 +114,21 @@ def get_court_urls():
     except Exception as e:
         print(f"Error reading courts: {e}")
         return []
+
+def get_directory_urls():
+    # Base directory URL
+    urls = ["https://thecourtdirect.com/directory"]
+    
+    # State abbrevs
+    states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", 
+              "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", 
+              "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", 
+              "VA", "WA", "WV", "WI", "WY"]
+    
+    for state in states:
+        urls.append(f"https://thecourtdirect.com/courts/{state}")
+        
+    return urls
 
 def batch_submit_urls(service, urls):
     progress = load_progress()
@@ -192,11 +207,18 @@ if __name__ == "__main__":
     if service:
         all_urls = []
         
-        print("\n--- Phase 1: Gathering URLs ---")
+        # Directory URLs (High Priority)
+        print(f"\n--- Phase 1: Generating Directory URLs ---")
+        dir_urls = get_directory_urls()
+        print(f"Generated {len(dir_urls)} Directory URLs")
+        all_urls.extend(dir_urls)
+
+        print("\n--- Phase 2: Gathering Blog URLs ---")
         blog_urls = get_blog_urls()
         print(f"Found {len(blog_urls)} Blog URLs")
         all_urls.extend(blog_urls)
         
+        print("\n--- Phase 3: Gathering Court URLs ---")
         court_urls = get_court_urls()
         print(f"Found {len(court_urls)} Court URLs")
         all_urls.extend(court_urls)
