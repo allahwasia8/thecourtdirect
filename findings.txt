@@ -1,0 +1,12 @@
+﻿
+vercel.json:1661:      
+"source": "/*",
+vercel.json:2225:      
+"source": "/(.*)",
+vercel.json:2231:      
+"source": "/assets/(.*)",
+vercel.json:2332:      
+"source": "/wp-content/upl
+oads/:path*",
+
+
