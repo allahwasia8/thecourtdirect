@@ -2418,10 +2418,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/*",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/henderson-county-tennessee-court/",
       "destination": "/api/gone"
     },
