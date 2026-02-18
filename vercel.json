@@ -2266,10 +2266,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/porpoiseant/et.js?gcb=195-0&cb=1",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/\"/data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T/8JWPfcAAAACXBIWXMAAABIAAAASABGyWs",
       "destination": "/api/gone"
     },
@@ -2279,10 +2275,6 @@
     },
     {
       "source": "/vermont-us-state/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/beardeddragon/drake.js?gcb=0&cb=6",
       "destination": "/api/gone"
     },
     {
@@ -2314,15 +2306,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/detroitchicag0/tampa.js?gcb=195-0&cb=5",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/rochester.js?gcb=195-0&cb=14",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/sidebarwall.js?gcb=0&cb=20",
+      "source": "/detroitchicago/sidebarwall.js",
       "destination": "/api/gone"
     },
     {
@@ -2330,23 +2314,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/utilcave_com/bap.php?l",
+      "source": "/utilcave_com/bap.php",
       "destination": "/api/gone"
     },
     {
-      "source": "/detroitchicago/cmbdv2.js?gcb=195-0&cb=03-8y0c-6y1c-5&cmbcb=128&sj=x03x0cx1c&abt=VignetteAnchor",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/porpoiseant/fads.js?gcb=195-0&cb=8",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/memphis.js?gcb=195-0&cb=26",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/tardisrocinante/vitals.js?gcb=0&cb=3",
+      "source": "/detroitchicago/cmbdv2.js",
       "destination": "/api/gone"
     },
     {
@@ -2358,35 +2330,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/detroitchicago/memphis.js?gcb=195-0&cb=23",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/utilcave_com/auth.php?rurl",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/the-unfortunate-incident-near-pioneer-courthouse-a-detailed-account/",
       "destination": "/api/gone"
     },
     {
-      "source": "/beardeddragon/drake.js?gcb=0&cb=8",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/fontana-court-detailed/?utm_source=chatgpt.com",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/minneapolis.js?gcb=195-0&cb=4",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/states-of-the-united-states-of-america",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/edmonton.webp?a=a&cb=0&shcb=34",
       "destination": "/api/gone"
     },
     {
@@ -2422,23 +2370,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/detroitchicago/memphis.js?gcb=195-0&cb=24",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/rochester.js?gcb=195-0&cb=16",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/postnuptial-agreements-in-ontario/",
       "destination": "/api/gone"
     },
     {
       "source": "/lynnette-grey-bull/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/sapp-wp-signon.php?pass=uh4tahr26sPBYIcZrHbZL2TEWUHUryJZ",
       "destination": "/api/gone"
     },
     {
@@ -2451,10 +2387,6 @@
     },
     {
       "source": "/wisconsin-us-state/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/ezoic/anchorfix.js?cb=22",
       "destination": "/api/gone"
     },
     {
@@ -2506,10 +2438,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/detroitchicago/tulsa.js?gcb=195-0&cb=7",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/john-cena/",
       "destination": "/api/gone"
     },
@@ -2519,14 +2447,6 @@
     },
     {
       "source": "/what-is-a-trial-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/rochester.js?gcb=195-0&cb=13",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/detroitchicago/tampa.js?gcb=195-0&cb=5",
       "destination": "/api/gone"
     },
     {
