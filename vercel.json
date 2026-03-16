@@ -526,10 +526,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/pasadena-municipal-court/blank",
       "destination": "/api/gone"
     },
@@ -2463,10 +2459,6 @@
     },
     {
       "source": "/christian-county-kentucky-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/*",
       "destination": "/api/gone"
     },
     {
