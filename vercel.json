@@ -38,7 +38,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/(.*)",
+      "source": "/(.:path*)",
       "has": [
         {
           "type": "query",
@@ -48,7 +48,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/(.*)",
+      "source": "/(.:path*)",
       "has": [
         {
           "type": "query",
@@ -1714,7 +1714,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/wp-content/uploads/*",
+      "source": "/wp-content/uploads/:path:path*",
       "destination": "/api/gone"
     },
     {
