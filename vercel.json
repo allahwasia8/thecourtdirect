@@ -98,35 +98,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo?r%3Dseo?r%3Dseo/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo?r%3Dseo?r%3Dseo",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/blogs/",
       "destination": "/api/gone"
     },
     {
       "source": "/blogs",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo",
       "destination": "/api/gone"
     },
     {
@@ -295,14 +271,6 @@
     },
     {
       "source": "/hopewell-circuit-court-clerk-detailed",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/union-township-municipal-court/?expand_article=1/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/union-township-municipal-court/?expand_article=1",
       "destination": "/api/gone"
     },
     {
