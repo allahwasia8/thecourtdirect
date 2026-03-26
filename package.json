@@ -12,7 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "prerender": "node scripts/prerender.js",
-    "build:ssg": "npm run build && npm run prerender",
+    "build:ssg": "npm run build && npm run prerender && python scripts/generate_sitemap.py",
     "indexnow": "node scripts/submit-indexnow.js"
   },
   "dependencies": {

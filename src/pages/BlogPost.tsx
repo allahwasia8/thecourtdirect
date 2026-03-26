@@ -7,7 +7,7 @@ import { Calendar, Clock, User, ArrowLeft, Share2, Bookmark, Loader2, Info, Hist
 import { BlogPost as BlogPostType } from "@/types/blog";
 import SEO from "@/components/seo/SEO";
 import { getLocalImagePath } from "@/utils/imageUtils";
-import { generateArticleSchema, generateBreadcrumbSchema } from "@/utils/schemaGenerator";
+import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/utils/schemaGenerator";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -18,17 +18,17 @@ const BlogPost = () => {
   useEffect(() => {
     const fetchPost = async () => {
       if (!slug) return;
-      
+
       try {
         setLoading(true);
         console.log("Fetching post for slug:", slug);
         const response = await fetch(`/data/posts/${slug}.json`);
         console.log("Response status:", response.status);
-        
+
         if (!response.ok) {
           throw new Error("Post not found");
         }
-        
+
         const data = await response.json();
         console.log("Fetched post data:", data);
         setPost(data);
@@ -72,7 +72,7 @@ const BlogPost = () => {
     <Layout>
       {post && (
 
-        <SEO 
+        <SEO
           title={post.metaTitle || post.title}
           description={post.metaDescription || post.excerpt}
           image={post.imageToShare || post.image || undefined}
@@ -82,19 +82,20 @@ const BlogPost = () => {
           preloadImage={getLocalImagePath(post.image) || post.image || undefined}
           schema={[
             generateArticleSchema(post),
+            post.faqs && post.faqs.length > 0 ? generateFAQSchema(post.faqs) : null,
             generateBreadcrumbSchema([
               { name: 'Home', item: '/' },
               { name: 'Blog', item: '/blog' },
               { name: post.title, item: `/${slug}` }
             ])
-          ]}
+          ].filter(s => s !== null && (Array.isArray(s) ? s.length > 0 : true))}
         />
       )}
       {/* Header */}
       <section className="bg-navy-gradient py-20 relative overflow-hidden">
         {/* Subtle decorative background element */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-gold/5 rounded-full -translate-y-1/2 translate-x-1/3 blur-[100px] pointer-events-none" />
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto">
             <nav className="mb-12">
@@ -114,11 +115,11 @@ const BlogPost = () => {
                   {post.category}
                 </span>
               </div>
-              
+
               <h1 id="main-h1" className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-cream leading-[1.1] mb-8 tracking-tight">
                 {post.title}
               </h1>
-              
+
               <div className="flex flex-wrap items-center gap-x-8 gap-y-4 pt-8 border-t border-cream/10">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-cream/5 border border-cream/10 flex items-center justify-center">
@@ -129,7 +130,7 @@ const BlogPost = () => {
                     <p className="text-cream font-medium">{post.author}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-cream/5 border border-cream/10 flex items-center justify-center">
                     <Calendar className="text-gold w-5 h-5" />
@@ -162,9 +163,9 @@ const BlogPost = () => {
             {/* Featured Image */}
             {post.image && (
               <div className="mb-10 rounded-2xl overflow-hidden shadow-elegant">
-                <img 
-                  src={getLocalImagePath(post.image) || post.image || ''} 
-                  alt={post.imageAlt || post.title} 
+                <img
+                  src={getLocalImagePath(post.image) || post.image || ''}
+                  alt={post.imageAlt || post.title}
                   className="w-full h-auto object-cover max-h-[500px]"
                   loading="eager"
                   fetchPriority="high"
@@ -190,9 +191,9 @@ const BlogPost = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Button variant="outline" size="icon" onClick={() => {
-                   if (navigator.share) {
-                     navigator.share({ title: post.title, url: window.location.href });
-                   }
+                  if (navigator.share) {
+                    navigator.share({ title: post.title, url: window.location.href });
+                  }
                 }}>
                   <Share2 className="w-4 h-4" />
                 </Button>
@@ -217,7 +218,7 @@ const BlogPost = () => {
               <div className="grid sm:grid-cols-1 gap-4">
                 {(post.references && post.references.length > 0) ? (
                   post.references.map((ref, index) => (
-                    <a 
+                    <a
                       key={index}
                       href={ref.url}
                       target="_blank"
@@ -230,7 +231,7 @@ const BlogPost = () => {
                   ))
                 ) : (
                   <>
-                    <a 
+                    <a
                       href="https://www.law.cornell.edu/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -239,7 +240,7 @@ const BlogPost = () => {
                       <span className="font-medium text-navy group-hover:text-gold transition-colors">Legal Information Institute (LII)</span>
                       <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-gold transition-colors" />
                     </a>
-                    <a 
+                    <a
                       href="https://www.usa.gov/laws-and-legal-issues"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -248,7 +249,7 @@ const BlogPost = () => {
                       <span className="font-medium text-navy group-hover:text-gold transition-colors">USA.gov - Laws and Legal Issues</span>
                       <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-gold transition-colors" />
                     </a>
-                    <a 
+                    <a
                       href="https://www.findlaw.com/law.html"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -273,7 +274,7 @@ const BlogPost = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto bg-card rounded-xl shadow-elegant p-6 md:p-8">
             <h3 className="font-serif text-xl font-bold text-foreground mb-4">How we reviewed this article:</h3>
-            
+
             <Tabs defaultValue="history" className="w-full">
               <TabsList className="grid w-full grid-cols-2 mb-6">
                 <TabsTrigger value="sources" className="flex items-center gap-2">
@@ -285,24 +286,24 @@ const BlogPost = () => {
                   History
                 </TabsTrigger>
               </TabsList>
-              
+
               <TabsContent value="sources">
                 <div className="text-center py-8 text-muted-foreground">
                   <FileText className="w-12 h-12 mx-auto mb-3 opacity-20" />
                   <p>Our team verifies information from reputable legal databases, court records, and official government statutes.</p>
                 </div>
               </TabsContent>
-              
+
               <TabsContent value="history">
                 <p className="text-muted-foreground mb-6 text-sm">
                   Our experts continually monitor the legal space, and we update our articles when new information becomes available.
                 </p>
-                
+
                 <div className="relative border-l-2 border-gold/20 ml-3 space-y-8 py-2">
                   {post.history?.map((event, index) => (
                     <div key={index} className="relative pl-6">
                       <div className={`absolute -left-[9px] top-1.5 w-4 h-4 rounded-full border-2 ${index === 0 ? 'bg-gold border-gold' : 'bg-background border-gold/40'}`} />
-                      
+
                       <div className="flex flex-col gap-1">
                         <span className={`text-sm font-bold ${index === 0 ? 'text-navy' : 'text-muted-foreground'}`}>
                           {event.action}
@@ -312,11 +313,11 @@ const BlogPost = () => {
                             {event.date}
                           </span>
                         )}
-                        
+
                         {(event.action === "Reviewed" || event.details.includes("Reviewed by")) && post.reviewedBy && (
                           <div className="mt-4 bg-muted/30 p-4 rounded-lg flex items-center gap-4">
-                            <img 
-                              src={post.reviewedBy.image} 
+                            <img
+                              src={post.reviewedBy.image}
                               alt={post.reviewedBy.name}
                               className="w-12 h-12 rounded-full object-cover border border-border"
                             />
@@ -327,9 +328,9 @@ const BlogPost = () => {
                             </div>
                           </div>
                         )}
-                        
+
                         {!event.details.includes("Reviewed by") && event.details !== event.action && (
-                           <p className="text-sm text-muted-foreground mt-1">{event.details}</p>
+                          <p className="text-sm text-muted-foreground mt-1">{event.details}</p>
                         )}
                       </div>
                     </div>

@@ -29,4 +29,9 @@ export interface BlogPost {
     name: string;
     url: string;
   }[];
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
+  keywords?: string[];
 }

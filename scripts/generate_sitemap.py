@@ -37,8 +37,12 @@ def generate_sitemap():
         xml_lines.append(f'    <priority>{page["priority"]}</priority>')
         xml_lines.append('  </url>')
     
+    # Paths relative to this script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    
     # Add court pages
-    courts_file = r"d:\thecourtdirect\public\data\courts.json"
+    courts_file = os.path.join(project_root, "public", "data", "courts.json")
     if os.path.exists(courts_file):
         with open(courts_file, 'r', encoding='utf-8') as f:
             courts = json.load(f)
@@ -51,25 +55,51 @@ def generate_sitemap():
             xml_lines.append('    <priority>0.7</priority>')
             xml_lines.append('  </url>')
     
-    # Add blog posts
-    posts_dir = r"d:\thecourtdirect\public\data\posts"
+    # Add blog posts from blog-posts.json
+    blog_posts_file = os.path.join(project_root, "public", "data", "blog-posts.json")
+    if os.path.exists(blog_posts_file):
+        try:
+            with open(blog_posts_file, 'r', encoding='utf-8') as f:
+                posts = json.load(f)
+            
+            print(f"Adding {len(posts)} blog post pages from blog-posts.json...")
+            for post in posts:
+                slug = post.get("id")
+                if slug:
+                    xml_lines.append('  <url>')
+                    xml_lines.append(f'    <loc>{base_url}/{slug}</loc>')
+                    xml_lines.append('    <changefreq>monthly</changefreq>')
+                    xml_lines.append('    <priority>0.6</priority>')
+                    xml_lines.append('  </url>')
+        except Exception as e:
+            print(f"Error reading blog-posts.json: {e}")
+    
+    # Also add individual posts from posts directory if they exist (for robustness)
+    posts_dir = os.path.join(project_root, "public", "data", "posts")
     if os.path.exists(posts_dir):
         post_files = [f for f in os.listdir(posts_dir) if f.endswith('.json')]
-        print(f"Adding {len(post_files)} blog post pages...")
+        # Filter out slugs already added
+        existing_slugs = {post.get("id") for post in posts if post.get("id")} if 'posts' in locals() else set()
         
+        added_from_dir = 0
         for post_file in post_files:
             slug = post_file.replace('.json', '')
-            xml_lines.append('  <url>')
-            xml_lines.append(f'    <loc>{base_url}/{slug}</loc>')
-            xml_lines.append('    <changefreq>monthly</changefreq>')
-            xml_lines.append('    <priority>0.6</priority>')
-            xml_lines.append('  </url>')
+            if slug not in existing_slugs:
+                xml_lines.append('  <url>')
+                xml_lines.append(f'    <loc>{base_url}/{slug}</loc>')
+                xml_lines.append('    <changefreq>monthly</changefreq>')
+                xml_lines.append('    <priority>0.6</priority>')
+                xml_lines.append('  </url>')
+                added_from_dir += 1
+        
+        if added_from_dir > 0:
+            print(f"Adding {added_from_dir} additional blog post pages from posts directory...")
     
     # Close XML
     xml_lines.append('</urlset>')
     
     # Write sitemap
-    output_file = r"d:\thecourtdirect\public\sitemap.xml"
+    output_file = os.path.join(project_root, "public", "sitemap.xml")
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(xml_lines))
     

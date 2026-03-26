@@ -6,6 +6,2010 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/category/:path*",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/:path*/page/:num*",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/:path*/blank",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/:path*/1000",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/:path*//1000",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/:path*/feed/:type*",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "query",
+          "key": "expand_article"
+        }
+      ],
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "query",
+          "key": "psq"
+        }
+      ],
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-barbara-superior-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-barbara-superior-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mifflin-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mifflin-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mifflin-county-pennsylvania-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mifflin-county-pennsylvania-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/miami-dade-county-florida-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/miami-dade-county-florida-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dtt/s/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dtt/s",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo?r%3Dseo?r%3Dseo/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo?r%3Dseo?r%3Dseo",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blogs/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blogs",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-ask-for-a-continuance-in-family-court/?r=seo?r%3Dseo",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/family-court-filing-fees-in-massachusetts/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/family-court-filing-fees-in-massachusetts",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-you-violate-a-family-court-order/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-you-violate-a-family-court-order",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/under-which-jurisdiction-would-further-review-of-a-federal-court-decision-fall-under/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/under-which-jurisdiction-would-further-review-of-a-federal-court-decision-fall-under",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-clara-county-superior-court-old-courthouse/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-clara-county-superior-court-old-courthouse",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/elizabeth-mercedes-krause/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/elizabeth-mercedes-krause",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/where-to-do-court-ordered-community-service-near-me/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/where-to-do-court-ordered-community-service-near-me",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kansas-constitutional-amendment-2-county-sheriff-election-and-recall-amendment-2022/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kansas-constitutional-amendment-2-county-sheriff-election-and-recall-amendment-2022",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-search-court-dockets/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-search-court-dockets",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sarasota-county-florida-court-directory-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sarasota-county-florida-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-fresno-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-fresno-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-clara-county-superior-court-santa-clara-courthouse/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/santa-clara-county-superior-court-santa-clara-courthouse",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/conecuh-county-alabama-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/conecuh-county-alabama-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/common-pleas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/common-pleas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tehama-county-superior-court-juvenile-justice-center/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tehama-county-superior-court-juvenile-justice-center",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/8th-circuit-courts-in-maryland/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/8th-circuit-courts-in-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/st-marys-county-circuit-court-maryland/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/st-marys-county-circuit-court-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-you-bail-someone-out-of-jail-and-they-miss-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-you-bail-someone-out-of-jail-and-they-miss-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-find-case-numbers-in-family-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-find-case-numbers-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/owyhee-county-idaho-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/owyhee-county-idaho-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hopewell-circuit-court-clerk-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hopewell-circuit-court-clerk-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-township-municipal-court/?expand_article=1/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-township-municipal-court/?expand_article=1",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/oakland-county-circuit-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/oakland-county-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/county-court-of-larimer-county-fort-collins-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/county-court-of-larimer-county-fort-collins-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/middle-district-of-louisiana-federal-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/middle-district-of-louisiana-federal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-long-is-a-continuance-in-family-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-long-is-a-continuance-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/understanding-family-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/understanding-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/denver-county-court-criminal-division-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/denver-county-court-criminal-division-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/find-out-if-youre-eligible-to-file-a-small-claim-in-massachusetts/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/find-out-if-youre-eligible-to-file-a-small-claim-in-massachusetts",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/siskiyou-county-superior-court-dorris-branch/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/siskiyou-county-superior-court-dorris-branch",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/latah-county-courthouse-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/latah-county-courthouse-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/juab-county-justice-court-house-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/juab-county-justice-court-house-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1st-circuit-courts-in-maryland/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1st-circuit-courts-in-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-is-bail-bond-in-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-is-bail-bond-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/galveston-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/galveston-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/galveston-county-texas-court-directory-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/galveston-county-texas-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/allen-county-municipal-court-aka-lima-municipal-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/allen-county-municipal-court-aka-lima-municipal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/2nd-circuit-courts-in-maryland/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/2nd-circuit-courts-in-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/yolo-county-superior-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/yolo-county-superior-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-jersey-courts-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-jersey-courts-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/outfits-what-to-wear-to-court-female/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/outfits-what-to-wear-to-court-female",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardy-county-magistrate-clerk-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardy-county-magistrate-clerk-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ward-of-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ward-of-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/who-is-the-prosecutor-in-court-role-responsibilities-of-attorney-in-criminal-cases/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/who-is-the-prosecutor-in-court-role-responsibilities-of-attorney-in-criminal-cases",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/ca-superior-court-county-of-yuba-richard-a-schoenig-annex/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/ca-superior-court-county-of-yuba-richard-a-schoenig-annex",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-placer-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-mendocino/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-mendocino",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/itawamba-county-mississippi-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/itawamba-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/get-a-copy-of-your-divorce-record/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/get-a-copy-of-your-divorce-record",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tehama-county-superior-court-civil-division/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tehama-county-superior-court-civil-division",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/greene-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/greene-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lake-county-oregon-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lake-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pittsylvania-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pittsylvania-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stow-municipal-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/walker-county-alabama-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/walker-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/armstrong-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/armstrong-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dewitt-town-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/butler-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/butler-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lamar-county-clerk-superior-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lamar-county-clerk-superior-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/philadelphia-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/philadelphia-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-orange-county/1000/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/the-colbert-county-courthouse-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/the-colbert-county-courthouse-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wyandot-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wyandot-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mamaroneck-village-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-appeal-a-judges-decision-in-family-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-appeal-a-judges-decision-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stanislaus-county-superior-court-traffic-division/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stanislaus-county-superior-court-traffic-division",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/county-court-of-pasco-county-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/county-court-of-pasco-county-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-long-do-you-stay-in-jail-for-a-warrant-for-missing-court-date/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-long-do-you-stay-in-jail-for-a-warrant-for-missing-court-date",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/austin-texas-proposition-a-oversight-of-police-measure-may-2023/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/austin-texas-proposition-a-oversight-of-police-measure-may-2023",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardin-municipal-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardin-municipal-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marengo-county-alabama-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marengo-county-alabama-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/family-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-many-supreme-court-justices-did-trump-appoint/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-many-supreme-court-justices-did-trump-appoint",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/stanislaus-county-superior-court-city-towers/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/stanislaus-county-superior-court-city-towers",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/st-clair-county-missouri-court-directory-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/st-clair-county-missouri-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-supreme-court-justices-did-trump-appoint/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-supreme-court-justices-did-trump-appoint",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mercer-county-pennsylvania-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mercer-county-pennsylvania-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ouachita-parish-louisiana-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ouachita-parish-louisiana-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pittsylvania-county-virginia-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pittsylvania-county-virginia-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/duchesne-county-utah-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/duchesne-county-utah-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/college-park-municipal-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/college-park-municipal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/why-was-the-supreme-courts-ruling-important-in-gitlow-v-new-york-with-respect-to-due-process/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/why-was-the-supreme-courts-ruling-important-in-gitlow-v-new-york-with-respect-to-due-process",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/redwood-county-district-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/redwood-county-district-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-banner-1/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-banner-1",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-portrait-1/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-portrait-1",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-netboard-1/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-netboard-1",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-leader-2/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-leader-2",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-medrectangle-4/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-medrectangle-4",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-leader-4/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-leader-4",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/russell-circuit-court-detailed/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/russell-circuit-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/linn-county-missouri-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kent-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hudson-county-new-jersey-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sussex-county-new-jersey-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/greene-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/holmes-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/noble-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/guernsey-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/van-wert-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/goliad-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/melanie-darrigo",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/leflore-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/shelby-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/miami-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-large-leaderboard-2/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/polk-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-glenn",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/houston-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/neshoba-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/washington-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pike-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/benton-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jones-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jasper-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-san-mateo",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/cooper-county-missouri-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tuscarawas-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/perry-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/washington-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/robertson-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rockwall-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/randolph-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-county-new-jersey-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/james-city-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/la-salle-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/seneca-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monroe-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/king-william-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-imperial",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/amherst-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/frederick-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/middlesex-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mecklenburg-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wilkinson-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jackson-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fulton-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/magoffin-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bullitt-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hood-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/prentiss-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/throckmorton-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/presidio-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/washington-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/suffolk-county-massachusetts-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/travis-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rains-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hood-river-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/curry-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monroe-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/south-dakota-us-state",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-hampshire-us-state",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/ripley-county-indiana-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/atlantic-county-new-jersey-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/daviess-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/montgomery-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/boone-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pendleton-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/adair-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jackson-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mclean-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/barren-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lincoln-county-georgia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rockcastle-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/harney-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tuscaloosa-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/madison-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/northampton-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/goochland-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/goochland-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/franklin-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lunenburg-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hamilton-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dallas-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kinney-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wyoming-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/douglas-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/knott-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/louisa-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sussex-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/cumberland-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jefferson-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/yazoo-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/worcester-county-massachusetts-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/middlesex-county-massachusetts-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/victoria-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/edwards-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stafford-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/york-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marshall-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-tehama",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/first-class-legal-minds",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/eastland-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/guadalupe-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sharkey-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-city-municipal-court/1000/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-city-municipal-court//1000/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/riverside-superior-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-madera-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/plattekill-town-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/thurston-county-superior-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/warren-county-ohio-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/craven-county-superior-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/frankfort-town-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pasadena-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hudson-county-superior-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/muskingum-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/coshocton-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-luis-obispo-superior-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lindley-town-court-2",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dukes-county-massachusetts-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/woodbridge-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kiowa-county-colorado-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-narrow-sky-1/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/el-paso-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/andrews-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monmouth-county-superior-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/buchanan-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/new-kent-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/highland-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/snyder-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/delaware-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/iredell-county-district-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/elizabeth-davis-frizell",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/parma-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sandy-springs-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/akron-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-plumas",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/panola-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/saline-county-courthouse-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wayne-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/harrison-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/donley-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/gregg-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kemper-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/city-of-virginia-beach-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hopewell-circuit-court-clerk-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clarkston-justice-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/arlington-municipal-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/rutherford-county-general-sessions-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bedford-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wheeler-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wythe-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carlisle-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/caldwell-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/anoka-county-minnesota-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-el-dorado-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/monmouth-county-surrogate-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carteret-county-superior-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/aurora-municipal-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/barry-county-circuit-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/routt-county-colorado-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/laurel-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/perry-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/atlanta-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clay-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/murrieta-courthouse-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/saratoga-county-family-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/berea-municipal-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/kettering-municipal-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/calhoun-county-georgia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-small-square-2/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/malheur-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/shreveport-city-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/josephine-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/schuylkill-county-courthouse-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/elizabeth-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/union-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jefferson-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/botetourt-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/carroll-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/king-george-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lucas-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/pecos-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/liberty-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/trumbull-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/logan-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/cumberland-county-maine-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/jessamine-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/webster-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hinds-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clarke-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/montgomery-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/claiborne-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/holmes-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/camp-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tishomingo-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/walthall-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tallahatchie-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/chickasaw-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/russell-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/bath-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/smyth-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/loudoun-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/terrell-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-patricio-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/stephens-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/dickenson-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/southampton-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lee-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/walker-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-augustine-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/salem-county-new-jersey-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lake-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/knox-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wadsworth-municipal-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/mclennan-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/virginia-beach-courthouse-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/linn-county-oregon-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/san-miguel-county-colorado-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wise-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/17th-circuit-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/grand-county-colorado-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/cape-may-county-new-jersey",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clay-county-alabama-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/adams-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/orange-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/wp-content/uploads/*",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/1254144,22851986598/thecourtdirect_com-sky-4/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/sandusky-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/old-bridge-municipal-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/newton-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/lycoming-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-humboldt",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/marshall-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tehama-county-superior-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/isle-of-wight-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/amherst-town-court/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/van-zandt-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/essex-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/hardy-county-magistrate-clerk-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/martin-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/allen-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/robertson-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/indiana-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/calvert-county-circuit-court-clerk-maryland/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/crawford-county-municipal-court-detailed/blank/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-get-temporary-custody-without-going-to-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/choctaw-county-mississippi-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/whitley-county-kentucky-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/whitley-county-kentucky-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-is-a-court-docket/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-is-a-court-docket",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-prove-a-coparent-is-emotionally-abusing-a-child/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-prove-a-coparent-is-emotionally-abusing-a-child",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/meigs-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/meigs-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/what-happens-if-you-get-summoned-to-court-and-dont-go",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-long-can-you-go-to-jail-for-contempt-of-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-long-can-you-go-to-jail-for-contempt-of-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/parker-county-texas-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/parker-county-texas-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-watch-court-hearings-online/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/how-to-watch-court-hearings-online",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/nassau-county-new-york-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/nassau-county-new-york-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/conservatorship-vs-guardianship/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/conservatorship-vs-guardianship",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/evolution-of-family-courts-in-the-united-states/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/evolution-of-family-courts-in-the-united-states",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/immigration-court-history-and-working/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/immigration-court-history-and-working",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tazewell-county-virginia-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/tazewell-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/catahoula-parish-clerk-of-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/catahoula-parish-clerk-of-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clark-county-courthouse-2/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/clark-county-courthouse-2",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-napa/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/superior-court-of-napa",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fayette-county-pennsylvania-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/fayette-county-pennsylvania-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/write-for-us-law/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/write-for-us-law",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/frequently-asked-questions",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/scioto-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/scioto-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/connecticut-us-state/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/connecticut-us-state",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/henry-county-ohio-court/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/henry-county-ohio-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/murrieta-courthouse/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/murrieta-courthouse",
+      "destination": "/api/gone"
+    },
+    {
       "source": "/amendment-e-colorado-2022/",
       "destination": "/api/gone"
     },
@@ -18,14 +2022,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/bucks-county-prothonotary-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/palmer-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/detroitchicago/tampa.js",
       "destination": "/api/gone"
     },
@@ -34,27 +2030,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/union-township-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/robin-ransom/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/imperial-county-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/clark-county-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/davis-county-justice-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/cheshire-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -66,35 +2042,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/moraine-mayors-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/multnomah-county-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/bellmawr-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/dale-county-alabama-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/ritchie-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/what-happens-if-you-dont-follow-a-family-court-order/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/birmingham-civil-family-justice-centre/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/stanislaus-county-superior-court-traffic-division/blank",
       "destination": "/api/gone"
     },
     {
@@ -106,19 +2054,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/perth-amboy-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/wisconsin-attorney-general-election-2022/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/olive-branch-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/charles-county-circuit-court-maryland/blank",
       "destination": "/api/gone"
     },
     {
@@ -130,19 +2066,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/municipal-court-of-atlanta-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/fulton-county-kentucky-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/chardon-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/huron-county-circuit-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -158,35 +2082,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/east-orange-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/lynn-district-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/new-kent-county-circuit-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-san-bernardino-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/universal-city-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/worcester-probate-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/kern-county-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/lycoming-county-courthouse-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -206,10 +2102,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/lamoreaux-justice-center-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/custer-county-colorado-court/",
       "destination": "/api/gone"
     },
@@ -219,10 +2111,6 @@
     },
     {
       "source": "/grand-county-colorado-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/waukesha-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -250,19 +2138,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/clackamas-county-circuit-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/detroitchicago/rochester.js",
       "destination": "/api/gone"
     },
     {
       "source": "/campbell-county-kentucky-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/perry-county-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -278,19 +2158,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/norfolk-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/calcasieu-parish-louisiana-court/",
       "destination": "/api/gone"
     },
     {
       "source": "/king-george-county-virginia-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/kettering-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -310,31 +2182,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/superior-court-of-siskiyou-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/rich-county-clerks-office-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/texas-us-court/",
       "destination": "/api/gone"
     },
     {
-      "source": "/new-bedford-district-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/klamath-county-oregon-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/riverside-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/rome-city-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -343,18 +2195,6 @@
     },
     {
       "source": "/what-to-wear-to-traffic-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/mercer-county-pennsylvania-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/lehigh-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-sutter-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -382,10 +2222,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/wasatch-county-utah-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/anderson-county-texas-court/",
       "destination": "/api/gone"
     },
@@ -395,10 +2231,6 @@
     },
     {
       "source": "/brian-telander/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/virginia-beach-courthouse-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -414,19 +2246,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/howard-county-circuit-court-maryland/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/ian-prior/",
       "destination": "/api/gone"
     },
     {
       "source": "/north-carolina-us-state/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/homewood-municipal-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -442,19 +2266,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/santa-clara-county-family-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/west-virginia-us-state/",
       "destination": "/api/gone"
     },
     {
       "source": "/decatur-county-iowa-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/tehama-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -467,10 +2283,6 @@
     },
     {
       "source": "/essex-county-virginia-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/tehama-county-superior-court-juvenile-justice-center/blank",
       "destination": "/api/gone"
     },
     {
@@ -498,35 +2310,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/coffee-county-general-sessions-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/louisiana-us-state/",
       "destination": "/api/gone"
     },
     {
-      "source": "/itasca-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/harford-county-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/woodbury-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/alexis-krot/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/hampton-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/pasadena-municipal-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -535,14 +2323,6 @@
     },
     {
       "source": "/detroitchicag0/tampa.js",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/san-antonio-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/goodsprings-justice-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -562,19 +2342,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/fairburn-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/andrew-bain/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/northampton-county-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/frankfort-town-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -586,10 +2354,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/mamaroneck-village-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/banking-courts-in-usa/",
       "destination": "/api/gone"
     },
@@ -598,23 +2362,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/stow-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/rancho-cucamonga-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/oklahoma-district-court-records/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/vandalia-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/fairfield-county-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -630,15 +2378,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/woodbridge-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/berkeley-county-south-carolina-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/hocking-county-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -650,19 +2390,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/passaic-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/spokane-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/marshall-county-kentucky-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/lassen-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -678,14 +2406,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/old-bridge-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/brevard-county-circuit-court-viera-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/utilcave_com/auth.php",
       "destination": "/api/gone"
     },
@@ -694,19 +2414,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/waukesha-county-courthouse/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/protecting-your-future-the-importance-of-a-clean-record-and-how-a-minden-attorney-can-help/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-santa-clara-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/craven-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -722,27 +2430,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/monmouth-county-surrogate-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/platte-county-circuit-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/suffolk-superior-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/tunica-county-mississippi-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/sagadahoc-county-district-court-west-bath-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-madera-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -754,18 +2442,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/hillsborough-county-superior-court-south-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/washtenaw-county-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/town-of-salina-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/alex-costa/",
       "destination": "/api/gone"
     },
@@ -774,27 +2450,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/carroll-county-circuit-court-maryland/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/catahoula-parish-clerk-of-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/anderson-county-general-sessions-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/stuart-mackie/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-placer-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/bexar-county-district-courts-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -806,27 +2462,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/schuylkill-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/sioux-county-north-dakota-court/",
       "destination": "/api/gone"
     },
     {
       "source": "/porpoiseant/lemon.gif",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/saline-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/chatsworth-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/berea-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -838,19 +2478,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/owyhee-county-idaho-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/barberton-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/montana-elections-2022/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/worcester-district-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -859,10 +2487,6 @@
     },
     {
       "source": "/detroitchicago/kenai.js",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/warren-county-ohio-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -890,15 +2514,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/newport-news-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/columbia-county-georgia-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/newark-municipal-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -910,31 +2526,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/colusa-county-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/girard-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/lyndhurst-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/richmond-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/patrick-f-dugan/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/tucson-city-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/leominster-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -950,23 +2542,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/east-fishkill-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/parker-county-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/arlington-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/baker-county-florida-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/elizabeth-municipal-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -979,14 +2555,6 @@
     },
     {
       "source": "/gary-rabine/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/vestavia-hills-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/marysville-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1018,31 +2586,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/plano-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/wadsworth-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/shawnee-county-district-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/san-miguel-county-colorado-court/",
       "destination": "/api/gone"
     },
     {
-      "source": "/akron-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/beardeddragon/drake.js",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-kings-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1054,23 +2602,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/superior-court-of-nevada-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/salem-county-new-jersey-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/hardy-county-magistrate-clerk-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/snohomish-county-superior-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/thurston-county-superior-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1078,19 +2610,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/lloyd-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/tardisrocinante/screx.js",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/el-cajon-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/halfmoon-town-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1118,14 +2638,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/prince-georges-county-circuit-court-maryland/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/weld-county-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/the-legal-process-explained-by-a-sacramento-personal-injury-lawyer/",
       "destination": "/api/gone"
     },
@@ -1138,18 +2650,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/clayton-county-superior-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/sandusky-bellevue-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/solano-county-superior-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/mayoral-election-in-chula-vista-california-2022/",
       "destination": "/api/gone"
     },
@@ -1158,27 +2658,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/bessemer-courthouse/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/mayoral-election-in-houston-texas-2023/",
       "destination": "/api/gone"
     },
     {
-      "source": "/the-colbert-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/washington-us-state/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/aiken-county-probate-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/tuolumne-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1198,10 +2682,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/orchard-park-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/denver-county-colorado-court/",
       "destination": "/api/gone"
     },
@@ -1211,14 +2691,6 @@
     },
     {
       "source": "/declaration-of-independence-of-usa/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/guilford-county-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/steuben-county-family-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1243,14 +2715,6 @@
     },
     {
       "source": "/carmen-goodman/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/east-cleveland-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/pulaski-county-circuit-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1282,27 +2746,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/birmingham-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/macon-county-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/anne-arundel-county-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/lawrence-county-ohio-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/jersey-city-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-napa-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1318,19 +2762,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/compton-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/porpoiseant/jellyfish.webp",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/hamilton-alabama-courthouse/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/frederick-circuit-court-clerk-maryland/blank",
       "destination": "/api/gone"
     },
     {
@@ -1354,10 +2786,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/court-listing/page/4/",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/michele-fiore/",
       "destination": "/api/gone"
     },
@@ -1374,23 +2802,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/college-park-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/saratoga-county-family-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/hancock-county-district-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/wyoming-county-new-york-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/santa-barbara-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1414,10 +2826,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/pittsylvania-county-virginia-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/mindy-s-glazer/",
       "destination": "/api/gone"
     },
@@ -1431,10 +2839,6 @@
     },
     {
       "source": "/illinois-16th-congressional-district-election-2022/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/barry-county-circuit-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1454,15 +2858,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/ouachita-parish-louisiana-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/dillon-county-south-carolina-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/mountain-brook-municipal-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1471,10 +2867,6 @@
     },
     {
       "source": "/mayoral-election-in-denver-colorado-2023/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/shreveport-city-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1487,14 +2879,6 @@
     },
     {
       "source": "/porpoiseant/banger.js",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/sandy-springs-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/carteret-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1522,15 +2906,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/tulsa-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/craig-villanti/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/maumee-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1546,35 +2922,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/clarkston-justice-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/hillsboro-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/new-mexico-us-state/",
       "destination": "/api/gone"
     },
     {
-      "source": "/hudson-county-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/south-dakota-us-state/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/pomona-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/denver-county-court-criminal-division-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/hardin-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1586,14 +2938,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/superior-court-of-los-angeles-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/painesville-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/wheeler-county-oregon-court/",
       "destination": "/api/gone"
     },
@@ -1602,23 +2946,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/rahway-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/calvert-county-circuit-court-clerk-maryland/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/hardin-county-detention-center/",
       "destination": "/api/gone"
     },
     {
       "source": "/iron-county-wisconsin-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/milan-town-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1634,35 +2966,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/williamson-county-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/aiken-county-clerk-of-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/superior-court-of-el-dorado-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/clay-county-kentucky-court/",
       "destination": "/api/gone"
     },
     {
       "source": "/court-listing/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/yonkers-city-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/dayton-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/downey-courthouse-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1674,15 +2982,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/dewitt-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/rhode-island-us-state/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/17th-circuit-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1698,19 +2998,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/superior-court-of-ventura-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/ezoicUserDataProtection/consent",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/norwalk-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/tulare-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1726,14 +3014,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/trenton-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/west-jordan-city-justice-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/dual-federalism/",
       "destination": "/api/gone"
     },
@@ -1742,15 +3022,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/klamath-county-circuit-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/patrick-little/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/junius-town-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1767,10 +3039,6 @@
     },
     {
       "source": "/privacy-policy/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/butts-county-probate-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -1794,10 +3062,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/mamakating-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T/8JWPfcAAAACXBIWXMAAABIAAAASABGyWs",
       "destination": "/api/gone"
     },
@@ -1810,23 +3074,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/virginia-beach-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/knox-county-texas-court/",
       "destination": "/api/gone"
     },
     {
-      "source": "/crawford-county-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/bay-county-michigan-court",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/ulster-town-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1870,22 +3122,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/davidson-county-general-sessions-courtdetailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/cleburne-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/comal-county-courthouse-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/elyria-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/nebraska-us-state/",
       "destination": "/api/gone"
     },
@@ -1894,15 +3130,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/new-paltz-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/lycoming-county-pennsylvania-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/grays-harbor-district-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1918,10 +3146,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/feed/",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/lucas-kunce/",
       "destination": "/api/gone"
     },
@@ -1934,15 +3158,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/brant-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/leake-county-mississippi-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/brown-county-circuit-clerk-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1951,30 +3167,6 @@
     },
     {
       "source": "/road-safety-regulations/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/plymouth-district-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/warren-municipal-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/dallas-county-municipal-courts-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/rensselaer-county-family-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/spartanburg-county-probate-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/humboldt-county-superior-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -1990,18 +3182,6 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/shelby-county-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/mecklenburg-county-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/san-luis-obispo-superior-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/amy-degise/",
       "destination": "/api/gone"
     },
@@ -2014,15 +3194,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/summit-county-justice-center-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/carmen-goodman",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/warren-township-small-claims-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -2034,15 +3206,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/douglas-county-magistrate-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/illinois-us-state/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/atlanta-municipal-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -2058,15 +3222,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/clifton-municipal-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/what-it-means-to-be-proud-to-be-an-american/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/pickens-county-probate-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -2094,15 +3250,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/middlesex-superior-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/duval-county-florida-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/bloomfield-municipal-court/blank",
       "destination": "/api/gone"
     },
     {
@@ -2114,15 +3262,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/16th-circuit-court-macomb-county-circuit-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/fullerton-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/onslow-county-district-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -2138,19 +3278,11 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/wallkill-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/arkansas-us-estate/",
       "destination": "/api/gone"
     },
     {
       "source": "/allen-county-ohio-court/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/dauphin-county-courthouse-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -2194,19 +3326,7 @@
       "destination": "/api/gone"
     },
     {
-      "source": "/monterey-county-superior-court-detailed/blank",
-      "destination": "/api/gone"
-    },
-    {
       "source": "/thanksgiving-holidays-in-courts/",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/amherst-town-court/blank",
-      "destination": "/api/gone"
-    },
-    {
-      "source": "/bellefontaine-municipal-court-detailed/blank",
       "destination": "/api/gone"
     },
     {
@@ -2464,6 +3584,1102 @@
     {
       "source": "/:path*",
       "destination": "/index.html"
+    },
+    {
+      "source": "/blog/16th-circuit-court-macomb-county-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/4th-circuit-court-of-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/6th-circuit-courts-in-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/8th-circuit-courts-in-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/allen-county-municipal-court-aka-lima-municipal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/annulment-understanding-the-legal-dissolution-of-marriage",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/austin-texas-proposition-a-oversight-of-police-measure-may-2023",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/baltimore-city-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/baltimore-city-district-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/baltimore-county-district-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/beaufort-county-north-carolina-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/birmingham-civil-family-justice-centre",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/brevard-county-circuit-court-viera-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/broward-county-traffic-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/calvert-county-circuit-court-clerk-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/can-expunged-records-be-used-against-you-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/can-you-bring-a-phone-into-a-courthouse",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/can-you-get-married-at-a-courthouse-on-the-same-day",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/can-you-go-to-jail-for-missing-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/can-you-plead-the-fifth-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/can-you-request-a-court-transcription-of-a-family-court-hearing",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/can-you-request-a-lie-detector-test-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/carroll-county-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/charlotte-county-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/circuit-court-clerks-office-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/civil-court-massachusetts",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/civil-court-san-diego",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/clackamas-county-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/clark-county-district-court-nevada-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/clark-county-justice-court-las-vegas-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/clark-county-superior-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/clermont-county-municipal-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/cobb-county-magistrate-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/college-park-municipal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/colony-municipal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/columbus-municipal-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/compton-superior-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/concord-district-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/connecticut-probate-courts",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/coos-county-oregon-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/could-a-federal-court-overturn-the-roe-v-wade-ruling",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/dale-county-alabama-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/dayton-municipal-court-civil-and-criminal-divisions-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/dekalb-county-probate-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/dekalb-county-state-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/dekalb-county-superior-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/denver-county-court-criminal-division-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/district-courts-of-idaho",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/district-of-maine",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/district-of-minnesota",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/douglas-county-district-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/duchesne-county-utah-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/ensuring-the-health-and-safety-of-child-migrants-a-dire-need-for-improved-medical-protocols",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/erie-county-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/etowah-county-alabama-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/fayette-county-general-sessions-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/find-out-if-youre-eligible-to-file-a-small-claim-in-massachusetts",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/franklin-county-domestic-relations-and-juvenile-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/frederick-circuit-court-clerk-maryland",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/fresno-county-superior-court-downtown",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/fresno-superior-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/fulton-county-magistrate-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/fulton-county-probate-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/fulton-county-superior-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/hamilton-county-probate-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/hardin-municipal-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/hardy-county-magistrate-clerk-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/harris-county-civil-court-at-law-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/harris-county-texas-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-do-you-get-a-case-to-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-is-a-federal-court-judge-removed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-is-the-chief-justice-of-the-supreme-court-selected",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-long-do-federal-court-judges-serve",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-long-do-supreme-court-justices-serve",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-long-do-you-stay-in-jail-for-a-warrant-for-missing-court-date",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-cases-does-the-supreme-court-hear-a-year",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-female-supreme-court-justices-are-there",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-judges-on-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-justices-are-currently-on-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-justices-in-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-justices-on-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-seats-on-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-supreme-court-justices",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-many-supreme-court-justices-are-there",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-much-do-supreme-court-justices-make",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-much-does-a-marriage-at-the-courthouse-cost",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-much-does-it-cost-to-file-with-the-us-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-often-does-the-supreme-court-meet",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-severe-does-a-custody-agreement-violation-have-to-be-before-a-court-will-help-me",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-dress-for-court-a-guide-to-appropriate-courtroom-attire",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-dress-for-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-file-for-emergency-custody-in-family-court-without-a-lawyer",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-get-a-public-defender-before-your-court-date",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-get-guardianship-of-a-child-without-going-to-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-prepare-for-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-sue-someone-in-civil-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-win-an-emergency-custody-hearing-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/how-to-win-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/howARD-county-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/kern-county-superior-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/kings-county-family-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/macomb-county-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/macomb-county-michigan-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/manatee-county-clerk-of-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/maricopa-county-superior-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/new-bedford-probate-and-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/new-jersey-courts-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/oakland-county-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/onondaga-county-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/orange-county-superior-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/palm-beach-county-circuit-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/pennsylvania-court-dockets-and-calendars",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/petersburg-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/pinellas-county-circuit-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/pittsylvania-county-virginia-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/randall-t-freeman",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/redwood-county-district-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/richland-county-south-carolina-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/rockland-county-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/salt-lake-city-justice-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/san-bernardino-justice-center-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/santa-clara-county-superior-court-family-justice-center",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/santa-clara-county-superior-court-old-courthouse",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/sarasota-county-florida-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/sc-court-dockets",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/sedgwick-county-courthouse-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/shelby-county-criminal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/siskiyou-county-superior-court-dorris-branch",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/somerset-county-pennsylvania-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/south-carolina-court-dockets-and-calendars",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/st-louis-county-missouri-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/st-lucie-county-florida-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/stanislaus-county-superior-court-juvenile-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/stark-county-probate-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/suffolk-county-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-alameda-county-administration-building",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-el-dorado-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-fresno-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-glenn-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-orange-county",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-san-diego-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-san-mateo-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-siskiyou-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-stanislaus-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-sutter-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/superior-court-of-tulare-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/tarrant-county-justice-of-the-peace-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/tazewell-county-circuit-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/tehama-county-superior-court-criminal-and-traffic-divisions",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/ten-most-famous-supreme-court-cases",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/the-best-supreme-court-justices-of-all-time",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/the-legal-framework-of-gold-iras-safeguarding-your-retirement-nest-egg",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/the-most-famous-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/the-supreme-court-justice-paradox",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/the-supreme-justice-system",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/the-worst-supreme-court-justices-of-all-time",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/today-is-the-birthday-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/township-of-pennsauken-municipal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/trenton-municipal-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/u-s-bankruptcy-court-of-texas",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/u-s-district-court-for-the-district-of-maine",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/u-s-supreme-court-cases",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/under-which-jurisdiction-would-further-review-of-a-federal-court-decision-fall",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/under-which-jurisdiction-would-further-review-of-a-federal-court-decision-fall-under",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/united-states-senate-election-in-washington-2022",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/valencia-county-magistrate-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/virginia-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/volusia-county-florida-court-directory-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/wake-county-superior-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/walworth-county-courthouse",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/warren-county-virginia-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/washington-county-district-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/washington-state-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/waukesha-county-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/wayne-county-circuit-court-detailed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/welcome-to-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/western-district-of-north-carolina",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/western-district-of-oklahoma",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/western-district-of-pennsylvania",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/western-district-of-washington",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-agency-is-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-amount-is-considered-small-claims-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-are-the-formal-requirements-for-becoming-a-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-branch-is-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-can-family-court-help-me-with",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-cases-does-the-supreme-court-hear",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-comes-next-after-a-family-court-case-is-dismissed",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-department-is-the-supreme-court-in",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-did-the-supreme-court-rule-in-dobbs",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-did-the-supreme-court-rule-in-roe-v-wade",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-do-you-do-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-does-a-chief-justice-of-the-supreme-court-do",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-does-dismissed-without-prejudice-mean-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-does-it-mean-for-a-case-to-be-disposed-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-does-jt-mean-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-does-no-contest-mean-in-traffic-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-does-order-granted-mean-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happened-in-the-supreme-court-today",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happens-at-a-case-management-conference-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happens-at-a-default-hearing-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happens-at-an-initial-hearing-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happens-if-you-dont-follow-a-family-court-order",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happens-if-you-dont-show-up-to-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happens-if-you-violate-a-family-court-order",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-happens-when-i-report-for-jury-duty",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-clerk-of-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-court-date",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-court-docket",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-court-order-for-custody",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-court-summons",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-hearing-officer-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-magistrate-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-petition-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-pre-trial-hearing-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-probate-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-subpoena-for-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-a-traffic-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-an-arraignment-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-an-arraignment-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-an-ex-parte-order-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-an-order-to-show-cause-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-bail-bond-in-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-civil-court-for",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-considered-a-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-county-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-district-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-federal-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-superior-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-chief-justice-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-chief-justice-of-the-supreme-court-responsibilities",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-highest-court-in-the-land",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-jurisdiction-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-main-goal-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-original-name-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-supreme-court-building",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-is-the-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-judges-are-on-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-to-expect-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-was-the-first-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/what-was-the-significance-of-the-supreme-courts-decision-in-the-marbury-v-madison-case",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/when-did-the-supreme-court-start",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/when-is-the-supreme-court-in-session",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/when-was-the-first-supreme-court-established",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/when-was-the-supreme-court-building-built",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/where-is-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/where-is-the-supreme-court-located",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/which-best-explains-how-the-president-selects-a-justice-for-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/which-is-a-check-on-the-supreme-courts-power",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/which-is-a-function-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/which-level-of-court-is-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/which-would-most-likely-fall-under-the-original-jurisdiction-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-appoints-federal-court-judges",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-are-the-supreme-court-judges",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-are-the-supreme-court-justices",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-created-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-gets-to-decide-if-a-case-goes-to-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-has-the-authority-to-overturn-a-family-court-order",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-has-the-last-word-in-a-family-courtroom",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-head-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-is-the-head-justice-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-is-the-leader-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-is-the-prosecutor-in-court-role-responsibilities-of-attorney-in-criminal-cases",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-it-is-the-chief-justice-of-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-makes-up-the-supreme-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-was-the-first-hispanic-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-was-the-first-woman-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/who-will-be-the-next-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/why-is-the-supreme-court-important",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/will-there-be-a-new-supreme-court-justice",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/win-a-custody-case-in-family-court-even-if-you-lied",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/winner-of-the-court-case",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/would-the-supreme-court-be-able-to-uphold-constitutional-guidelines-without-the-power-of-judicial-review",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/wrongly-accused-in-family-court",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/blog/york-town-court-detailed",
+      "destination": "/api/gone"
     }
   ],
   "headers": [
@@ -2478,6 +4694,251 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/santa-barbara-superior-court-detailed/1000/",
+      "destination": "/santa-barbara-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/santa-barbara-superior-court-detailed/1000",
+      "destination": "/santa-barbara-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/santa-barbara-superior-court-detailed//1000/",
+      "destination": "/santa-barbara-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/santa-barbara-superior-court-detailed//1000",
+      "destination": "/santa-barbara-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/irondequoit-town-court/1000/",
+      "destination": "/irondequoit-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/irondequoit-town-court/1000",
+      "destination": "/irondequoit-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/avoca-town-court/1000/",
+      "destination": "/avoca-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/avoca-town-court/1000",
+      "destination": "/avoca-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/avoca-town-court//1000/",
+      "destination": "/avoca-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/avoca-town-court//1000",
+      "destination": "/avoca-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/woodbury-county-courthouse/1000/",
+      "destination": "/woodbury-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/woodbury-county-courthouse/1000",
+      "destination": "/woodbury-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/woodbury-county-courthouse//1000/",
+      "destination": "/woodbury-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/woodbury-county-courthouse//1000",
+      "destination": "/woodbury-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-placer-detailed/1000/",
+      "destination": "/superior-court-of-placer-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/superior-court-of-placer-detailed/1000",
+      "destination": "/superior-court-of-placer-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-springs-municipal-court/1000/",
+      "destination": "/sandy-springs-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-springs-municipal-court/1000",
+      "destination": "/sandy-springs-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-springs-municipal-court//1000/",
+      "destination": "/sandy-springs-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/sandy-springs-municipal-court//1000",
+      "destination": "/sandy-springs-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/bessemer-courthouse//1000/",
+      "destination": "/bessemer-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/bessemer-courthouse//1000",
+      "destination": "/bessemer-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/mendocino-county-superior-court-detailed/1000/",
+      "destination": "/mendocino-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/mendocino-county-superior-court-detailed/1000",
+      "destination": "/mendocino-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/mendocino-county-superior-court-detailed//1000/",
+      "destination": "/mendocino-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/mendocino-county-superior-court-detailed//1000",
+      "destination": "/mendocino-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/michigan-circuit-court/",
+      "destination": "/michigan-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/michigan-circuit-court",
+      "destination": "/michigan-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mercer-county-courthouse-detailed/",
+      "destination": "/mercer-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mercer-county-courthouse-detailed",
+      "destination": "/mercer-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monterey-county-superior-court-detailed/",
+      "destination": "/monterey-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monterey-county-superior-court-detailed",
+      "destination": "/monterey-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/eastern-district-of-michigan-federal-court/",
+      "destination": "/eastern-district-of-michigan-federal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/eastern-district-of-michigan-federal-court",
+      "destination": "/eastern-district-of-michigan-federal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-drug-court/",
+      "destination": "/what-is-drug-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-drug-court",
+      "destination": "/what-is-drug-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tucker-county-courthouse-detailed/",
+      "destination": "/tucker-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tucker-county-courthouse-detailed",
+      "destination": "/tucker-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/superior-court-of-ventura-detailed/",
+      "destination": "/superior-court-of-ventura-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/superior-court-of-ventura-detailed",
+      "destination": "/superior-court-of-ventura-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/cliffside-park-municipal-court/1000/",
+      "destination": "/cliffside-park-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/cliffside-park-municipal-court/1000",
+      "destination": "/cliffside-park-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/family-court-greenville-sc/",
+      "destination": "/family-court-greenville-sc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/family-court-greenville-sc",
+      "destination": "/family-court-greenville-sc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/traffic-court-philadelphia/",
+      "destination": "/traffic-court-philadelphia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/traffic-court-philadelphia",
+      "destination": "/traffic-court-philadelphia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-is-the-new-supreme-court-justice/",
+      "destination": "/who-is-the-new-supreme-court-justice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-is-the-new-supreme-court-justice",
+      "destination": "/who-is-the-new-supreme-court-justice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/:slug",
+      "permanent": true
+    },
     {
       "source": "/indiana-county-pennsylvania-court/",
       "destination": "/somerset-county-pennsylvania-court-detailed/",
@@ -4587,6 +7048,1772 @@
       "source": "/rancho-cucamonga-superior-court/",
       "destination": "/rancho-cucamonga-superior-court-detailed/",
       "permanent": true
+    },
+    {
+      "source": "/blog/how-to-get-court-transcripts-for-free",
+      "destination": "/how-to-get-court-transcripts-for-free",
+      "permanent": true
+    },
+    {
+      "source": "/blog/central-district-of-illinois",
+      "destination": "/central-district-of-illinois",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-small-claims-court",
+      "destination": "/what-is-small-claims-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/family-court-riverside",
+      "destination": "/family-court-riverside",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-impeach-a-supreme-court-justice",
+      "destination": "/how-to-impeach-a-supreme-court-justice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/berks-county-courthouse-detailed",
+      "destination": "/berks-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-appointed-the-supreme-court-justices",
+      "destination": "/who-appointed-the-supreme-court-justices",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-does-no-contest-mean-in-court",
+      "destination": "/what-does-no-contest-mean-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/albany-county-family-court",
+      "destination": "/albany-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-does-disposition-mean-in-a-criminal-case",
+      "destination": "/what-does-disposition-mean-in-a-criminal-case",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hancock-county-district-court-detailed",
+      "destination": "/hancock-county-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/norfolk-circuit-court",
+      "destination": "/norfolk-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/washington-county-circuit-court-maryland",
+      "destination": "/washington-county-circuit-court-maryland",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-become-a-court-reporter",
+      "destination": "/how-to-become-a-court-reporter",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hampshire-family-court",
+      "destination": "/hampshire-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alabama-state-house",
+      "destination": "/alabama-state-house",
+      "permanent": true
+    },
+    {
+      "source": "/blog/d-c-district-court-2",
+      "destination": "/d-c-district-court-2",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-civil-court",
+      "destination": "/what-is-civil-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-municipal-court",
+      "destination": "/what-is-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/superior-court-of-new-jersey",
+      "destination": "/superior-court-of-new-jersey",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-get-a-family-court-case-dismissed",
+      "destination": "/how-to-get-a-family-court-case-dismissed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/erie-county-courthouse",
+      "destination": "/erie-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rome-city-court",
+      "destination": "/rome-city-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/third-circuit-court-of-appeals",
+      "destination": "/third-circuit-court-of-appeals",
+      "permanent": true
+    },
+    {
+      "source": "/blog/orchard-park-town-court",
+      "destination": "/orchard-park-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kanawha-county-courthouse-detailed",
+      "destination": "/kanawha-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sumner-county-criminal-court",
+      "destination": "/sumner-county-criminal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/painesville-municipal-court-detailed",
+      "destination": "/painesville-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-hearsay-in-court",
+      "destination": "/what-is-hearsay-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-an-rfo-in-family-court",
+      "destination": "/what-is-an-rfo-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dorchester-county-probate-court-detailed",
+      "destination": "/dorchester-county-probate-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/crawford-county-municipal-court-detailed",
+      "destination": "/crawford-county-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rocky-river-municipal-court-detailed",
+      "destination": "/rocky-river-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/multnomah-county-court-detailed",
+      "destination": "/multnomah-county-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/essex-probate-and-family-court",
+      "destination": "/essex-probate-and-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/middlesex-probate-and-family-court",
+      "destination": "/middlesex-probate-and-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clark-county-courthouse-washington",
+      "destination": "/clark-county-courthouse-washington",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hampton-general-district-court-detailed",
+      "destination": "/hampton-general-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lamoreaux-justice-center-detailed",
+      "destination": "/lamoreaux-justice-center-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-can-overrule-a-family-court-judge",
+      "destination": "/who-can-overrule-a-family-court-judge",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-many-judges-are-on-the-supreme-court",
+      "destination": "/how-many-judges-are-on-the-supreme-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kalamazoo-county-probate-court",
+      "destination": "/kalamazoo-county-probate-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lane-county-circuit-court",
+      "destination": "/lane-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/elizabeth-municipal-court",
+      "destination": "/elizabeth-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lehi-justice-court-detailed",
+      "destination": "/lehi-justice-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/elyria-municipal-court",
+      "destination": "/elyria-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/u-s-marshals-headquarters",
+      "destination": "/u-s-marshals-headquarters",
+      "permanent": true
+    },
+    {
+      "source": "/blog/harrisonburg-circuit-court-detailed",
+      "destination": "/harrisonburg-circuit-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fort-worth-municipal-court",
+      "destination": "/fort-worth-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hennepin-county-probate-court-detailed",
+      "destination": "/hennepin-county-probate-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/butler-county-court-detailed",
+      "destination": "/butler-county-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chesapeake-court",
+      "destination": "/chesapeake-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bloomfield-municipal-court",
+      "destination": "/bloomfield-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-court",
+      "destination": "/what-is-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-prosecutor-in-court",
+      "destination": "/what-is-a-prosecutor-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fairburn-municipal-court",
+      "destination": "/fairburn-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plano-municipal-court",
+      "destination": "/plano-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/eastern-district-of-kentucky",
+      "destination": "/eastern-district-of-kentucky",
+      "permanent": true
+    },
+    {
+      "source": "/blog/oaklyn-municipal-court",
+      "destination": "/oaklyn-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/moreau-town-court",
+      "destination": "/moreau-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-file-a-petition-in-family-court",
+      "destination": "/how-to-file-a-petition-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/western-district-of-arkansas",
+      "destination": "/western-district-of-arkansas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/humble-courthouse",
+      "destination": "/humble-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/3rd-circuit-court",
+      "destination": "/3rd-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dekalb-county-alabama-court-detailed",
+      "destination": "/dekalb-county-alabama-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shaker-heights-municipal-court-detailed",
+      "destination": "/shaker-heights-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-merits-hearing-in-family-court",
+      "destination": "/what-is-a-merits-hearing-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/appellate-court-of-maryland",
+      "destination": "/appellate-court-of-maryland",
+      "permanent": true
+    },
+    {
+      "source": "/blog/d-c-superior-court",
+      "destination": "/d-c-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-appellate-court",
+      "destination": "/what-is-appellate-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/campbell-municipal-court",
+      "destination": "/campbell-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-file-exhibits-in-family-court",
+      "destination": "/how-to-file-exhibits-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/crook-county-courthouse-detailed",
+      "destination": "/crook-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prince-georges-county-circuit-court",
+      "destination": "/prince-georges-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/oldham-county-circuit-court",
+      "destination": "/oldham-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pennsauken-municipal-court-detailed",
+      "destination": "/pennsauken-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ulster-town-court-detailed",
+      "destination": "/ulster-town-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dutchess-family-court",
+      "destination": "/dutchess-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/atlanta-municipal-court",
+      "destination": "/atlanta-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/san-juan-county-justice-court-detailed",
+      "destination": "/san-juan-county-justice-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mamaroneck-village-court-detailed",
+      "destination": "/mamaroneck-village-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-is-the-current-chief-justice-of-the-supreme-court",
+      "destination": "/who-is-the-current-chief-justice-of-the-supreme-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-the-supreme-court",
+      "destination": "/what-is-the-supreme-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/worcester-county-circuit-court",
+      "destination": "/worcester-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dallas-county-municipal-courts-detailed",
+      "destination": "/dallas-county-municipal-courts-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/patton-village-municipal-court",
+      "destination": "/patton-village-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/western-district-court-of-michigan",
+      "destination": "/western-district-court-of-michigan",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kankakee-county-circuit-court-detailed",
+      "destination": "/kankakee-county-circuit-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/birmingham-municipal-court-detailed",
+      "destination": "/birmingham-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/placer-county-superior-court",
+      "destination": "/placer-county-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/avoca-town-court",
+      "destination": "/avoca-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/parker-county-court-detailed",
+      "destination": "/parker-county-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clark-county-municipal-court-detailed",
+      "destination": "/clark-county-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/worcester-probate-court",
+      "destination": "/worcester-probate-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-permanency-hearing-in-family-court",
+      "destination": "/what-is-a-permanency-hearing-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-deposition-in-family-court",
+      "destination": "/what-is-a-deposition-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/macomb-county-circuit-court",
+      "destination": "/macomb-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/taunton-probate-court-detailed",
+      "destination": "/taunton-probate-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/california-superior-court",
+      "destination": "/california-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lawrence-district-court",
+      "destination": "/lawrence-district-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/georgetown-de-family-court",
+      "destination": "/georgetown-de-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/spalding-county-superior-court-detailed",
+      "destination": "/spalding-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/berkshire-family-court",
+      "destination": "/berkshire-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mentor-municipal-court-detailed",
+      "destination": "/mentor-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-you-refuse-a-drug-test-in-family-court",
+      "destination": "/can-you-refuse-a-drug-test-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-will-the-supreme-court-rule-on-abortion",
+      "destination": "/when-will-the-supreme-court-rule-on-abortion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-file-a-complaint-against-a-family-court-judge",
+      "destination": "/how-to-file-a-complaint-against-a-family-court-judge",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gilpin-county-colorado-court-detailed",
+      "destination": "/gilpin-county-colorado-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-an-appellate-court-upholds-a-verdict",
+      "destination": "/when-an-appellate-court-upholds-a-verdict",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nassau-family-court",
+      "destination": "/nassau-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-a-family-member-represent-you-in-court",
+      "destination": "/can-a-family-member-represent-you-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pomona-superior-court-detailed",
+      "destination": "/pomona-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-criminal-speeding",
+      "destination": "/what-is-criminal-speeding",
+      "permanent": true
+    },
+    {
+      "source": "/blog/whitehall-mayor-court",
+      "destination": "/whitehall-mayor-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/evangeline-parish-clerk-of-court-detailed",
+      "destination": "/evangeline-parish-clerk-of-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-get-a-court-ordered-paternity-test-without-a-lawyer",
+      "destination": "/how-to-get-a-court-ordered-paternity-test-without-a-lawyer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/western-district-of-louisiana",
+      "destination": "/western-district-of-louisiana",
+      "permanent": true
+    },
+    {
+      "source": "/blog/northern-district-of-florida",
+      "destination": "/northern-district-of-florida",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-write-a-character-letter-for-court",
+      "destination": "/how-to-write-a-character-letter-for-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/camden-municipal-court-detailed",
+      "destination": "/camden-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/olmsted-county-court",
+      "destination": "/olmsted-county-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-find-court-records-on-a-person",
+      "destination": "/how-to-find-court-records-on-a-person",
+      "permanent": true
+    },
+    {
+      "source": "/blog/harris-county-district-clerk-office-detailed",
+      "destination": "/harris-county-district-clerk-office-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/beaver-county-pennsylvania-court-detailed",
+      "destination": "/beaver-county-pennsylvania-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-you-get-a-public-defender-for-family-court",
+      "destination": "/can-you-get-a-public-defender-for-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/xenia-municipal-court-detailed",
+      "destination": "/xenia-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-file-in-small-claims-court",
+      "destination": "/how-to-file-in-small-claims-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/neptune-municipal-court",
+      "destination": "/neptune-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-can-overturn-a-supreme-court-decision",
+      "destination": "/who-can-overturn-a-supreme-court-decision",
+      "permanent": true
+    },
+    {
+      "source": "/blog/contra-costa-county-family-court",
+      "destination": "/contra-costa-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-kansas",
+      "destination": "/district-of-kansas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-circuit-court",
+      "destination": "/what-is-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/baltimore-county-circuit-court",
+      "destination": "/baltimore-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/imperial-county-superior-court-detailed",
+      "destination": "/imperial-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-pre-trial-conference-in-family-court",
+      "destination": "/what-is-a-pre-trial-conference-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bell-county-texas-court-detailed",
+      "destination": "/bell-county-texas-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tuolumne-county-superior-court-detailed",
+      "destination": "/tuolumne-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-hearing-in-court",
+      "destination": "/what-is-hearing-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pierce-county-superior-court",
+      "destination": "/pierce-county-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-file-a-motion-in-family-court",
+      "destination": "/how-to-file-a-motion-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/free-lawyer-for-family-court",
+      "destination": "/free-lawyer-for-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lee-county-courthouse-detailed",
+      "destination": "/lee-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/municipal-court-of-atlanta-detailed",
+      "destination": "/municipal-court-of-atlanta-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/barstow-courthouse",
+      "destination": "/barstow-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dukes-probate-and-family-court",
+      "destination": "/dukes-probate-and-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/multnomah-county-circuit-court",
+      "destination": "/multnomah-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-become-a-supreme-court-justice",
+      "destination": "/how-to-become-a-supreme-court-justice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kettering-municipal-court-detailed",
+      "destination": "/kettering-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/butts-county-probate-court",
+      "destination": "/butts-county-probate-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-continuance-in-court",
+      "destination": "/what-is-a-continuance-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/warren-county-ohio-court",
+      "destination": "/warren-county-ohio-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/17th-circuit-court",
+      "destination": "/17th-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/east-orange-court",
+      "destination": "/east-orange-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/charleston-county-family-court",
+      "destination": "/charleston-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bingham-county-idaho",
+      "destination": "/bingham-county-idaho",
+      "permanent": true
+    },
+    {
+      "source": "/blog/courthouse-marriage",
+      "destination": "/courthouse-marriage",
+      "permanent": true
+    },
+    {
+      "source": "/blog/new-hanover-county-superior-court-detailed",
+      "destination": "/new-hanover-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fall-river-district-court",
+      "destination": "/fall-river-district-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bibb-county-probate-court-detailed",
+      "destination": "/bibb-county-probate-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/autauga-county-courthouse",
+      "destination": "/autauga-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-colorado",
+      "destination": "/district-of-colorado",
+      "permanent": true
+    },
+    {
+      "source": "/blog/garfield-heights-municipal-court",
+      "destination": "/garfield-heights-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/passaic-municipal-court-detailed",
+      "destination": "/passaic-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hennepin-county-family-court",
+      "destination": "/hennepin-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/forsyth-county-district-court",
+      "destination": "/forsyth-county-district-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/latah-county-district-court",
+      "destination": "/latah-county-district-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/worcester-family-court",
+      "destination": "/worcester-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/colorado-springs-municipal-court",
+      "destination": "/colorado-springs-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/western-district-of-missouri",
+      "destination": "/western-district-of-missouri",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-happens-if-you-lie-under-oath-in-family-court",
+      "destination": "/what-happens-if-you-lie-under-oath-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/moraine-mayors-court",
+      "destination": "/moraine-mayors-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/verona-town-court",
+      "destination": "/verona-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tehama-county-superior-court-detailed",
+      "destination": "/tehama-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-admissible-evidence-in-family-court",
+      "destination": "/what-is-admissible-evidence-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sanpete-county-justice-court-detailed",
+      "destination": "/sanpete-county-justice-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/franklin-county-circuit-court",
+      "destination": "/franklin-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/irondequoit-town-court",
+      "destination": "/irondequoit-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fairfield-county-municipal-court-detailed",
+      "destination": "/fairfield-county-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hastings-town-court",
+      "destination": "/hastings-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vineland-municipal-court",
+      "destination": "/vineland-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roselle-municipal-court",
+      "destination": "/roselle-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nan-whaley",
+      "destination": "/nan-whaley",
+      "permanent": true
+    },
+    {
+      "source": "/blog/philadelphia-municipal-court",
+      "destination": "/philadelphia-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clayton-county-superior-court",
+      "destination": "/clayton-county-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/douglas-county-magistrate-court-detailed",
+      "destination": "/douglas-county-magistrate-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/worcester-district-court-detailed",
+      "destination": "/worcester-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shenandoah-general-district-court",
+      "destination": "/shenandoah-general-district-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/providence-district-court-detailed",
+      "destination": "/providence-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/splendora-municipal-court",
+      "destination": "/splendora-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fremont-county-district-court",
+      "destination": "/fremont-county-district-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lake-county-circuit-court",
+      "destination": "/lake-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/spartanburg-county-probate-court-detailed",
+      "destination": "/spartanburg-county-probate-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hudson-county-superior-court-detailed",
+      "destination": "/hudson-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ingham-county-circuit-court",
+      "destination": "/ingham-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/arizona-superior-court-detailed",
+      "destination": "/arizona-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/denton-county-probate-court-detailed",
+      "destination": "/denton-county-probate-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-court-martial",
+      "destination": "/what-is-a-court-martial",
+      "permanent": true
+    },
+    {
+      "source": "/blog/passaic-county-superior-court-detailed",
+      "destination": "/passaic-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lyndhurst-municipal-court-detailed",
+      "destination": "/lyndhurst-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/east-fishkill-town-court",
+      "destination": "/east-fishkill-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/superior-court-of-san-joaquin-detailed",
+      "destination": "/superior-court-of-san-joaquin-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pima-county-superior-court",
+      "destination": "/pima-county-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/halfmoon-town-court-detailed",
+      "destination": "/halfmoon-town-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kings-county-family-court",
+      "destination": "/kings-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cassia-county-courthouse-detailed",
+      "destination": "/cassia-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broward-county-courthouse",
+      "destination": "/broward-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/san-luis-obispo-superior-court",
+      "destination": "/san-luis-obispo-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nicholas-county-courthouse-detailed",
+      "destination": "/nicholas-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/escambia-county-courthouse-detailed",
+      "destination": "/escambia-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chambers-county-courthouse-detailed",
+      "destination": "/chambers-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bergen-county-courthouse",
+      "destination": "/bergen-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/virginia-beach-courthouse-detailed",
+      "destination": "/virginia-beach-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/suffolk-probate-and-family-court",
+      "destination": "/suffolk-probate-and-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/spartanburg-family-court-detailed",
+      "destination": "/spartanburg-family-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/canyon-county-detailed",
+      "destination": "/canyon-county-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-new-hampshire",
+      "destination": "/district-of-new-hampshire",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-does-disposed-mean-in-court",
+      "destination": "/what-does-disposed-mean-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-reschedule-a-court-date-online",
+      "destination": "/how-to-reschedule-a-court-date-online",
+      "permanent": true
+    },
+    {
+      "source": "/blog/harford-county-circuit-court",
+      "destination": "/harford-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-case-management-conference-in-family-court",
+      "destination": "/what-is-a-case-management-conference-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/berea-municipal-court-detailed",
+      "destination": "/berea-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/superior-court-of-madera-detailed",
+      "destination": "/superior-court-of-madera-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/talbot-county-circuit-court",
+      "destination": "/talbot-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kent-county-circuit-court-detailed",
+      "destination": "/kent-county-circuit-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/findlay-municipal-court",
+      "destination": "/findlay-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/charles-county-circuit-court-maryland",
+      "destination": "/charles-county-circuit-court-maryland",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-maryland-court",
+      "destination": "/district-of-maryland-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emery-county-justice-court-detailed",
+      "destination": "/emery-county-justice-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hidalgo-county-courthouse-detailed",
+      "destination": "/hidalgo-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/santa-cruz-superior-court",
+      "destination": "/santa-cruz-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cherokee-county-courthouse-detailed",
+      "destination": "/cherokee-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/greenville-county-circuit-court-detailed",
+      "destination": "/greenville-county-circuit-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/milan-town-court",
+      "destination": "/milan-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-look-up-court-cases",
+      "destination": "/how-to-look-up-court-cases",
+      "permanent": true
+    },
+    {
+      "source": "/blog/woodbury-town-court",
+      "destination": "/woodbury-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-remove-a-supreme-court-justice",
+      "destination": "/how-to-remove-a-supreme-court-justice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/houston-county-magistrate-court",
+      "destination": "/houston-county-magistrate-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pasadena-municipal-court",
+      "destination": "/pasadena-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-new-mexico",
+      "destination": "/district-of-new-mexico",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-prove-contempt-in-family-court",
+      "destination": "/how-to-prove-contempt-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sedgwick-county-district-court-detailed",
+      "destination": "/sedgwick-county-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tarrant-county-court-fort-worth-tx-detailed",
+      "destination": "/tarrant-county-court-fort-worth-tx-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/corrigan-municipal-court",
+      "destination": "/corrigan-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/connecticut-superior-court",
+      "destination": "/connecticut-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/berkeley-county-family-court",
+      "destination": "/berkeley-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/schuylkill-county-courthouse-detailed",
+      "destination": "/schuylkill-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/north-greenbush-town-court",
+      "destination": "/north-greenbush-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/san-diego-county-superior-court",
+      "destination": "/san-diego-county-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/legal-terminology",
+      "destination": "/legal-terminology",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-delaware",
+      "destination": "/district-of-delaware",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cleveland-municipal-court",
+      "destination": "/cleveland-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/isanti-county-court-detailed",
+      "destination": "/isanti-county-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-was-the-first-african-american-supreme-court-justice",
+      "destination": "/who-was-the-first-african-american-supreme-court-justice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wayne-county-friend-of-the-court",
+      "destination": "/wayne-county-friend-of-the-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-the-maximum-amount-you-can-sue-for-in-civil-court",
+      "destination": "/what-is-the-maximum-amount-you-can-sue-for-in-civil-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/craven-county-superior-court-detailed",
+      "destination": "/craven-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-get-a-court-order",
+      "destination": "/how-to-get-a-court-order",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shertz-municipal-court",
+      "destination": "/shertz-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/east-cleveland-municipal-court-detailed",
+      "destination": "/east-cleveland-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/merced-county-superior-court-detailed",
+      "destination": "/merced-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vandalia-municipal-court",
+      "destination": "/vandalia-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travis-county-district-clerk-office-detailed",
+      "destination": "/travis-county-district-clerk-office-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dayton-municipal-court-detailed",
+      "destination": "/dayton-municipal-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shawnee-county-district-court-detailed",
+      "destination": "/shawnee-county-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tulsa-county-courthouse-detailed",
+      "destination": "/tulsa-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/washington-county-circuit-court",
+      "destination": "/washington-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monroe-county-family-court",
+      "destination": "/monroe-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frankfort-town-court",
+      "destination": "/frankfort-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clark-county-family-court",
+      "destination": "/clark-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vance-county-district-court-detailed",
+      "destination": "/vance-county-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/northern-district-of-mississippi",
+      "destination": "/northern-district-of-mississippi",
+      "permanent": true
+    },
+    {
+      "source": "/blog/town-of-clay-court",
+      "destination": "/town-of-clay-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/va-circuit-court",
+      "destination": "/va-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/superior-court-of-nevada-detailed",
+      "destination": "/superior-court-of-nevada-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/erie-county-family-court",
+      "destination": "/erie-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cobb-county-superior-court",
+      "destination": "/cobb-county-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chesterfield-circuit-court",
+      "destination": "/chesterfield-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broome-county-family-court",
+      "destination": "/broome-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/west-valley-justice-court",
+      "destination": "/west-valley-justice-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vidor-municipal-court",
+      "destination": "/vidor-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fairfax-circuit-court",
+      "destination": "/fairfax-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/girard-municipal-court",
+      "destination": "/girard-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/beaufort-county-family-court-detailed",
+      "destination": "/beaufort-county-family-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/southern-district-of-florida",
+      "destination": "/southern-district-of-florida",
+      "permanent": true
+    },
+    {
+      "source": "/blog/parma-municipal-court",
+      "destination": "/parma-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/yuma-county-superior-court-detailed",
+      "destination": "/yuma-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vestavia-hills-municipal-court",
+      "destination": "/vestavia-hills-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/compton-courthouse-detailed",
+      "destination": "/compton-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/10th-circuit-court-of-appeals",
+      "destination": "/10th-circuit-court-of-appeals",
+      "permanent": true
+    },
+    {
+      "source": "/blog/defiance-municipal-court",
+      "destination": "/defiance-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/waukesha-county-courthouse",
+      "destination": "/waukesha-county-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/upson-county-courthouse-detailed",
+      "destination": "/upson-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rensselaer-county-family-court",
+      "destination": "/rensselaer-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/deschutes-county-circuit-court",
+      "destination": "/deschutes-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sixth-circuit-court-of-appeals",
+      "destination": "/sixth-circuit-court-of-appeals",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-terminate-temporary-guardianship-without-court",
+      "destination": "/how-to-terminate-temporary-guardianship-without-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/middle-district-of-florida",
+      "destination": "/middle-district-of-florida",
+      "permanent": true
+    },
+    {
+      "source": "/blog/maryland-legal-aid",
+      "destination": "/maryland-legal-aid",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hunt-county-court-house-detailed",
+      "destination": "/hunt-county-court-house-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mesa-county-court-docket",
+      "destination": "/mesa-county-court-docket",
+      "permanent": true
+    },
+    {
+      "source": "/blog/brockton-district-court",
+      "destination": "/brockton-district-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-long-does-family-court-take",
+      "destination": "/how-long-does-family-court-take",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rowan-county-superior-court-detailed",
+      "destination": "/rowan-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kingston-city-court-detailed",
+      "destination": "/kingston-city-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kent-county-circuit-court",
+      "destination": "/kent-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lordsburg-municipal-court",
+      "destination": "/lordsburg-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clay-county-courthouse-detailed",
+      "destination": "/clay-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alpine-county-superior-court",
+      "destination": "/alpine-county-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/grays-harbor-district-court-detailed",
+      "destination": "/grays-harbor-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-plaintiff-in-court",
+      "destination": "/what-is-a-plaintiff-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-connecticut",
+      "destination": "/district-of-connecticut",
+      "permanent": true
+    },
+    {
+      "source": "/blog/old-bridge-municipal-court",
+      "destination": "/old-bridge-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/who-is-the-respondent-in-a-family-court-case",
+      "destination": "/who-is-the-respondent-in-a-family-court-case",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-long-does-court-last",
+      "destination": "/how-long-does-court-last",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lindley-town-court",
+      "destination": "/lindley-town-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/summit-county-justice-center-detailed",
+      "destination": "/summit-county-justice-center-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-was-the-supreme-court-established",
+      "destination": "/when-was-the-supreme-court-established",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clear-lake-shores-municipal-court",
+      "destination": "/clear-lake-shores-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/richland-county-family-court-detailed",
+      "destination": "/richland-county-family-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wv-amendment-2-2022",
+      "destination": "/wv-amendment-2-2022",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rutherford-county-general-sessions-court-detailed",
+      "destination": "/rutherford-county-general-sessions-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-an-evidentiary-hearing-in-family-court",
+      "destination": "/what-is-an-evidentiary-hearing-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-write-a-statement-for-court",
+      "destination": "/how-to-write-a-statement-for-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mcdowell-county-courthouse-detailed",
+      "destination": "/mcdowell-county-courthouse-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/are-video-recordings-admissible-in-family-court",
+      "destination": "/are-video-recordings-admissible-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hampton-circuit-court",
+      "destination": "/hampton-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-you-sue-family-court",
+      "destination": "/can-you-sue-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-an-appeal-in-court",
+      "destination": "/what-is-an-appeal-in-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/trenton-municipal-court",
+      "destination": "/trenton-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/northern-district-of-illinois-federal-court",
+      "destination": "/northern-district-of-illinois-federal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/southampton-circuit-court-detailed",
+      "destination": "/southampton-circuit-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-long-does-traffic-court-take",
+      "destination": "/how-long-does-traffic-court-take",
+      "permanent": true
+    },
+    {
+      "source": "/blog/charlotte-county-circuit-court-detailed",
+      "destination": "/charlotte-county-circuit-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dc-superior-court",
+      "destination": "/dc-superior-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/woodbridge-municipal-court",
+      "destination": "/woodbridge-municipal-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/are-family-court-records-public",
+      "destination": "/are-family-court-records-public",
+      "permanent": true
+    },
+    {
+      "source": "/blog/greenville-county-family-court",
+      "destination": "/greenville-county-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/superior-court-of-santa-clara-detailed",
+      "destination": "/superior-court-of-santa-clara-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-does-the-supreme-court-do",
+      "destination": "/what-does-the-supreme-court-do",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prince-william-county-circuit-court",
+      "destination": "/prince-william-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/goodsprings-justice-court-detailed",
+      "destination": "/goodsprings-justice-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tulare-county-superior-court-detailed",
+      "destination": "/tulare-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-an-intervenor-in-family-court",
+      "destination": "/what-is-an-intervenor-in-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hamilton-alabama-courthouse",
+      "destination": "/hamilton-alabama-courthouse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/madison-county-circuit-court",
+      "destination": "/madison-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cabarrus-county-superior-court-detailed",
+      "destination": "/cabarrus-county-superior-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frederick-county-circuit-court",
+      "destination": "/frederick-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sangamon-county-circuit-court",
+      "destination": "/sangamon-county-circuit-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-write-an-affidavit-for-family-court",
+      "destination": "/how-to-write-an-affidavit-for-family-court",
+      "permanent": true
+    },
+    {
+      "source": "/blog/buncombe-county-district-court-detailed",
+      "destination": "/buncombe-county-district-court-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/erie-county-court-of-common-pleas-detailed",
+      "destination": "/erie-county-court-of-common-pleas-detailed",
+      "permanent": true
+    },
+    {
+      "source": "/blog/district-of-alaska",
+      "destination": "/district-of-alaska",
+      "permanent": true
+    },
+    {
+      "source": "/blog/virginia-beach-circuit-court",
+      "destination": "/virginia-beach-circuit-court",
+      "permanent": true
     }
-  ]
+  ],
+  "cleanUrls": true
 }

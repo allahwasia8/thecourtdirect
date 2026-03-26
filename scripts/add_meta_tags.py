@@ -107,7 +107,9 @@ def add_meta_tags(filepath, page_name):
     return True
 
 def main():
-    pages_dir = r'd:\thecourtdirect\src\pages'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    pages_dir = os.path.join(project_root, 'src', 'pages')
     
     modified = []
     for page_name in META_TAGS.keys():

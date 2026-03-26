@@ -14,11 +14,11 @@ interface SEOProps {
   preloadImage?: string;
 }
 
-const SEO: React.FC<SEOProps> = ({ 
-  title, 
-  description, 
-  image, 
-  url, 
+const SEO: React.FC<SEOProps> = ({
+  title,
+  description,
+  image,
+  url,
   type = 'website',
   schema,
   imageWidth,
@@ -31,11 +31,21 @@ const SEO: React.FC<SEOProps> = ({
   const defaultDescription = 'Navigate the judicial system with confidence. Find courtrooms, access legal resources, and understand procedures—all in one place.';
   const siteUrl = 'https://thecourtdirect.com';
   const defaultImage = `${siteUrl}/hero-courthouse.webp`;
-  
+
   const metaDescription = description || defaultDescription;
   const metaImage = image ? (image.startsWith('http') ? image : `${siteUrl}${image.startsWith('/') ? '' : '/'}${image}`) : defaultImage;
   const canonicalUrl = url ? (url.startsWith('http') ? url : `${siteUrl}${url.startsWith('/') ? '' : '/'}${url}`) : siteUrl;
   const preloadFormattedImage = preloadImage ? (preloadImage.startsWith('http') ? preloadImage : `${siteUrl}${preloadImage.startsWith('/') ? '' : '/'}${preloadImage}`) : null;
+
+  // Flatten nested schema arrays if any
+  const flattenSchema = (s: object | object[]): object[] => {
+    if (Array.isArray(s)) {
+      return s.reduce((acc: object[], val: object | object[]) => acc.concat(flattenSchema(val)), []);
+    }
+    return [s];
+  };
+
+  const schemas = schema ? flattenSchema(schema) : [];
 
   return (
     <Helmet>
@@ -73,11 +83,11 @@ const SEO: React.FC<SEOProps> = ({
       {imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
 
       {/* Structured Data (Schema.org) */}
-      {schema && (
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
+      {schemas.map((s, i) => (
+        <script key={i} type="application/ld+json">
+          {JSON.stringify(s)}
         </script>
-      )}
+      ))}
     </Helmet>
   );
 };

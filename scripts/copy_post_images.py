@@ -8,9 +8,9 @@ import json
 import shutil
 from pathlib import Path
 
-def extract_image_paths():
+def extract_image_paths(project_root):
     """Extract all unique image paths from blog posts"""
-    posts_dir = r"d:\thecourtdirect\public\data\posts"
+    posts_dir = os.path.join(project_root, "public", "data", "posts")
     image_paths = set()
     
     for filename in os.listdir(posts_dir):
@@ -31,20 +31,22 @@ def extract_image_paths():
 
 def find_and_copy_images():
     """Find images and copy them to /public/images/"""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
     
     # Get all image paths from JSON
-    image_paths = extract_image_paths()
+    image_paths = extract_image_paths(project_root)
     print(f"Found {len(image_paths)} unique image references")
     
     # Directories to search for images
     search_dirs = [
-        r"d:\thecourtdirect\public",
-        r"d:\thecourtdirect\src\assets",
-        r"d:\thecourtdirect",
+        os.path.join(project_root, "public"),
+        os.path.join(project_root, "src", "assets"),
+        project_root,
     ]
     
     # Target directory
-    target_dir = r"d:\thecourtdirect\public\images"
+    target_dir = os.path.join(project_root, "public", "images")
     os.makedirs(target_dir, exist_ok=True)
     
     found = 0

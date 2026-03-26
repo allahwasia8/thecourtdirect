@@ -1,3 +1,29 @@
+interface Post {
+  title: string;
+  metaDescription?: string;
+  excerpt?: string;
+  image?: string;
+  date: string;
+  history?: { date: string; action: string; details: string }[];
+  author: string;
+  authorRole?: string;
+  reviewedBy?: { name: string; title: string; image?: string };
+  keywords?: string[];
+  faqs?: { question: string; answer: string }[];
+}
+
+interface Court {
+  id: string;
+  name: string;
+  description?: string;
+  address: string;
+  city: string;
+  state: string;
+  zip: string;
+  phone: string;
+  hours: string;
+}
+
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -27,16 +53,18 @@ export const generateWebSiteSchema = () => ({
   }
 });
 
-export const generateArticleSchema = (post: any) => ({
+export const generateArticleSchema = (post: Post) => ({
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": post.title,
-  "description": post.excerpt,
+  "description": post.metaDescription || post.excerpt,
   "image": post.image ? (post.image.startsWith('http') ? [post.image] : [`https://thecourtdirect.com${post.image}`]) : [],
   "datePublished": post.date,
+  "dateModified": post.history && post.history.length > 0 ? post.history[0].date : post.date,
   "author": [{
     "@type": "Person",
     "name": post.author,
+    "jobTitle": post.authorRole || "Contributor",
     "url": "https://thecourtdirect.com/about"
   }],
   "publisher": {
@@ -46,10 +74,30 @@ export const generateArticleSchema = (post: any) => ({
       "@type": "ImageObject",
       "url": "https://thecourtdirect.com/Court-Direct-Logo-White-lines.png.webp"
     }
-  }
+  },
+  "reviewedBy": post.reviewedBy ? {
+    "@type": "Person",
+    "name": post.reviewedBy.name,
+    "jobTitle": post.reviewedBy.title,
+    "image": post.reviewedBy.image ? `https://thecourtdirect.com${post.reviewedBy.image}` : undefined
+  } : undefined,
+  "keywords": post.keywords ? post.keywords.join(", ") : undefined
 });
 
-export const generateCourthouseSchema = (court: any) => ({
+export const generateFAQSchema = (faqs: { question: string, answer: string }[]) => ({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+});
+
+export const generateCourthouseSchema = (court: Court) => ({
   "@context": "https://schema.org",
   "@type": "Courthouse",
   "name": court.name,
