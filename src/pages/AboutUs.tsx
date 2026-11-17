@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 import SEO from "@/components/seo/SEO";
 import { generateBreadcrumbSchema } from "@/utils/schemaGenerator";
 import { teamMembers } from "@/data/team";
-import { Shield, Target, History, Building2, MapPin, Mail, Award, BookOpen } from "lucide-react";
+import { Shield, Target, History, Building2, Mail, Award, BookOpen } from "lucide-react";
 
 const AboutUs = () => {
   return (
@@ -163,18 +163,17 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Parent Company & Contact */}
       <section className="py-16 bg-cream/50 border-t border-border">
          <div className="container mx-auto px-4 text-center">
-            <h2 className="font-serif text-2xl font-bold text-navy mb-8">Contact & Corporate Info</h2>
+            <h2 className="font-serif text-2xl font-bold text-navy mb-8">Contact & Editorial Standards</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
-               
                <div className="bg-background p-6 rounded-xl shadow-sm border border-border">
-                  <MapPin className="w-6 h-6 text-gold mb-3" />
-                  <h3 className="font-semibold text-foreground mb-2">Mailing Address</h3>
-                   <p className="text-muted-foreground text-sm">
-                    123 Justice Way, Suite 400<br/>
-                    Washington, DC 20001
+                  <BookOpen className="w-6 h-6 text-gold mb-3" />
+                  <h3 className="font-semibold text-foreground mb-2">Editorial Policy</h3>
+                   <p className="text-muted-foreground text-sm leading-relaxed">
+                    We prioritize accurate, useful court and legal-procedure information. Guides cite
+                    official sources where possible, carry clear disclaimers, and are updated when we
+                    find material errors. We do not publish thin or duplicated articles solely for search traffic.
                   </p>
                </div>
 
@@ -182,8 +181,10 @@ const AboutUs = () => {
                   <Mail className="w-6 h-6 text-gold mb-3" />
                   <h3 className="font-semibold text-foreground mb-2">Get in Touch</h3>
                    <p className="text-muted-foreground text-sm">
-                    Questions? Suggestions?<br/>
+                    Corrections, directory updates, and general questions:<br/>
                     <a href="mailto:Thecourtdirect@gmail.com" className="text-navy hover:text-gold transition-colors font-medium">Thecourtdirect@gmail.com</a>
+                    <br/>
+                    <a href="/contact" className="text-navy hover:text-gold transition-colors font-medium">Contact form</a>
                   </p>
                </div>
             </div>

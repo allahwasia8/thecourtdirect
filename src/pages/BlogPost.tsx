@@ -21,20 +21,16 @@ const BlogPost = () => {
 
       try {
         setLoading(true);
-        console.log("Fetching post for slug:", slug);
         const response = await fetch(`/data/posts/${slug}.json`);
-        console.log("Response status:", response.status);
 
         if (!response.ok) {
           throw new Error("Post not found");
         }
 
         const data = await response.json();
-        console.log("Fetched post data:", data);
         setPost(data);
         setError(false);
-      } catch (err) {
-        console.error(err);
+      } catch {
         setError(true);
       } finally {
         setLoading(false);
@@ -203,6 +199,13 @@ const BlogPost = () => {
               </div>
             </div>
 
+            <div className="mb-10 rounded-xl border border-gold/30 bg-muted/40 p-5 text-sm text-muted-foreground leading-relaxed">
+              <strong className="text-foreground">Legal disclaimer:</strong> This article is for
+              general informational purposes only and is not legal advice. Reading it does not create
+              an attorney-client relationship. Laws change and facts matter—consult a licensed
+              attorney in your jurisdiction for advice about your situation.
+            </div>
+
             {/* Article Body */}
             <article
               className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-a:text-navy hover:prose-a:text-gold prose-a:transition-colors prose-li:text-muted-foreground prose-blockquote:border-gold prose-blockquote:text-xl prose-blockquote:font-serif prose-blockquote:italic prose-img:rounded-2xl prose-img:shadow-md prose-hr:border-border"
@@ -351,7 +354,7 @@ const BlogPost = () => {
                 Need to Find a Courtroom?
               </h3>
               <p className="text-muted-foreground mb-6">
-                Use our comprehensive [court directory](/directory) to locate the right court for your needs.
+                Use our comprehensive court directory to locate the right court for your needs.
               </p>
               <Button variant="navy" size="lg" asChild>
                 <Link to="/directory">Browse Court Directory</Link>

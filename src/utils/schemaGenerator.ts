@@ -36,8 +36,9 @@ export const generateOrganizationSchema = () => ({
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-202-555-0123",
-    "contactType": "Customer Service"
+    "email": "Thecourtdirect@gmail.com",
+    "contactType": "customer support",
+    "availableLanguage": "English"
   }
 });
 
@@ -46,10 +47,10 @@ export const generateWebSiteSchema = () => ({
   "@type": "WebSite",
   "name": "The Court Direct",
   "url": "https://thecourtdirect.com",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://thecourtdirect.com/find-court?q={search_term_string}",
-    "query-input": "required name=search_term_string"
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Court Direct",
+    "url": "https://thecourtdirect.com"
   }
 });
 

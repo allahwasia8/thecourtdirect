@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import { Mail, MessageSquare, MapPin } from "lucide-react";
+import { Mail, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -75,39 +75,54 @@ const ContactUs = () => {
             {/* Contact Form */}
             <div className="bg-card p-8 rounded-2xl border border-border shadow-lg">
               <h2 className="font-serif text-2xl font-bold text-navy mb-6">Send a Message</h2>
-              <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+              <form
+                className="space-y-6"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  const form = e.currentTarget;
+                  const data = new FormData(form);
+                  const firstName = String(data.get("firstName") || "").trim();
+                  const lastName = String(data.get("lastName") || "").trim();
+                  const email = String(data.get("email") || "").trim();
+                  const subject = String(data.get("subject") || "Website inquiry").trim();
+                  const message = String(data.get("message") || "").trim();
+                  const body = `Name: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`;
+                  window.location.href = `mailto:Thecourtdirect@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                }}
+              >
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="firstName" className="text-sm font-medium text-foreground">First Name</label>
-                    <Input id="firstName" placeholder="John" />
+                    <Input id="firstName" name="firstName" placeholder="John" required />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="lastName" className="text-sm font-medium text-foreground">Last Name</label>
-                    <Input id="lastName" placeholder="Doe" />
+                    <Input id="lastName" name="lastName" placeholder="Doe" required />
                   </div>
                 </div>
-                
+
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium text-foreground">Email</label>
-                  <Input id="email" type="email" placeholder="yourname@email.com" />
+                  <Input id="email" name="email" type="email" placeholder="yourname@email.com" required />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-medium text-foreground">Subject</label>
-                  <Input id="subject" placeholder="How can we help?" />
+                  <Input id="subject" name="subject" placeholder="How can we help?" required />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium text-foreground">Message</label>
-                  <Textarea id="message" placeholder="Type your message here..." className="min-h-[150px]" />
+                  <Textarea id="message" name="message" placeholder="Type your message here..." className="min-h-[150px]" required />
                 </div>
 
                 <Button type="submit" className="w-full bg-navy hover:bg-navy/90 text-white h-12 text-lg">
                   Send Message
                 </Button>
-                
+
                 <p className="text-xs text-muted-foreground text-center">
-                  By sending this message, you agree to our <a href="/privacy-policy" className="underline hover:text-navy">Privacy Policy</a>.
+                  Opens your email app to message us. By contacting us, you agree to our{" "}
+                  <a href="/privacy-policy" className="underline hover:text-navy">Privacy Policy</a>.
                 </p>
               </form>
             </div>

@@ -27,3 +27,11 @@ service_account.json
 
 .vercel
 .env*.local
+
+# Local archives / migration dumps (not shipped with the app)
+*.WordPress*.xml
+*.WordPress*.json
+thecourtdirect_posts.json
+jwt_bypass.py
+data/404_urls.txt
+data/*.csv

@@ -42,10 +42,6 @@ const Blog = () => {
     fetchPosts();
   }, []);
 
-  // Filter posts
-  // Use sticky post as featured if available, otherwise first post
-  // Filter posts
-  // Use sticky post as featured if available, otherwise first post
   const featuredPost = posts.find((post) => post.featured) || posts[0];
   
   const filteredPosts = posts.filter(post => {
@@ -95,7 +91,7 @@ const Blog = () => {
     <Layout>
       <SEO 
         title="Legal Blog & Articles"
-        description="Explore expert legal articles, court guides, and judicial system insights. Stay informed with our comprehensive blog covering legal topics, court procedures, and legal advice."
+        description="Explore carefully reviewed legal guides and court explainers from The Court Direct. Learn about court procedures, custody basics, and federal/state court directories."
         url="/blog"
         schema={generateBreadcrumbSchema([
           { name: 'Home', item: '/' },

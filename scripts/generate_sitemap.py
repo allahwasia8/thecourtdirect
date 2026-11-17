@@ -55,46 +55,32 @@ def generate_sitemap():
             xml_lines.append('    <priority>0.7</priority>')
             xml_lines.append('  </url>')
     
-    # Add blog posts from blog-posts.json
+    # Only index blog posts that have full content files (avoid thin/404 URLs)
+    posts_dir = os.path.join(project_root, "public", "data", "posts")
+    published_slugs = set()
+    if os.path.exists(posts_dir):
+        post_files = [f for f in os.listdir(posts_dir) if f.endswith(".json")]
+        print(f"Adding {len(post_files)} published blog post pages from posts directory...")
+        for post_file in post_files:
+            slug = post_file.replace(".json", "")
+            published_slugs.add(slug)
+            xml_lines.append("  <url>")
+            xml_lines.append(f"    <loc>{base_url}/{slug}</loc>")
+            xml_lines.append("    <changefreq>monthly</changefreq>")
+            xml_lines.append('    <priority>0.6</priority>')
+            xml_lines.append("  </url>")
+
+    # Warn if blog-posts.json lists posts without content files
     blog_posts_file = os.path.join(project_root, "public", "data", "blog-posts.json")
     if os.path.exists(blog_posts_file):
         try:
-            with open(blog_posts_file, 'r', encoding='utf-8') as f:
+            with open(blog_posts_file, "r", encoding="utf-8") as f:
                 posts = json.load(f)
-            
-            print(f"Adding {len(posts)} blog post pages from blog-posts.json...")
-            for post in posts:
-                slug = post.get("id")
-                if slug:
-                    xml_lines.append('  <url>')
-                    xml_lines.append(f'    <loc>{base_url}/{slug}</loc>')
-                    xml_lines.append('    <changefreq>monthly</changefreq>')
-                    xml_lines.append('    <priority>0.6</priority>')
-                    xml_lines.append('  </url>')
+            orphaned = [p.get("id") for p in posts if p.get("id") and p.get("id") not in published_slugs]
+            if orphaned:
+                print(f"Warning: {len(orphaned)} blog-posts.json entries lack content files and were omitted from sitemap.")
         except Exception as e:
-            print(f"Error reading blog-posts.json: {e}")
-    
-    # Also add individual posts from posts directory if they exist (for robustness)
-    posts_dir = os.path.join(project_root, "public", "data", "posts")
-    if os.path.exists(posts_dir):
-        post_files = [f for f in os.listdir(posts_dir) if f.endswith('.json')]
-        # Filter out slugs already added
-        existing_slugs = {post.get("id") for post in posts if post.get("id")} if 'posts' in locals() else set()
-        
-        added_from_dir = 0
-        for post_file in post_files:
-            slug = post_file.replace('.json', '')
-            if slug not in existing_slugs:
-                xml_lines.append('  <url>')
-                xml_lines.append(f'    <loc>{base_url}/{slug}</loc>')
-                xml_lines.append('    <changefreq>monthly</changefreq>')
-                xml_lines.append('    <priority>0.6</priority>')
-                xml_lines.append('  </url>')
-                added_from_dir += 1
-        
-        if added_from_dir > 0:
-            print(f"Adding {added_from_dir} additional blog post pages from posts directory...")
-    
+            print(f"Error reading blog-posts.json: {e}")    
     # Close XML
     xml_lines.append('</urlset>')
     

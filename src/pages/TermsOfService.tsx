@@ -26,7 +26,7 @@ const TermsOfService = () => {
             Terms of Service
           </h1>
           <p className="text-cream/80 text-lg max-w-2xl mx-auto">
-            Last updated: {new Date().toLocaleDateString()}
+            Last updated: November 18, 2026
           </p>
         </div>
       </section>
